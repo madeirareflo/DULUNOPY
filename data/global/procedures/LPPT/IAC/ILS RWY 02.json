@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LPPT-ILS RWY 02",
+    "name": "ILS RWY 02",
+    "type": "IAC",
+    "airport": "LPPT",
+    "runways": [
+      "02"
+    ],
+    "source": {
+      "authority": "NAV Portugal / AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ERIDU": {
+      "ident": "ERIDU",
+      "coordinate_ref": "waypoint:global:LPPT:ERIDU:697165b4f5f6"
+    },
+    "ABTOS": {
+      "ident": "ABTOS",
+      "coordinate_ref": "waypoint:global:LPPT:ABTOS:1805d44b2bc1"
+    },
+    "RW02": {
+      "ident": "RW02",
+      "coordinate_ref": "waypoint:global:LPPT:RW02:3caf4caa7c36"
+    }
+  },
+  "legs": [
+    {
+      "id": "eridu-rw02-leg-1",
+      "from": "ERIDU",
+      "to": "ABTOS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 11,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "eridu-rw02-leg-2",
+      "from": "ABTOS",
+      "to": "RW02",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 5.6,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "eridu-rw02",
+      "name": "Entrada ERIDU",
+      "kind": "approach",
+      "sequence": [
+        "ERIDU",
+        "ABTOS",
+        "RW02"
+      ],
+      "leg_ids": [
+        "eridu-rw02-leg-1",
+        "eridu-rw02-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "YSSY-ILS RWY 16R",
+    "name": "ILS RWY 16R",
+    "type": "IAC",
+    "airport": "YSSY",
+    "runways": [
+      "16R"
+    ],
+    "source": {
+      "authority": "Airservices Australia / AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "BOOGI": {
+      "ident": "BOOGI",
+      "coordinate_ref": "waypoint:global:YSSY:BOOGI:1c52903f92b3"
+    },
+    "SY001": {
+      "ident": "SY001",
+      "coordinate_ref": "waypoint:global:YSSY:SY001:da65c8ce59d9"
+    },
+    "RW16R": {
+      "ident": "RW16R",
+      "coordinate_ref": "waypoint:global:YSSY:RW16R:f9577241fb6a"
+    }
+  },
+  "legs": [
+    {
+      "id": "boogi-rw16r-leg-1",
+      "from": "BOOGI",
+      "to": "SY001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 3.3,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "boogi-rw16r-leg-2",
+      "from": "SY001",
+      "to": "RW16R",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.6,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "boogi-rw16r",
+      "name": "Aproximação ILS 16R",
+      "kind": "approach",
+      "sequence": [
+        "BOOGI",
+        "SY001",
+        "RW16R"
+      ],
+      "leg_ids": [
+        "boogi-rw16r-leg-1",
+        "boogi-rw16r-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

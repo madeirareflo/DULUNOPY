@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KORD-TRTLE 2 (RNAV)",
+    "name": "TRTLE 2 (RNAV)",
+    "type": "SID",
+    "airport": "KORD",
+    "runways": [
+      "28C",
+      "28R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "DPA": {
+      "ident": "DPA",
+      "coordinate_ref": "waypoint:global:KORD:DPA:561161a5d46c"
+    },
+    "TRTLE": {
+      "ident": "TRTLE",
+      "coordinate_ref": "waypoint:global:KORD:TRTLE:ccc45e9964d5"
+    },
+    "JOT": {
+      "ident": "JOT",
+      "coordinate_ref": "waypoint:global:KORD:JOT:48243e79f975"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw28c-jot-leg-1",
+      "from": "DPA",
+      "to": "TRTLE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 15.9,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw28c-jot-leg-2",
+      "from": "TRTLE",
+      "to": "JOT",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 20.3,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw28c-jot",
+      "name": "RW28C - JOT",
+      "kind": "departure",
+      "sequence": [
+        "DPA",
+        "TRTLE",
+        "JOT"
+      ],
+      "leg_ids": [
+        "rw28c-jot-leg-1",
+        "rw28c-jot-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "airport": "SBTT",
+  "coordinateSource": "data/waypoints.json",
+  "types": {
+    "SID": [
+      {
+        "id": "AIXM-05edc310-ae81-4665-9591-c9b7c4cb61c0",
+        "name": "rnav-dorgi-1a-rwy-12",
+        "file": "data/tmas/amazonica/airports/SBTT/procedures/SID/rnav-dorgi-1a-rwy-12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-0dc5f131-b71d-4bab-90d1-7ab1e8de99ec",
+        "name": "rnav-tarib-1a-rwy-12",
+        "file": "data/tmas/amazonica/airports/SBTT/procedures/SID/rnav-tarib-1a-rwy-12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-f84e26c4-ed58-4847-8661-59c735da2600",
+        "name": "rnav-vukeb-1a-rwy-12",
+        "file": "data/tmas/amazonica/airports/SBTT/procedures/SID/rnav-vukeb-1a-rwy-12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBTT-SID-omni-rwy-12-30",
+        "name": "OMNI RWY 12-30",
+        "file": "data/tmas/amazonica/airports/SBTT/procedures/SID/OMNI RWY 12-30.json",
+        "runways": [
+          "12",
+          "30"
+        ],
+        "modes": [
+          "OMNI"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBTT-SID-TT00M",
+        "name": "RNAV ARUKO 1A - DORGI 1A - VUKEB 1A RWY 12",
+        "file": "data/tmas/amazonica/airports/SBTT/procedures/SID/RNAV ARUKO 1A - DORGI 1A - VUKEB 1A RWY 12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBTT-SID-TT00L",
+        "name": "RNAV LIXER 1A RWY 30",
+        "file": "data/tmas/amazonica/airports/SBTT/procedures/SID/RNAV LIXER 1A RWY 30.json",
+        "runways": [
+          "30"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      }
+    ],
+    "STAR": [],
+    "IAC": [
+      {
+        "id": "AISWEB-SBTT-IAC-TT00O",
+        "name": "RNP Y RWY 12",
+        "file": "data/tmas/amazonica/airports/SBTT/procedures/IAC/RNP Y RWY 12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBTT-IAC-TT00N",
+        "name": "RNP Z RWY 30",
+        "file": "data/tmas/amazonica/airports/SBTT/procedures/IAC/RNP Z RWY 30.json",
+        "runways": [
+          "30"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBTT-IAC-TT00S",
+        "name": "VOR Y RWY 12",
+        "file": "data/tmas/amazonica/airports/SBTT/procedures/IAC/VOR Y RWY 12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBTT-IAC-TT00T",
+        "name": "VOR Z RWY 30",
+        "file": "data/tmas/amazonica/airports/SBTT/procedures/IAC/VOR Z RWY 30.json",
+        "runways": [
+          "30"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 2,
+        "warningCount": 1
+      }
+    ]
+  }
+}

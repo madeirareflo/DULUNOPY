@@ -1,0 +1,4638 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Malha de Aerovias Oficiais (ATS Airways Network)",
+    "version": "1.0.0",
+    "total": 36,
+    "upperCount": 26,
+    "lowerCount": 10,
+    "generatedAt": "2026-09-07T01:49:23.160Z"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "airway:UZ25",
+      "properties": {
+        "designator": "UZ25",
+        "name": "UZ25 · Litoral Leste / Salvador - Rio - SP",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBFZ",
+          "VUREM",
+          "SBRF",
+          "SBMO",
+          "SBSV",
+          "VOVLI",
+          "SBVT",
+          "MOLSU",
+          "SBGL",
+          "SBSJ",
+          "SBGR"
+        ],
+        "waypoint_count": 11,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -38.532222222,
+            -3.775833333
+          ],
+          [
+            -39.052786266,
+            4.365998253
+          ],
+          [
+            -34.922777778,
+            -8.126388889
+          ],
+          [
+            -35.791667,
+            -9.510833
+          ],
+          [
+            -38.3225,
+            -12.908611111
+          ],
+          [
+            -38.193307013,
+            -19.582402176
+          ],
+          [
+            -40.286388889,
+            -20.258055556
+          ],
+          [
+            -42.204833333,
+            -21.839833333
+          ],
+          [
+            -43.250555556,
+            -22.81
+          ],
+          [
+            -45.8711111111,
+            -23.2288888889
+          ],
+          [
+            -46.4730555556,
+            -23.4355555556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UZ33",
+      "properties": {
+        "designator": "UZ33",
+        "name": "UZ33 · Tronco Central / Sul - Sudeste - Centro-Oeste - Norte",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBPA",
+          "SBFL",
+          "SBCT",
+          "SDCO",
+          "SBKP",
+          "GEVGA",
+          "SBCF",
+          "SBBR",
+          "SBPJ",
+          "SBBE"
+        ],
+        "waypoint_count": 10,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -51.171111111,
+            -29.994722222
+          ],
+          [
+            -48.5525,
+            -27.670278
+          ],
+          [
+            -49.176111,
+            -25.531667
+          ],
+          [
+            -47.49,
+            -23.4777777778
+          ],
+          [
+            -47.1344444444,
+            -23.0069444444
+          ],
+          [
+            -46.089858333,
+            -22.162663889
+          ],
+          [
+            -43.971944,
+            -19.624444
+          ],
+          [
+            -47.918611111,
+            -15.871111111
+          ],
+          [
+            -48.357778,
+            -10.29
+          ],
+          [
+            -48.478889,
+            -1.384722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UZ1",
+      "properties": {
+        "designator": "UZ1",
+        "name": "UZ1 · Conexão Sul-Sudeste / Foz - Curitiba - São Paulo - Rio",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBFI",
+          "SBLO",
+          "SBCT",
+          "SBJD",
+          "SBSP",
+          "SBSJ",
+          "SBRJ"
+        ],
+        "waypoint_count": 7,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.485,
+            -25.600278
+          ],
+          [
+            -51.13666667,
+            -23.33027778
+          ],
+          [
+            -49.176111,
+            -25.531667
+          ],
+          [
+            -46.9436111111,
+            -23.1816666667
+          ],
+          [
+            -46.6563888889,
+            -23.6261111111
+          ],
+          [
+            -45.8711111111,
+            -23.2288888889
+          ],
+          [
+            -43.1625,
+            -22.91
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UZ10",
+      "properties": {
+        "designator": "UZ10",
+        "name": "UZ10 · Corredor Costeiro Sul / Floripa - Navegantes - Curitiba - SP",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBFL",
+          "SBNF",
+          "SBCT",
+          "SDCO",
+          "SBGR"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -48.5525,
+            -27.670278
+          ],
+          [
+            -48.650833333,
+            -26.878611111
+          ],
+          [
+            -49.176111,
+            -25.531667
+          ],
+          [
+            -47.49,
+            -23.4777777778
+          ],
+          [
+            -46.4730555556,
+            -23.4355555556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UZ44",
+      "properties": {
+        "designator": "UZ44",
+        "name": "UZ44 · Tronco Paulista-Planalto / Campinas - Ribeirão - Goiânia - BSB",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBKP",
+          "SBRP",
+          "SBGO",
+          "SBBR",
+          "SBPJ"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.1344444444,
+            -23.0069444444
+          ],
+          [
+            -47.776666667,
+            -21.136388889
+          ],
+          [
+            -49.221111111,
+            -16.6325
+          ],
+          [
+            -47.918611111,
+            -15.871111111
+          ],
+          [
+            -48.357778,
+            -10.29
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UZ77",
+      "properties": {
+        "designator": "UZ77",
+        "name": "UZ77 · Transcontinental Centro-Oeste / Rio - BSB - Cuiabá - Porto Velho - Rio Branco",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBGL",
+          "SBCF",
+          "SBBR",
+          "SBCY",
+          "SBPV",
+          "SBRB"
+        ],
+        "waypoint_count": 6,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.250555556,
+            -22.81
+          ],
+          [
+            -43.971944,
+            -19.624444
+          ],
+          [
+            -47.918611111,
+            -15.871111111
+          ],
+          [
+            -56.1175,
+            -15.65
+          ],
+          [
+            -63.902777778,
+            -8.713611111
+          ],
+          [
+            -67.898055556,
+            -9.868333333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UM415",
+      "properties": {
+        "designator": "UM415",
+        "name": "UM415 · Diagonal Centro-Sul / Campo Grande - Londrina - SP - Rio",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBCG",
+          "SBLO",
+          "SBKP",
+          "SBGR",
+          "SBGL"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -54.670278,
+            -20.469444
+          ],
+          [
+            -51.13666667,
+            -23.33027778
+          ],
+          [
+            -47.1344444444,
+            -23.0069444444
+          ],
+          [
+            -46.4730555556,
+            -23.4355555556
+          ],
+          [
+            -43.250555556,
+            -22.81
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UM424",
+      "properties": {
+        "designator": "UM424",
+        "name": "UM424 · Nordeste Estruturante / Brasília - Salvador - Maceió - Recife",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBBR",
+          "SBSV",
+          "SBAR",
+          "SBMO",
+          "SBRF"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.918611111,
+            -15.871111111
+          ],
+          [
+            -38.3225,
+            -12.908611111
+          ],
+          [
+            -37.073333333,
+            -10.985277778
+          ],
+          [
+            -35.791667,
+            -9.510833
+          ],
+          [
+            -34.922777778,
+            -8.126388889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UL304",
+      "properties": {
+        "designator": "UL304",
+        "name": "UL304 · Calha Amazônica / Manaus - Santarém - Belém - Fortaleza",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBEG",
+          "SBSN",
+          "SBBE",
+          "SBSL",
+          "SBFZ"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -60.050555556,
+            -3.041111111
+          ],
+          [
+            -54.785833333,
+            -2.424722222
+          ],
+          [
+            -48.478889,
+            -1.384722
+          ],
+          [
+            -44.236111111,
+            -2.586944444
+          ],
+          [
+            -38.532222222,
+            -3.775833333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UT101",
+      "properties": {
+        "designator": "UT101",
+        "name": "UT101 · Eixo Noroeste / Manaus - Porto Velho - Cuiabá - Brasília",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBEG",
+          "SBPV",
+          "SBCY",
+          "SBGO",
+          "SBBR"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -60.050555556,
+            -3.041111111
+          ],
+          [
+            -63.902777778,
+            -8.713611111
+          ],
+          [
+            -56.1175,
+            -15.65
+          ],
+          [
+            -49.221111111,
+            -16.6325
+          ],
+          [
+            -47.918611111,
+            -15.871111111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UN857",
+      "properties": {
+        "designator": "UN857",
+        "name": "UN857 · Cone Sul / Porto Alegre - Montevidéu - Buenos Aires",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBPA",
+          "SUMU",
+          "MVD",
+          "SABE",
+          "SAEZ"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -51.171111111,
+            -29.994722222
+          ],
+          [
+            -56.026497,
+            -34.835647
+          ],
+          [
+            -56.026497,
+            -34.835647
+          ],
+          [
+            -58.415536,
+            -34.559419
+          ],
+          [
+            -58.5358,
+            -34.8222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UA304",
+      "properties": {
+        "designator": "UA304",
+        "name": "UA304 · Transandina Sul / São Paulo - Foz - Assunção - Santiago",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBGR",
+          "SBLO",
+          "SBFI",
+          "ASU",
+          "SCL",
+          "SCEL"
+        ],
+        "waypoint_count": 6,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.4730555556,
+            -23.4355555556
+          ],
+          [
+            -51.13666667,
+            -23.33027778
+          ],
+          [
+            -54.485,
+            -25.600278
+          ],
+          [
+            -57.519227,
+            -25.240156
+          ],
+          [
+            -70.7857971191,
+            -33.3930015564
+          ],
+          [
+            -70.7858,
+            -33.393
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UB689",
+      "properties": {
+        "designator": "UB689",
+        "name": "UB689 · Transandina Norte / Rio - SP - Corumbá - Santa Cruz - Lima",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBGL",
+          "SBGR",
+          "SBCG",
+          "VVI",
+          "LIM",
+          "SPJC"
+        ],
+        "waypoint_count": 6,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.250555556,
+            -22.81
+          ],
+          [
+            -46.4730555556,
+            -23.4355555556
+          ],
+          [
+            -54.670278,
+            -20.469444
+          ],
+          [
+            -63.135399,
+            -17.6448
+          ],
+          [
+            -77.114305,
+            -12.0219
+          ],
+          [
+            -77.1143,
+            -12.0219
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UW15",
+      "properties": {
+        "designator": "UW15",
+        "name": "UW15 · Minas-Bahia / Belo Horizonte - Montes Claros - Salvador",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBCF",
+          "SBMK",
+          "SBSV"
+        ],
+        "waypoint_count": 3,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.971944,
+            -19.624444
+          ],
+          [
+            -43.82194444,
+            -16.70611111
+          ],
+          [
+            -38.3225,
+            -12.908611111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:W1",
+      "properties": {
+        "designator": "W1",
+        "name": "W1 · Litoral Sul Convencional / Rio - Santos - Curitiba - Floripa",
+        "type": "LOWER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "4.000 FT",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe D",
+        "waypoints": [
+          "SBRJ",
+          "SBST",
+          "SBCT",
+          "SBNF",
+          "SBFL"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.1625,
+            -22.91
+          ],
+          [
+            -46.299722222,
+            -23.928055556
+          ],
+          [
+            -49.176111,
+            -25.531667
+          ],
+          [
+            -48.650833333,
+            -26.878611111
+          ],
+          [
+            -48.5525,
+            -27.670278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:W2",
+      "properties": {
+        "designator": "W2",
+        "name": "W2 · Tronco Bandeirante / Congonhas - Viracopos - Ribeirão Preto",
+        "type": "LOWER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "4.000 FT",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe D",
+        "waypoints": [
+          "SBSP",
+          "SBKP",
+          "SBRP"
+        ],
+        "waypoint_count": 3,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.6563888889,
+            -23.6261111111
+          ],
+          [
+            -47.1344444444,
+            -23.0069444444
+          ],
+          [
+            -47.776666667,
+            -21.136388889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:W3",
+      "properties": {
+        "designator": "W3",
+        "name": "W3 · Vale da Mantiqueira / São Paulo - Poços de Caldas - Pampulha",
+        "type": "LOWER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "5.000 FT",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe D",
+        "waypoints": [
+          "SBGR",
+          "SBPC",
+          "SBBH"
+        ],
+        "waypoint_count": 3,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.4730555556,
+            -23.4355555556
+          ],
+          [
+            -46.5661,
+            -21.8044
+          ],
+          [
+            -43.950556,
+            -19.851944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:W4",
+      "properties": {
+        "designator": "W4",
+        "name": "W4 · Estrada Real / Pampulha - Juiz de Fora - Santos Dumont",
+        "type": "LOWER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "5.000 FT",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe D",
+        "waypoints": [
+          "SBBH",
+          "SBZM",
+          "SBRJ"
+        ],
+        "waypoint_count": 3,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.950556,
+            -19.851944
+          ],
+          [
+            -43.173055556,
+            -21.513055556
+          ],
+          [
+            -43.1625,
+            -22.91
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:W15",
+      "properties": {
+        "designator": "W15",
+        "name": "W15 · Interior Paulista / São Paulo - Bauru - Prudente - Campo Grande",
+        "type": "LOWER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "4.000 FT",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe D",
+        "waypoints": [
+          "SBKP",
+          "SBBU",
+          "SBDN",
+          "SBCG"
+        ],
+        "waypoint_count": 4,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.1344444444,
+            -23.0069444444
+          ],
+          [
+            -49.05388889,
+            -22.345
+          ],
+          [
+            -51.424444444,
+            -22.175
+          ],
+          [
+            -54.670278,
+            -20.469444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:W20",
+      "properties": {
+        "designator": "W20",
+        "name": "W20 · Norte Paranaense / Curitiba - Londrina - Maringá - Foz",
+        "type": "LOWER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "4.000 FT",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe D",
+        "waypoints": [
+          "SBCT",
+          "SBLO",
+          "SBMG",
+          "SBFI"
+        ],
+        "waypoint_count": 4,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -49.176111,
+            -25.531667
+          ],
+          [
+            -51.13666667,
+            -23.33027778
+          ],
+          [
+            -52.017777778,
+            -23.476388889
+          ],
+          [
+            -54.485,
+            -25.600278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:W22",
+      "properties": {
+        "designator": "W22",
+        "name": "W22 · Serra Gaúcha & Oeste Catarinense / POA - Caxias - Chapecó - Curitiba",
+        "type": "LOWER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "4.000 FT",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe D",
+        "waypoints": [
+          "SBPA",
+          "SBCX",
+          "SBCH",
+          "SBCT"
+        ],
+        "waypoint_count": 4,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -51.171111111,
+            -29.994722222
+          ],
+          [
+            -51.186666667,
+            -29.198055556
+          ],
+          [
+            -52.658791667,
+            -27.133858333
+          ],
+          [
+            -49.176111,
+            -25.531667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:W33",
+      "properties": {
+        "designator": "W33",
+        "name": "W33 · Triângulo & Planalto / Brasília - Goiânia - Uberlândia - Uberaba - Ribeirão",
+        "type": "LOWER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "5.000 FT",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe D",
+        "waypoints": [
+          "SBBR",
+          "SBGO",
+          "SBUL",
+          "SBUR",
+          "SBRP"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.918611111,
+            -15.871111111
+          ],
+          [
+            -49.221111111,
+            -16.6325
+          ],
+          [
+            -48.22527778,
+            -18.88361111
+          ],
+          [
+            -47.96611111,
+            -19.76472222
+          ],
+          [
+            -47.776666667,
+            -21.136388889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:V1",
+      "properties": {
+        "designator": "V1",
+        "name": "V1 · Litoral Fluminense & Paulista / Santos - Ubatuba - Angra - Rio",
+        "type": "LOWER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "2.000 FT",
+        "upper_limit": "10.000 FT",
+        "airspace_class": "Classe D",
+        "waypoints": [
+          "SBST",
+          "SDUB",
+          "SDAG",
+          "SBRJ"
+        ],
+        "waypoint_count": 4,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.299722222,
+            -23.928055556
+          ],
+          [
+            -45.0761,
+            -23.4419
+          ],
+          [
+            -44.307222,
+            -22.975278
+          ],
+          [
+            -43.1625,
+            -22.91
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:V2",
+      "properties": {
+        "designator": "V2",
+        "name": "V2 · Circuito Metropolitano / Viracopos - Jundiaí - Campo de Marte",
+        "type": "LOWER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "3.500 FT",
+        "upper_limit": "8.000 FT",
+        "airspace_class": "Classe D",
+        "waypoints": [
+          "SBKP",
+          "SBJD",
+          "SBMT",
+          "SBSP"
+        ],
+        "waypoint_count": 4,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.1344444444,
+            -23.0069444444
+          ],
+          [
+            -46.9436111111,
+            -23.1816666667
+          ],
+          [
+            -46.6375,
+            -23.5091666667
+          ],
+          [
+            -46.6563888889,
+            -23.6261111111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UN741",
+      "properties": {
+        "designator": "UN741",
+        "name": "UN741 · Corredor Atlântico Sul / Recife - Noronha - Ilha do Sal - Lisboa",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL290",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBRF",
+          "SBFN",
+          "GVAC",
+          "CPV",
+          "LPPT"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -34.922777778,
+            -8.126388889
+          ],
+          [
+            -32.42833333,
+            -3.854722222
+          ],
+          [
+            -22.9494,
+            16.7414
+          ],
+          [
+            -9.2,
+            38.75
+          ],
+          [
+            -9.1359,
+            38.7813
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UN873",
+      "properties": {
+        "designator": "UN873",
+        "name": "UN873 · Corredor Ibero-Americano / Rio - Salvador - Canárias - Madrid - Paris",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL290",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBGL",
+          "SBSV",
+          "GCLP",
+          "LEMD",
+          "LFPG"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.250555556,
+            -22.81
+          ],
+          [
+            -38.3225,
+            -12.908611111
+          ],
+          [
+            -15.3866,
+            27.9319
+          ],
+          [
+            -3.5626,
+            40.4719
+          ],
+          [
+            2.5541,
+            49.009
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UL465",
+      "properties": {
+        "designator": "UL465",
+        "name": "UL465 · Corredor Pan-Americano / São Paulo - Brasília - Manaus - Bogotá - Miami",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL290",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SBGR",
+          "SBBR",
+          "SBEG",
+          "SKBO",
+          "BOG",
+          "KMIA"
+        ],
+        "waypoint_count": 6,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.4730555556,
+            -23.4355555556
+          ],
+          [
+            -47.918611111,
+            -15.871111111
+          ],
+          [
+            -60.050555556,
+            -3.041111111
+          ],
+          [
+            -74.1469,
+            4.7016
+          ],
+          [
+            -74.1469,
+            4.70159
+          ],
+          [
+            -80.2898,
+            25.796
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UG449",
+      "properties": {
+        "designator": "UG449",
+        "name": "UG449 · Pacífico-Caribe / Santiago - Lima - Panamá - Miami",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL290",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "SCEL",
+          "SCL",
+          "SPJC",
+          "LIM",
+          "KMIA"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.7858,
+            -33.393
+          ],
+          [
+            -70.7857971191,
+            -33.3930015564
+          ],
+          [
+            -77.1143,
+            -12.0219
+          ],
+          [
+            -77.114305,
+            -12.0219
+          ],
+          [
+            -80.2898,
+            25.796
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:J70",
+      "properties": {
+        "designator": "J70",
+        "name": "J70 / Q105 · Transcontinental Norte-Americano / New York - Chicago - San Francisco",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL180",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "KJFK",
+          "CRI",
+          "KORD",
+          "ORD",
+          "KSFO",
+          "SFO"
+        ],
+        "waypoint_count": 6,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.7793,
+            40.6394
+          ],
+          [
+            -74.182404,
+            22.7456
+          ],
+          [
+            -87.9073,
+            41.9742
+          ],
+          [
+            -87.9048,
+            41.9786
+          ],
+          [
+            -122.374821,
+            37.619806
+          ],
+          [
+            -122.374821,
+            37.619806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:J121",
+      "properties": {
+        "designator": "J121",
+        "name": "J121 · Corredor Costa Leste EUA / Boston - New York - Atlanta - Miami",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL180",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "KJFK",
+          "KATL",
+          "ATL",
+          "KFLL",
+          "KMIA"
+        ],
+        "waypoint_count": 5,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.7793,
+            40.6394
+          ],
+          [
+            -84.428101,
+            33.6367
+          ],
+          [
+            -84.428101,
+            33.6367
+          ],
+          [
+            -80.152702,
+            26.072599
+          ],
+          [
+            -80.2898,
+            25.796
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:J6",
+      "properties": {
+        "designator": "J6",
+        "name": "J6 · Corredor Costa Oeste EUA / Seattle - San Francisco - Los Angeles",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL180",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "KSFO",
+          "SFO",
+          "KLAX",
+          "LAX"
+        ],
+        "waypoint_count": 4,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.374821,
+            37.619806
+          ],
+          [
+            -122.374821,
+            37.619806
+          ],
+          [
+            -118.408,
+            33.9425
+          ],
+          [
+            -118.407997,
+            33.942501
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:L607",
+      "properties": {
+        "designator": "L607",
+        "name": "L607 · Tronco Europeu Ocidental / London - Paris - Genebra - Roma",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL195",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "EGLL",
+          "BIG",
+          "LFPG",
+          "EVX",
+          "LSZH",
+          "LIRF"
+        ],
+        "waypoint_count": 6,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.4599,
+            51.4707
+          ],
+          [
+            -145.722,
+            63.994499
+          ],
+          [
+            2.5541,
+            49.009
+          ],
+          [
+            1.21986,
+            49.028702
+          ],
+          [
+            8.548056,
+            47.458056
+          ],
+          [
+            12.251998,
+            41.804532
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:M736",
+      "properties": {
+        "designator": "M736",
+        "name": "M736 · Corredor Reno-Danúbio / London - Amsterdam - Frankfurt - Viena",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL195",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "EGLL",
+          "LAM",
+          "EHAM",
+          "PAM",
+          "EDDF",
+          "FFM"
+        ],
+        "waypoint_count": 6,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.4599,
+            51.4707
+          ],
+          [
+            0.15,
+            51.65
+          ],
+          [
+            4.7639,
+            52.3086
+          ],
+          [
+            -85.575401,
+            30.069599
+          ],
+          [
+            8.5584,
+            50.0267
+          ],
+          [
+            8.68,
+            50.05
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:UP975",
+      "properties": {
+        "designator": "UP975",
+        "name": "UP975 · Corredor do Golfo / Dubai - Doha - Bahrein - Kuwait",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "OMDB",
+          "DXB",
+          "OTHH",
+          "DOH"
+        ],
+        "waypoint_count": 4,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            55.371,
+            25.2498
+          ],
+          [
+            55.370992,
+            25.24979
+          ],
+          [
+            51.6081,
+            25.2731
+          ],
+          [
+            51.608056,
+            25.273056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:M771",
+      "properties": {
+        "designator": "M771",
+        "name": "M771 · Corredor Asiático / Singapura - Hong Kong - Taipei - Tóquio",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL290",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "WSSS",
+          "SIN",
+          "VHHH",
+          "HKG",
+          "RJTT",
+          "HND"
+        ],
+        "waypoint_count": 6,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.9944,
+            1.3502
+          ],
+          [
+            103.994003,
+            1.35019
+          ],
+          [
+            113.914862,
+            22.31184
+          ],
+          [
+            113.914862,
+            22.31184
+          ],
+          [
+            139.7797,
+            35.5523
+          ],
+          [
+            139.786958,
+            35.549678
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "airway:B454",
+      "properties": {
+        "designator": "B454",
+        "name": "B454 · Transcontinental Australiano / Sydney - Melbourne - Adelaide - Perth",
+        "type": "UPPER",
+        "direction": "BIDIRECTIONAL",
+        "lower_limit": "FL200",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A",
+        "waypoints": [
+          "YSSY",
+          "YMML",
+          "YPAD",
+          "YPPH"
+        ],
+        "waypoint_count": 4,
+        "source": "DECEA AIP ENR 3 / ICAO / FAA / Eurocontrol ATS Routes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            151.177002,
+            -33.946098
+          ],
+          [
+            144.837898,
+            -37.670732
+          ],
+          [
+            138.533393,
+            -34.947512
+          ],
+          [
+            115.9670028687,
+            -31.9402999878
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z1",
+        "name": "Rota RNAV Z1 · Gate Noroeste / Campinas",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 6,
+        "waypoints": [
+          "SAVTO",
+          "KOLBU",
+          "EVMIM",
+          "UGOVU",
+          "ILSAN",
+          "DIDAB"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.388324,
+            -23.455326
+          ],
+          [
+            -47.433833,
+            -23.221833
+          ],
+          [
+            -47.793872,
+            -22.815789
+          ],
+          [
+            -47.571231,
+            -22.880564
+          ],
+          [
+            -47.483442,
+            -22.906281
+          ],
+          [
+            -47.129044,
+            -23.008717
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z2",
+        "name": "Rota RNAV Z2 · Gate Sul / Sorocaba",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 6,
+        "waypoints": [
+          "BUXUK",
+          "SOVSI",
+          "UBSOD",
+          "LOKIP",
+          "UKATU",
+          "TEPAB"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.815869,
+            -23.763908
+          ],
+          [
+            -47.472189,
+            -24.105492
+          ],
+          [
+            -47.144189,
+            -24.261736
+          ],
+          [
+            -46.76635,
+            -24.143011
+          ],
+          [
+            -46.886517,
+            -23.729978
+          ],
+          [
+            -46.679295,
+            -23.823245
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z4",
+        "name": "Rota RNAV Z4 · Gate Leste / Atibaia",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 7,
+        "waypoints": [
+          "ILKOK",
+          "DAGSU",
+          "NEBAK",
+          "OGROR",
+          "SEMGI",
+          "UTGER",
+          "VUMEV"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.437292,
+            -23.5828
+          ],
+          [
+            -46.415698,
+            -23.509374
+          ],
+          [
+            -46.122333,
+            -23.024
+          ],
+          [
+            -46.266511,
+            -22.906624
+          ],
+          [
+            -46.1935,
+            -22.967833
+          ],
+          [
+            -46.230439,
+            -22.754308
+          ],
+          [
+            -45.977333,
+            -22.886833
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z5",
+        "name": "Rota RNAV Z5 · Gate Nordeste / Bragança",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL160",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "REKOG",
+          "ASEGI",
+          "MUDUX",
+          "VULMI",
+          "LOKAM"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.675033,
+            -23.289942
+          ],
+          [
+            -46.620417,
+            -23.281386
+          ],
+          [
+            -46.629,
+            -23.446667
+          ],
+          [
+            -46.976108,
+            -23.168042
+          ],
+          [
+            -46.920667,
+            -23.120756
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z6",
+        "name": "Rota RNAV Z6 · Gate Sudeste / Litoral",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "UKDAN",
+          "UMLIB",
+          "VUKIK",
+          "MANLO",
+          "IBDAL"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.263339,
+            -23.98315
+          ],
+          [
+            -46.497269,
+            -23.786283
+          ],
+          [
+            -45.644796,
+            -23.849057
+          ],
+          [
+            -45.408247,
+            -23.797192
+          ],
+          [
+            -45.231511,
+            -23.758186
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z7",
+        "name": "Rota RNAV Z7 · Gate Vale do Paraíba",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 6,
+        "waypoints": [
+          "EDMUS",
+          "DORLU",
+          "FRIAS",
+          "UREMI",
+          "OBKIN",
+          "NIBRU"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -45.385867,
+            -23.189228
+          ],
+          [
+            -45.315698,
+            -23.347043
+          ],
+          [
+            -45.547569,
+            -23.302303
+          ],
+          [
+            -45.512986,
+            -23.389156
+          ],
+          [
+            -45.339286,
+            -23.545657
+          ],
+          [
+            -45.468961,
+            -23.573069
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z10",
+        "name": "Rota RNAV Z10 · Circuito Cantareira",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL160",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 6,
+        "waypoints": [
+          "SUCRE",
+          "ILMUR",
+          "DAGSU",
+          "DAMTA",
+          "EGUTO",
+          "GENKO"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.023633,
+            -22.876972
+          ],
+          [
+            -46.59532,
+            -22.79583
+          ],
+          [
+            -46.415698,
+            -23.509374
+          ],
+          [
+            -46.385464,
+            -23.406427
+          ],
+          [
+            -46.201317,
+            -23.403189
+          ],
+          [
+            -45.720094,
+            -23.262636
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z11",
+        "name": "Rota RNAV Z11 · Corredor Mogiana",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "KOTRU",
+          "MIMOP",
+          "PUGOR",
+          "IVTIG",
+          "BIXAN"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.139333,
+            -22.165833
+          ],
+          [
+            -47.955089,
+            -21.744814
+          ],
+          [
+            -47.700297,
+            -21.605822
+          ],
+          [
+            -47.683667,
+            -21.323833
+          ],
+          [
+            -47.253242,
+            -21.360347
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z18",
+        "name": "Rota RNAV Z18 · Eixo Tietê / Piracicaba",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL160",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "BIXAN",
+          "KOMTO",
+          "MUKNU",
+          "MOTSU"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.253242,
+            -21.360347
+          ],
+          [
+            -47.776,
+            -21.142667
+          ],
+          [
+            -47.298333,
+            -21.152667
+          ],
+          [
+            -47.318,
+            -21.005333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z21",
+        "name": "Rota RNAV Z21 · Conexão Planalto Central",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "ISMOB",
+          "EVTOB",
+          "ZANET",
+          "EVNUG"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.197016,
+            -21.789178
+          ],
+          [
+            -46.795073,
+            -21.504155
+          ],
+          [
+            -46.975364,
+            -21.155031
+          ],
+          [
+            -46.8475,
+            -21.155833
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z22",
+        "name": "Rota RNAV Z22 · Conexão Sul de Minas",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "KONVI",
+          "VUNOX",
+          "GEVGA",
+          "NUXEL"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.175983,
+            -22.684678
+          ],
+          [
+            -46.213242,
+            -22.317903
+          ],
+          [
+            -46.089858,
+            -22.162664
+          ],
+          [
+            -45.821908,
+            -22.283086
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z32",
+        "name": "Rota RNAV Z32 · Conexão Mantiqueira Norte",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "ASBUP",
+          "UBNOV",
+          "MOLVA",
+          "VUBGI"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -45.839007,
+            -21.849234
+          ],
+          [
+            -45.343372,
+            -22.040233
+          ],
+          [
+            -45.538791,
+            -21.95497
+          ],
+          [
+            -45.185048,
+            -22.071845
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z35",
+        "name": "Rota RNAV Z35 · Conexão Circuito das Águas",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL160",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "ARSAX",
+          "MUDRU",
+          "EGLAN",
+          "EVPOM"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.377343,
+            -21.655928
+          ],
+          [
+            -46.128914,
+            -21.745545
+          ],
+          [
+            -46.073838,
+            -21.765294
+          ],
+          [
+            -46.005867,
+            -21.494242
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z36",
+        "name": "Rota RNAV Z36 · Transição Serra da Canastra",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL160",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "EPKUV",
+          "SEGPA",
+          "XOPES",
+          "VIANA"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.20825,
+            -21.160339
+          ],
+          [
+            -46.143114,
+            -20.976325
+          ],
+          [
+            -45.923022,
+            -21.162465
+          ],
+          [
+            -45.851514,
+            -20.874853
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z41",
+        "name": "Rota RNAV Z41 · Transição Alto Paranaíba",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL160",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "ISRAB",
+          "VUKEM",
+          "MOMDA",
+          "EGEPO"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -45.565167,
+            -21.497667
+          ],
+          [
+            -45.298824,
+            -21.16491
+          ],
+          [
+            -45.015244,
+            -21.179606
+          ],
+          [
+            -45.087144,
+            -20.893403
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z43",
+        "name": "Rota RNAV Z43 · Conexão Vale Histórico",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "AKNUB",
+          "KOLBI",
+          "TITMU",
+          "ROPAS"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -44.573,
+            -24.494167
+          ],
+          [
+            -44.705667,
+            -24.110333
+          ],
+          [
+            -44.580314,
+            -24.053567
+          ],
+          [
+            -44.241,
+            -23.899167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z47",
+        "name": "Rota RNAV Z47 · Conexão Baixada Santista",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "VUDAV",
+          "ILTIT",
+          "KEVUN",
+          "PORNA"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -44.049956,
+            -24.012983
+          ],
+          [
+            -44.036803,
+            -23.808464
+          ],
+          [
+            -44.951733,
+            -23.462994
+          ],
+          [
+            -44.259182,
+            -23.539556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z49",
+        "name": "Rota RNAV Z49 · Transição Litoral Norte",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "IMDAB",
+          "ESORU",
+          "VUREP",
+          "NAXOP"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -44.624829,
+            -23.197405
+          ],
+          [
+            -44.676514,
+            -23.030825
+          ],
+          [
+            -44.553266,
+            -23.181706
+          ],
+          [
+            -44.156817,
+            -23.515194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z52",
+        "name": "Rota RNAV Z52 · Conexão Ilha Grande / Angra",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL160",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "UMBAD",
+          "BITAK",
+          "UTPOB",
+          "SIDUR"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -44.141483,
+            -23.282092
+          ],
+          [
+            -43.638,
+            -23.630167
+          ],
+          [
+            -43.475524,
+            -23.486986
+          ],
+          [
+            -44.218056,
+            -22.754467
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z55",
+        "name": "Rota RNAV Z55 · Transição Fluminense Sul",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "EPGIP",
+          "UGRAD",
+          "XOKIX",
+          "EKABI"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.977011,
+            -22.871172
+          ],
+          [
+            -43.707185,
+            -22.993424
+          ],
+          [
+            -43.520211,
+            -23.142739
+          ],
+          [
+            -43.647707,
+            -22.79244
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z56",
+        "name": "Rota RNAV Z56 · Conexão Bacia de Santos",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "KOVGO",
+          "GEMEM",
+          "VAMIX",
+          "AKSAD"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.270837,
+            -23.308785
+          ],
+          [
+            -42.937778,
+            -23.263611
+          ],
+          [
+            -43.148094,
+            -23.057958
+          ],
+          [
+            -43.396761,
+            -22.731919
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z73",
+        "name": "Rota RNAV Z73 · Corredor Oceânico Leste",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "UTNEX",
+          "UDIRA",
+          "KIDIG",
+          "VUPIP"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.165119,
+            -22.870108
+          ],
+          [
+            -42.890947,
+            -22.967175
+          ],
+          [
+            -42.520264,
+            -23.678669
+          ],
+          [
+            -42.637292,
+            -22.815861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z82",
+        "name": "Rota RNAV Z82 · Eixo Macaé / Cabo Frio",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "SEGNU",
+          "UTLAX",
+          "TOKIM",
+          "MEBGA"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -42.071503,
+            -22.923335
+          ],
+          [
+            -41.950594,
+            -22.895892
+          ],
+          [
+            -44.192667,
+            -21.9245
+          ],
+          [
+            -44.115667,
+            -22.419333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z85",
+        "name": "Rota RNAV Z85 · Conexão Região dos Lagos",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL160",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "VALEM",
+          "VUKLA",
+          "PUGRU",
+          "PAGIG"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.719227,
+            -22.53023
+          ],
+          [
+            -43.511855,
+            -22.436198
+          ],
+          [
+            -43.9875,
+            -22.233667
+          ],
+          [
+            -43.809797,
+            -21.979278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z91",
+        "name": "Rota RNAV Z91 · Conexão Norte Fluminense",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL150",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "VUNLI",
+          "UDUNA",
+          "MINUX",
+          "UMLAM"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.616333,
+            -22.277
+          ],
+          [
+            -43.669936,
+            -22.194531
+          ],
+          [
+            -43.768243,
+            -22.042982
+          ],
+          [
+            -44.778297,
+            -21.367814
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "Z92",
+        "name": "Rota RNAV Z92 · Transição Vale do Aço",
+        "type": "TERMINAL_RNAV",
+        "isZRoute": true,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL160",
+        "upper_limit": "FL245",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 4,
+        "waypoints": [
+          "NIGMA",
+          "AROVA",
+          "UTPIN",
+          "MEXAP"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -44.882534,
+            -21.18667
+          ],
+          [
+            -44.658094,
+            -21.223719
+          ],
+          [
+            -44.675931,
+            -21.196642
+          ],
+          [
+            -44.768392,
+            -21.051944
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ2",
+        "name": "UZ2 · Eixo Sul-Sudeste / Curitiba - Sorocaba - SP",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 6,
+        "waypoints": [
+          "EDMUS",
+          "FRIAS",
+          "UREMI",
+          "OBKIN",
+          "NIBRU",
+          "SCB"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -45.385867,
+            -23.189228
+          ],
+          [
+            -45.547569,
+            -23.302303
+          ],
+          [
+            -45.512986,
+            -23.389156
+          ],
+          [
+            -45.339286,
+            -23.545657
+          ],
+          [
+            -45.468961,
+            -23.573069
+          ],
+          [
+            -47.378167,
+            -23.507
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ3",
+        "name": "UZ3 · Corredor Paulista / Campinas - Ribeirão",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "RAXEG",
+          "KIGES",
+          "ARMIP",
+          "ANLUL",
+          "GAITA"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.960049,
+            -23.086328
+          ],
+          [
+            -47.732706,
+            -23.065622
+          ],
+          [
+            -47.573551,
+            -23.050778
+          ],
+          [
+            -47.8965,
+            -22.790433
+          ],
+          [
+            -47.871306,
+            -22.791936
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ4",
+        "name": "UZ4 · Tronco Anhanguera / SP - Campinas - Triângulo",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "ANLUL",
+          "EVMIM",
+          "UGOVU",
+          "ILSAN",
+          "DIDAB"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.8965,
+            -22.790433
+          ],
+          [
+            -47.793872,
+            -22.815789
+          ],
+          [
+            -47.571231,
+            -22.880564
+          ],
+          [
+            -47.483442,
+            -22.906281
+          ],
+          [
+            -47.129044,
+            -23.008717
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ6",
+        "name": "UZ6 · Conexão Sul / Registro - Sorocaba",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "BUXUK",
+          "SOVSI",
+          "UBSOD",
+          "LOKIP",
+          "UKATU"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.815869,
+            -23.763908
+          ],
+          [
+            -47.472189,
+            -24.105492
+          ],
+          [
+            -47.144189,
+            -24.261736
+          ],
+          [
+            -46.76635,
+            -24.143011
+          ],
+          [
+            -46.886517,
+            -23.729978
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ14",
+        "name": "UZ14 · Conexão Mantiqueira Sul",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "KOTRU",
+          "MIMOP",
+          "PUGOR",
+          "IVTIG",
+          "BIXAN"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.139333,
+            -22.165833
+          ],
+          [
+            -47.955089,
+            -21.744814
+          ],
+          [
+            -47.700297,
+            -21.605822
+          ],
+          [
+            -47.683667,
+            -21.323833
+          ],
+          [
+            -47.253242,
+            -21.360347
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ21",
+        "name": "UZ21 · Eixo Noroeste Paulista / Bauru - Araraquara",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "BIXAN",
+          "KOMTO",
+          "MUKNU",
+          "MOTSU",
+          "ISMOB"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.253242,
+            -21.360347
+          ],
+          [
+            -47.776,
+            -21.142667
+          ],
+          [
+            -47.298333,
+            -21.152667
+          ],
+          [
+            -47.318,
+            -21.005333
+          ],
+          [
+            -47.197016,
+            -21.789178
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ22",
+        "name": "UZ22 · Tronco Central / SP - Goiânia",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "EVTOB",
+          "ZANET",
+          "EVNUG",
+          "EGBAL",
+          "KONVI"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.795073,
+            -21.504155
+          ],
+          [
+            -46.975364,
+            -21.155031
+          ],
+          [
+            -46.8475,
+            -21.155833
+          ],
+          [
+            -46.889167,
+            -20.876
+          ],
+          [
+            -46.175983,
+            -22.684678
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ23",
+        "name": "UZ23 · Diagonal Sul de Minas / Poços de Caldas - BH",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "VUNOX",
+          "GEVGA",
+          "NUXEL",
+          "ASBUP",
+          "UBNOV"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.213242,
+            -22.317903
+          ],
+          [
+            -46.089858,
+            -22.162664
+          ],
+          [
+            -45.821908,
+            -22.283086
+          ],
+          [
+            -45.839007,
+            -21.849234
+          ],
+          [
+            -45.343372,
+            -22.040233
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ24",
+        "name": "UZ24 · Eixo Mantiqueira Central",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "MOLVA",
+          "VUBGI",
+          "ARSAX",
+          "MUDRU",
+          "EGLAN"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -45.538791,
+            -21.95497
+          ],
+          [
+            -45.185048,
+            -22.071845
+          ],
+          [
+            -46.377343,
+            -21.655928
+          ],
+          [
+            -46.128914,
+            -21.745545
+          ],
+          [
+            -46.073838,
+            -21.765294
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ26",
+        "name": "UZ26 · Transição Sul de Minas / Pouso Alegre",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "EVPOM",
+          "EPKUV",
+          "SEGPA",
+          "XOPES",
+          "VIANA"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.005867,
+            -21.494242
+          ],
+          [
+            -46.20825,
+            -21.160339
+          ],
+          [
+            -46.143114,
+            -20.976325
+          ],
+          [
+            -45.923022,
+            -21.162465
+          ],
+          [
+            -45.851514,
+            -20.874853
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ30",
+        "name": "UZ30 · Conexão Alta Mogiana",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "ISRAB",
+          "VUKEM",
+          "MOMDA",
+          "EGEPO",
+          "AKNUB"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -45.565167,
+            -21.497667
+          ],
+          [
+            -45.298824,
+            -21.16491
+          ],
+          [
+            -45.015244,
+            -21.179606
+          ],
+          [
+            -45.087144,
+            -20.893403
+          ],
+          [
+            -44.573,
+            -24.494167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ31",
+        "name": "UZ31 · Eixo Vale do Paraíba / Taubaté - Resende",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "KOLBI",
+          "TITMU",
+          "ROPAS",
+          "VUDAV",
+          "ILTIT"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -44.705667,
+            -24.110333
+          ],
+          [
+            -44.580314,
+            -24.053567
+          ],
+          [
+            -44.241,
+            -23.899167
+          ],
+          [
+            -44.049956,
+            -24.012983
+          ],
+          [
+            -44.036803,
+            -23.808464
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ38",
+        "name": "UZ38 · Eixo Fluminense / Angra - Rio",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "KEVUN",
+          "PORNA",
+          "IMDAB",
+          "ESORU",
+          "VUREP"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -44.951733,
+            -23.462994
+          ],
+          [
+            -44.259182,
+            -23.539556
+          ],
+          [
+            -44.624829,
+            -23.197405
+          ],
+          [
+            -44.676514,
+            -23.030825
+          ],
+          [
+            -44.553266,
+            -23.181706
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ42",
+        "name": "UZ42 · Tronco Rio - Brasília",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "NAXOP",
+          "UMBAD",
+          "BITAK",
+          "UTPOB",
+          "SIDUR"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -44.156817,
+            -23.515194
+          ],
+          [
+            -44.141483,
+            -23.282092
+          ],
+          [
+            -43.638,
+            -23.630167
+          ],
+          [
+            -43.475524,
+            -23.486986
+          ],
+          [
+            -44.218056,
+            -22.754467
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ45",
+        "name": "UZ45 · Transição Bacia de Campos / Macaé",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "EPGIP",
+          "UGRAD",
+          "XOKIX",
+          "EKABI",
+          "KOVGO"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.977011,
+            -22.871172
+          ],
+          [
+            -43.707185,
+            -22.993424
+          ],
+          [
+            -43.520211,
+            -23.142739
+          ],
+          [
+            -43.647707,
+            -22.79244
+          ],
+          [
+            -43.270837,
+            -23.308785
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ47",
+        "name": "UZ47 · Rota Oceânica Sudeste",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "GEMEM",
+          "VAMIX",
+          "AKSAD",
+          "UTNEX",
+          "UDIRA"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -42.937778,
+            -23.263611
+          ],
+          [
+            -43.148094,
+            -23.057958
+          ],
+          [
+            -43.396761,
+            -22.731919
+          ],
+          [
+            -43.165119,
+            -22.870108
+          ],
+          [
+            -42.890947,
+            -22.967175
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ48",
+        "name": "UZ48 · Corredor Plataforma Continental",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "KIDIG",
+          "VUPIP",
+          "SEGNU",
+          "UTLAX",
+          "TOKIM"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -42.520264,
+            -23.678669
+          ],
+          [
+            -42.637292,
+            -22.815861
+          ],
+          [
+            -42.071503,
+            -22.923335
+          ],
+          [
+            -41.950594,
+            -22.895892
+          ],
+          [
+            -44.192667,
+            -21.9245
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ49",
+        "name": "UZ49 · Transição Pré-Sal",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "MEBGA",
+          "VALEM",
+          "VUKLA",
+          "PUGRU",
+          "PAGIG"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -44.115667,
+            -22.419333
+          ],
+          [
+            -43.719227,
+            -22.53023
+          ],
+          [
+            -43.511855,
+            -22.436198
+          ],
+          [
+            -43.9875,
+            -22.233667
+          ],
+          [
+            -43.809797,
+            -21.979278
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ50",
+        "name": "UZ50 · Eixo Litoral Leste / Vitória",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "VUNLI",
+          "UDUNA",
+          "MINUX",
+          "UMLAM",
+          "NIGMA"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.616333,
+            -22.277
+          ],
+          [
+            -43.669936,
+            -22.194531
+          ],
+          [
+            -43.768243,
+            -22.042982
+          ],
+          [
+            -44.778297,
+            -21.367814
+          ],
+          [
+            -44.882534,
+            -21.18667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ58",
+        "name": "UZ58 · Conexão Minas-Bahia",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "AROVA",
+          "UTPIN",
+          "MEXAP",
+          "UPUBU",
+          "OSOBO"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -44.658094,
+            -21.223719
+          ],
+          [
+            -44.675931,
+            -21.196642
+          ],
+          [
+            -44.768392,
+            -21.051944
+          ],
+          [
+            -44.589489,
+            -21.327625
+          ],
+          [
+            -44.500158,
+            -21.215243
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ85",
+        "name": "UZ85 · Diagonal Sudeste-Nordeste",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "KOLTU",
+          "AKNEM",
+          "MALMO",
+          "OBDEL",
+          "MAVGU"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -44.290667,
+            -21.237167
+          ],
+          [
+            -44.454561,
+            -20.978894
+          ],
+          [
+            -44.39155,
+            -21.078317
+          ],
+          [
+            -44.073614,
+            -21.573242
+          ],
+          [
+            -44.149744,
+            -21.455567
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ92",
+        "name": "UZ92 · Eixo Central / Belo Horizonte - Salvador",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "EDNAM",
+          "MUDKA",
+          "PAKIB",
+          "XONOK",
+          "XOGAR"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.422756,
+            -21.816417
+          ],
+          [
+            -43.575167,
+            -21.572333
+          ],
+          [
+            -44.130703,
+            -21.246408
+          ],
+          [
+            -43.764111,
+            -21.267053
+          ],
+          [
+            -43.182307,
+            -22.679858
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ121",
+        "name": "UZ121 · Eixo Transversal Paulista",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "VADEV",
+          "ATIDU",
+          "KIGUV",
+          "ISTAB",
+          "ENSOD"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -43.039106,
+            -22.426109
+          ],
+          [
+            -42.918836,
+            -22.618383
+          ],
+          [
+            -42.905789,
+            -22.424128
+          ],
+          [
+            -43.139999,
+            -22.266975
+          ],
+          [
+            -43.209824,
+            -22.1566
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UZ171",
+        "name": "UZ171 · Conexão Sul Costeira",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "ISRIN",
+          "VOVPA",
+          "UBGIR",
+          "TISVA",
+          "NISTU"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -42.949667,
+            -22.158833
+          ],
+          [
+            -42.935393,
+            -22.245243
+          ],
+          [
+            -42.767333,
+            -21.951036
+          ],
+          [
+            -42.250539,
+            -22.583744
+          ],
+          [
+            -41.992667,
+            -22.670833
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UM400",
+        "name": "UM400 · Eixo Diagonal Sudeste / Rio - Campinas",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "MIGIG",
+          "SEGLI",
+          "MOLSU",
+          "EPKAX",
+          "DAKDA"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -42.693339,
+            -22.061891
+          ],
+          [
+            -42.405694,
+            -22.295
+          ],
+          [
+            -42.204833,
+            -21.839833
+          ],
+          [
+            -43.016569,
+            -21.752353
+          ],
+          [
+            -43.093631,
+            -21.281242
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UM409",
+        "name": "UM409 · Tronco Sul / Curitiba - São Paulo",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "IMBAP",
+          "RAXIT",
+          "BUXUK",
+          "SOVSI",
+          "MADNI"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -42.586458,
+            -21.632836
+          ],
+          [
+            -47.691417,
+            -24.420525
+          ],
+          [
+            -47.815869,
+            -23.763908
+          ],
+          [
+            -47.472189,
+            -24.105492
+          ],
+          [
+            -47.009044,
+            -24.607483
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UM417",
+        "name": "UM417 · Eixo Litoral Sul / Santos - Florianópolis",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "UBSOD",
+          "ANISE",
+          "LOKIP",
+          "UKATU",
+          "UGOXO"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.144189,
+            -24.261736
+          ],
+          [
+            -46.625333,
+            -24.602167
+          ],
+          [
+            -46.76635,
+            -24.143011
+          ],
+          [
+            -46.886517,
+            -23.729978
+          ],
+          [
+            -46.553319,
+            -24.075558
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UM423",
+        "name": "UM423 · Conexão Sul-Sudeste RNAV",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "REDOS",
+          "EGOKI",
+          "TEPAB",
+          "OBMAV",
+          "EGIGI"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.525683,
+            -23.882472
+          ],
+          [
+            -46.613542,
+            -23.848619
+          ],
+          [
+            -46.679295,
+            -23.823245
+          ],
+          [
+            -47.607189,
+            -23.501523
+          ],
+          [
+            -47.573461,
+            -23.447206
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UM540",
+        "name": "UM540 · Eixo Campinas - Sorocaba - Sul",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "SAVTO",
+          "UTNAS",
+          "KOLBU",
+          "GIDGI",
+          "RAXEG"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.388324,
+            -23.455326
+          ],
+          [
+            -47.529464,
+            -23.421763
+          ],
+          [
+            -47.433833,
+            -23.221833
+          ],
+          [
+            -47.417354,
+            -23.306479
+          ],
+          [
+            -47.960049,
+            -23.086328
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UM654",
+        "name": "UM654 · Diagonal Noroeste / São Paulo - Triângulo",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "KIGES",
+          "ARMIP",
+          "ANLUL",
+          "GAITA",
+          "EVMIM"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.732706,
+            -23.065622
+          ],
+          [
+            -47.573551,
+            -23.050778
+          ],
+          [
+            -47.8965,
+            -22.790433
+          ],
+          [
+            -47.871306,
+            -22.791936
+          ],
+          [
+            -47.793872,
+            -22.815789
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UM661",
+        "name": "UM661 · Eixo Central Paulista / Piracicaba - Bauru",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "UGOVU",
+          "VUMKO",
+          "GENBI",
+          "ILSAN",
+          "DIDAB"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.571231,
+            -22.880564
+          ],
+          [
+            -47.518428,
+            -23.045569
+          ],
+          [
+            -47.462392,
+            -23.040372
+          ],
+          [
+            -47.483442,
+            -22.906281
+          ],
+          [
+            -47.129044,
+            -23.008717
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UM775",
+        "name": "UM775 · Eixo Cantareira / SP - Mantiqueira",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "MUBKI",
+          "SOSGO",
+          "PUGBU",
+          "ALBOK",
+          "ANBAM"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.065958,
+            -23.648892
+          ],
+          [
+            -46.7988,
+            -23.547861
+          ],
+          [
+            -47.073589,
+            -23.395472
+          ],
+          [
+            -46.952308,
+            -23.177706
+          ],
+          [
+            -46.446158,
+            -23.524422
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UL201",
+        "name": "UL201 · Conexão Bragança - Sul de Minas",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "REKOG",
+          "ASEGI",
+          "MUDUX",
+          "VULMI",
+          "LOKAM"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.675033,
+            -23.289942
+          ],
+          [
+            -46.620417,
+            -23.281386
+          ],
+          [
+            -46.629,
+            -23.446667
+          ],
+          [
+            -46.976108,
+            -23.168042
+          ],
+          [
+            -46.920667,
+            -23.120756
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UL206",
+        "name": "UL206 · Corredor Leste / SP - Vale do Paraíba",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "SUCRE",
+          "ILMUR",
+          "UKDAN",
+          "UMLIB",
+          "VUKIK"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -47.023633,
+            -22.876972
+          ],
+          [
+            -46.59532,
+            -22.79583
+          ],
+          [
+            -46.263339,
+            -23.98315
+          ],
+          [
+            -46.497269,
+            -23.786283
+          ],
+          [
+            -45.644796,
+            -23.849057
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UL224",
+        "name": "UL224 · Eixo Oceânico Sudeste / Santos - Rio",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "MANLO",
+          "IBDAL",
+          "ILKOK",
+          "DAGSU",
+          "DAMTA"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -45.408247,
+            -23.797192
+          ],
+          [
+            -45.231511,
+            -23.758186
+          ],
+          [
+            -46.437292,
+            -23.5828
+          ],
+          [
+            -46.415698,
+            -23.509374
+          ],
+          [
+            -46.385464,
+            -23.406427
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UL340",
+        "name": "UL340 · Tronco Leste / Guarulhos - São José - Rio",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL250",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "EGUTO",
+          "GENKO",
+          "AKTAG",
+          "NEBAK",
+          "OGROR"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.201317,
+            -23.403189
+          ],
+          [
+            -45.720094,
+            -23.262636
+          ],
+          [
+            -46.337456,
+            -23.205167
+          ],
+          [
+            -46.122333,
+            -23.024
+          ],
+          [
+            -46.266511,
+            -22.906624
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "designator": "UN401",
+        "name": "UN401 · Transição Vale do Paraíba / Serra da Mantiqueira",
+        "type": "UPPER",
+        "isZRoute": false,
+        "direction": "BIDIRECIONAL",
+        "lower_limit": "FL260",
+        "upper_limit": "FL450",
+        "airspace_class": "Classe A / C",
+        "waypoint_count": 5,
+        "waypoints": [
+          "SEMGI",
+          "UTGER",
+          "VUMEV",
+          "NIBRU",
+          "OBKIN"
+        ],
+        "source": "DECEA AISWEB / ARC São Paulo AIRAC AMDT 2601A1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.1935,
+            -22.967833
+          ],
+          [
+            -46.230439,
+            -22.754308
+          ],
+          [
+            -45.977333,
+            -22.886833
+          ],
+          [
+            -45.468961,
+            -23.573069
+          ],
+          [
+            -45.339286,
+            -23.545657
+          ]
+        ]
+      }
+    }
+  ],
+  "total": 99,
+  "updatedAt": "2026-09-07T02:32:22.029Z"
+}

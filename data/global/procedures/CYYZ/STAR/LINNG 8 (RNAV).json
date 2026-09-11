@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "CYYZ-LINNG 8 (RNAV)",
+    "name": "LINNG 8 (RNAV)",
+    "type": "STAR",
+    "airport": "CYYZ",
+    "runways": [
+      "05",
+      "06L",
+      "06R"
+    ],
+    "source": {
+      "authority": "NAV CANADA / AIP Canada",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "YSO": {
+      "ident": "YSO",
+      "coordinate_ref": "waypoint:global:CYYZ:YSO:bfbf5569fd64"
+    },
+    "LINNG": {
+      "ident": "LINNG",
+      "coordinate_ref": "waypoint:global:CYYZ:LINNG:5f1cc5abdb93"
+    },
+    "VERUS": {
+      "ident": "VERUS",
+      "coordinate_ref": "waypoint:global:CYYZ:VERUS:b814493e4630"
+    }
+  },
+  "legs": [
+    {
+      "id": "yso-verus-leg-1",
+      "from": "YSO",
+      "to": "LINNG",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 29.7,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "yso-verus-leg-2",
+      "from": "LINNG",
+      "to": "VERUS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 17.4,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "yso-verus",
+      "name": "Entrada YSO",
+      "kind": "arrival",
+      "sequence": [
+        "YSO",
+        "LINNG",
+        "VERUS"
+      ],
+      "leg_ids": [
+        "yso-verus-leg-1",
+        "yso-verus-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

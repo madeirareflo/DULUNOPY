@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "YSSY-RIVET 1 (RNAV)",
+    "name": "RIVET 1 (RNAV)",
+    "type": "STAR",
+    "airport": "YSSY",
+    "runways": [
+      "16R",
+      "34L"
+    ],
+    "source": {
+      "authority": "Airservices Australia / AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "RIVET": {
+      "ident": "RIVET",
+      "coordinate_ref": "waypoint:global:YSSY:RIVET:5b00d7d71a58"
+    },
+    "MARUB": {
+      "ident": "MARUB",
+      "coordinate_ref": "waypoint:global:YSSY:MARUB:8515dd4bf9da"
+    },
+    "BOOGI": {
+      "ident": "BOOGI",
+      "coordinate_ref": "waypoint:global:YSSY:BOOGI:1c52903f92b3"
+    }
+  },
+  "legs": [
+    {
+      "id": "rivet-boogi-leg-1",
+      "from": "RIVET",
+      "to": "MARUB",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 16.8,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rivet-boogi-leg-2",
+      "from": "MARUB",
+      "to": "BOOGI",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 9.9,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rivet-boogi",
+      "name": "Entrada RIVET Oceânica",
+      "kind": "arrival",
+      "sequence": [
+        "RIVET",
+        "MARUB",
+        "BOOGI"
+      ],
+      "leg_ids": [
+        "rivet-boogi-leg-1",
+        "rivet-boogi-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

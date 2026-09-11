@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KDFW-ILS RWY 17L",
+    "name": "ILS RWY 17L",
+    "type": "IAC",
+    "airport": "KDFW",
+    "runways": [
+      "17L"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "BOWIE": {
+      "ident": "BOWIE",
+      "coordinate_ref": "waypoint:global:KDFW:BOWIE:6012d820d5f5"
+    },
+    "RODDE": {
+      "ident": "RODDE",
+      "coordinate_ref": "waypoint:global:KDFW:RODDE:25dd45b29d88"
+    },
+    "RW17L": {
+      "ident": "RW17L",
+      "coordinate_ref": "waypoint:global:KDFW:RW17L:bc91fa6cd625"
+    }
+  },
+  "legs": [
+    {
+      "id": "bowie-rw17l-leg-1",
+      "from": "BOWIE",
+      "to": "RODDE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 13.9,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "bowie-rw17l-leg-2",
+      "from": "RODDE",
+      "to": "RW17L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 6.9,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "bowie-rw17l",
+      "name": "Aproximação ILS 17L",
+      "kind": "approach",
+      "sequence": [
+        "BOWIE",
+        "RODDE",
+        "RW17L"
+      ],
+      "leg_ids": [
+        "bowie-rw17l-leg-1",
+        "bowie-rw17l-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

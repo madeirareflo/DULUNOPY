@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "airport": "SBAR",
+  "coordinateSource": "data/waypoints.json",
+  "types": {
+    "SID": [
+      {
+        "id": "AIXM-cb62c2e1-9a82-4e6a-a009-e6aa6f4d8b59",
+        "name": "aknut-1a",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/SID/aknut-1a.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-b86c9043-d69e-4ec6-80ec-45713e23c2ec",
+        "name": "gatul-2a",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/SID/gatul-2a.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-c24d1bc0-bc25-4790-8d15-0e1a807e9030",
+        "name": "omni-rwy-12-20",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/SID/omni-rwy-12-20.json",
+        "runways": [
+          "12",
+          "30"
+        ],
+        "modes": [],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-2d072240-6845-4dd0-8e1e-2b8026855930",
+        "name": "rnav-gerso-1a-rwy-12",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/SID/rnav-gerso-1a-rwy-12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-c3466b62-6a03-4a6e-b8e6-8ee1744481af",
+        "name": "rnav-pulur-2a-rwy-30",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/SID/rnav-pulur-2a-rwy-30.json",
+        "runways": [
+          "30"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-298ff3be-961a-4c4c-9d70-74c4ce487970",
+        "name": "rnav-simad-2a-rwy-12",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/SID/rnav-simad-2a-rwy-12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBAR-SID-omni-rwy-12-30",
+        "name": "OMNI RWY 12-30",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/SID/OMNI RWY 12-30.json",
+        "runways": [
+          "12",
+          "30"
+        ],
+        "modes": [
+          "OMNI"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBAR-SID-AR00I",
+        "name": "RNAV AKNUT 1A - GATUL 2A - GERSO 1A - SIMAD 2A RWY 12",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/SID/RNAV AKNUT 1A - GATUL 2A - GERSO 1A - SIMAD 2A RWY 12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBAR-SID-AR00K",
+        "name": "RNAV PULUR 2A RWY 30",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/SID/RNAV PULUR 2A RWY 30.json",
+        "runways": [
+          "30"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      }
+    ],
+    "STAR": [],
+    "IAC": [
+      {
+        "id": "AIXM-843e24c6-5b70-4bf2-a6e8-e6075166f938",
+        "name": "iac-vor-x-rwy-12",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/IAC/iac-vor-x-rwy-12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBAR-IAC-AR00H",
+        "name": "RNP Y RWY 30",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/IAC/RNP Y RWY 30.json",
+        "runways": [
+          "30"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBAR-IAC-AR00G",
+        "name": "RNP Z RWY 12",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/IAC/RNP Z RWY 12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBAR-IAC-AR00E",
+        "name": "VOR V RWY 30",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/IAC/VOR V RWY 30.json",
+        "runways": [
+          "30"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBAR-IAC-AR00D",
+        "name": "VOR W RWY 12",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/IAC/VOR W RWY 12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBAR-IAC-AR00F",
+        "name": "VOR X RWY 12",
+        "file": "data/tmas/aracaju/airports/SBAR/procedures/IAC/VOR X RWY 12.json",
+        "runways": [
+          "12"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      }
+    ]
+  }
+}

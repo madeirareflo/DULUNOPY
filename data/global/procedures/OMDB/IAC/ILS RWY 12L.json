@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "OMDB-ILS RWY 12L",
+    "name": "ILS RWY 12L",
+    "type": "IAC",
+    "airport": "OMDB",
+    "runways": [
+      "12L"
+    ],
+    "source": {
+      "authority": "GCAA UAE",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "DB501": {
+      "ident": "DB501",
+      "coordinate_ref": "waypoint:global:OMDB:DB501:aead526c27bd"
+    },
+    "DB12L": {
+      "ident": "DB12L",
+      "coordinate_ref": "waypoint:global:OMDB:DB12L:bda0e88a4a0b"
+    },
+    "RW12L": {
+      "ident": "RW12L",
+      "coordinate_ref": "waypoint:global:OMDB:RW12L:2d16b315e3eb"
+    }
+  },
+  "legs": [
+    {
+      "id": "db501-rw12l-leg-1",
+      "from": "DB501",
+      "to": "DB12L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 4.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "db501-rw12l-leg-2",
+      "from": "DB12L",
+      "to": "RW12L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.7,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "db501-rw12l",
+      "name": "Entrada DB501",
+      "kind": "approach",
+      "sequence": [
+        "DB501",
+        "DB12L",
+        "RW12L"
+      ],
+      "leg_ids": [
+        "db501-rw12l-leg-1",
+        "db501-rw12l-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

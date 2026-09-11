@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SAEZ-ILS RWY 11",
+    "name": "ILS RWY 11",
+    "type": "IAC",
+    "airport": "SAEZ",
+    "runways": [
+      "11"
+    ],
+    "source": {
+      "authority": "EANA / AIP Argentina",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "EZE": {
+      "ident": "EZE",
+      "coordinate_ref": "waypoint:global:SAEZ:EZE:58d380d6fd32"
+    },
+    "FF11": {
+      "ident": "FF11",
+      "coordinate_ref": "waypoint:global:SAEZ:FF11:ed97ed8fd357"
+    },
+    "RW11": {
+      "ident": "RW11",
+      "coordinate_ref": "waypoint:global:SAEZ:RW11:8030be58d3ca"
+    }
+  },
+  "legs": [
+    {
+      "id": "eze-rw11-leg-1",
+      "from": "EZE",
+      "to": "FF11",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 4.2,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "eze-rw11-leg-2",
+      "from": "FF11",
+      "to": "RW11",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 5,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "eze-rw11",
+      "name": "Entrada EZE",
+      "kind": "approach",
+      "sequence": [
+        "EZE",
+        "FF11",
+        "RW11"
+      ],
+      "leg_ids": [
+        "eze-rw11-leg-1",
+        "eze-rw11-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

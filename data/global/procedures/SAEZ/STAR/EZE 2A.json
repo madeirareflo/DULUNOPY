@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SAEZ-EZE 2A",
+    "name": "EZE 2A",
+    "type": "STAR",
+    "airport": "SAEZ",
+    "runways": [
+      "11"
+    ],
+    "source": {
+      "authority": "EANA / AIP Argentina",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "VANAR": {
+      "ident": "VANAR",
+      "coordinate_ref": "waypoint:global:SAEZ:VANAR:da98560c888b"
+    },
+    "GBE": {
+      "ident": "GBE",
+      "coordinate_ref": "waypoint:global:SAEZ:GBE:942af7a3b379"
+    },
+    "EZE": {
+      "ident": "EZE",
+      "coordinate_ref": "waypoint:global:SAEZ:EZE:58d380d6fd32"
+    }
+  },
+  "legs": [
+    {
+      "id": "vanar-eze-leg-1",
+      "from": "VANAR",
+      "to": "GBE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 26.6,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "vanar-eze-leg-2",
+      "from": "GBE",
+      "to": "EZE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 20.6,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "vanar-eze",
+      "name": "Entrada VANAR - EZE",
+      "kind": "arrival",
+      "sequence": [
+        "VANAR",
+        "GBE",
+        "EZE"
+      ],
+      "leg_ids": [
+        "vanar-eze-leg-1",
+        "vanar-eze-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

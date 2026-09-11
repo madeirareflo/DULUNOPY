@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SDTK-RNP RWY 05",
+    "name": "RNP RWY 05",
+    "type": "IAC",
+    "airport": "SDTK",
+    "runways": [
+      "05"
+    ],
+    "source": {
+      "authority": "DECEA / AISWEB",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "TK003": {
+      "ident": "TK003",
+      "coordinate_ref": "waypoint:global:SDTK:TK003:201080f1e9ad"
+    },
+    "TK005": {
+      "ident": "TK005",
+      "coordinate_ref": "waypoint:global:SDTK:TK005:d993794d93e5"
+    },
+    "RW05": {
+      "ident": "RW05",
+      "coordinate_ref": "waypoint:global:SDTK:RW05:2deb54bd8e69"
+    }
+  },
+  "legs": [
+    {
+      "id": "tk003-rw05-leg-1",
+      "from": "TK003",
+      "to": "TK005",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 1.4,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "tk003-rw05-leg-2",
+      "from": "TK005",
+      "to": "RW05",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 1,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "tk003-rw05",
+      "name": "Aproximação RNP RWY 05",
+      "kind": "approach",
+      "sequence": [
+        "TK003",
+        "TK005",
+        "RW05"
+      ],
+      "leg_ids": [
+        "tk003-rw05-leg-1",
+        "tk003-rw05-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

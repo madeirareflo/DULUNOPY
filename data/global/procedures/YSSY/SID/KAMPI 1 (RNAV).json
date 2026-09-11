@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "YSSY-KAMPI 1 (RNAV)",
+    "name": "KAMPI 1 (RNAV)",
+    "type": "SID",
+    "airport": "YSSY",
+    "runways": [
+      "16R",
+      "16L"
+    ],
+    "source": {
+      "authority": "Airservices Australia / AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SYD": {
+      "ident": "SYD",
+      "coordinate_ref": "waypoint:global:YSSY:SYD:a9f79092e977"
+    },
+    "WOL": {
+      "ident": "WOL",
+      "coordinate_ref": "waypoint:global:YSSY:WOL:ac477f3615c3"
+    },
+    "KAMPI": {
+      "ident": "KAMPI",
+      "coordinate_ref": "waypoint:global:YSSY:KAMPI:ac39a1a11af5"
+    }
+  },
+  "legs": [
+    {
+      "id": "syd-kampi-leg-1",
+      "from": "SYD",
+      "to": "WOL",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 21.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "syd-kampi-leg-2",
+      "from": "WOL",
+      "to": "KAMPI",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 24.4,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "syd-kampi",
+      "name": "Saída KAMPI Sul",
+      "kind": "departure",
+      "sequence": [
+        "SYD",
+        "WOL",
+        "KAMPI"
+      ],
+      "leg_ids": [
+        "syd-kampi-leg-1",
+        "syd-kampi-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

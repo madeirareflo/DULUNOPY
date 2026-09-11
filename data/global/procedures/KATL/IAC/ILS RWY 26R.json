@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KATL-ILS RWY 26R",
+    "name": "ILS RWY 26R",
+    "type": "IAC",
+    "airport": "KATL",
+    "runways": [
+      "26R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "WOMAC": {
+      "ident": "WOMAC",
+      "coordinate_ref": "waypoint:global:KATL:WOMAC:5a1844c8f911"
+    },
+    "CADEN": {
+      "ident": "CADEN",
+      "coordinate_ref": "waypoint:global:KATL:CADEN:d479a1327727"
+    },
+    "RW26R": {
+      "ident": "RW26R",
+      "coordinate_ref": "waypoint:global:KATL:RW26R:ab27dc409124"
+    }
+  },
+  "legs": [
+    {
+      "id": "womac-rw26r-leg-1",
+      "from": "WOMAC",
+      "to": "CADEN",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 10.8,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "womac-rw26r-leg-2",
+      "from": "CADEN",
+      "to": "RW26R",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 6.8,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "womac-rw26r",
+      "name": "Aproximação ILS 26R",
+      "kind": "approach",
+      "sequence": [
+        "WOMAC",
+        "CADEN",
+        "RW26R"
+      ],
+      "leg_ids": [
+        "womac-rw26r-leg-1",
+        "womac-rw26r-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

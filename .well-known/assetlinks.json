@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.madeirareflo.dulunopy",
+      "sha256_cert_fingerprints": [
+        "05:31:3D:F6:F7:08:47:52:F8:5A:F4:11:C0:53:EC:F1:B0:3A:19:B5:96:5D:3F:8A:9E:20:B6:CB:D3:57:0A:52"
+      ]
+    }
+  }
+]

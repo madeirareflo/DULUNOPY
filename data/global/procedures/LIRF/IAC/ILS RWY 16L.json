@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LIRF-ILS RWY 16L",
+    "name": "ILS RWY 16L",
+    "type": "IAC",
+    "airport": "LIRF",
+    "runways": [
+      "16L"
+    ],
+    "source": {
+      "authority": "ENAV / AIP Italia",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "XAKNO": {
+      "ident": "XAKNO",
+      "coordinate_ref": "waypoint:global:LIRF:XAKNO:e61c9db494c8"
+    },
+    "RF001": {
+      "ident": "RF001",
+      "coordinate_ref": "waypoint:global:LIRF:RF001:20051057c5f9"
+    },
+    "RW16L": {
+      "ident": "RW16L",
+      "coordinate_ref": "waypoint:global:LIRF:RW16L:256bcf58e8a5"
+    }
+  },
+  "legs": [
+    {
+      "id": "xakno-rw16l-leg-1",
+      "from": "XAKNO",
+      "to": "RF001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 5.3,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "xakno-rw16l-leg-2",
+      "from": "RF001",
+      "to": "RW16L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 4,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "xakno-rw16l",
+      "name": "Aproximação ILS 16L",
+      "kind": "approach",
+      "sequence": [
+        "XAKNO",
+        "RF001",
+        "RW16L"
+      ],
+      "leg_ids": [
+        "xakno-rw16l-leg-1",
+        "xakno-rw16l-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

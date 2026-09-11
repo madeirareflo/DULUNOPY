@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KJFK-RNAV (GPS) RWY 22L",
+    "name": "RNAV (GPS) RWY 22L",
+    "type": "IAC",
+    "airport": "KJFK",
+    "runways": [
+      "22L"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ZACHS": {
+      "ident": "ZACHS",
+      "coordinate_ref": "waypoint:global:KJFK:ZACHS:90cbadaec21e"
+    },
+    "CORVT": {
+      "ident": "CORVT",
+      "coordinate_ref": "waypoint:global:KJFK:CORVT:b4cd949f17c7"
+    },
+    "RW22L": {
+      "ident": "RW22L",
+      "coordinate_ref": "waypoint:global:KJFK:RW22L:d2f60a507133"
+    }
+  },
+  "legs": [
+    {
+      "id": "zachs-rw22l-leg-1",
+      "from": "ZACHS",
+      "to": "CORVT",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 4.8,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "zachs-rw22l-leg-2",
+      "from": "CORVT",
+      "to": "RW22L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 4.8,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "zachs-rw22l",
+      "name": "Entrada ZACHS",
+      "kind": "approach",
+      "sequence": [
+        "ZACHS",
+        "CORVT",
+        "RW22L"
+      ],
+      "leg_ids": [
+        "zachs-rw22l-leg-1",
+        "zachs-rw22l-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

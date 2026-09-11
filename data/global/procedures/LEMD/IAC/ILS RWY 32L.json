@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LEMD-ILS RWY 32L",
+    "name": "ILS RWY 32L",
+    "type": "IAC",
+    "airport": "LEMD",
+    "runways": [
+      "32L"
+    ],
+    "source": {
+      "authority": "ENAIRE / AIP España",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "TORDU": {
+      "ident": "TORDU",
+      "coordinate_ref": "waypoint:global:LEMD:TORDU:b5160b35c9bd"
+    },
+    "MD001": {
+      "ident": "MD001",
+      "coordinate_ref": "waypoint:global:LEMD:MD001:1348f5ac9a6c"
+    },
+    "RW32L": {
+      "ident": "RW32L",
+      "coordinate_ref": "waypoint:global:LEMD:RW32L:45497e4bbe3a"
+    }
+  },
+  "legs": [
+    {
+      "id": "tordu-rw32l-leg-1",
+      "from": "TORDU",
+      "to": "MD001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 3.6,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "tordu-rw32l-leg-2",
+      "from": "MD001",
+      "to": "RW32L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.7,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "tordu-rw32l",
+      "name": "Aproximação ILS 32L",
+      "kind": "approach",
+      "sequence": [
+        "TORDU",
+        "MD001",
+        "RW32L"
+      ],
+      "leg_ids": [
+        "tordu-rw32l-leg-1",
+        "tordu-rw32l-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

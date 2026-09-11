@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KJFK-CAMRN 4 (RNAV)",
+    "name": "CAMRN 4 (RNAV)",
+    "type": "STAR",
+    "airport": "KJFK",
+    "runways": [
+      "13L",
+      "13R",
+      "22L",
+      "22R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SIE": {
+      "ident": "SIE",
+      "coordinate_ref": "waypoint:global:KJFK:SIE:fbd0034fb153"
+    },
+    "CAMRN": {
+      "ident": "CAMRN",
+      "coordinate_ref": "waypoint:global:KJFK:CAMRN:ba7938feb10e"
+    },
+    "ASALT": {
+      "ident": "ASALT",
+      "coordinate_ref": "waypoint:global:KJFK:ASALT:330069978697"
+    }
+  },
+  "legs": [
+    {
+      "id": "sie-asalt-leg-1",
+      "from": "SIE",
+      "to": "CAMRN",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 92.4,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "sie-asalt-leg-2",
+      "from": "CAMRN",
+      "to": "ASALT",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 17,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "sie-asalt",
+      "name": "Entrada SIE - ASALT",
+      "kind": "arrival",
+      "sequence": [
+        "SIE",
+        "CAMRN",
+        "ASALT"
+      ],
+      "leg_ids": [
+        "sie-asalt-leg-1",
+        "sie-asalt-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

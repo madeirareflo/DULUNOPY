@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "airport": "SBPP",
+  "coordinateSource": "data/waypoints.json",
+  "types": {
+    "SID": [
+      {
+        "id": "AIXM-86d7fe6d-5c8d-4529-91f8-e52346365cf9",
+        "name": "rnav-abaft-rwy-04",
+        "file": "data/tmas/sem-tma-associada/airports/SBPP/procedures/SID/rnav-abaft-rwy-04.json",
+        "runways": [
+          "04"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-1649f188-945a-4704-b389-0a6ea3ecf57a",
+        "name": "rnav-egodo-1a-rwy-22",
+        "file": "data/tmas/sem-tma-associada/airports/SBPP/procedures/SID/rnav-egodo-1a-rwy-22.json",
+        "runways": [
+          "22"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 7,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBPP-SID-omni-rwy-04-22",
+        "name": "OMNI RWY 04-22",
+        "file": "data/tmas/sem-tma-associada/airports/SBPP/procedures/SID/OMNI RWY 04-22.json",
+        "runways": [
+          "04",
+          "22"
+        ],
+        "modes": [
+          "OMNI"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBPP-SID-PP00E",
+        "name": "RNAV ABAFT 1A RWY 04",
+        "file": "data/tmas/sem-tma-associada/airports/SBPP/procedures/SID/RNAV ABAFT 1A RWY 04.json",
+        "runways": [
+          "04"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBPP-SID-PP00F",
+        "name": "RNAV EGODO 1A RWY 22",
+        "file": "data/tmas/sem-tma-associada/airports/SBPP/procedures/SID/RNAV EGODO 1A RWY 22.json",
+        "runways": [
+          "22"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      }
+    ],
+    "STAR": [],
+    "IAC": [
+      {
+        "id": "AISWEB-SBPP-IAC-PP00C",
+        "name": "NDB RWY 04",
+        "file": "data/tmas/sem-tma-associada/airports/SBPP/procedures/IAC/NDB RWY 04.json",
+        "runways": [
+          "04"
+        ],
+        "modes": [
+          "NDB"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBPP-IAC-PP00D",
+        "name": "NDB RWY 22",
+        "file": "data/tmas/sem-tma-associada/airports/SBPP/procedures/IAC/NDB RWY 22.json",
+        "runways": [
+          "22"
+        ],
+        "modes": [
+          "NDB"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBPP-IAC-PP00H",
+        "name": "RNP RWY 04",
+        "file": "data/tmas/sem-tma-associada/airports/SBPP/procedures/IAC/RNP RWY 04.json",
+        "runways": [
+          "04"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBPP-IAC-PP00I",
+        "name": "RNP RWY 22",
+        "file": "data/tmas/sem-tma-associada/airports/SBPP/procedures/IAC/RNP RWY 22.json",
+        "runways": [
+          "22"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      }
+    ]
+  }
+}

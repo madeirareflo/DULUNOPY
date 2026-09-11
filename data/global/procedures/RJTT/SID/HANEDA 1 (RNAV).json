@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "RJTT-HANEDA 1 (RNAV)",
+    "name": "HANEDA 1 (RNAV)",
+    "type": "SID",
+    "airport": "RJTT",
+    "runways": [
+      "16L",
+      "16R",
+      "05"
+    ],
+    "source": {
+      "authority": "JCAB / AIP Japan",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "HND": {
+      "ident": "HND",
+      "coordinate_ref": "waypoint:global:RJTT:HND:91379268aa8a"
+    },
+    "PLUTO": {
+      "ident": "PLUTO",
+      "coordinate_ref": "waypoint:global:RJTT:PLUTO:4e3073f4d893"
+    },
+    "VANCE": {
+      "ident": "VANCE",
+      "coordinate_ref": "waypoint:global:RJTT:VANCE:1da5e5ec42ea"
+    }
+  },
+  "legs": [
+    {
+      "id": "hnd-vance-leg-1",
+      "from": "HND",
+      "to": "PLUTO",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 14.6,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "hnd-vance-leg-2",
+      "from": "PLUTO",
+      "to": "VANCE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 17.2,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "hnd-vance",
+      "name": "Saída VANCE Baía de Tóquio",
+      "kind": "departure",
+      "sequence": [
+        "HND",
+        "PLUTO",
+        "VANCE"
+      ],
+      "leg_ids": [
+        "hnd-vance-leg-1",
+        "hnd-vance-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

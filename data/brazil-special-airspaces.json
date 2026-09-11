@@ -1,0 +1,671 @@
+{
+  "schemaVersion": 1,
+  "title": "Espaços Aéreos Condicionados Brasileiros (SBP / SBR / SBD)",
+  "source": "DECEA / AIP Brasil ENR 5.1 e Cartas de Acordo Operacional",
+  "totalCount": 21,
+  "airspaces": [
+    {
+      "id": "SBP401",
+      "type": "PROHIBITED",
+      "name": "SBP 401 — Brasília / Praça dos Três Poderes & Esplanada",
+      "location": "Brasília, DF",
+      "verticalLimits": "GND / FL100",
+      "responsibleUnit": "CINDACTA I / APP-BR",
+      "restriction": "Sobrevoo estritamente proibido sem autorização prévia do GSI/COMAER. Segurança nacional e sede dos Poderes da República.",
+      "polygon": [
+        [
+          -15.7725,
+          -47.885
+        ],
+        [
+          -15.775,
+          -47.85
+        ],
+        [
+          -15.805,
+          -47.848
+        ],
+        [
+          -15.815,
+          -47.875
+        ],
+        [
+          -15.798,
+          -47.898
+        ],
+        [
+          -15.7725,
+          -47.885
+        ]
+      ]
+    },
+    {
+      "id": "SBP402",
+      "type": "PROHIBITED",
+      "name": "SBP 402 — Angra dos Reis / Central Nuclear Almirante Álvaro Alberto",
+      "location": "Angra dos Reis, RJ",
+      "verticalLimits": "GND / FL080",
+      "responsibleUnit": "CINDACTA I / APP-RJ",
+      "restriction": "Proteção física e radiológica da Central Nuclear de Angra 1 e Angra 2 (CNAAA). Proibido qualquer sobrevoo.",
+      "polygon": [
+        [
+          -22.985,
+          -44.49
+        ],
+        [
+          -22.97,
+          -44.43
+        ],
+        [
+          -23.03,
+          -44.41
+        ],
+        [
+          -23.05,
+          -44.47
+        ],
+        [
+          -22.985,
+          -44.49
+        ]
+      ]
+    },
+    {
+      "id": "SBP403",
+      "type": "PROHIBITED",
+      "name": "SBP 403 — Resende / Academia Militar das Agulhas Negras (AMAN)",
+      "location": "Resende, RJ",
+      "verticalLimits": "GND / 5000 FT",
+      "responsibleUnit": "APP-RJ",
+      "restriction": "Área de instrução militar e segurança orgânica das instalações do Exército Brasileiro.",
+      "polygon": [
+        [
+          -22.45,
+          -44.48
+        ],
+        [
+          -22.44,
+          -44.43
+        ],
+        [
+          -22.48,
+          -44.42
+        ],
+        [
+          -22.49,
+          -44.47
+        ],
+        [
+          -22.45,
+          -44.48
+        ]
+      ]
+    },
+    {
+      "id": "SBP404",
+      "type": "PROHIBITED",
+      "name": "SBP 404 — Iperó / Centro Experimental Aramar (CTMSP)",
+      "location": "Iperó, SP",
+      "verticalLimits": "GND / 4500 FT",
+      "responsibleUnit": "APP-SP",
+      "restriction": "Instalações de enriquecimento e propulsão naval da Marinha do Brasil. Voo proibido.",
+      "polygon": [
+        [
+          -23.36,
+          -47.66
+        ],
+        [
+          -23.35,
+          -47.6
+        ],
+        [
+          -23.41,
+          -47.59
+        ],
+        [
+          -23.42,
+          -47.65
+        ],
+        [
+          -23.36,
+          -47.66
+        ]
+      ]
+    },
+    {
+      "id": "SBP101",
+      "type": "PROHIBITED",
+      "name": "SBP 101 — Belém / Área Militar e Centro de Instrução",
+      "location": "Belém, PA",
+      "verticalLimits": "GND / 3000 FT",
+      "responsibleUnit": "CINDACTA IV / APP-BE",
+      "restriction": "Segurança de infraestrutura militar e aeródromo de Val-de-Cans.",
+      "polygon": [
+        [
+          -1.38,
+          -48.49
+        ],
+        [
+          -1.37,
+          -48.45
+        ],
+        [
+          -1.41,
+          -48.44
+        ],
+        [
+          -1.42,
+          -48.48
+        ],
+        [
+          -1.38,
+          -48.49
+        ]
+      ]
+    },
+    {
+      "id": "SBR301",
+      "type": "RESTRICTED",
+      "name": "SBR 301 — Rio de Janeiro / Corcovado & Baía de Guanabara",
+      "location": "Rio de Janeiro, RJ",
+      "verticalLimits": "GND / 3000 FT",
+      "responsibleUnit": "TWR-GL / APP-RJ",
+      "restriction": "Sobrevôo condicionado a plano VFR especial e autorização do Controle Rio. Rotas de helicópteros e corredor cênico.",
+      "polygon": [
+        [
+          -22.9,
+          -43.23
+        ],
+        [
+          -22.88,
+          -43.16
+        ],
+        [
+          -22.93,
+          -43.14
+        ],
+        [
+          -22.97,
+          -43.17
+        ],
+        [
+          -22.96,
+          -43.22
+        ],
+        [
+          -22.9,
+          -43.23
+        ]
+      ]
+    },
+    {
+      "id": "SBR302",
+      "type": "RESTRICTED",
+      "name": "SBR 302 — Rio de Janeiro / Centro e Maracanã",
+      "location": "Rio de Janeiro, RJ",
+      "verticalLimits": "GND / 2000 FT",
+      "responsibleUnit": "TWR-RJ / APP-RJ",
+      "restriction": "Segurança de área de grande densidade urbana e aproximação Santos Dumont.",
+      "polygon": [
+        [
+          -22.89,
+          -43.24
+        ],
+        [
+          -22.88,
+          -43.19
+        ],
+        [
+          -22.93,
+          -43.18
+        ],
+        [
+          -22.93,
+          -43.23
+        ],
+        [
+          -22.89,
+          -43.24
+        ]
+      ]
+    },
+    {
+      "id": "SBR316",
+      "type": "RESTRICTED",
+      "name": "SBR 316 — São Paulo / Paulista & Ibirapuera",
+      "location": "São Paulo, SP",
+      "verticalLimits": "GND / 3500 FT",
+      "responsibleUnit": "TWR-SP / APP-SP",
+      "restriction": "Controle de ruído e segurança do corredor visual urbano de São Paulo e aproximação Congonhas (SBSP).",
+      "polygon": [
+        [
+          -23.55,
+          -46.68
+        ],
+        [
+          -23.545,
+          -46.63
+        ],
+        [
+          -23.6,
+          -46.62
+        ],
+        [
+          -23.61,
+          -46.67
+        ],
+        [
+          -23.55,
+          -46.68
+        ]
+      ]
+    },
+    {
+      "id": "SBR409",
+      "type": "RESTRICTED",
+      "name": "SBR 409 — Pirassununga / Academia da Força Aérea (AFA)",
+      "location": "Pirassununga, SP",
+      "verticalLimits": "GND / FL150",
+      "responsibleUnit": "TWR-YS / APP-YS",
+      "restriction": "Área de treinamento de cadetes da AFA, Esquadrilha da Fumaça e acrobacia militar.",
+      "polygon": [
+        [
+          -21.95,
+          -47.45
+        ],
+        [
+          -21.9,
+          -47.25
+        ],
+        [
+          -22.12,
+          -47.2
+        ],
+        [
+          -22.18,
+          -47.42
+        ],
+        [
+          -21.95,
+          -47.45
+        ]
+      ]
+    },
+    {
+      "id": "SBR412",
+      "type": "RESTRICTED",
+      "name": "SBR 412 — Cachimbo / Campo de Provas Brigadeiro Velloso (CPBV)",
+      "location": "Novo Progresso, PA",
+      "verticalLimits": "GND / UNL",
+      "responsibleUnit": "CINDACTA IV / ACC-AZ",
+      "restriction": "Testes de armamento, ensaios da FAB e treinamentos táticos operacionais.",
+      "polygon": [
+        [
+          -9.15,
+          -55.1
+        ],
+        [
+          -9.1,
+          -54.7
+        ],
+        [
+          -9.55,
+          -54.65
+        ],
+        [
+          -9.6,
+          -55.05
+        ],
+        [
+          -9.15,
+          -55.1
+        ]
+      ]
+    },
+    {
+      "id": "SBR421",
+      "type": "RESTRICTED",
+      "name": "SBR 421 — Xavante B / Vale do Paraíba",
+      "location": "São José dos Campos, SP",
+      "verticalLimits": "GND / UNL",
+      "responsibleUnit": "APP-RJ / TWR-SJ",
+      "restriction": "Ensaios em voo e certificação aeroespacial do DCTA e Embraer.",
+      "polygon": [
+        [
+          -22.985,
+          -45.8836
+        ],
+        [
+          -22.7567,
+          -45.7272
+        ],
+        [
+          -23.0242,
+          -45.7539
+        ],
+        [
+          -22.985,
+          -45.8836
+        ]
+      ]
+    },
+    {
+      "id": "SBR417",
+      "type": "RESTRICTED",
+      "name": "SBR 417 — Ensaios Alfa / Mantiqueira",
+      "location": "São José dos Campos, SP",
+      "verticalLimits": "GND / FL160",
+      "responsibleUnit": "APP-RJ / TWR-SJ",
+      "restriction": "Área de testes de aeronaves militares e civis da Embraer e IPEV.",
+      "polygon": [
+        [
+          -23.0314,
+          -45.7292
+        ],
+        [
+          -23.0239,
+          -45.7539
+        ],
+        [
+          -22.7564,
+          -45.7272
+        ],
+        [
+          -22.1467,
+          -45.2692
+        ],
+        [
+          -22.4833,
+          -45.0358
+        ],
+        [
+          -23.0314,
+          -45.7292
+        ]
+      ]
+    },
+    {
+      "id": "SBR405",
+      "type": "RESTRICTED",
+      "name": "SBR 405 — Bandeirante / Oceânica SP",
+      "location": "Litoral de São Paulo",
+      "verticalLimits": "FL110 / FL280",
+      "responsibleUnit": "ACC-CW",
+      "restriction": "Ensaios em voo em alta altitude da indústria aeroespacial brasileira.",
+      "polygon": [
+        [
+          -24.2169,
+          -46.1425
+        ],
+        [
+          -24.2553,
+          -45.605
+        ],
+        [
+          -23.8717,
+          -44.8686
+        ],
+        [
+          -24.2847,
+          -44.6689
+        ],
+        [
+          -25.2364,
+          -46.77
+        ],
+        [
+          -24.2169,
+          -46.1425
+        ]
+      ]
+    },
+    {
+      "id": "SBR501",
+      "type": "RESTRICTED",
+      "name": "SBR 501 — Canoas / Base Aérea de Canoas (BACO)",
+      "location": "Canoas, RS",
+      "verticalLimits": "GND / FL060",
+      "responsibleUnit": "TWR-CO / APP-PA",
+      "restriction": "Treinamento tático de caças F-5EM / Gripen do 1º/14º GAV (Esquadrão Pampa).",
+      "polygon": [
+        [
+          -29.85,
+          -51.2
+        ],
+        [
+          -29.82,
+          -51.1
+        ],
+        [
+          -29.98,
+          -51.05
+        ],
+        [
+          -30.01,
+          -51.18
+        ],
+        [
+          -29.85,
+          -51.2
+        ]
+      ]
+    },
+    {
+      "id": "SBR502",
+      "type": "RESTRICTED",
+      "name": "SBR 502 — Santa Maria / Base Aérea de Santa Maria (BASM)",
+      "location": "Santa Maria, RS",
+      "verticalLimits": "GND / FL140",
+      "responsibleUnit": "TWR-SM / APP-SM",
+      "restriction": "Operações táticas de ataque e reconhecimento com caças A-1M (AMX).",
+      "polygon": [
+        [
+          -29.62,
+          -53.8
+        ],
+        [
+          -29.58,
+          -53.55
+        ],
+        [
+          -29.85,
+          -53.5
+        ],
+        [
+          -29.9,
+          -53.78
+        ],
+        [
+          -29.62,
+          -53.8
+        ]
+      ]
+    },
+    {
+      "id": "SBR201",
+      "type": "RESTRICTED",
+      "name": "SBR 201 — Salvador / Polo Petroquímico Camaçari",
+      "location": "Camaçari, BA",
+      "verticalLimits": "GND / 5000 FT",
+      "responsibleUnit": "APP-SV",
+      "restriction": "Segurança de complexo petroquímico e refinarias. Restrição vertical permanente.",
+      "polygon": [
+        [
+          -12.65,
+          -38.38
+        ],
+        [
+          -12.62,
+          -38.28
+        ],
+        [
+          -12.75,
+          -38.26
+        ],
+        [
+          -12.78,
+          -38.36
+        ],
+        [
+          -12.65,
+          -38.38
+        ]
+      ]
+    },
+    {
+      "id": "SBD401",
+      "type": "DANGER",
+      "name": "SBD 401 — Restinga da Marambaia / Campo de Tiro das Forças Armadas",
+      "location": "Marambaia, RJ",
+      "verticalLimits": "GND / FL200",
+      "responsibleUnit": "APP-RJ / COPM-2",
+      "restriction": "Exercícios de tiro de artilharia, munição real, bombardeio aéreo e foguetes da Marinha e Exército.",
+      "polygon": [
+        [
+          -23.01,
+          -43.9
+        ],
+        [
+          -23.0,
+          -43.58
+        ],
+        [
+          -23.1,
+          -43.55
+        ],
+        [
+          -23.15,
+          -43.88
+        ],
+        [
+          -23.01,
+          -43.9
+        ]
+      ]
+    },
+    {
+      "id": "SBD402",
+      "type": "DANGER",
+      "name": "SBD 402 — Ilha Rasa / Exercícios Navais e Tiro Naval",
+      "location": "Litoral do Rio de Janeiro",
+      "verticalLimits": "GND / FL150",
+      "responsibleUnit": "APP-RJ / SALVAMAR",
+      "restriction": "Disparo de canhões de superfície e mísseis da Esquadra da Marinha do Brasil.",
+      "polygon": [
+        [
+          -23.05,
+          -43.15
+        ],
+        [
+          -23.05,
+          -42.85
+        ],
+        [
+          -23.25,
+          -42.85
+        ],
+        [
+          -23.25,
+          -43.15
+        ],
+        [
+          -23.05,
+          -43.15
+        ]
+      ]
+    },
+    {
+      "id": "SBD201",
+      "type": "DANGER",
+      "name": "SBD 201 — Alcântara / Centro de Lançamento de Alcântara (CLA)",
+      "location": "Alcântara, MA",
+      "verticalLimits": "GND / UNL",
+      "responsibleUnit": "CINDACTA IV / APP-SL",
+      "restriction": "Lançamento de veículos espaciais e foguetes de sondagem suborbitais. Ativação periódica por NOTAM.",
+      "polygon": [
+        [
+          -2.3,
+          -44.5
+        ],
+        [
+          -2.2,
+          -44.25
+        ],
+        [
+          -2.45,
+          -44.2
+        ],
+        [
+          -2.55,
+          -44.45
+        ],
+        [
+          -2.3,
+          -44.5
+        ]
+      ]
+    },
+    {
+      "id": "SBD305",
+      "type": "DANGER",
+      "name": "SBD 305 — Bacia de Campos / Plataformas de Petróleo & Tráfego Offshore",
+      "location": "Macaé, RJ",
+      "verticalLimits": "GND / 3000 FT",
+      "responsibleUnit": "APP-ME / ACC-CW",
+      "restriction": "Alta densidade de helipontos em plataformas petrolíferas e queima eventual de gás (flare).",
+      "polygon": [
+        [
+          -22.2,
+          -40.9
+        ],
+        [
+          -22.1,
+          -40.1
+        ],
+        [
+          -23.1,
+          -40.0
+        ],
+        [
+          -23.2,
+          -40.8
+        ],
+        [
+          -22.2,
+          -40.9
+        ]
+      ]
+    },
+    {
+      "id": "SBD306",
+      "type": "DANGER",
+      "name": "SBD 306 — Bacia de Santos (Pré-Sal) / Operações Offshore",
+      "location": "Litoral Sul de SP/RJ",
+      "verticalLimits": "GND / 3000 FT",
+      "responsibleUnit": "ACC-CW",
+      "restriction": "Tráfego intenso de asas rotativas entre o continente e as unidades FPSO no Pré-Sal.",
+      "polygon": [
+        [
+          -24.8,
+          -43.5
+        ],
+        [
+          -24.6,
+          -42.5
+        ],
+        [
+          -25.8,
+          -42.3
+        ],
+        [
+          -26.0,
+          -43.3
+        ],
+        [
+          -24.8,
+          -43.5
+        ]
+      ]
+    }
+  ]
+}

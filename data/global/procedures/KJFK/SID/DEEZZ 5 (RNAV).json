@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KJFK-DEEZZ 5 (RNAV)",
+    "name": "DEEZZ 5 (RNAV)",
+    "type": "SID",
+    "airport": "KJFK",
+    "runways": [
+      "22L",
+      "22R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "VRRLY": {
+      "ident": "VRRLY",
+      "coordinate_ref": "waypoint:global:KJFK:VRRLY:fd8b59b31064"
+    },
+    "CRI": {
+      "ident": "CRI",
+      "coordinate_ref": "waypoint:global:KJFK:CRI:f1146c0eef31"
+    },
+    "DEEZZ": {
+      "ident": "DEEZZ",
+      "coordinate_ref": "waypoint:global:KJFK:DEEZZ:3a913f995c94"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw22l-deezz-leg-1",
+      "from": "VRRLY",
+      "to": "CRI",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 5.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw22l-deezz-leg-2",
+      "from": "CRI",
+      "to": "DEEZZ",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 30.5,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw22l-deezz",
+      "name": "RW22L - DEEZZ",
+      "kind": "departure",
+      "sequence": [
+        "VRRLY",
+        "CRI",
+        "DEEZZ"
+      ],
+      "leg_ids": [
+        "rw22l-deezz-leg-1",
+        "rw22l-deezz-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

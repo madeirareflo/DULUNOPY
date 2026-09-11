@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SKBO-ILS RWY 13L",
+    "name": "ILS RWY 13L",
+    "type": "IAC",
+    "airport": "SKBO",
+    "runways": [
+      "13L"
+    ],
+    "source": {
+      "authority": "Aerocivil / AIP Colombia",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SUBAT": {
+      "ident": "SUBAT",
+      "coordinate_ref": "waypoint:global:SKBO:SUBAT:73b1579084a7"
+    },
+    "BO001": {
+      "ident": "BO001",
+      "coordinate_ref": "waypoint:global:SKBO:BO001:ab2bc844721f"
+    },
+    "RW13L": {
+      "ident": "RW13L",
+      "coordinate_ref": "waypoint:global:SKBO:RW13L:bd301d21cb0c"
+    }
+  },
+  "legs": [
+    {
+      "id": "subat-rw13l-leg-1",
+      "from": "SUBAT",
+      "to": "BO001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 3.4,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "subat-rw13l-leg-2",
+      "from": "BO001",
+      "to": "RW13L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 1.8,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "subat-rw13l",
+      "name": "Aproximação ILS 13L",
+      "kind": "approach",
+      "sequence": [
+        "SUBAT",
+        "BO001",
+        "RW13L"
+      ],
+      "leg_ids": [
+        "subat-rw13l-leg-1",
+        "subat-rw13l-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

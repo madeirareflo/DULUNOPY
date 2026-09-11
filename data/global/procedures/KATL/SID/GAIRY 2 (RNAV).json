@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KATL-GAIRY 2 (RNAV)",
+    "name": "GAIRY 2 (RNAV)",
+    "type": "SID",
+    "airport": "KATL",
+    "runways": [
+      "08L",
+      "08R",
+      "26L",
+      "26R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ATL": {
+      "ident": "ATL",
+      "coordinate_ref": "waypoint:global:KATL:ATL:777a842e8d5d"
+    },
+    "GAIRY": {
+      "ident": "GAIRY",
+      "coordinate_ref": "waypoint:global:KATL:GAIRY:3c1085a3d953"
+    },
+    "NOKIE": {
+      "ident": "NOKIE",
+      "coordinate_ref": "waypoint:global:KATL:NOKIE:2ab29a33752c"
+    }
+  },
+  "legs": [
+    {
+      "id": "atl-nokie-leg-1",
+      "from": "ATL",
+      "to": "GAIRY",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 26.2,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "atl-nokie-leg-2",
+      "from": "GAIRY",
+      "to": "NOKIE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 28.5,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "atl-nokie",
+      "name": "Saída NOKIE",
+      "kind": "departure",
+      "sequence": [
+        "ATL",
+        "GAIRY",
+        "NOKIE"
+      ],
+      "leg_ids": [
+        "atl-nokie-leg-1",
+        "atl-nokie-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

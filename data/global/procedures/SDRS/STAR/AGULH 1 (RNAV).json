@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SDRS-AGULH 1 (RNAV)",
+    "name": "AGULH 1 (RNAV)",
+    "type": "STAR",
+    "airport": "SDRS",
+    "runways": [
+      "08"
+    ],
+    "source": {
+      "authority": "DECEA / AISWEB",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "AGULH": {
+      "ident": "AGULH",
+      "coordinate_ref": "waypoint:global:SDRS:AGULH:62afae276998"
+    },
+    "RS002": {
+      "ident": "RS002",
+      "coordinate_ref": "waypoint:global:SDRS:RS002:b397a2252505"
+    },
+    "RS003": {
+      "ident": "RS003",
+      "coordinate_ref": "waypoint:global:SDRS:RS003:c6509a85257b"
+    }
+  },
+  "legs": [
+    {
+      "id": "agulh-rs003-leg-1",
+      "from": "AGULH",
+      "to": "RS002",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 5.7,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "agulh-rs003-leg-2",
+      "from": "RS002",
+      "to": "RS003",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 4.1,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "agulh-rs003",
+      "name": "Chegada AGULH 1",
+      "kind": "arrival",
+      "sequence": [
+        "AGULH",
+        "RS002",
+        "RS003"
+      ],
+      "leg_ids": [
+        "agulh-rs003-leg-1",
+        "agulh-rs003-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "EGLL-OCKHAM 1A (OCK 1A)",
+    "name": "OCKHAM 1A (OCK 1A)",
+    "type": "STAR",
+    "airport": "EGLL",
+    "runways": [
+      "27L",
+      "27R"
+    ],
+    "source": {
+      "authority": "NATS / UK AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SAM": {
+      "ident": "SAM",
+      "coordinate_ref": "waypoint:global:EGLL:SAM:f262826e3ce7"
+    },
+    "GWC": {
+      "ident": "GWC",
+      "coordinate_ref": "waypoint:global:EGLL:GWC:984391b11795"
+    },
+    "OCK": {
+      "ident": "OCK",
+      "coordinate_ref": "waypoint:global:EGLL:OCK:5395ea218581"
+    }
+  },
+  "legs": [
+    {
+      "id": "sam-ock-leg-1",
+      "from": "SAM",
+      "to": "GWC",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 22.1,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "sam-ock-leg-2",
+      "from": "GWC",
+      "to": "OCK",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 17.8,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "sam-ock",
+      "name": "Entrada SAM - OCK",
+      "kind": "arrival",
+      "sequence": [
+        "SAM",
+        "GWC",
+        "OCK"
+      ],
+      "leg_ids": [
+        "sam-ock-leg-1",
+        "sam-ock-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

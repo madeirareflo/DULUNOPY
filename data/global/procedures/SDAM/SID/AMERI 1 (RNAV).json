@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SDAM-AMERI 1 (RNAV)",
+    "name": "AMERI 1 (RNAV)",
+    "type": "SID",
+    "airport": "SDAM",
+    "runways": [
+      "12"
+    ],
+    "source": {
+      "authority": "DECEA / AISWEB",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SDAM": {
+      "ident": "SDAM",
+      "coordinate_ref": "waypoint:global:SDAM:SDAM:6ef74db59e8c"
+    },
+    "AM001": {
+      "ident": "AM001",
+      "coordinate_ref": "waypoint:global:SDAM:AM001:f8d13184f781"
+    },
+    "PIR": {
+      "ident": "PIR",
+      "coordinate_ref": "waypoint:global:SDAM:PIR:4940cf486ca2"
+    }
+  },
+  "legs": [
+    {
+      "id": "sdam-pir-leg-1",
+      "from": "SDAM",
+      "to": "AM001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 5.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "sdam-pir-leg-2",
+      "from": "AM001",
+      "to": "PIR",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 24.4,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "sdam-pir",
+      "name": "Saída AMERI 1",
+      "kind": "departure",
+      "sequence": [
+        "SDAM",
+        "AM001",
+        "PIR"
+      ],
+      "leg_ids": [
+        "sdam-pir-leg-1",
+        "sdam-pir-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

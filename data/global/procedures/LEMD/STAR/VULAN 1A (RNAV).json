@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LEMD-VULAN 1A (RNAV)",
+    "name": "VULAN 1A (RNAV)",
+    "type": "STAR",
+    "airport": "LEMD",
+    "runways": [
+      "32L",
+      "32R"
+    ],
+    "source": {
+      "authority": "ENAIRE / AIP España",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "VULAN": {
+      "ident": "VULAN",
+      "coordinate_ref": "waypoint:global:LEMD:VULAN:f9ecee66b5da"
+    },
+    "CVS": {
+      "ident": "CVS",
+      "coordinate_ref": "waypoint:global:LEMD:CVS:7f2b984d8742"
+    },
+    "TORDU": {
+      "ident": "TORDU",
+      "coordinate_ref": "waypoint:global:LEMD:TORDU:b5160b35c9bd"
+    }
+  },
+  "legs": [
+    {
+      "id": "vulan-tordu-leg-1",
+      "from": "VULAN",
+      "to": "CVS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 30.3,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "vulan-tordu-leg-2",
+      "from": "CVS",
+      "to": "TORDU",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 6.4,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "vulan-tordu",
+      "name": "Entrada VULAN",
+      "kind": "arrival",
+      "sequence": [
+        "VULAN",
+        "CVS",
+        "TORDU"
+      ],
+      "leg_ids": [
+        "vulan-tordu-leg-1",
+        "vulan-tordu-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

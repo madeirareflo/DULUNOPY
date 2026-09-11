@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "OTHH-ALVEN 1 (RNAV)",
+    "name": "ALVEN 1 (RNAV)",
+    "type": "SID",
+    "airport": "OTHH",
+    "runways": [
+      "34L",
+      "34R"
+    ],
+    "source": {
+      "authority": "QCAA / AIP Qatar",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "DOH": {
+      "ident": "DOH",
+      "coordinate_ref": "waypoint:global:OTHH:DOH:fa297465e047"
+    },
+    "ALVEN": {
+      "ident": "ALVEN",
+      "coordinate_ref": "waypoint:global:OTHH:ALVEN:dd2a0304d6be"
+    },
+    "BUNDU": {
+      "ident": "BUNDU",
+      "coordinate_ref": "waypoint:global:OTHH:BUNDU:42105e7edd93"
+    }
+  },
+  "legs": [
+    {
+      "id": "doh-bundu-leg-1",
+      "from": "DOH",
+      "to": "ALVEN",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 18.3,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "doh-bundu-leg-2",
+      "from": "ALVEN",
+      "to": "BUNDU",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 26.1,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "doh-bundu",
+      "name": "Saída BUNDU Golfo",
+      "kind": "departure",
+      "sequence": [
+        "DOH",
+        "ALVEN",
+        "BUNDU"
+      ],
+      "leg_ids": [
+        "doh-bundu-leg-1",
+        "doh-bundu-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/discover-procedure-indexes.mjs",
+  "coordinateSource": "data/waypoints.json",
+  "title": "Catálogo de Procedimentos IFR Internacionais",
+  "procedures": [
+    {
+      "tma": "toronto",
+      "airport": "CYYZ",
+      "type": "IAC",
+      "name": "ILS RWY 05",
+      "file": "data/global/procedures/CYYZ/IAC/ILS RWY 05.json"
+    },
+    {
+      "tma": "toronto",
+      "airport": "CYYZ",
+      "type": "SID",
+      "name": "AVBEV 2 (RNAV)",
+      "file": "data/global/procedures/CYYZ/SID/AVBEV 2 (RNAV).json"
+    },
+    {
+      "tma": "toronto",
+      "airport": "CYYZ",
+      "type": "STAR",
+      "name": "LINNG 8 (RNAV)",
+      "file": "data/global/procedures/CYYZ/STAR/LINNG 8 (RNAV).json"
+    },
+    {
+      "tma": "frankfurt",
+      "airport": "EDDF",
+      "type": "IAC",
+      "name": "ILS RWY 25R",
+      "file": "data/global/procedures/EDDF/IAC/ILS RWY 25R.json"
+    },
+    {
+      "tma": "frankfurt",
+      "airport": "EDDF",
+      "type": "SID",
+      "name": "MARUN 8E",
+      "file": "data/global/procedures/EDDF/SID/MARUN 8E.json"
+    },
+    {
+      "tma": "frankfurt",
+      "airport": "EDDF",
+      "type": "STAR",
+      "name": "PSA 2E",
+      "file": "data/global/procedures/EDDF/STAR/PSA 2E.json"
+    },
+    {
+      "tma": "london",
+      "airport": "EGLL",
+      "type": "IAC",
+      "name": "ILS OR LOC RWY 27L",
+      "file": "data/global/procedures/EGLL/IAC/ILS OR LOC RWY 27L.json"
+    },
+    {
+      "tma": "london",
+      "airport": "EGLL",
+      "type": "SID",
+      "name": "COMPTON 1G (CPT 1G)",
+      "file": "data/global/procedures/EGLL/SID/COMPTON 1G (CPT 1G).json"
+    },
+    {
+      "tma": "london",
+      "airport": "EGLL",
+      "type": "SID",
+      "name": "MAYFIELD 1G (MAY 1G)",
+      "file": "data/global/procedures/EGLL/SID/MAYFIELD 1G (MAY 1G).json"
+    },
+    {
+      "tma": "london",
+      "airport": "EGLL",
+      "type": "STAR",
+      "name": "OCKHAM 1A (OCK 1A)",
+      "file": "data/global/procedures/EGLL/STAR/OCKHAM 1A (OCK 1A).json"
+    },
+    {
+      "tma": "amsterdam",
+      "airport": "EHAM",
+      "type": "IAC",
+      "name": "ILS RWY 18R",
+      "file": "data/global/procedures/EHAM/IAC/ILS RWY 18R.json"
+    },
+    {
+      "tma": "amsterdam",
+      "airport": "EHAM",
+      "type": "SID",
+      "name": "ARNEM 3A (RNAV)",
+      "file": "data/global/procedures/EHAM/SID/ARNEM 3A (RNAV).json"
+    },
+    {
+      "tma": "amsterdam",
+      "airport": "EHAM",
+      "type": "STAR",
+      "name": "ARTIP 2A (RNAV)",
+      "file": "data/global/procedures/EHAM/STAR/ARTIP 2A (RNAV).json"
+    },
+    {
+      "tma": "atlanta",
+      "airport": "KATL",
+      "type": "IAC",
+      "name": "ILS RWY 26R",
+      "file": "data/global/procedures/KATL/IAC/ILS RWY 26R.json"
+    },
+    {
+      "tma": "atlanta",
+      "airport": "KATL",
+      "type": "SID",
+      "name": "GAIRY 2 (RNAV)",
+      "file": "data/global/procedures/KATL/SID/GAIRY 2 (RNAV).json"
+    },
+    {
+      "tma": "atlanta",
+      "airport": "KATL",
+      "type": "STAR",
+      "name": "CHPPR 1 (RNAV)",
+      "file": "data/global/procedures/KATL/STAR/CHPPR 1 (RNAV).json"
+    },
+    {
+      "tma": "dallas-fort-worth",
+      "airport": "KDFW",
+      "type": "IAC",
+      "name": "ILS RWY 17L",
+      "file": "data/global/procedures/KDFW/IAC/ILS RWY 17L.json"
+    },
+    {
+      "tma": "dallas-fort-worth",
+      "airport": "KDFW",
+      "type": "SID",
+      "name": "DALLAS 2 (RNAV)",
+      "file": "data/global/procedures/KDFW/SID/DALLAS 2 (RNAV).json"
+    },
+    {
+      "tma": "dallas-fort-worth",
+      "airport": "KDFW",
+      "type": "STAR",
+      "name": "SLRTL 3 (RNAV)",
+      "file": "data/global/procedures/KDFW/STAR/SLRTL 3 (RNAV).json"
+    },
+    {
+      "tma": "new-york",
+      "airport": "KJFK",
+      "type": "IAC",
+      "name": "ILS OR LOC RWY 13L",
+      "file": "data/global/procedures/KJFK/IAC/ILS OR LOC RWY 13L.json"
+    },
+    {
+      "tma": "new-york",
+      "airport": "KJFK",
+      "type": "IAC",
+      "name": "RNAV (GPS) RWY 22L",
+      "file": "data/global/procedures/KJFK/IAC/RNAV (GPS) RWY 22L.json"
+    },
+    {
+      "tma": "new-york",
+      "airport": "KJFK",
+      "type": "SID",
+      "name": "DEEZZ 5 (RNAV)",
+      "file": "data/global/procedures/KJFK/SID/DEEZZ 5 (RNAV).json"
+    },
+    {
+      "tma": "new-york",
+      "airport": "KJFK",
+      "type": "SID",
+      "name": "KENNEDY 2 (RNAV)",
+      "file": "data/global/procedures/KJFK/SID/KENNEDY 2 (RNAV).json"
+    },
+    {
+      "tma": "new-york",
+      "airport": "KJFK",
+      "type": "STAR",
+      "name": "CAMRN 4 (RNAV)",
+      "file": "data/global/procedures/KJFK/STAR/CAMRN 4 (RNAV).json"
+    },
+    {
+      "tma": "new-york",
+      "airport": "KJFK",
+      "type": "STAR",
+      "name": "LENDY 6 (RNAV)",
+      "file": "data/global/procedures/KJFK/STAR/LENDY 6 (RNAV).json"
+    },
+    {
+      "tma": "los-angeles",
+      "airport": "KLAX",
+      "type": "IAC",
+      "name": "ILS OR LOC RWY 25L",
+      "file": "data/global/procedures/KLAX/IAC/ILS OR LOC RWY 25L.json"
+    },
+    {
+      "tma": "los-angeles",
+      "airport": "KLAX",
+      "type": "SID",
+      "name": "DOTSS 2 (RNAV)",
+      "file": "data/global/procedures/KLAX/SID/DOTSS 2 (RNAV).json"
+    },
+    {
+      "tma": "los-angeles",
+      "airport": "KLAX",
+      "type": "STAR",
+      "name": "SEAVU 2 (RNAV)",
+      "file": "data/global/procedures/KLAX/STAR/SEAVU 2 (RNAV).json"
+    },
+    {
+      "tma": "miami",
+      "airport": "KMIA",
+      "type": "IAC",
+      "name": "ILS OR LOC RWY 08R",
+      "file": "data/global/procedures/KMIA/IAC/ILS OR LOC RWY 08R.json"
+    },
+    {
+      "tma": "miami",
+      "airport": "KMIA",
+      "type": "SID",
+      "name": "HURCN 4 (RNAV)",
+      "file": "data/global/procedures/KMIA/SID/HURCN 4 (RNAV).json"
+    },
+    {
+      "tma": "miami",
+      "airport": "KMIA",
+      "type": "STAR",
+      "name": "FROGZ 4 (RNAV)",
+      "file": "data/global/procedures/KMIA/STAR/FROGZ 4 (RNAV).json"
+    },
+    {
+      "tma": "chicago",
+      "airport": "KORD",
+      "type": "IAC",
+      "name": "ILS OR LOC RWY 10C",
+      "file": "data/global/procedures/KORD/IAC/ILS OR LOC RWY 10C.json"
+    },
+    {
+      "tma": "chicago",
+      "airport": "KORD",
+      "type": "SID",
+      "name": "CORDN 1 (RNAV)",
+      "file": "data/global/procedures/KORD/SID/CORDN 1 (RNAV).json"
+    },
+    {
+      "tma": "chicago",
+      "airport": "KORD",
+      "type": "SID",
+      "name": "TRTLE 2 (RNAV)",
+      "file": "data/global/procedures/KORD/SID/TRTLE 2 (RNAV).json"
+    },
+    {
+      "tma": "chicago",
+      "airport": "KORD",
+      "type": "STAR",
+      "name": "VEGIE 2 (RNAV)",
+      "file": "data/global/procedures/KORD/STAR/VEGIE 2 (RNAV).json"
+    },
+    {
+      "tma": "san-francisco",
+      "airport": "KSFO",
+      "type": "IAC",
+      "name": "ILS OR LOC RWY 28R",
+      "file": "data/global/procedures/KSFO/IAC/ILS OR LOC RWY 28R.json"
+    },
+    {
+      "tma": "san-francisco",
+      "airport": "KSFO",
+      "type": "SID",
+      "name": "GAP 7 (RNAV)",
+      "file": "data/global/procedures/KSFO/SID/GAP 7 (RNAV).json"
+    },
+    {
+      "tma": "san-francisco",
+      "airport": "KSFO",
+      "type": "STAR",
+      "name": "BDEGA 3 (RNAV)",
+      "file": "data/global/procedures/KSFO/STAR/BDEGA 3 (RNAV).json"
+    },
+    {
+      "tma": "madrid",
+      "airport": "LEMD",
+      "type": "IAC",
+      "name": "ILS RWY 32L",
+      "file": "data/global/procedures/LEMD/IAC/ILS RWY 32L.json"
+    },
+    {
+      "tma": "madrid",
+      "airport": "LEMD",
+      "type": "SID",
+      "name": "PINAS 1A (RNAV)",
+      "file": "data/global/procedures/LEMD/SID/PINAS 1A (RNAV).json"
+    },
+    {
+      "tma": "madrid",
+      "airport": "LEMD",
+      "type": "STAR",
+      "name": "VULAN 1A (RNAV)",
+      "file": "data/global/procedures/LEMD/STAR/VULAN 1A (RNAV).json"
+    },
+    {
+      "tma": "paris",
+      "airport": "LFPG",
+      "type": "IAC",
+      "name": "ILS RWY 27R",
+      "file": "data/global/procedures/LFPG/IAC/ILS RWY 27R.json"
+    },
+    {
+      "tma": "paris",
+      "airport": "LFPG",
+      "type": "SID",
+      "name": "ERLAT 4A",
+      "file": "data/global/procedures/LFPG/SID/ERLAT 4A.json"
+    },
+    {
+      "tma": "paris",
+      "airport": "LFPG",
+      "type": "STAR",
+      "name": "OKASI 9W",
+      "file": "data/global/procedures/LFPG/STAR/OKASI 9W.json"
+    },
+    {
+      "tma": "roma",
+      "airport": "LIRF",
+      "type": "IAC",
+      "name": "ILS RWY 16L",
+      "file": "data/global/procedures/LIRF/IAC/ILS RWY 16L.json"
+    },
+    {
+      "tma": "roma",
+      "airport": "LIRF",
+      "type": "SID",
+      "name": "OST 5A (RNAV)",
+      "file": "data/global/procedures/LIRF/SID/OST 5A (RNAV).json"
+    },
+    {
+      "tma": "roma",
+      "airport": "LIRF",
+      "type": "STAR",
+      "name": "ELBA 1A (RNAV)",
+      "file": "data/global/procedures/LIRF/STAR/ELBA 1A (RNAV).json"
+    },
+    {
+      "tma": "lisboa",
+      "airport": "LPPT",
+      "type": "IAC",
+      "name": "ILS RWY 02",
+      "file": "data/global/procedures/LPPT/IAC/ILS RWY 02.json"
+    },
+    {
+      "tma": "lisboa",
+      "airport": "LPPT",
+      "type": "SID",
+      "name": "EXONA 1N (RNAV)",
+      "file": "data/global/procedures/LPPT/SID/EXONA 1N (RNAV).json"
+    },
+    {
+      "tma": "lisboa",
+      "airport": "LPPT",
+      "type": "STAR",
+      "name": "INBOM 1A (RNAV)",
+      "file": "data/global/procedures/LPPT/STAR/INBOM 1A (RNAV).json"
+    },
+    {
+      "tma": "zurique",
+      "airport": "LSZH",
+      "type": "IAC",
+      "name": "ILS RWY 14",
+      "file": "data/global/procedures/LSZH/IAC/ILS RWY 14.json"
+    },
+    {
+      "tma": "zurique",
+      "airport": "LSZH",
+      "type": "SID",
+      "name": "DEGES 2K (RNAV)",
+      "file": "data/global/procedures/LSZH/SID/DEGES 2K (RNAV).json"
+    },
+    {
+      "tma": "zurique",
+      "airport": "LSZH",
+      "type": "STAR",
+      "name": "GIPOL 1A (RNAV)",
+      "file": "data/global/procedures/LSZH/STAR/GIPOL 1A (RNAV).json"
+    },
+    {
+      "tma": "dubai",
+      "airport": "OMDB",
+      "type": "IAC",
+      "name": "ILS RWY 12L",
+      "file": "data/global/procedures/OMDB/IAC/ILS RWY 12L.json"
+    },
+    {
+      "tma": "dubai",
+      "airport": "OMDB",
+      "type": "SID",
+      "name": "DARAX 2D",
+      "file": "data/global/procedures/OMDB/SID/DARAX 2D.json"
+    },
+    {
+      "tma": "dubai",
+      "airport": "OMDB",
+      "type": "STAR",
+      "name": "DESDI 2A",
+      "file": "data/global/procedures/OMDB/STAR/DESDI 2A.json"
+    },
+    {
+      "tma": "doha",
+      "airport": "OTHH",
+      "type": "IAC",
+      "name": "ILS RWY 34L",
+      "file": "data/global/procedures/OTHH/IAC/ILS RWY 34L.json"
+    },
+    {
+      "tma": "doha",
+      "airport": "OTHH",
+      "type": "SID",
+      "name": "ALVEN 1 (RNAV)",
+      "file": "data/global/procedures/OTHH/SID/ALVEN 1 (RNAV).json"
+    },
+    {
+      "tma": "doha",
+      "airport": "OTHH",
+      "type": "STAR",
+      "name": "BAYAN 1 (RNAV)",
+      "file": "data/global/procedures/OTHH/STAR/BAYAN 1 (RNAV).json"
+    },
+    {
+      "tma": "tokyo",
+      "airport": "RJTT",
+      "type": "IAC",
+      "name": "ILS RWY 34L",
+      "file": "data/global/procedures/RJTT/IAC/ILS RWY 34L.json"
+    },
+    {
+      "tma": "tokyo",
+      "airport": "RJTT",
+      "type": "SID",
+      "name": "HANEDA 1 (RNAV)",
+      "file": "data/global/procedures/RJTT/SID/HANEDA 1 (RNAV).json"
+    },
+    {
+      "tma": "tokyo",
+      "airport": "RJTT",
+      "type": "STAR",
+      "name": "ARLON 1 (RNAV)",
+      "file": "data/global/procedures/RJTT/STAR/ARLON 1 (RNAV).json"
+    },
+    {
+      "tma": "buenos-aires",
+      "airport": "SAEZ",
+      "type": "IAC",
+      "name": "ILS RWY 11",
+      "file": "data/global/procedures/SAEZ/IAC/ILS RWY 11.json"
+    },
+    {
+      "tma": "buenos-aires",
+      "airport": "SAEZ",
+      "type": "SID",
+      "name": "PAPIX 1A",
+      "file": "data/global/procedures/SAEZ/SID/PAPIX 1A.json"
+    },
+    {
+      "tma": "buenos-aires",
+      "airport": "SAEZ",
+      "type": "STAR",
+      "name": "EZE 2A",
+      "file": "data/global/procedures/SAEZ/STAR/EZE 2A.json"
+    },
+    {
+      "tma": "sao-paulo",
+      "airport": "SBMT",
+      "type": "IAC",
+      "name": "RNP RWY 12",
+      "file": "data/global/procedures/SBMT/IAC/RNP RWY 12.json"
+    },
+    {
+      "tma": "sao-paulo",
+      "airport": "SBMT",
+      "type": "SID",
+      "name": "MARTE 1 (RNAV)",
+      "file": "data/global/procedures/SBMT/SID/MARTE 1 (RNAV).json"
+    },
+    {
+      "tma": "sao-paulo",
+      "airport": "SBMT",
+      "type": "STAR",
+      "name": "POLAR 1 (RNAV)",
+      "file": "data/global/procedures/SBMT/STAR/POLAR 1 (RNAV).json"
+    },
+    {
+      "tma": "santiago",
+      "airport": "SCEL",
+      "type": "IAC",
+      "name": "ILS RWY 17L",
+      "file": "data/global/procedures/SCEL/IAC/ILS RWY 17L.json"
+    },
+    {
+      "tma": "santiago",
+      "airport": "SCEL",
+      "type": "SID",
+      "name": "EBLUS 2",
+      "file": "data/global/procedures/SCEL/SID/EBLUS 2.json"
+    },
+    {
+      "tma": "santiago",
+      "airport": "SCEL",
+      "type": "STAR",
+      "name": "DILOK 2",
+      "file": "data/global/procedures/SCEL/STAR/DILOK 2.json"
+    },
+    {
+      "tma": "rio-de-janeiro",
+      "airport": "SDAG",
+      "type": "IAC",
+      "name": "RNP RWY 10",
+      "file": "data/global/procedures/SDAG/IAC/RNP RWY 10.json"
+    },
+    {
+      "tma": "rio-de-janeiro",
+      "airport": "SDAG",
+      "type": "SID",
+      "name": "ANGRA 1 (RNAV)",
+      "file": "data/global/procedures/SDAG/SID/ANGRA 1 (RNAV).json"
+    },
+    {
+      "tma": "rio-de-janeiro",
+      "airport": "SDAG",
+      "type": "STAR",
+      "name": "BAIA 1 (RNAV)",
+      "file": "data/global/procedures/SDAG/STAR/BAIA 1 (RNAV).json"
+    },
+    {
+      "tma": "sao-paulo",
+      "airport": "SDAM",
+      "type": "IAC",
+      "name": "RNP RWY 12",
+      "file": "data/global/procedures/SDAM/IAC/RNP RWY 12.json"
+    },
+    {
+      "tma": "sao-paulo",
+      "airport": "SDAM",
+      "type": "SID",
+      "name": "AMERI 1 (RNAV)",
+      "file": "data/global/procedures/SDAM/SID/AMERI 1 (RNAV).json"
+    },
+    {
+      "tma": "sao-paulo",
+      "airport": "SDAM",
+      "type": "STAR",
+      "name": "VNA 1 (RNAV)",
+      "file": "data/global/procedures/SDAM/STAR/VNA 1 (RNAV).json"
+    },
+    {
+      "tma": "rio-de-janeiro",
+      "airport": "SDRS",
+      "type": "IAC",
+      "name": "RNP RWY 08",
+      "file": "data/global/procedures/SDRS/IAC/RNP RWY 08.json"
+    },
+    {
+      "tma": "rio-de-janeiro",
+      "airport": "SDRS",
+      "type": "SID",
+      "name": "RESEN 1 (RNAV)",
+      "file": "data/global/procedures/SDRS/SID/RESEN 1 (RNAV).json"
+    },
+    {
+      "tma": "rio-de-janeiro",
+      "airport": "SDRS",
+      "type": "STAR",
+      "name": "AGULH 1 (RNAV)",
+      "file": "data/global/procedures/SDRS/STAR/AGULH 1 (RNAV).json"
+    },
+    {
+      "tma": "belo-horizonte",
+      "airport": "SDTK",
+      "type": "IAC",
+      "name": "RNP RWY 05",
+      "file": "data/global/procedures/SDTK/IAC/RNP RWY 05.json"
+    },
+    {
+      "tma": "belo-horizonte",
+      "airport": "SDTK",
+      "type": "SID",
+      "name": "TARUM 1 (RNAV)",
+      "file": "data/global/procedures/SDTK/SID/TARUM 1 (RNAV).json"
+    },
+    {
+      "tma": "belo-horizonte",
+      "airport": "SDTK",
+      "type": "STAR",
+      "name": "VALE 1 (RNAV)",
+      "file": "data/global/procedures/SDTK/STAR/VALE 1 (RNAV).json"
+    },
+    {
+      "tma": "bogota",
+      "airport": "SKBO",
+      "type": "IAC",
+      "name": "ILS RWY 13L",
+      "file": "data/global/procedures/SKBO/IAC/ILS RWY 13L.json"
+    },
+    {
+      "tma": "bogota",
+      "airport": "SKBO",
+      "type": "SID",
+      "name": "SOACHA 1 (RNAV)",
+      "file": "data/global/procedures/SKBO/SID/SOACHA 1 (RNAV).json"
+    },
+    {
+      "tma": "bogota",
+      "airport": "SKBO",
+      "type": "STAR",
+      "name": "ZIPA 2 (RNAV)",
+      "file": "data/global/procedures/SKBO/STAR/ZIPA 2 (RNAV).json"
+    },
+    {
+      "tma": "lima",
+      "airport": "SPJC",
+      "type": "IAC",
+      "name": "ILS RWY 16",
+      "file": "data/global/procedures/SPJC/IAC/ILS RWY 16.json"
+    },
+    {
+      "tma": "lima",
+      "airport": "SPJC",
+      "type": "SID",
+      "name": "DORUS 1 (RNAV)",
+      "file": "data/global/procedures/SPJC/SID/DORUS 1 (RNAV).json"
+    },
+    {
+      "tma": "lima",
+      "airport": "SPJC",
+      "type": "STAR",
+      "name": "ANCON 2 (RNAV)",
+      "file": "data/global/procedures/SPJC/STAR/ANCON 2 (RNAV).json"
+    },
+    {
+      "tma": "montevideo",
+      "airport": "SUMU",
+      "type": "IAC",
+      "name": "ILS RWY 24",
+      "file": "data/global/procedures/SUMU/IAC/ILS RWY 24.json"
+    },
+    {
+      "tma": "montevideo",
+      "airport": "SUMU",
+      "type": "SID",
+      "name": "CARRASCO 1 (RNAV)",
+      "file": "data/global/procedures/SUMU/SID/CARRASCO 1 (RNAV).json"
+    },
+    {
+      "tma": "montevideo",
+      "airport": "SUMU",
+      "type": "STAR",
+      "name": "DELTA 1 (RNAV)",
+      "file": "data/global/procedures/SUMU/STAR/DELTA 1 (RNAV).json"
+    },
+    {
+      "tma": "hong-kong",
+      "airport": "VHHH",
+      "type": "IAC",
+      "name": "ILS RWY 07L",
+      "file": "data/global/procedures/VHHH/IAC/ILS RWY 07L.json"
+    },
+    {
+      "tma": "hong-kong",
+      "airport": "VHHH",
+      "type": "SID",
+      "name": "OCEAN 2A (RNAV)",
+      "file": "data/global/procedures/VHHH/SID/OCEAN 2A (RNAV).json"
+    },
+    {
+      "tma": "hong-kong",
+      "airport": "VHHH",
+      "type": "STAR",
+      "name": "ABBEY 1A (RNAV)",
+      "file": "data/global/procedures/VHHH/STAR/ABBEY 1A (RNAV).json"
+    },
+    {
+      "tma": "singapore",
+      "airport": "WSSS",
+      "type": "IAC",
+      "name": "ILS RWY 20R",
+      "file": "data/global/procedures/WSSS/IAC/ILS RWY 20R.json"
+    },
+    {
+      "tma": "singapore",
+      "airport": "WSSS",
+      "type": "SID",
+      "name": "MERSING 1 (RNAV)",
+      "file": "data/global/procedures/WSSS/SID/MERSING 1 (RNAV).json"
+    },
+    {
+      "tma": "singapore",
+      "airport": "WSSS",
+      "type": "STAR",
+      "name": "BOBOB 1 (RNAV)",
+      "file": "data/global/procedures/WSSS/STAR/BOBOB 1 (RNAV).json"
+    },
+    {
+      "tma": "sydney",
+      "airport": "YSSY",
+      "type": "IAC",
+      "name": "ILS RWY 16R",
+      "file": "data/global/procedures/YSSY/IAC/ILS RWY 16R.json"
+    },
+    {
+      "tma": "sydney",
+      "airport": "YSSY",
+      "type": "SID",
+      "name": "KAMPI 1 (RNAV)",
+      "file": "data/global/procedures/YSSY/SID/KAMPI 1 (RNAV).json"
+    },
+    {
+      "tma": "sydney",
+      "airport": "YSSY",
+      "type": "STAR",
+      "name": "RIVET 1 (RNAV)",
+      "file": "data/global/procedures/YSSY/STAR/RIVET 1 (RNAV).json"
+    }
+  ]
+}

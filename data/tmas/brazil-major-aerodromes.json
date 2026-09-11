@@ -1,0 +1,2380 @@
+{
+  "schemaVersion": 1,
+  "count": 143,
+  "authority": "DECEA/AISWEB",
+  "aerodromes": [
+    {
+      "id": "SBAC",
+      "name": "AEROPORTO REGIONAL DE CANOA QUEBRADA DRAGAO DO MAR",
+      "city": "ARACATI",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -4.568611111,
+      "lon": -37.804722222,
+      "elevation_ft": 118,
+      "runways": [
+        "09/27"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBAE",
+      "name": "BAURU - AREALVA",
+      "city": "BAURU E AREALVA",
+      "tma": "TMA Bauru",
+      "tmaId": "BAURU",
+      "lat": -22.15777778,
+      "lon": -49.06833333,
+      "elevation_ft": 1961,
+      "runways": [
+        "17/35"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBAF",
+      "name": "Campo Délio Jardim de Mattos (Afonsos)",
+      "city": "Rio de Janeiro/RJ",
+      "tma": "TMA Rio de Janeiro",
+      "tmaId": "RIO_DE_JANEIRO",
+      "lat": -22.875555556,
+      "lon": -43.384444444,
+      "elevation_ft": 112,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBAF&i=aerodromos"
+    },
+    {
+      "id": "SBAN",
+      "name": "CAMPO MARECHAL MARCIO DE SOUZA E MELLO",
+      "city": "ANAPOLIS",
+      "tma": "TMA Anápolis",
+      "tmaId": "ANAPOLIS",
+      "lat": -16.238611111,
+      "lon": -48.972222222,
+      "elevation_ft": 3732,
+      "runways": [
+        "06L/24R",
+        "06R/24L"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "120.700 / 134.400 MHz",
+        "TWR": "118.100 / 122.500 MHz",
+        "ATIS": "127.850 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBAQ",
+      "name": "BARTOLOMEU DE GUSMAO",
+      "city": "ARARAQUARA",
+      "tma": "TMA Academia",
+      "tmaId": "ACADEMIA",
+      "lat": -21.811944444,
+      "lon": -48.133055556,
+      "elevation_ft": 2334,
+      "runways": [
+        "17/35"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBAR",
+      "name": "SANTA MARIA",
+      "city": "ARACAJU",
+      "tma": "TMA Aracaju",
+      "tmaId": "ARACAJU",
+      "lat": -10.985277778,
+      "lon": -37.073333333,
+      "elevation_ft": 23,
+      "runways": [
+        "12/30"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.300 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBAT",
+      "name": "PILOTO OSVALDO MARQUES DIAS",
+      "city": "ALTA FLORESTA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -9.866388889,
+      "lon": -56.105,
+      "elevation_ft": 948,
+      "runways": [
+        "04/22"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBAU",
+      "name": "ARACATUBA",
+      "city": "ARACATUBA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -21.14416667,
+      "lon": -50.42638889,
+      "elevation_ft": 1362,
+      "runways": [
+        "05/23"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBAX",
+      "name": "ROMEU ZEMA",
+      "city": "ARAXA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -19.563055556,
+      "lon": -46.960555556,
+      "elevation_ft": 3274,
+      "runways": [
+        "16/34"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBBE",
+      "name": "Aeroporto Internacional de Belém / Val de Cans - Júlio Cezar Ribeiro",
+      "city": "Belém, PA",
+      "tma": "TMA Belém",
+      "tmaId": "BELEM",
+      "lat": -1.384722,
+      "lon": -48.478889,
+      "elevation_ft": 56,
+      "runways": [
+        "07/25"
+      ],
+      "source": "AIP BRASIL 2.PDF, p. SBBE AD 2.2",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.000 / 120.100 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBBG",
+      "name": "COMANDANTE GUSTAVO KRAEMER",
+      "city": "BAGE",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -31.390833333,
+      "lon": -54.109722222,
+      "elevation_ft": 597,
+      "runways": [
+        "06/24"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBBH",
+      "name": "Aeroporto de Pampulha - Carlos Drummond de Andrade",
+      "city": "Belo Horizonte, MG",
+      "tma": "TMA Belo Horizonte",
+      "tmaId": "BELO_HORIZONTE",
+      "lat": -19.851944,
+      "lon": -43.950556,
+      "elevation_ft": 2589,
+      "runways": [
+        "13/31"
+      ],
+      "source": "AIP BRASIL 2.PDF, p. SBBH AD 2.2",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.800 / 120.250 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.600 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBBI",
+      "name": "BACACHERI",
+      "city": "CURITIBA",
+      "tma": "TMA Curitiba",
+      "tmaId": "CURITIBA",
+      "lat": -25.403333333,
+      "lon": -49.233611111,
+      "elevation_ft": 3059,
+      "runways": [
+        "18/36"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.950 / 120.150 MHz",
+        "TWR": "118.500 MHz",
+        "ATIS": "127.800 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBBQ",
+      "name": "MAJOR BRIGADEIRO DOORGAL BORGES",
+      "city": "BARBACENA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -21.26722222,
+      "lon": -43.76055556,
+      "elevation_ft": 3658,
+      "runways": [
+        "18/36"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBBR",
+      "name": "PRESIDENTE JUSCELINO KUBITSCHEK",
+      "city": "BRASILIA",
+      "tma": "TMA Brasília",
+      "tmaId": "BRASILIA",
+      "lat": -15.871111111,
+      "lon": -47.918611111,
+      "elevation_ft": 3498,
+      "runways": [
+        "11L/29R",
+        "11R/29L"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.500 / 119.700 MHz",
+        "TWR": "118.100 / 118.300 MHz",
+        "ATIS": "127.800 MHz",
+        "GND": "121.800 MHz"
+      }
+    },
+    {
+      "id": "SBBU",
+      "name": "BAURU",
+      "city": "BAURU",
+      "tma": "TMA Bauru",
+      "tmaId": "BAURU",
+      "lat": -22.345,
+      "lon": -49.05388889,
+      "elevation_ft": 2024,
+      "runways": [
+        "14/32"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBBV",
+      "name": "ATLAS BRASIL CANTANHEDE",
+      "city": "BOA VISTA",
+      "tma": "TMA Boa Vista",
+      "tmaId": "BOA_VISTA",
+      "lat": 2.841388889,
+      "lon": -60.692222222,
+      "elevation_ft": 276,
+      "runways": [
+        "08/26"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBBW",
+      "name": "BARRA DO GARCAS",
+      "city": "BARRA DO GARCAS",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -15.861388889,
+      "lon": -52.388888889,
+      "elevation_ft": 1148,
+      "runways": [
+        "07/25"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBCA",
+      "name": "REGIONAL DO OESTE - CEL ADALBERTO MENDES DA SILVA",
+      "city": "CASCAVEL",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -25.00222222,
+      "lon": -53.50194444,
+      "elevation_ft": 2490,
+      "runways": [
+        "15/33"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBCB",
+      "name": "Cabo Frio",
+      "city": "Cabo Frio/RJ",
+      "tma": "TMA Rio de Janeiro",
+      "tmaId": "RIO_DE_JANEIRO",
+      "lat": -22.920833,
+      "lon": -42.071389,
+      "elevation_ft": 23,
+      "source": "DECEA/AISWEB — AIP AD 2 SBCB",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBCB&i=aerodromos"
+    },
+    {
+      "id": "SBCC",
+      "name": "CAMPO DE PROVAS BRIGADEIRO VELOSO (CPBV)",
+      "city": "GUARANTA DO NORTE",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -9.333333333,
+      "lon": -54.964722222,
+      "elevation_ft": 1777,
+      "runways": [
+        "12/30"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBCF",
+      "name": "Aeroporto Internacional de Belo Horizonte / Confins - Tancredo Neves",
+      "city": "Confins, MG",
+      "tma": "TMA Belo Horizonte",
+      "tmaId": "BELO_HORIZONTE",
+      "lat": -19.624444,
+      "lon": -43.971944,
+      "elevation_ft": 2721,
+      "runways": [
+        "16/34"
+      ],
+      "source": "AIP BRASIL 2.PDF, p. SBCF AD 2.2",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.800 / 120.250 MHz",
+        "TWR": "118.000 / 118.300 MHz",
+        "ATIS": "127.750 MHz",
+        "GND": "121.800 MHz"
+      }
+    },
+    {
+      "id": "SBCG",
+      "name": "Aeroporto Internacional de Campo Grande",
+      "city": "Campo Grande, MS",
+      "tma": "TMA Campo Grande",
+      "tmaId": "CAMPO_GRANDE",
+      "lat": -20.469444,
+      "lon": -54.670278,
+      "elevation_ft": 1834,
+      "runways": [
+        "06/24"
+      ],
+      "source": "AIP BRASIL 2.PDF, p. SBCG AD 2.2",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.200 / 120.250 MHz",
+        "TWR": "118.300 MHz",
+        "ATIS": "127.800 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBCH",
+      "name": "SERAFIN ENOSS BERTASO",
+      "city": "CHAPECO",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -27.133858333,
+      "lon": -52.658791667,
+      "elevation_ft": 2154,
+      "runways": [
+        "12/30"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBCJ",
+      "name": "CARAJAS",
+      "city": "PARAUAPEBAS",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -6.117777778,
+      "lon": -50.003333333,
+      "elevation_ft": 2064,
+      "runways": [
+        "10/28"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBCN",
+      "name": "NELSON RODRIGUES GUIMARAES",
+      "city": "CALDAS NOVAS",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -17.725,
+      "lon": -48.606388889,
+      "elevation_ft": 2307,
+      "runways": [
+        "09/27"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBCO",
+      "name": "CAMPO NOSSA SENHORA DE FATIMA",
+      "city": "CANOAS",
+      "tma": "TMA Porto Alegre",
+      "tmaId": "PORTO_ALEGRE",
+      "lat": -29.945555556,
+      "lon": -51.143611111,
+      "elevation_ft": 26,
+      "runways": [
+        "13/31"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "120.100 / 120.700 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.700 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBCP",
+      "name": "BARTOLOMEU LISANDRO",
+      "city": "CAMPOS DOS GOYTACAZES",
+      "tma": "TMA Macaé",
+      "tmaId": "MACAE",
+      "lat": -21.701111111,
+      "lon": -41.307777778,
+      "elevation_ft": 59,
+      "runways": [
+        "07/25"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBCR",
+      "name": "Aeroporto Internacional de Corumbá",
+      "city": "Corumbá, MS",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -19.011944,
+      "lon": -57.671389,
+      "elevation_ft": 463,
+      "runways": [
+        "09/27"
+      ],
+      "source": "AIP BRASIL 2.PDF, p. SBCR AD 2.2",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBCT",
+      "name": "Aeroporto Internacional de Curitiba / Afonso Pena",
+      "city": "São José dos Pinhais, PR",
+      "tma": "TMA Curitiba",
+      "tmaId": "CURITIBA",
+      "lat": -25.531667,
+      "lon": -49.176111,
+      "elevation_ft": 2989,
+      "runways": [
+        "15/33"
+      ],
+      "source": "AIP BRASIL 2.PDF, p. SBCT AD 2.2",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.950 / 120.150 MHz",
+        "TWR": "118.500 MHz",
+        "ATIS": "127.800 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBCX",
+      "name": "HUGO CANTERGIANI",
+      "city": "CAXIAS DO SUL",
+      "tma": "TMA Porto Alegre",
+      "tmaId": "PORTO_ALEGRE",
+      "lat": -29.198055556,
+      "lon": -51.186666667,
+      "elevation_ft": 2474,
+      "runways": [
+        "15/33"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBCY",
+      "name": "Aeroporto Internacional de Cuiabá / Marechal Rondon",
+      "city": "Várzea Grande, MT",
+      "tma": "TMA Cuiabá",
+      "tmaId": "CUIABA",
+      "lat": -15.65,
+      "lon": -56.1175,
+      "elevation_ft": 617,
+      "runways": [
+        "17/35"
+      ],
+      "source": "AIP BRASIL 2.PDF, p. SBCY AD 2.2",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.100 / 120.650 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.700 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBCZ",
+      "name": "CRUZEIRO DO SUL",
+      "city": "CRUZEIRO DO SUL",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -7.599444444,
+      "lon": -72.769444444,
+      "elevation_ft": 636,
+      "runways": [
+        "10/28"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBDB",
+      "name": "BONITO",
+      "city": "BONITO",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -21.247222222,
+      "lon": -56.4525,
+      "elevation_ft": 1096,
+      "runways": [
+        "18/36"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBDN",
+      "name": "PRESIDENTE PRUDENTE",
+      "city": "PRESIDENTE PRUDENTE",
+      "tma": "TMA Presidente Prudente",
+      "tmaId": "PRESIDENTE_PRUDENTE",
+      "lat": -22.175,
+      "lon": -51.424444444,
+      "elevation_ft": 1483,
+      "runways": [
+        "12/30"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBDO",
+      "name": "DOURADOS",
+      "city": "DOURADOS",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -22.20055556,
+      "lon": -54.92555556,
+      "elevation_ft": 1500,
+      "runways": [
+        "06/24"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBEG",
+      "name": "EDUARDO GOMES",
+      "city": "MANAUS",
+      "tma": "TMA Manaus",
+      "tmaId": "MANAUS",
+      "lat": -3.041111111,
+      "lon": -60.050555556,
+      "elevation_ft": 264,
+      "runways": [
+        "11/29"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.700 / 120.500 MHz",
+        "TWR": "118.300 MHz",
+        "ATIS": "127.700 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBES",
+      "name": "Tenente Jorge Henrique Moeller (São Pedro da Aldeia)",
+      "city": "São Pedro da Aldeia/RJ",
+      "tma": "TMA Rio de Janeiro",
+      "tmaId": "RIO_DE_JANEIRO",
+      "lat": -22.816666667,
+      "lon": -42.0925,
+      "elevation_ft": 61,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBES&i=aerodromos"
+    },
+    {
+      "id": "SBFI",
+      "name": "Aeroporto Internacional de Foz do Iguaçu / Cataratas",
+      "city": "Foz do Iguaçu, PR",
+      "tma": "TMA Foz",
+      "tmaId": "FOZ",
+      "lat": -25.600278,
+      "lon": -54.485,
+      "elevation_ft": 787,
+      "runways": [
+        "15/33"
+      ],
+      "source": "AIP BRASIL 2.PDF, p. SBFI AD 2.2",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.750 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.600 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBFL",
+      "name": "Aeroporto Internacional de Florianópolis / Hercílio Luz",
+      "city": "Florianópolis, SC",
+      "tma": "TMA Florianópolis",
+      "tmaId": "FLORIANOPOLIS",
+      "lat": -27.670278,
+      "lon": -48.5525,
+      "elevation_ft": 17,
+      "runways": [
+        "14/32"
+      ],
+      "source": "AIP BRASIL 2.PDF, p. SBFL AD 2.2",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.250 / 120.400 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.800 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBFN",
+      "name": "FERNANDO DE NORONHA",
+      "city": "FERNANDO DE NORONHA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -3.854722222,
+      "lon": -32.42833333,
+      "elevation_ft": 184,
+      "runways": [
+        "12/30"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBFZ",
+      "name": "PINTO MARTINS",
+      "city": "FORTALEZA",
+      "tma": "TMA Fortaleza",
+      "tmaId": "FORTALEZA",
+      "lat": -3.775833333,
+      "lon": -38.532222222,
+      "elevation_ft": 83,
+      "runways": [
+        "13/31"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.250 / 120.300 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBGL",
+      "name": "Galeão - Antonio Carlos Jobim",
+      "city": "Rio de Janeiro/RJ",
+      "tma": "TMA Rio de Janeiro",
+      "tmaId": "RIO_DE_JANEIRO",
+      "lat": -22.81,
+      "lon": -43.250555556,
+      "elevation_ft": 28,
+      "source": "DECEA/AISWEB — AIP AD 2 SBGL",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBGL&i=aerodromos",
+      "frequencies": {
+        "APP": "119.350 / 120.500 MHz",
+        "TWR": "118.000 / 118.200 MHz",
+        "ATIS": "127.600 MHz",
+        "GND": "121.650 MHz"
+      }
+    },
+    {
+      "id": "SBGM",
+      "name": "GUAJARA-MIRIM",
+      "city": "GUAJARA-MIRIM",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -10.78833333,
+      "lon": -65.28166667,
+      "elevation_ft": 479,
+      "runways": [
+        "17/35"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBGO",
+      "name": "SANTA GENOVEVA",
+      "city": "GOIANIA",
+      "tma": "TMA Anápolis",
+      "tmaId": "ANAPOLIS",
+      "lat": -16.6325,
+      "lon": -49.221111111,
+      "elevation_ft": 2453,
+      "runways": [
+        "14/32"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "120.700 / 119.500 MHz",
+        "TWR": "118.300 / 121.750 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBGP",
+      "name": "EMBRAER - UNIDADE GAVIAO PEIXOTO",
+      "city": "GAVIAO PEIXOTO",
+      "tma": "TMA Academia",
+      "tmaId": "ACADEMIA",
+      "lat": -21.76444444,
+      "lon": -48.40472222,
+      "elevation_ft": 1998,
+      "runways": [
+        "02L/20R",
+        "02R/20L"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBGR",
+      "name": "Guarulhos - Governador André Franco Montoro",
+      "city": "Guarulhos/SP",
+      "tma": "TMA São Paulo",
+      "tmaId": "SAO_PAULO",
+      "lat": -23.4355555556,
+      "lon": -46.4730555556,
+      "elevation_ft": 2461,
+      "source": "DECEA/AISWEB — AIP AD 2 SBGR",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBGR&i=aerodromos",
+      "frequencies": {
+        "APP": "119.000 / 120.350 / 120.000 MHz",
+        "TWR": "118.400 / 121.250 MHz",
+        "ATIS": "127.750 MHz",
+        "GND": "121.650 / 121.900 MHz"
+      }
+    },
+    {
+      "id": "SBGV",
+      "name": "CORONEL ALTINO MACHADO",
+      "city": "GOVERNADOR VALADARES",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -18.896111111,
+      "lon": -41.983333333,
+      "elevation_ft": 563,
+      "runways": [
+        "07/25"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBGW",
+      "name": "CAMPO EDU CHAVES",
+      "city": "GUARATINGUETA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -22.79166667,
+      "lon": -45.20444444,
+      "elevation_ft": 1761,
+      "runways": [
+        "02/20"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBHT",
+      "name": "ALTAMIRA",
+      "city": "ALTAMIRA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -3.250833333,
+      "lon": -52.25222222,
+      "elevation_ft": 368,
+      "runways": [
+        "07/25"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBIC",
+      "name": "ITACOATIARA",
+      "city": "ITACOATIARA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -3.126388889,
+      "lon": -58.48166667,
+      "elevation_ft": 141,
+      "runways": [
+        "14/32"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBIH",
+      "name": "ITAITUBA",
+      "city": "ITAITUBA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -4.242222222,
+      "lon": -56.00083333,
+      "elevation_ft": 102,
+      "runways": [
+        "06/24"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBIL",
+      "name": "JORGE AMADO",
+      "city": "ILHEUS",
+      "tma": "TMA Ilhéus",
+      "tmaId": "ILHEUS",
+      "lat": -14.815,
+      "lon": -39.033336111,
+      "elevation_ft": 14,
+      "runways": [
+        "11/29"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.350 MHz",
+        "TWR": "118.700 MHz",
+        "ATIS": "127.700 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBIP",
+      "name": "USIMINAS",
+      "city": "SANTANA DO PARAISO",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -19.47055556,
+      "lon": -42.48805556,
+      "elevation_ft": 787,
+      "runways": [
+        "05/23"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBIZ",
+      "name": "PREFEITO RENATO MOREIRA",
+      "city": "IMPERATRIZ",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -5.530555556,
+      "lon": -47.45833333,
+      "elevation_ft": 430,
+      "runways": [
+        "07/25"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBJA",
+      "name": "REGIONAL SUL",
+      "city": "JAGUARUNA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -28.67538725,
+      "lon": -49.060380444,
+      "elevation_ft": 115,
+      "runways": [
+        "05/23"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBJD",
+      "name": "Comandante Rolim Adolfo Amaro",
+      "city": "Jundiaí/SP",
+      "tma": "TMA São Paulo",
+      "tmaId": "SAO_PAULO",
+      "lat": -23.1816666667,
+      "lon": -46.9436111111,
+      "elevation_ft": 2470,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBJD&i=aerodromos"
+    },
+    {
+      "id": "SBJE",
+      "name": "COMANDANTE ARISTON PESSOA",
+      "city": "CRUZ",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -2.906666667,
+      "lon": -40.358055556,
+      "elevation_ft": 89,
+      "runways": [
+        "08/26"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBJH",
+      "name": "São Paulo Catarina Aeroporto Executivo",
+      "city": "São Roque/SP",
+      "tma": "TMA São Paulo",
+      "tmaId": "SAO_PAULO",
+      "lat": -23.4269444444,
+      "lon": -47.1658333333,
+      "elevation_ft": 2549,
+      "source": "DECEA/AISWEB — AIP AD 2 SBJH",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBJH&i=aerodromos"
+    },
+    {
+      "id": "SBJI",
+      "name": "JI-PARANA",
+      "city": "JI-PARANA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -10.87055556,
+      "lon": -61.84666667,
+      "elevation_ft": 597,
+      "runways": [
+        "03/21"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBJP",
+      "name": "PRESIDENTE CASTRO PINTO",
+      "city": "JOAO PESSOA",
+      "tma": "TMA Recife",
+      "tmaId": "RECIFE",
+      "lat": -7.148333333,
+      "lon": -34.950277778,
+      "elevation_ft": 217,
+      "runways": [
+        "16/34"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.000 MHz",
+        "TWR": "118.700 MHz",
+        "ATIS": "127.800 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBJR",
+      "name": "Jacarepaguá - Roberto Marinho",
+      "city": "Rio de Janeiro/RJ",
+      "tma": "TMA Rio de Janeiro",
+      "tmaId": "RIO_DE_JANEIRO",
+      "lat": -22.9875,
+      "lon": -43.37,
+      "elevation_ft": 10,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBJR&i=aerodromos"
+    },
+    {
+      "id": "SBJU",
+      "name": "ORLANDO BEZERRA DE MENEZES",
+      "city": "JUAZEIRO DO NORTE",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -7.219166667,
+      "lon": -39.269444444,
+      "elevation_ft": 1342,
+      "runways": [
+        "13/31"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBJV",
+      "name": "LAURO CARNEIRO DE LOYOLA",
+      "city": "JOINVILLE",
+      "tma": "TMA Curitiba",
+      "tmaId": "CURITIBA",
+      "lat": -26.22305556,
+      "lon": -48.797777778,
+      "elevation_ft": 15,
+      "runways": [
+        "15/33"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "120.150 MHz",
+        "TWR": "118.000 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBKG",
+      "name": "PRESIDENTE JOAO SUASSUNA",
+      "city": "CAMPINA GRANDE",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -7.269166667,
+      "lon": -35.895,
+      "elevation_ft": 1647,
+      "runways": [
+        "15/33"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBKP",
+      "name": "Viracopos",
+      "city": "Campinas/SP",
+      "tma": "TMA São Paulo",
+      "tmaId": "SAO_PAULO",
+      "lat": -23.0069444444,
+      "lon": -47.1344444444,
+      "elevation_ft": 2170,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBKP&i=aerodromos",
+      "frequencies": {
+        "APP": "120.050 / 124.000 MHz",
+        "TWR": "118.700 MHz",
+        "ATIS": "127.825 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBLE",
+      "name": "HORACIO DE MATTOS",
+      "city": "LENCOIS",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -12.482222222,
+      "lon": -41.276944444,
+      "elevation_ft": 1660,
+      "runways": [
+        "14/32"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBLO",
+      "name": "GOVERNADOR JOSE RICHA",
+      "city": "LONDRINA",
+      "tma": "TMA Londrina",
+      "tmaId": "LONDRINA",
+      "lat": -23.33027778,
+      "lon": -51.13666667,
+      "elevation_ft": 1867,
+      "runways": [
+        "13/31"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.300 / 120.500 MHz",
+        "TWR": "118.700 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBLS",
+      "name": "LAGOA SANTA",
+      "city": "LAGOA SANTA",
+      "tma": "TMA Belo Horizonte",
+      "tmaId": "BELO_HORIZONTE",
+      "lat": -19.661111111,
+      "lon": -43.897777778,
+      "elevation_ft": 2795,
+      "runways": [
+        "13/31"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBMA",
+      "name": "JOAO CORREA DA ROCHA",
+      "city": "MARABA",
+      "tma": "TMA Marabá",
+      "tmaId": "MARABA",
+      "lat": -5.368055556,
+      "lon": -49.138055556,
+      "elevation_ft": 358,
+      "runways": [
+        "07/25"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBME",
+      "name": "Joaquim de Azevedo Mancebo (Macaé)",
+      "city": "Macaé/RJ",
+      "tma": "TMA Rio de Janeiro",
+      "tmaId": "RIO_DE_JANEIRO",
+      "lat": -22.341813889,
+      "lon": -41.766216667,
+      "elevation_ft": 9,
+      "source": "DECEA/AISWEB — AIP AD 2 SBME",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBME&i=aerodromos",
+      "frequencies": {
+        "APP": "119.650 / 120.900 MHz",
+        "TWR": "118.400 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBMG",
+      "name": "SILVIO NAME JUNIOR",
+      "city": "MARINGA",
+      "tma": "TMA Londrina",
+      "tmaId": "LONDRINA",
+      "lat": -23.476388889,
+      "lon": -52.017777778,
+      "elevation_ft": 1801,
+      "runways": [
+        "10/28"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "120.500 MHz",
+        "TWR": "118.200 MHz",
+        "ATIS": "127.750 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBMI",
+      "name": "Maricá",
+      "city": "Maricá/RJ",
+      "tma": "TMA Rio de Janeiro",
+      "tmaId": "RIO_DE_JANEIRO",
+      "lat": -22.91805556,
+      "lon": -42.82888889,
+      "elevation_ft": 7,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBMI&i=aerodromos"
+    },
+    {
+      "id": "SBMK",
+      "name": "MARIO RIBEIRO",
+      "city": "MONTES CLAROS",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -16.70611111,
+      "lon": -43.82194444,
+      "elevation_ft": 2192,
+      "runways": [
+        "12/30"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBML",
+      "name": "FRANK MILOYE MILENKOVICH",
+      "city": "MARILIA",
+      "tma": "TMA Bauru",
+      "tmaId": "BAURU",
+      "lat": -22.196944444,
+      "lon": -49.926388889,
+      "elevation_ft": 2133,
+      "runways": [
+        "03/21"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBMN",
+      "name": "CAMPO PONTA PELADA",
+      "city": "MANAUS",
+      "tma": "TMA Manaus",
+      "tmaId": "MANAUS",
+      "lat": -3.145833333,
+      "lon": -59.985,
+      "elevation_ft": 257,
+      "runways": [
+        "09/27"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.700 / 120.500 MHz",
+        "TWR": "118.300 MHz",
+        "ATIS": "127.700 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBMO",
+      "name": "Aeroporto Internacional de Maceió / Zumbi dos Palmares",
+      "city": "Rio Largo, AL",
+      "tma": "TMA Maceió",
+      "tmaId": "MACEIO",
+      "lat": -9.510833,
+      "lon": -35.791667,
+      "elevation_ft": 388,
+      "runways": [
+        "12/30"
+      ],
+      "source": "AIP BRASIL 2.PDF, p. SBMO AD 2.2",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.450 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.600 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBMQ",
+      "name": "Aeroporto Internacional de Macapá / Alberto Alcolumbre",
+      "city": "Macapá, AP",
+      "tma": "TMA Macapá",
+      "tmaId": "MACAPA",
+      "lat": 0.050556,
+      "lon": -51.072222,
+      "elevation_ft": 59,
+      "runways": [
+        "08/26"
+      ],
+      "source": "AIP BRASIL 2.PDF, p. SBMQ AD 2.2",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBMS",
+      "name": "DIX-SEPT ROSADO",
+      "city": "MOSSORO",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -5.195833333,
+      "lon": -37.36166667,
+      "elevation_ft": 75,
+      "runways": [
+        "05/23"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBMT",
+      "name": "Campo de Marte",
+      "city": "São Paulo/SP",
+      "tma": "TMA São Paulo",
+      "tmaId": "SAO_PAULO",
+      "lat": -23.5091666667,
+      "lon": -46.6375,
+      "elevation_ft": 2372,
+      "source": "DECEA/AISWEB — AIP AD 2 SBMT",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBMT&i=aerodromos",
+      "frequencies": {
+        "APP": "119.000 / 120.350 MHz",
+        "TWR Congonhas": "118.050 / 118.350 MHz",
+        "TWR Marte": "120.600 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.700 MHz"
+      }
+    },
+    {
+      "id": "SBNF",
+      "name": "MINISTRO VICTOR KONDER",
+      "city": "NAVEGANTES",
+      "tma": "TMA Florianópolis",
+      "tmaId": "FLORIANOPOLIS",
+      "lat": -26.878611111,
+      "lon": -48.650833333,
+      "elevation_ft": 18,
+      "runways": [
+        "08/26"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "120.150 MHz",
+        "TWR": "118.550 MHz",
+        "ATIS": "127.700 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBNM",
+      "name": "SANTO ANGELO",
+      "city": "SANTO ANGELO",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -28.281666667,
+      "lon": -54.168333333,
+      "elevation_ft": 1057,
+      "runways": [
+        "12/30"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBNT",
+      "name": "CAMPO AUGUSTO SEVERO",
+      "city": "NATAL",
+      "tma": "TMA Natal",
+      "tmaId": "NATAL",
+      "lat": -5.908333333,
+      "lon": -35.249166667,
+      "elevation_ft": 169,
+      "runways": [
+        "12/30",
+        "16L/34R",
+        "16R/34L"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBOI",
+      "name": "OIAPOQUE",
+      "city": "OIAPOQUE",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": 3.854166667,
+      "lon": -51.797222222,
+      "elevation_ft": 53,
+      "runways": [
+        "03/21"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBPA",
+      "name": "SALGADO FILHO",
+      "city": "PORTO ALEGRE",
+      "tma": "TMA Porto Alegre",
+      "tmaId": "PORTO_ALEGRE",
+      "lat": -29.994722222,
+      "lon": -51.171111111,
+      "elevation_ft": 30,
+      "runways": [
+        "11/29"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "120.100 / 120.700 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.700 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBPB",
+      "name": "PREFEITO DOUTOR JOAO SILVA FILHO",
+      "city": "PARNAIBA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -2.893333333,
+      "lon": -41.730277778,
+      "elevation_ft": 23,
+      "runways": [
+        "10/28"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.150 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBPF",
+      "name": "LAURO KURTZ",
+      "city": "PASSO FUNDO",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -28.244166667,
+      "lon": -52.328333333,
+      "elevation_ft": 2380,
+      "runways": [
+        "09/27"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBPG",
+      "name": "COMANDANTE ANTONIO AMILTON BERALDO",
+      "city": "PONTA GROSSA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -25.184075,
+      "lon": -50.143136111,
+      "elevation_ft": 2589,
+      "runways": [
+        "08/26"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBPJ",
+      "name": "Aeroporto de Palmas / Brigadeiro Lysias Rodrigues",
+      "city": "Palmas, TO",
+      "tma": "TMA Palmas",
+      "tmaId": "PALMAS",
+      "lat": -10.29,
+      "lon": -48.357778,
+      "elevation_ft": 774,
+      "runways": [
+        "14/32"
+      ],
+      "source": "AIP BRASIL 2.PDF, p. SBPJ AD 2.2",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBPK",
+      "name": "JOAO SIMOES LOPES NETO",
+      "city": "PELOTAS",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -31.716111111,
+      "lon": -52.331111111,
+      "elevation_ft": 59,
+      "runways": [
+        "07/25"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBPL",
+      "name": "SENADOR NILO COELHO",
+      "city": "PETROLINA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -9.3675,
+      "lon": -40.56361111,
+      "elevation_ft": 1263,
+      "runways": [
+        "13/31"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBPO",
+      "name": "REGIONAL DE PATO BRANCO - PROFESSOR JUVENAL LOUREIRO CARDOSO",
+      "city": "PATO BRANCO",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -26.217222222,
+      "lon": -52.694444444,
+      "elevation_ft": 2700,
+      "runways": [
+        "07/25"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBPP",
+      "name": "PONTA PORA",
+      "city": "PONTA PORA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -22.549722222,
+      "lon": -55.703055556,
+      "elevation_ft": 2152,
+      "runways": [
+        "04/22"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBPS",
+      "name": "PORTO SEGURO",
+      "city": "PORTO SEGURO",
+      "tma": "TMA Porto Seguro",
+      "tmaId": "PORTO_SEGURO",
+      "lat": -16.438055556,
+      "lon": -39.077777778,
+      "elevation_ft": 169,
+      "runways": [
+        "10/28"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.150 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBPV",
+      "name": "GOVERNADOR JORGE TEIXEIRA DE OLIVEIRA",
+      "city": "PORTO VELHO",
+      "tma": "TMA Porto Velho",
+      "tmaId": "PORTO_VELHO",
+      "lat": -8.713611111,
+      "lon": -63.902777778,
+      "elevation_ft": 295,
+      "runways": [
+        "01/19"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.200 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.700 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBRB",
+      "name": "PLACIDO DE CASTRO",
+      "city": "RIO BRANCO",
+      "tma": "TMA Rio Branco",
+      "tmaId": "RIO_BRANCO",
+      "lat": -9.868333333,
+      "lon": -67.898055556,
+      "elevation_ft": 633,
+      "runways": [
+        "07/25"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.300 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBRD",
+      "name": "RONDONOPOLIS - MAESTRO MARINHO FRANCO",
+      "city": "RONDONOPOLIS",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -16.588055556,
+      "lon": -54.721666667,
+      "elevation_ft": 1467,
+      "runways": [
+        "02/20"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBRF",
+      "name": "GUARARAPES - GILBERTO FREYRE",
+      "city": "RECIFE",
+      "tma": "TMA Recife",
+      "tmaId": "RECIFE",
+      "lat": -8.126388889,
+      "lon": -34.922777778,
+      "elevation_ft": 33,
+      "runways": [
+        "18/36"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.000 / 120.600 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.700 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBRJ",
+      "name": "Santos Dumont",
+      "city": "Rio de Janeiro/RJ",
+      "tma": "TMA Rio de Janeiro",
+      "tmaId": "RIO_DE_JANEIRO",
+      "lat": -22.91,
+      "lon": -43.1625,
+      "elevation_ft": 10,
+      "source": "DECEA/AISWEB — AIP AD 2 SBRJ",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBRJ&i=aerodromos",
+      "frequencies": {
+        "APP": "119.350 / 120.500 MHz",
+        "TWR": "118.700 / 118.150 MHz",
+        "ATIS": "127.750 MHz",
+        "GND": "121.850 MHz"
+      }
+    },
+    {
+      "id": "SBRP",
+      "name": "LEITE LOPES",
+      "city": "RIBEIRAO PRETO",
+      "tma": "TMA Academia",
+      "tmaId": "ACADEMIA",
+      "lat": -21.136388889,
+      "lon": -47.776666667,
+      "elevation_ft": 1804,
+      "runways": [
+        "18/36"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.450 MHz",
+        "TWR": "118.200 MHz",
+        "ATIS": "127.600 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBSC",
+      "name": "Campo Nero Moura (Santa Cruz)",
+      "city": "Rio de Janeiro/RJ",
+      "tma": "TMA Rio de Janeiro",
+      "tmaId": "RIO_DE_JANEIRO",
+      "lat": -22.932778,
+      "lon": -43.719444,
+      "elevation_ft": 10,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBSC&i=aerodromos"
+    },
+    {
+      "id": "SBSG",
+      "name": "SAO GONCALO DO AMARANTE - GOVERNADOR ALUIZIO ALVES",
+      "city": "NATAL",
+      "tma": "TMA Natal",
+      "tmaId": "NATAL",
+      "lat": -5.768888889,
+      "lon": -35.366388889,
+      "elevation_ft": 273,
+      "runways": [
+        "12/30"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.000 / 120.800 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.750 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBSI",
+      "name": "PRESIDENTE JOAO BATISTA FIGUEIREDO",
+      "city": "SINOP",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -11.885,
+      "lon": -55.58611111,
+      "elevation_ft": 1227,
+      "runways": [
+        "03/21"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBSJ",
+      "name": "Professor Urbano Ernesto Stumpf",
+      "city": "São José dos Campos/SP",
+      "tma": "TMA São Paulo",
+      "tmaId": "SAO_PAULO",
+      "lat": -23.2288888889,
+      "lon": -45.8711111111,
+      "elevation_ft": 2123,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBSJ&i=aerodromos",
+      "frequencies": {
+        "APP": "119.400 MHz",
+        "TWR": "118.600 MHz",
+        "ATIS": "127.800 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBSL",
+      "name": "MARECHAL CUNHA MACHADO",
+      "city": "SAO LUIS",
+      "tma": "TMA São Luís",
+      "tmaId": "SAO_LUIS",
+      "lat": -2.586944444,
+      "lon": -44.236111111,
+      "elevation_ft": 177,
+      "runways": [
+        "06/24"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.050 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.700 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBSM",
+      "name": "SANTA MARIA",
+      "city": "SANTA MARIA",
+      "tma": "TMA Santa Maria",
+      "tmaId": "SANTA_MARIA",
+      "lat": -29.71083333,
+      "lon": -53.69222222,
+      "elevation_ft": 289,
+      "runways": [
+        "02/20",
+        "11/29"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBSN",
+      "name": "MAESTRO WILSON FONSECA",
+      "city": "SANTAREM",
+      "tma": "TMA Santarém",
+      "tmaId": "SANTAREM",
+      "lat": -2.424722222,
+      "lon": -54.785833333,
+      "elevation_ft": 197,
+      "runways": [
+        "10/28"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBSO",
+      "name": "REGIONAL DE SORRISO - ADOLINO BEDIN",
+      "city": "SORRISO",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -12.472777778,
+      "lon": -55.668888889,
+      "elevation_ft": 1266,
+      "runways": [
+        "05/23"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBSP",
+      "name": "Congonhas - Deputado Freitas Nobre",
+      "city": "São Paulo/SP",
+      "tma": "TMA São Paulo",
+      "tmaId": "SAO_PAULO",
+      "lat": -23.6261111111,
+      "lon": -46.6563888889,
+      "elevation_ft": 2634,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBSP&i=aerodromos",
+      "frequencies": {
+        "APP": "119.000 / 120.350 MHz",
+        "TWR Congonhas": "118.050 / 118.350 MHz",
+        "TWR Marte": "120.600 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.700 MHz"
+      }
+    },
+    {
+      "id": "SBSR",
+      "name": "PROFESSOR ERIBELTO MANOEL REINO",
+      "city": "SAO JOSE DO RIO PRETO",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -20.817222222,
+      "lon": -49.406944444,
+      "elevation_ft": 1785,
+      "runways": [
+        "07/25"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBST",
+      "name": "Base Aérea de Santos",
+      "city": "Guarujá/SP",
+      "tma": "TMA São Paulo",
+      "tmaId": "SAO_PAULO",
+      "lat": -23.928055556,
+      "lon": -46.299722222,
+      "elevation_ft": 10,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SBST&i=aerodromos"
+    },
+    {
+      "id": "SBSV",
+      "name": "DEPUTADO LUIS EDUARDO MAGALHAES",
+      "city": "SALVADOR",
+      "tma": "TMA Salvador",
+      "tmaId": "SALVADOR",
+      "lat": -12.908611111,
+      "lon": -38.3225,
+      "elevation_ft": 63,
+      "runways": [
+        "10/28",
+        "17/35"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.350 / 120.450 MHz",
+        "TWR": "118.300 MHz",
+        "ATIS": "127.750 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBTA",
+      "name": "BASE DE AVIACAO DE TAUBATE",
+      "city": "TAUBATE",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -23.038888889,
+      "lon": -45.515833333,
+      "elevation_ft": 1902,
+      "runways": [
+        "08/26"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBTB",
+      "name": "TROMBETAS",
+      "city": "ORIXIMINA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -1.489722222,
+      "lon": -56.396944444,
+      "elevation_ft": 168,
+      "runways": [
+        "09/27"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBTC",
+      "name": "COMANDATUBA",
+      "city": "UNA",
+      "tma": "TMA Ilhéus",
+      "tmaId": "ILHEUS",
+      "lat": -15.35333333,
+      "lon": -38.99722222,
+      "elevation_ft": 23,
+      "runways": [
+        "02/20"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBTD",
+      "name": "LUIS DAL CANALLE FILHO",
+      "city": "TOLEDO",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -24.685277778,
+      "lon": -53.696388889,
+      "elevation_ft": 1842,
+      "runways": [
+        "02/20"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBTE",
+      "name": "SENADOR PETRONIO PORTELLA",
+      "city": "TERESINA",
+      "tma": "TMA Teresina",
+      "tmaId": "TERESINA",
+      "lat": -5.060555556,
+      "lon": -42.82444444,
+      "elevation_ft": 220,
+      "runways": [
+        "02/20"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.100 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBTF",
+      "name": "PREFEITO ORLANDO MARINHO",
+      "city": "TEFE",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -3.380277778,
+      "lon": -64.72527778,
+      "elevation_ft": 187,
+      "runways": [
+        "15/33"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBTG",
+      "name": "TRES LAGOAS",
+      "city": "TRES LAGOAS",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -20.751388889,
+      "lon": -51.680277778,
+      "elevation_ft": 1060,
+      "runways": [
+        "07/25"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBTK",
+      "name": "TARAUACA",
+      "city": "TARAUACA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -8.155277778,
+      "lon": -70.783055556,
+      "elevation_ft": 630,
+      "runways": [
+        "15/33"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBTS",
+      "name": "TIRIOS",
+      "city": "OBIDOS",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": 2.224827778,
+      "lon": -55.942583333,
+      "elevation_ft": 1129,
+      "runways": [
+        "10/28"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBTT",
+      "name": "TABATINGA",
+      "city": "TABATINGA",
+      "tma": "TMA Amazônica",
+      "tmaId": "AMAZONICA",
+      "lat": -4.250555556,
+      "lon": -69.937777778,
+      "elevation_ft": 263,
+      "runways": [
+        "12/30"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBTU",
+      "name": "TUCURUI",
+      "city": "TUCURUI",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -3.776944444,
+      "lon": -49.71972222,
+      "elevation_ft": 830,
+      "runways": [
+        "02/20"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBTV",
+      "name": "TERRAVISTA",
+      "city": "PORTO SEGURO",
+      "tma": "TMA Porto Seguro",
+      "tmaId": "PORTO_SEGURO",
+      "lat": -16.541388889,
+      "lon": -39.108055556,
+      "elevation_ft": 164,
+      "runways": [
+        "15/33"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBUA",
+      "name": "SAO GABRIEL DA CACHOEIRA",
+      "city": "SAO GABRIEL DA CACHOEIRA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -0.148055556,
+      "lon": -66.98583333,
+      "elevation_ft": 251,
+      "runways": [
+        "05/23"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBUF",
+      "name": "PAULO AFONSO",
+      "city": "PAULO AFONSO",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -9.401111111,
+      "lon": -38.251111111,
+      "elevation_ft": 883,
+      "runways": [
+        "14/32"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBUG",
+      "name": "RUBEM BERTA",
+      "city": "URUGUAIANA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -29.783333333,
+      "lon": -57.036944444,
+      "elevation_ft": 256,
+      "runways": [
+        "10/28"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBUL",
+      "name": "TENENTE CORONEL AVIADOR CESAR BOMBONATO",
+      "city": "UBERLANDIA",
+      "tma": "TMA Uberlândia",
+      "tmaId": "UBERLANDIA",
+      "lat": -18.88361111,
+      "lon": -48.22527778,
+      "elevation_ft": 3094,
+      "runways": [
+        "04/22"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.250 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.700 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBUR",
+      "name": "MARIO DE ALMEIDA FRANCO",
+      "city": "UBERABA",
+      "tma": "TMA Uberaba",
+      "tmaId": "UBERABA",
+      "lat": -19.76472222,
+      "lon": -47.96611111,
+      "elevation_ft": 2654,
+      "runways": [
+        "17/35"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.250 MHz",
+        "TWR": "118.300 MHz",
+        "ATIS": "127.650 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBUY",
+      "name": "URUCU",
+      "city": "COARI",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -4.883055556,
+      "lon": -65.355833333,
+      "elevation_ft": 210,
+      "runways": [
+        "09/27"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBVC",
+      "name": "GLAUBER DE ANDRADE ROCHA",
+      "city": "VITORIA DA CONQUISTA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -14.907777778,
+      "lon": -40.914722222,
+      "elevation_ft": 2934,
+      "runways": [
+        "15/33"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBVG",
+      "name": "MAJOR BRIGADEIRO TROMPOWSKY",
+      "city": "VARGINHA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -21.58888889,
+      "lon": -45.47333333,
+      "elevation_ft": 3025,
+      "runways": [
+        "04/22"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBVH",
+      "name": "VILHENA",
+      "city": "VILHENA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -12.694444444,
+      "lon": -60.098333333,
+      "elevation_ft": 2018,
+      "runways": [
+        "03/21"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBVT",
+      "name": "EURICO DE AGUIAR SALLES",
+      "city": "VITORIA",
+      "tma": "TMA Vitória",
+      "tmaId": "VITORIA",
+      "lat": -20.258055556,
+      "lon": -40.286388889,
+      "elevation_ft": 34,
+      "runways": [
+        "02/20",
+        "06/24"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+      "frequencies": {
+        "APP": "119.100 / 120.650 MHz",
+        "TWR": "118.100 MHz",
+        "ATIS": "127.600 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SBYS",
+      "name": "CAMPO FONTENELLE",
+      "city": "PIRASSUNUNGA",
+      "tma": "TMA Academia",
+      "tmaId": "ACADEMIA",
+      "lat": -21.984444444,
+      "lon": -47.344166667,
+      "elevation_ft": 1976,
+      "runways": [
+        "02C/20C",
+        "02L/20R",
+        "02R/20L"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SBZM",
+      "name": "PRESIDENTE ITAMAR FRANCO",
+      "city": "GOIANA",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -21.513055556,
+      "lon": -43.173055556,
+      "elevation_ft": 1352,
+      "runways": [
+        "08/26"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SDAG",
+      "name": "Angra dos Reis",
+      "city": "Angra dos Reis/RJ",
+      "tma": "TMA Rio de Janeiro",
+      "tmaId": "RIO_DE_JANEIRO",
+      "lat": -22.975278,
+      "lon": -44.307222,
+      "elevation_ft": 10,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SDAG&i=aerodromos"
+    },
+    {
+      "id": "SDAM",
+      "name": "Campos dos Amarais - Prefeito Francisco Amaral",
+      "city": "Campinas/SP",
+      "tma": "TMA São Paulo",
+      "tmaId": "SAO_PAULO",
+      "lat": -22.8591666667,
+      "lon": -47.1080555556,
+      "elevation_ft": 2008,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SDAM&i=aerodromos",
+      "frequencies": {
+        "APP": "120.050 / 124.000 MHz",
+        "TWR": "118.700 MHz",
+        "ATIS": "127.825 MHz",
+        "GND": "121.900 MHz"
+      }
+    },
+    {
+      "id": "SDCO",
+      "name": "Sorocaba",
+      "city": "Sorocaba/SP",
+      "tma": "TMA São Paulo",
+      "tmaId": "SAO_PAULO",
+      "lat": -23.4777777778,
+      "lon": -47.49,
+      "elevation_ft": 2083,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SDCO&i=aerodromos"
+    },
+    {
+      "id": "SDRS",
+      "name": "Resende",
+      "city": "Resende/RJ",
+      "tma": "TMA Rio de Janeiro",
+      "tmaId": "RIO_DE_JANEIRO",
+      "lat": -22.478611,
+      "lon": -44.484444,
+      "elevation_ft": 1322,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SDRS&i=aerodromos"
+    },
+    {
+      "id": "SDTK",
+      "name": "Paraty",
+      "city": "Paraty/RJ",
+      "tma": "TMA Rio de Janeiro",
+      "tmaId": "RIO_DE_JANEIRO",
+      "lat": -23.223056,
+      "lon": -44.723611,
+      "elevation_ft": 10,
+      "source": "DECEA/AISWEB — ROTAER",
+      "source_url": "https://aisweb.decea.mil.br/?codigo=SDTK&i=aerodromos"
+    },
+    {
+      "id": "SSCQ",
+      "name": "SAICA",
+      "city": "CACEQUI",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -29.899722222,
+      "lon": -54.945833333,
+      "elevation_ft": 281,
+      "runways": [
+        "02/20"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    },
+    {
+      "id": "SSKW",
+      "name": "CACOAL",
+      "city": "CACOAL",
+      "tma": "Sem TMA associada",
+      "tmaId": "UNASSIGNED",
+      "lat": -11.49555556,
+      "lon": -61.450875,
+      "elevation_ft": 799,
+      "runways": [
+        "17/35"
+      ],
+      "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+      "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm"
+    }
+  ]
+}

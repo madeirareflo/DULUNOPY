@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "airport": "SBCY",
+  "coordinateSource": "data/waypoints.json",
+  "types": {
+    "SID": [
+      {
+        "id": "AIXM-8a71a537-5079-40f5-9ef3-92f4ed595ba0",
+        "name": "rnav-edpuk-1b-rwy-17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/SID/rnav-edpuk-1b-rwy-17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-e831f5ee-659a-41f9-93bb-6310428688b7",
+        "name": "rnav-enran-1a-rwy-35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/SID/rnav-enran-1a-rwy-35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-7a39f75b-9ed7-480a-b40a-23bd491c94f0",
+        "name": "rnav-irodu-1b-rwy17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/SID/rnav-irodu-1b-rwy17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-0ae40321-2ad3-41bd-a0f1-ff53aa77c852",
+        "name": "rnav-isvis-1b-rwy-17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/SID/rnav-isvis-1b-rwy-17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-4bd723e7-0553-49bb-b013-cc37ef351c45",
+        "name": "rnav-kulip-1a-rwy35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/SID/rnav-kulip-1a-rwy35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-a7e187c4-352e-4df3-b7c2-bb89f7ded71a",
+        "name": "rnav-xuvum-1a-rwy-35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/SID/rnav-xuvum-1a-rwy-35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 7,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBCY-SID-omni-rwy-17-35",
+        "name": "OMNI RWY 17-35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/SID/OMNI RWY 17-35.json",
+        "runways": [
+          "17",
+          "35"
+        ],
+        "modes": [
+          "OMNI"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCY-SID-CY00I",
+        "name": "RNAV ATAVA 1A - TIPLA 1A RWY 35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/SID/RNAV ATAVA 1A - TIPLA 1A RWY 35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCY-SID-CY01E",
+        "name": "RNAV EQUAL 1A - GETMA 1A RWY 35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/SID/RNAV EQUAL 1A - GETMA 1A RWY 35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCY-SID-CY01D",
+        "name": "RNAV GAXIM 1B RWY 17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/SID/RNAV GAXIM 1B RWY 17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCY-SID-CY00H",
+        "name": "RNAV IRODU 2B - ISVIS 3B RWY 17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/SID/RNAV IRODU 2B - ISVIS 3B RWY 17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      }
+    ],
+    "STAR": [
+      {
+        "id": "AIXM-536613e8-f3d2-4b09-82d2-bb6889e65d5f",
+        "name": "rnav-angas-1a-rwy-35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/STAR/rnav-angas-1a-rwy-35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-938f47d6-5e2f-44c0-98ca-2771060c60af",
+        "name": "rnav-angas-1b-rwy-17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/STAR/rnav-angas-1b-rwy-17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-81c0059a-7bb0-4bfe-9421-3a4e44f1301f",
+        "name": "rnav-sinip-1a-rwy-35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/STAR/rnav-sinip-1a-rwy-35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-cdba7064-a7d8-4874-be9a-e919c10b946a",
+        "name": "rnav-sinip-1b-rwy-17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/STAR/rnav-sinip-1b-rwy-17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBCY-STAR-CY00U",
+        "name": "RNAV ANGAS 3A - BOKIM 1A RWY 35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/STAR/RNAV ANGAS 3A - BOKIM 1A RWY 35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCY-STAR-CY00W",
+        "name": "RNAV ANGAS 3B - BOKIM 2B RWY 17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/STAR/RNAV ANGAS 3B - BOKIM 2B RWY 17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCY-STAR-CY01F",
+        "name": "RNAV BOKIM 1C RWY 17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/STAR/RNAV BOKIM 1C RWY 17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCY-STAR-CY00V",
+        "name": "RNAV GENGO 1A RWY 35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/STAR/RNAV GENGO 1A RWY 35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCY-STAR-CY00X",
+        "name": "RNAV GENGO 1B RWY 17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/STAR/RNAV GENGO 1B RWY 17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      }
+    ],
+    "IAC": [
+      {
+        "id": "AISWEB-SBCY-IAC-CY00K",
+        "name": "ILS W OR LOC W RWY 35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/IAC/ILS W OR LOC W RWY 35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "ILS",
+          "LOC"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBCY-IAC-CY00J",
+        "name": "ILS X RWY 35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/IAC/ILS X RWY 35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCY-IAC-CY00O",
+        "name": "RNP W RWY 35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/IAC/RNP W RWY 35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBCY-IAC-CY01A",
+        "name": "RNP X RWY 17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/IAC/RNP X RWY 17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBCY-IAC-CY00N",
+        "name": "RNP Y RWY 17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/IAC/RNP Y RWY 17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBCY-IAC-CY00M",
+        "name": "VOR X RWY 35",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/IAC/VOR X RWY 35.json",
+        "runways": [
+          "35"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBCY-IAC-CY00L",
+        "name": "VOR Y RWY 17",
+        "file": "data/tmas/cuiaba/airports/SBCY/procedures/IAC/VOR Y RWY 17.json",
+        "runways": [
+          "17"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      }
+    ]
+  }
+}

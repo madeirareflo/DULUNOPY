@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#142638" />
+      <stop offset="70%" stop-color="#0b141d" />
+      <stop offset="100%" stop-color="#050a0f" />
+    </radialGradient>
+    <linearGradient id="planeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ffff" />
+      <stop offset="100%" stop-color="#0099cc" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Fundo Circular com borda -->
+  <rect width="512" height="512" rx="115" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#00e5ff" stroke-width="3" stroke-opacity="0.25" />
+  
+  <!-- Círculos de Alcance do Radar -->
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#00e5ff" stroke-width="1.5" stroke-opacity="0.2" stroke-dasharray="6,6" />
+  <circle cx="256" cy="256" r="105" fill="none" stroke="#00e5ff" stroke-width="1.5" stroke-opacity="0.3" />
+  <circle cx="256" cy="256" r="45" fill="none" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.35" />
+
+  <!-- Eixos de Azimute -->
+  <line x1="256" y1="36" x2="256" y2="476" stroke="#00e5ff" stroke-width="1.5" stroke-opacity="0.2" />
+  <line x1="36" y1="256" x2="476" y2="256" stroke="#00e5ff" stroke-width="1.5" stroke-opacity="0.2" />
+  <line x1="100" y1="100" x2="412" y2="412" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.1" />
+  <line x1="412" y1="100" x2="100" y2="412" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.1" />
+
+  <!-- Feixe de Varredura / Sweep do Radar -->
+  <path d="M 256 256 L 418 94 A 230 230 0 0 0 256 26 Z" fill="#00e5ff" fill-opacity="0.08" />
+
+  <!-- Silhueta da Aeronave em Destaque -->
+  <g transform="translate(256,236) rotate(-45) scale(2.8)" filter="url(#glow)">
+    <path d="M 0 -24 L 3 -18 L 3 -5 L 20 6 L 20 10 L 3 6 L 3 17 L 8 21 L 8 24 L 0 22 L -8 24 L -8 21 L -3 17 L -3 6 L -20 10 L -20 6 L -3 -5 L -3 -18 Z" fill="url(#planeGrad)" />
+  </g>
+
+  <!-- Ponto de Transponder e Vetor -->
+  <circle cx="340" cy="172" r="5" fill="#ffb347" filter="url(#glow)" />
+  <line x1="340" y1="172" x2="385" y2="127" stroke="#ffb347" stroke-width="2" stroke-dasharray="3,3" />
+
+  <!-- Texto Inferior -->
+  <text x="256" y="445" fill="#00e5ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="8" text-anchor="middle" opacity="0.9">DULUNOPY</text>
+</svg>

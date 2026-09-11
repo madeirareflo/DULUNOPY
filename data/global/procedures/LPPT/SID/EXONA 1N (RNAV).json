@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LPPT-EXONA 1N (RNAV)",
+    "name": "EXONA 1N (RNAV)",
+    "type": "SID",
+    "airport": "LPPT",
+    "runways": [
+      "02"
+    ],
+    "source": {
+      "authority": "NAV Portugal / AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "PT021": {
+      "ident": "PT021",
+      "coordinate_ref": "waypoint:global:LPPT:PT021:1cb92547ccec"
+    },
+    "EXONA": {
+      "ident": "EXONA",
+      "coordinate_ref": "waypoint:global:LPPT:EXONA:b05fda7d6c0f"
+    },
+    "IXIDA": {
+      "ident": "IXIDA",
+      "coordinate_ref": "waypoint:global:LPPT:IXIDA:16f168d00fa7"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw02-ixida-leg-1",
+      "from": "PT021",
+      "to": "EXONA",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 21.2,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw02-ixida-leg-2",
+      "from": "EXONA",
+      "to": "IXIDA",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 20.3,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw02-ixida",
+      "name": "RW02 - IXIDA",
+      "kind": "departure",
+      "sequence": [
+        "PT021",
+        "EXONA",
+        "IXIDA"
+      ],
+      "leg_ids": [
+        "rw02-ixida-leg-1",
+        "rw02-ixida-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

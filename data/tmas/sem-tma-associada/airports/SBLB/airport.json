@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "icao": "SBLB",
+  "name": "Aeroporto de Labrea",
+  "city": "Labrea",
+  "latitude": -7.260833,
+  "longitude": -64.783611,
+  "elevation_ft": 246,
+  "runways": [],
+  "source": "AISWEB/DECEA — AIXM completo",
+  "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+  "effective_date": null,
+  "tma": "UNASSIGNED",
+  "aliases": [],
+  "proceduresIndex": "data/tmas/sem-tma-associada/airports/SBLB/procedures/index.json"
+}

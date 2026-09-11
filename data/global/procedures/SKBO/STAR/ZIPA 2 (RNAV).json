@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SKBO-ZIPA 2 (RNAV)",
+    "name": "ZIPA 2 (RNAV)",
+    "type": "STAR",
+    "airport": "SKBO",
+    "runways": [
+      "13L",
+      "13R"
+    ],
+    "source": {
+      "authority": "Aerocivil / AIP Colombia",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ZIPA": {
+      "ident": "ZIPA",
+      "coordinate_ref": "waypoint:global:SKBO:ZIPA:00b721de458f"
+    },
+    "CHIA": {
+      "ident": "CHIA",
+      "coordinate_ref": "waypoint:global:SKBO:CHIA:c7c1fbf4e651"
+    },
+    "SUBAT": {
+      "ident": "SUBAT",
+      "coordinate_ref": "waypoint:global:SKBO:SUBAT:73b1579084a7"
+    }
+  },
+  "legs": [
+    {
+      "id": "zipa-subat-leg-1",
+      "from": "ZIPA",
+      "to": "CHIA",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 10.6,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "zipa-subat-leg-2",
+      "from": "CHIA",
+      "to": "SUBAT",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 6.7,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "zipa-subat",
+      "name": "Entrada ZIPA Norte",
+      "kind": "arrival",
+      "sequence": [
+        "ZIPA",
+        "CHIA",
+        "SUBAT"
+      ],
+      "leg_ids": [
+        "zipa-subat-leg-1",
+        "zipa-subat-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

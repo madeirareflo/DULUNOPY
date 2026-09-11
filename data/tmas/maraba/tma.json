@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "MARABA",
+  "name": "TMA Marabá",
+  "airports": [
+    "SBMA"
+  ],
+  "airportsIndex": "data/tmas/maraba/airports/index.json",
+  "boundarySource": "data/tmas/brazil-tmas-aixm.json",
+  "sectorIds": [
+    "MARABA"
+  ],
+  "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1"
+}

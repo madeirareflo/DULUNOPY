@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "EGLL-ILS OR LOC RWY 27L",
+    "name": "ILS OR LOC RWY 27L",
+    "type": "IAC",
+    "airport": "EGLL",
+    "runways": [
+      "27L"
+    ],
+    "source": {
+      "authority": "NATS / UK AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "OCK": {
+      "ident": "OCK",
+      "coordinate_ref": "waypoint:global:EGLL:OCK:5395ea218581"
+    },
+    "D270L": {
+      "ident": "D270L",
+      "coordinate_ref": "waypoint:global:EGLL:D270L:0c67044a9b66"
+    },
+    "RW27L": {
+      "ident": "RW27L",
+      "coordinate_ref": "waypoint:global:EGLL:RW27L:9692154773a1"
+    }
+  },
+  "legs": [
+    {
+      "id": "ock-rw27l-leg-1",
+      "from": "OCK",
+      "to": "D270L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 12.6,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "ock-rw27l-leg-2",
+      "from": "D270L",
+      "to": "RW27L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 8,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "ock-rw27l",
+      "name": "Entrada OCK",
+      "kind": "approach",
+      "sequence": [
+        "OCK",
+        "D270L",
+        "RW27L"
+      ],
+      "leg_ids": [
+        "ock-rw27l-leg-1",
+        "ock-rw27l-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

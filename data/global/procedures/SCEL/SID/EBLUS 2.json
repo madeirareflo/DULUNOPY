@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SCEL-EBLUS 2",
+    "name": "EBLUS 2",
+    "type": "SID",
+    "airport": "SCEL",
+    "runways": [
+      "17L"
+    ],
+    "source": {
+      "authority": "DGAC Chile",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SL171": {
+      "ident": "SL171",
+      "coordinate_ref": "waypoint:global:SCEL:SL171:6370315ddcb5"
+    },
+    "EBLUS": {
+      "ident": "EBLUS",
+      "coordinate_ref": "waypoint:global:SCEL:EBLUS:04fc50edac06"
+    },
+    "AMB": {
+      "ident": "AMB",
+      "coordinate_ref": "waypoint:global:SCEL:AMB:5f0fa15a5a48"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw17l-amb-leg-1",
+      "from": "SL171",
+      "to": "EBLUS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 24.1,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw17l-amb-leg-2",
+      "from": "EBLUS",
+      "to": "AMB",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 18.1,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw17l-amb",
+      "name": "RW17L - AMB",
+      "kind": "departure",
+      "sequence": [
+        "SL171",
+        "EBLUS",
+        "AMB"
+      ],
+      "leg_ids": [
+        "rw17l-amb-leg-1",
+        "rw17l-amb-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

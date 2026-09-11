@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SPJC-ANCON 2 (RNAV)",
+    "name": "ANCON 2 (RNAV)",
+    "type": "STAR",
+    "airport": "SPJC",
+    "runways": [
+      "16",
+      "15"
+    ],
+    "source": {
+      "authority": "CORPAC / AIP Perú",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ANCON": {
+      "ident": "ANCON",
+      "coordinate_ref": "waypoint:global:SPJC:ANCON:3b2f642e1ded"
+    },
+    "VENTA": {
+      "ident": "VENTA",
+      "coordinate_ref": "waypoint:global:SPJC:VENTA:ed9233f0b25b"
+    },
+    "PUCUS": {
+      "ident": "PUCUS",
+      "coordinate_ref": "waypoint:global:SPJC:PUCUS:a608605d1881"
+    }
+  },
+  "legs": [
+    {
+      "id": "ancon-pucus-leg-1",
+      "from": "ANCON",
+      "to": "VENTA",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 8,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "ancon-pucus-leg-2",
+      "from": "VENTA",
+      "to": "PUCUS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 4.4,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "ancon-pucus",
+      "name": "Entrada ANCON",
+      "kind": "arrival",
+      "sequence": [
+        "ANCON",
+        "VENTA",
+        "PUCUS"
+      ],
+      "leg_ids": [
+        "ancon-pucus-leg-1",
+        "ancon-pucus-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

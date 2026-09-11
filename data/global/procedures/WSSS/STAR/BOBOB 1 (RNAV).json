@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "WSSS-BOBOB 1 (RNAV)",
+    "name": "BOBOB 1 (RNAV)",
+    "type": "STAR",
+    "airport": "WSSS",
+    "runways": [
+      "20R",
+      "20L"
+    ],
+    "source": {
+      "authority": "CAAS / AIP Singapore",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "BOBOB": {
+      "ident": "BOBOB",
+      "coordinate_ref": "waypoint:global:WSSS:BOBOB:390e6a15bacf"
+    },
+    "AROSO": {
+      "ident": "AROSO",
+      "coordinate_ref": "waypoint:global:WSSS:AROSO:7c0f33d3b07c"
+    },
+    "PASPU": {
+      "ident": "PASPU",
+      "coordinate_ref": "waypoint:global:WSSS:PASPU:61db2340f1b5"
+    }
+  },
+  "legs": [
+    {
+      "id": "bobob-paspu-leg-1",
+      "from": "BOBOB",
+      "to": "AROSO",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 15,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "bobob-paspu-leg-2",
+      "from": "AROSO",
+      "to": "PASPU",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 12.5,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "bobob-paspu",
+      "name": "Entrada BOBOB",
+      "kind": "arrival",
+      "sequence": [
+        "BOBOB",
+        "AROSO",
+        "PASPU"
+      ],
+      "leg_ids": [
+        "bobob-paspu-leg-1",
+        "bobob-paspu-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

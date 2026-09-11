@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KLAX-DOTSS 2 (RNAV)",
+    "name": "DOTSS 2 (RNAV)",
+    "type": "SID",
+    "airport": "KLAX",
+    "runways": [
+      "24L"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "LAX": {
+      "ident": "LAX",
+      "coordinate_ref": "waypoint:global:KLAX:LAX:cf40242a74aa"
+    },
+    "DOTSS": {
+      "ident": "DOTSS",
+      "coordinate_ref": "waypoint:global:KLAX:DOTSS:c9b98dadedf8"
+    },
+    "IKAYE": {
+      "ident": "IKAYE",
+      "coordinate_ref": "waypoint:global:KLAX:IKAYE:c034519fbafd"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw24l-ikaye-leg-1",
+      "from": "LAX",
+      "to": "DOTSS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 17.9,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw24l-ikaye-leg-2",
+      "from": "DOTSS",
+      "to": "IKAYE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 21.4,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw24l-ikaye",
+      "name": "RW24L - IKAYE",
+      "kind": "departure",
+      "sequence": [
+        "LAX",
+        "DOTSS",
+        "IKAYE"
+      ],
+      "leg_ids": [
+        "rw24l-ikaye-leg-1",
+        "rw24l-ikaye-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

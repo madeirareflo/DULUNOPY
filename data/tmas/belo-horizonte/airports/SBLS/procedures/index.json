@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "airport": "SBLS",
+  "coordinateSource": "data/waypoints.json",
+  "types": {
+    "SID": [
+      {
+        "id": "AIXM-40bb5c79-ce07-43a9-8c67-eac38b1c497f",
+        "name": "isnuv-2a",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/SID/isnuv-2a.json",
+        "runways": [
+          "13",
+          "31"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-c17a6873-0a67-4af2-9666-1f4e2f4e2077",
+        "name": "rnav-kubex-2a",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/SID/rnav-kubex-2a.json",
+        "runways": [
+          "13",
+          "31"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-7c8143e2-2940-425a-acc1-5a60437bcf19",
+        "name": "rnav-vasix-1a",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/SID/rnav-vasix-1a.json",
+        "runways": [
+          "13",
+          "31"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBLS-SID-omni-rwy-13-31",
+        "name": "OMNI RWY 13-31",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/SID/OMNI RWY 13-31.json",
+        "runways": [
+          "13",
+          "31"
+        ],
+        "modes": [
+          "OMNI"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBLS-SID-LS00I",
+        "name": "RNAV ISNUV 2A RWY 13-31",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/SID/RNAV ISNUV 2A RWY 13-31.json",
+        "runways": [
+          "13",
+          "31"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBLS-SID-LS00J",
+        "name": "RNAV KUBEX 3A RWY 13-31",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/SID/RNAV KUBEX 3A RWY 13-31.json",
+        "runways": [
+          "13",
+          "31"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBLS-SID-LS00O",
+        "name": "RNAV TORUX 2A RWY 13-31",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/SID/RNAV TORUX 2A RWY 13-31.json",
+        "runways": [
+          "13",
+          "31"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBLS-SID-LS00L",
+        "name": "RNAV VASIX 1A RWY 13-31",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/SID/RNAV VASIX 1A RWY 13-31.json",
+        "runways": [
+          "13",
+          "31"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      }
+    ],
+    "STAR": [],
+    "IAC": [
+      {
+        "id": "AIXM-9208dfcb-2742-4511-bb8c-b9fae362e770",
+        "name": "rnp-rwy-13",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/IAC/rnp-rwy-13.json",
+        "runways": [
+          "13"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-358cc4fc-0cca-43b8-bf22-78f111bb6360",
+        "name": "rnp-rwy-31",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/IAC/rnp-rwy-31.json",
+        "runways": [
+          "31"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBLS-IAC-nav-apv-rwy-13-uso-exclusivo-acft-mil-f-39",
+        "name": "NAV APV RWY 13 USO EXCLUSIVO ACFT MIL F-39",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/IAC/NAV APV RWY 13 USO EXCLUSIVO ACFT MIL F-39.json",
+        "runways": [
+          "13"
+        ],
+        "modes": [
+          "NAV"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBLS-IAC-nav-apv-rwy-31-uso-exclusivo-acft-mil-f-39",
+        "name": "NAV APV RWY 31 USO EXCLUSIVO ACFT MIL F-39",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/IAC/NAV APV RWY 31 USO EXCLUSIVO ACFT MIL F-39.json",
+        "runways": [
+          "31"
+        ],
+        "modes": [
+          "NAV"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBLS-IAC-LS00E",
+        "name": "NDB RWY 13",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/IAC/NDB RWY 13.json",
+        "runways": [
+          "13"
+        ],
+        "modes": [
+          "NDB"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBLS-IAC-LS00K",
+        "name": "RNP RWY 13",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/IAC/RNP RWY 13.json",
+        "runways": [
+          "13"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBLS-IAC-LS00M",
+        "name": "RNP RWY 31",
+        "file": "data/tmas/belo-horizonte/airports/SBLS/procedures/IAC/RNP RWY 31.json",
+        "runways": [
+          "31"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      }
+    ]
+  }
+}

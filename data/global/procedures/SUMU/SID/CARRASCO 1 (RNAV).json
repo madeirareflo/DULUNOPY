@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SUMU-CARRASCO 1 (RNAV)",
+    "name": "CARRASCO 1 (RNAV)",
+    "type": "SID",
+    "airport": "SUMU",
+    "runways": [
+      "06",
+      "24"
+    ],
+    "source": {
+      "authority": "DINACIA / AIP Uruguay",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "MVD": {
+      "ident": "MVD",
+      "coordinate_ref": "waypoint:global:SUMU:MVD:305da30c46f8"
+    },
+    "DURNO": {
+      "ident": "DURNO",
+      "coordinate_ref": "waypoint:global:SUMU:DURNO:49b8d3b85d02"
+    },
+    "PANDO": {
+      "ident": "PANDO",
+      "coordinate_ref": "waypoint:global:SUMU:PANDO:d39e4041f8f6"
+    }
+  },
+  "legs": [
+    {
+      "id": "mvd-pando-leg-1",
+      "from": "MVD",
+      "to": "DURNO",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 16,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "mvd-pando-leg-2",
+      "from": "DURNO",
+      "to": "PANDO",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 19.1,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "mvd-pando",
+      "name": "Saída PANDO",
+      "kind": "departure",
+      "sequence": [
+        "MVD",
+        "DURNO",
+        "PANDO"
+      ],
+      "leg_ids": [
+        "mvd-pando-leg-1",
+        "mvd-pando-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

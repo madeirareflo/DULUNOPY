@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "OMDB-DARAX 2D",
+    "name": "DARAX 2D",
+    "type": "SID",
+    "airport": "OMDB",
+    "runways": [
+      "12L"
+    ],
+    "source": {
+      "authority": "GCAA UAE",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "DB412": {
+      "ident": "DB412",
+      "coordinate_ref": "waypoint:global:OMDB:DB412:f9a30d843067"
+    },
+    "DARAX": {
+      "ident": "DARAX",
+      "coordinate_ref": "waypoint:global:OMDB:DARAX:400eb74abe24"
+    },
+    "SENOR": {
+      "ident": "SENOR",
+      "coordinate_ref": "waypoint:global:OMDB:SENOR:de1dc79f6b6b"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw12l-senor-leg-1",
+      "from": "DB412",
+      "to": "DARAX",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 26.8,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw12l-senor-leg-2",
+      "from": "DARAX",
+      "to": "SENOR",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 24.3,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw12l-senor",
+      "name": "RW12L - SENOR",
+      "kind": "departure",
+      "sequence": [
+        "DB412",
+        "DARAX",
+        "SENOR"
+      ],
+      "leg_ids": [
+        "rw12l-senor-leg-1",
+        "rw12l-senor-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

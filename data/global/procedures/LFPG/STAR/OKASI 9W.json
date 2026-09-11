@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LFPG-OKASI 9W",
+    "name": "OKASI 9W",
+    "type": "STAR",
+    "airport": "LFPG",
+    "runways": [
+      "27R"
+    ],
+    "source": {
+      "authority": "SIA France",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "OKASI": {
+      "ident": "OKASI",
+      "coordinate_ref": "waypoint:global:LFPG:OKASI:de4317459150"
+    },
+    "LORNI": {
+      "ident": "LORNI",
+      "coordinate_ref": "waypoint:global:LFPG:LORNI:aa08fe3ddf79"
+    },
+    "VEBEK": {
+      "ident": "VEBEK",
+      "coordinate_ref": "waypoint:global:LFPG:VEBEK:4c3921fe7b43"
+    }
+  },
+  "legs": [
+    {
+      "id": "okasi-vebek-leg-1",
+      "from": "OKASI",
+      "to": "LORNI",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 21.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "okasi-vebek-leg-2",
+      "from": "LORNI",
+      "to": "VEBEK",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 14.3,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "okasi-vebek",
+      "name": "Entrada OKASI - VEBEK",
+      "kind": "arrival",
+      "sequence": [
+        "OKASI",
+        "LORNI",
+        "VEBEK"
+      ],
+      "leg_ids": [
+        "okasi-vebek-leg-1",
+        "okasi-vebek-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

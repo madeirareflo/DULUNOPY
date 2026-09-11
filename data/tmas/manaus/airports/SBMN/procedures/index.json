@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 1,
+  "airport": "SBMN",
+  "coordinateSource": "data/waypoints.json",
+  "types": {
+    "SID": [
+      {
+        "id": "AIXM-032f3dc7-ade0-4fd8-9a6c-410e3bc08d4e",
+        "name": "rnav-ekutu-1a-rwy-09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/rnav-ekutu-1a-rwy-09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-8b8b6097-249c-429f-9de1-798a39379d8d",
+        "name": "rnav-gavap-1a-rwy-09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/rnav-gavap-1a-rwy-09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-628013e8-bd17-4f32-bf4a-6eb6ceec22a8",
+        "name": "rnav-gavap-1b-rwy-27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/rnav-gavap-1b-rwy-27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-775c6ca4-6e41-491c-9070-78efc5c84a0d",
+        "name": "rnav-mubav-1b-rwy-27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/rnav-mubav-1b-rwy-27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-c711723d-c32e-42ab-a702-045be1d57bf3",
+        "name": "rnav-mugib-1a-rwy-09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/rnav-mugib-1a-rwy-09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-9a429092-2ec1-418a-8e59-0fb39ed8b891",
+        "name": "rnav-mugib-1b-rwy-27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/rnav-mugib-1b-rwy-27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-2eb51583-fe51-44a4-8cf2-2c4976ee8f88",
+        "name": "rnav-pudpo-1b-rwy-09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/rnav-pudpo-1b-rwy-09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-b70579b6-c179-401d-8caf-695292194455",
+        "name": "rnav-pudpo-1c-rwy-27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/rnav-pudpo-1c-rwy-27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-3104df46-3d3f-4dad-bc29-5c6df5e961b1",
+        "name": "rnav-ropab-1a-rwy-09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/rnav-ropab-1a-rwy-09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-e4162fba-fa1c-4385-b794-85b4f5e9f38f",
+        "name": "rnav-sigep-1a-rwy-09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/rnav-sigep-1a-rwy-09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-0abb9d19-8b8a-4896-96bf-98065eb7a9fd",
+        "name": "rnav-susbu-1b-rwy-27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/rnav-susbu-1b-rwy-27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-d7fa8b77-e456-4c11-bed6-03f7549c405e",
+        "name": "rnav-utpam-1a-rwy-09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/rnav-utpam-1a-rwy-09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBMN-SID-omni-1a-rwy-09-27",
+        "name": "OMNI 1A RWY 09-27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/OMNI 1A RWY 09-27.json",
+        "runways": [
+          "09",
+          "27"
+        ],
+        "modes": [
+          "OMNI"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBMN-SID-MN02C",
+        "name": "RNAV JAUNA 1B RWY 27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/RNAV JAUNA 1B RWY 27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBMN-SID-MN01Z",
+        "name": "RNAV PAUTA 1A RWY 09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/RNAV PAUTA 1A RWY 09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBMN-SID-MN02A",
+        "name": "RNAV PONTE 1A RWY 09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/RNAV PONTE 1A RWY 09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBMN-SID-MN02B",
+        "name": "RNAV PONTE 1B RWY 27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/SID/RNAV PONTE 1B RWY 27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      }
+    ],
+    "STAR": [
+      {
+        "id": "AIXM-5234b587-6266-48db-b086-a34aaa163d3c",
+        "name": "rnav-albip-1a-rwy-09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/STAR/rnav-albip-1a-rwy-09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-4685adf0-d190-4b04-b2da-baea54c10701",
+        "name": "rnav-albip-1b-rwy-27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/STAR/rnav-albip-1b-rwy-27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-cfe4abb5-404b-43b9-94e8-0762dcef8581",
+        "name": "rnav-irumo-1a-rwy-09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/STAR/rnav-irumo-1a-rwy-09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-2cd56f5c-f844-4a41-b7e9-e3d351845564",
+        "name": "rnav-irumo-1b-rwy-27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/STAR/rnav-irumo-1b-rwy-27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-c6b990b5-8289-4b65-946c-8695250e06da",
+        "name": "rnav-kulab-1a-rwy-09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/STAR/rnav-kulab-1a-rwy-09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-7cc6e865-5766-47e4-88bb-526c497c72c0",
+        "name": "rnav-kulab-1b-rwy-27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/STAR/rnav-kulab-1b-rwy-27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-882ccb7f-6602-4e3e-b880-a77949cd57fd",
+        "name": "rnav-moldo-1a-rwy09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/STAR/rnav-moldo-1a-rwy09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-62229734-710b-4d07-bb82-2fedf34b9628",
+        "name": "rnav-moldo-1b-rwy-27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/STAR/rnav-moldo-1b-rwy-27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-2e06cd30-6546-4cfe-b3a8-3dbcd2c91471",
+        "name": "rnav-semla-1a-rwy-09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/STAR/rnav-semla-1a-rwy-09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-dbaee90d-3ead-44b0-baab-dd654b5de451",
+        "name": "rnav-semla-1c-rwy-27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/STAR/rnav-semla-1c-rwy-27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      }
+    ],
+    "IAC": [
+      {
+        "id": "AISWEB-SBMN-IAC-MN02E",
+        "name": "ILS W OR LOC W RWY 09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/IAC/ILS W OR LOC W RWY 09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "ILS",
+          "LOC"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBMN-IAC-MN01N",
+        "name": "ILS Y RWY 09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/IAC/ILS Y RWY 09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBMN-IAC-MN01O",
+        "name": "LOC RWY 09 USO EXCLUSIVO ACFT MILITARES",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/IAC/LOC RWY 09 USO EXCLUSIVO ACFT MILITARES.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "LOC"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBMN-IAC-MN00K",
+        "name": "RNP RWY 09",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/IAC/RNP RWY 09.json",
+        "runways": [
+          "09"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBMN-IAC-MN00L",
+        "name": "RNP RWY 27",
+        "file": "data/tmas/manaus/airports/SBMN/procedures/IAC/RNP RWY 27.json",
+        "runways": [
+          "27"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      }
+    ]
+  }
+}

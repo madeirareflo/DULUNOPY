@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/build-global-data-catalog.mjs",
+  "coordinateModel": {
+    "canonicalWaypointKey": "<COUNTRY>:<IDENT>",
+    "legacyAliases": "explicitly-declared-only",
+    "procedureCoordinates": "forbidden"
+  },
+  "publicationPolicy": {
+    "rawSources": "never-in-runtime-catalog",
+    "publicArtifacts": "only-datasets-marked-publicRuntime-after-license-review"
+  },
+  "countries": [
+    {
+      "id": "BR",
+      "name": "Brasil",
+      "status": "active",
+      "runtime": {
+        "adapter": "legacy-brazil-v1",
+        "releaseManifest": "data/countries/BR/releases/2026-08-06/manifest.json",
+        "compatibilityMode": "national-tma-catalog"
+      },
+      "sources": [
+        {
+          "id": "br-aisweb",
+          "authority": "DECEA / AISWEB",
+          "portal": "https://aisweb.decea.mil.br/",
+          "dataModel": "AIP/eAIP e tabelas de codificação",
+          "updateCycle": "AIRAC",
+          "licenseStatus": "review-required",
+          "ingestion": "approved-import-only"
+        }
+      ],
+      "activeRelease": {
+        "id": "BR-AIRAC-2026-08-06",
+        "effectiveFrom": "2026-08-06",
+        "manifest": "data/countries/BR/releases/2026-08-06/manifest.json",
+        "coordinateNamespace": "BR",
+        "coordinatePolicy": {
+          "canonicalKey": "BR:<IDENT>",
+          "legacyUnqualifiedAliases": true,
+          "procedureCoordinates": "forbidden"
+        },
+        "sourceSnapshot": {
+          "storage": "data/raw/BR/2026-08-06/",
+          "includedInRepository": false,
+          "status": "not-bundled",
+          "reason": "As fontes brutas não são necessárias para o runtime e exigem revisão de licença antes de redistribuição."
+        },
+        "datasets": [
+          {
+            "kind": "waypoints",
+            "path": "data/waypoints.json",
+            "role": "global-coordinate-store",
+            "publicRuntime": true,
+            "sha256": "adf6eb0cf19db22d33ea62314f45e9fff684a7b67a05c0e1d427b0f53c0e5beb"
+          },
+          {
+            "kind": "tma-catalog",
+            "path": "data/tmas/catalog.json",
+            "role": "on-demand-procedure-discovery",
+            "publicRuntime": true,
+            "sha256": "5772f9240223d99b5f34c92a14419ab59c75229f08a10ff54c401644462aaf91"
+          },
+          {
+            "kind": "tma-boundaries",
+            "path": "data/tmas/brazil-tmas-aixm.json",
+            "role": "airspace-boundaries",
+            "publicRuntime": true,
+            "sha256": "8cd02d96b8cac8f61cf1e19e7b5a77c566fc440a69242ddd20aa4a486c61b468"
+          },
+          {
+            "kind": "aerodromes",
+            "path": "data/tmas/brazil-aerodromes-aixm.json",
+            "role": "national-aerodrome-layer",
+            "publicRuntime": true,
+            "sha256": "03e8ee3ef3ea8472f287a99098f8076004c65a97a9faf5575500efc8074785e8"
+          },
+          {
+            "kind": "procedures",
+            "path": "data/tmas/procedures-index.json",
+            "role": "procedure-audit-index",
+            "publicRuntime": true,
+            "sha256": "4b0ea749e5f47db9d8e5960b57e084a7e430c3e73bc37a641abed6da32c38ce2"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LSZH-ILS RWY 14",
+    "name": "ILS RWY 14",
+    "type": "IAC",
+    "airport": "LSZH",
+    "runways": [
+      "14"
+    ],
+    "source": {
+      "authority": "Skyguide / AIP Switzerland",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "AMIKI": {
+      "ident": "AMIKI",
+      "coordinate_ref": "waypoint:global:LSZH:AMIKI:29a3e974500a"
+    },
+    "ZH001": {
+      "ident": "ZH001",
+      "coordinate_ref": "waypoint:global:LSZH:ZH001:bf65e61b3781"
+    },
+    "RW14": {
+      "ident": "RW14",
+      "coordinate_ref": "waypoint:global:LSZH:RW14:7593532515da"
+    }
+  },
+  "legs": [
+    {
+      "id": "amiki-rw14-leg-1",
+      "from": "AMIKI",
+      "to": "ZH001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.7,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "amiki-rw14-leg-2",
+      "from": "ZH001",
+      "to": "RW14",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.4,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "amiki-rw14",
+      "name": "Aproximação ILS 14",
+      "kind": "approach",
+      "sequence": [
+        "AMIKI",
+        "ZH001",
+        "RW14"
+      ],
+      "leg_ids": [
+        "amiki-rw14-leg-1",
+        "amiki-rw14-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

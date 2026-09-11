@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SDRS-RNP RWY 08",
+    "name": "RNP RWY 08",
+    "type": "IAC",
+    "airport": "SDRS",
+    "runways": [
+      "08"
+    ],
+    "source": {
+      "authority": "DECEA / AISWEB",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "RS003": {
+      "ident": "RS003",
+      "coordinate_ref": "waypoint:global:SDRS:RS003:c6509a85257b"
+    },
+    "RS008": {
+      "ident": "RS008",
+      "coordinate_ref": "waypoint:global:SDRS:RS008:3e6e6d144483"
+    },
+    "RW08": {
+      "ident": "RW08",
+      "coordinate_ref": "waypoint:global:SDRS:RW08:7b9099c9d3cf"
+    }
+  },
+  "legs": [
+    {
+      "id": "rs003-rw08-leg-1",
+      "from": "RS003",
+      "to": "RS008",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 1.3,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rs003-rw08-leg-2",
+      "from": "RS008",
+      "to": "RW08",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 0.8,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rs003-rw08",
+      "name": "Aproximação RNP RWY 08",
+      "kind": "approach",
+      "sequence": [
+        "RS003",
+        "RS008",
+        "RW08"
+      ],
+      "leg_ids": [
+        "rs003-rw08-leg-1",
+        "rs003-rw08-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

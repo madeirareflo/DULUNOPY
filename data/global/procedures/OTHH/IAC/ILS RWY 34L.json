@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "OTHH-ILS RWY 34L",
+    "name": "ILS RWY 34L",
+    "type": "IAC",
+    "airport": "OTHH",
+    "runways": [
+      "34L"
+    ],
+    "source": {
+      "authority": "QCAA / AIP Qatar",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "MESID": {
+      "ident": "MESID",
+      "coordinate_ref": "waypoint:global:OTHH:MESID:908a7f42d81e"
+    },
+    "HH001": {
+      "ident": "HH001",
+      "coordinate_ref": "waypoint:global:OTHH:HH001:11f8a3fa1211"
+    },
+    "RW34L": {
+      "ident": "RW34L",
+      "coordinate_ref": "waypoint:global:OTHH:RW34L:6f9440b8c2f6"
+    }
+  },
+  "legs": [
+    {
+      "id": "mesid-rw34l-leg-1",
+      "from": "MESID",
+      "to": "HH001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "mesid-rw34l-leg-2",
+      "from": "HH001",
+      "to": "RW34L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.8,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "mesid-rw34l",
+      "name": "Aproximação ILS 34L",
+      "kind": "approach",
+      "sequence": [
+        "MESID",
+        "HH001",
+        "RW34L"
+      ],
+      "leg_ids": [
+        "mesid-rw34l-leg-1",
+        "mesid-rw34l-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

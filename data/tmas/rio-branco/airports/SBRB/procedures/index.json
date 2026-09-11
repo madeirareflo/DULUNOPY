@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "airport": "SBRB",
+  "coordinateSource": "data/waypoints.json",
+  "types": {
+    "SID": [
+      {
+        "id": "AIXM-8e16c5db-42be-47a7-b3de-e2b25279ceae",
+        "name": "rnav-aeron-1c-rwy-06",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-aeron-1c-rwy-06.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-65f52cd0-6630-40e4-9e08-e3caff71a27d",
+        "name": "rnav-aeron-1d-rwy-24",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-aeron-1d-rwy-24.json",
+        "runways": [
+          "25"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-875cdef7-6018-4b9c-929c-59d7ef7ccfae",
+        "name": "rnav-bigod-1c-rwy-06",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-bigod-1c-rwy-06.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-9f455024-ed38-4554-8a71-803bfcc18a93",
+        "name": "rnav-bigod-1d-rwy-24",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-bigod-1d-rwy-24.json",
+        "runways": [
+          "25"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-d2f39b42-b494-4b79-9feb-da2e3b8776f0",
+        "name": "rnav-egbak-1c-rwy-06",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-egbak-1c-rwy-06.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-55be3b39-4604-4b73-a343-40df1021b80c",
+        "name": "rnav-egbak-1d-rwy-24",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-egbak-1d-rwy-24.json",
+        "runways": [
+          "25"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-11d5b2af-80b4-4d4d-9f19-5cf35bb704f8",
+        "name": "rnav-filho-1c-rwy-06",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-filho-1c-rwy-06.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-86aa62e7-002d-4d46-8ae6-c65d06eb4a07",
+        "name": "rnav-filho-1d-rwy-24",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-filho-1d-rwy-24.json",
+        "runways": [
+          "25"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-d4742157-08b6-437d-bae4-6e704bf95ce7",
+        "name": "rnav-flote-1c-rwy-06",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-flote-1c-rwy-06.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-4b4e9525-b076-476d-9991-fae3b31827bd",
+        "name": "rnav-flote-1d-rwy-24",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-flote-1d-rwy-24.json",
+        "runways": [
+          "25"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-d41b9a46-8109-4698-8f55-66937b80e834",
+        "name": "rnav-julia-1c-rwy-06",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-julia-1c-rwy-06.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-fb07c18c-7b11-42a4-ad87-5f1767fbeb99",
+        "name": "rnav-julia-1d-rwy-24",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-julia-1d-rwy-24.json",
+        "runways": [
+          "25"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-cccc0b63-7d72-4156-9edb-09e97a84c1dd",
+        "name": "rnav-punpa-1c-rwy-06",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-punpa-1c-rwy-06.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-948d3c24-a6e8-4c57-9db1-01bf5adfb78b",
+        "name": "rnav-vilux-1c-rwy-06",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-vilux-1c-rwy-06.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-8fd27eef-750e-4f87-8144-e1ef3319a6ca",
+        "name": "rnav-vilux-1d-rwy-24",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/rnav-vilux-1d-rwy-24.json",
+        "runways": [
+          "25"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBRB-SID-RB00A",
+        "name": "AERON 2A, 2B - JULIA 2A, 2B RWY 07-25",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/AERON 2A, 2B - JULIA 2A, 2B RWY 07-25.json",
+        "runways": [
+          "07",
+          "25"
+        ],
+        "modes": [],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBRB-SID-RB00S",
+        "name": "BIGOD 1B - BUTKA 1B - ESMAL 1B - FILHO 1B - PUNPA 1B - PADUP 1B RWY 25",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/BIGOD 1B - BUTKA 1B - ESMAL 1B - FILHO 1B - PUNPA 1B - PADUP 1B RWY 25.json",
+        "runways": [
+          "25"
+        ],
+        "modes": [],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBRB-SID-RB00R",
+        "name": "BIGOD 2A - ESMAL 1A - FILHO 2A - BUTKA 2A - PUNPA 1A - PADUP 2A RWY 07",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/BIGOD 2A - ESMAL 1A - FILHO 2A - BUTKA 2A - PUNPA 1A - PADUP 2A RWY 07.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBRB-SID-omni-rwy-07-25",
+        "name": "OMNI RWY 07-25",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/OMNI RWY 07-25.json",
+        "runways": [
+          "07",
+          "25"
+        ],
+        "modes": [
+          "OMNI"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBRB-SID-RB00C",
+        "name": "RNAV AERON 1C - BIGOD 1C - EGBAK 1C - FILHO 1C - BUTKA 1C - JULIA 1C - PUNPA 1C - PADUP 1C RWY 07",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/RNAV AERON 1C - BIGOD 1C - EGBAK 1C - FILHO 1C - BUTKA 1C - JULIA 1C - PUNPA 1C - PADUP 1C RWY 07.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 64,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBRB-SID-RB00D",
+        "name": "RNAV AERON 1D - BIGOD 1D - BUTKA 1D - EGBAK 1D - FILHO 1D - JULIA 1D - PADUP 1D RWY 25",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/SID/RNAV AERON 1D - BIGOD 1D - BUTKA 1D - EGBAK 1D - FILHO 1D - JULIA 1D - PADUP 1D RWY 25.json",
+        "runways": [
+          "25"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 49,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      }
+    ],
+    "STAR": [],
+    "IAC": [
+      {
+        "id": "AISWEB-SBRB-IAC-RB00K",
+        "name": "ILS V RWY 07",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/IAC/ILS V RWY 07.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBRB-IAC-RB00L",
+        "name": "ILS Y OR LOC Y RWY 07",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/IAC/ILS Y OR LOC Y RWY 07.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "ILS",
+          "LOC"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBRB-IAC-RB00l",
+        "name": "RNP RWY 07",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/IAC/RNP RWY 07.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBRB-IAC-RB00J",
+        "name": "RNP RWY 25",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/IAC/RNP RWY 25.json",
+        "runways": [
+          "25"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBRB-IAC-RB00N",
+        "name": "VOR Y RWY 07",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/IAC/VOR Y RWY 07.json",
+        "runways": [
+          "07"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 3
+      },
+      {
+        "id": "AISWEB-SBRB-IAC-RB00P",
+        "name": "VOR Z RWY 25",
+        "file": "data/tmas/rio-branco/airports/SBRB/procedures/IAC/VOR Z RWY 25.json",
+        "runways": [
+          "25"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      }
+    ]
+  }
+}

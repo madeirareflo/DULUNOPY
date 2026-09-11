@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KJFK-LENDY 6 (RNAV)",
+    "name": "LENDY 6 (RNAV)",
+    "type": "STAR",
+    "airport": "KJFK",
+    "runways": [
+      "04L",
+      "04R",
+      "22L"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "LENDY": {
+      "ident": "LENDY",
+      "coordinate_ref": "waypoint:global:KJFK:LENDY:d7fba0af45d7"
+    },
+    "LGA": {
+      "ident": "LGA",
+      "coordinate_ref": "waypoint:global:KJFK:LGA:0a7019e337a2"
+    },
+    "ZACHS": {
+      "ident": "ZACHS",
+      "coordinate_ref": "waypoint:global:KJFK:ZACHS:90cbadaec21e"
+    }
+  },
+  "legs": [
+    {
+      "id": "lendy-zachs-leg-1",
+      "from": "LENDY",
+      "to": "LGA",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 26.8,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "lendy-zachs-leg-2",
+      "from": "LGA",
+      "to": "ZACHS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 10.5,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "lendy-zachs",
+      "name": "Entrada LENDY - ZACHS",
+      "kind": "arrival",
+      "sequence": [
+        "LENDY",
+        "LGA",
+        "ZACHS"
+      ],
+      "leg_ids": [
+        "lendy-zachs-leg-1",
+        "lendy-zachs-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

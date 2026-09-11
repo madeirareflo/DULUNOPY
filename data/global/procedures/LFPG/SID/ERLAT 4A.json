@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LFPG-ERLAT 4A",
+    "name": "ERLAT 4A",
+    "type": "SID",
+    "airport": "LFPG",
+    "runways": [
+      "27L"
+    ],
+    "source": {
+      "authority": "SIA France",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "PG271": {
+      "ident": "PG271",
+      "coordinate_ref": "waypoint:global:LFPG:PG271:68475fa02ffd"
+    },
+    "ERLAT": {
+      "ident": "ERLAT",
+      "coordinate_ref": "waypoint:global:LFPG:ERLAT:62731199ad61"
+    },
+    "PILUL": {
+      "ident": "PILUL",
+      "coordinate_ref": "waypoint:global:LFPG:PILUL:cacabc533d0f"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw27l-pilul-leg-1",
+      "from": "PG271",
+      "to": "ERLAT",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 14.3,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw27l-pilul-leg-2",
+      "from": "ERLAT",
+      "to": "PILUL",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 18.2,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw27l-pilul",
+      "name": "RW27L - PILUL",
+      "kind": "departure",
+      "sequence": [
+        "PG271",
+        "ERLAT",
+        "PILUL"
+      ],
+      "leg_ids": [
+        "rw27l-pilul-leg-1",
+        "rw27l-pilul-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

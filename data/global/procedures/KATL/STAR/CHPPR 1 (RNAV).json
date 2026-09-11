@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KATL-CHPPR 1 (RNAV)",
+    "name": "CHPPR 1 (RNAV)",
+    "type": "STAR",
+    "airport": "KATL",
+    "runways": [
+      "08L",
+      "09L",
+      "26R",
+      "27R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SPA": {
+      "ident": "SPA",
+      "coordinate_ref": "waypoint:global:KATL:SPA:b5f1235bb4df"
+    },
+    "CHPPR": {
+      "ident": "CHPPR",
+      "coordinate_ref": "waypoint:global:KATL:CHPPR:279a80729552"
+    },
+    "WOMAC": {
+      "ident": "WOMAC",
+      "coordinate_ref": "waypoint:global:KATL:WOMAC:5a1844c8f911"
+    }
+  },
+  "legs": [
+    {
+      "id": "spa-womac-leg-1",
+      "from": "SPA",
+      "to": "CHPPR",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 104.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "spa-womac-leg-2",
+      "from": "CHPPR",
+      "to": "WOMAC",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 29.7,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "spa-womac",
+      "name": "Entrada SPA",
+      "kind": "arrival",
+      "sequence": [
+        "SPA",
+        "CHPPR",
+        "WOMAC"
+      ],
+      "leg_ids": [
+        "spa-womac-leg-1",
+        "spa-womac-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

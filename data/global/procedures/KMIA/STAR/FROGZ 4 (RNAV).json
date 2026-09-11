@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KMIA-FROGZ 4 (RNAV)",
+    "name": "FROGZ 4 (RNAV)",
+    "type": "STAR",
+    "airport": "KMIA",
+    "runways": [
+      "08R",
+      "09",
+      "12"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "FROGZ": {
+      "ident": "FROGZ",
+      "coordinate_ref": "waypoint:global:KMIA:FROGZ:f7687274b83e"
+    },
+    "CUBIM": {
+      "ident": "CUBIM",
+      "coordinate_ref": "waypoint:global:KMIA:CUBIM:36ce5f9e03e4"
+    },
+    "LLAKE": {
+      "ident": "LLAKE",
+      "coordinate_ref": "waypoint:global:KMIA:LLAKE:7cd9ac222186"
+    }
+  },
+  "legs": [
+    {
+      "id": "frogz-llake-leg-1",
+      "from": "FROGZ",
+      "to": "CUBIM",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 24.6,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "frogz-llake-leg-2",
+      "from": "CUBIM",
+      "to": "LLAKE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 24.6,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "frogz-llake",
+      "name": "Entrada FROGZ - LLAKE",
+      "kind": "arrival",
+      "sequence": [
+        "FROGZ",
+        "CUBIM",
+        "LLAKE"
+      ],
+      "leg_ids": [
+        "frogz-llake-leg-1",
+        "frogz-llake-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

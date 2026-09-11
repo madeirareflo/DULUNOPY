@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "EHAM-ILS RWY 18R",
+    "name": "ILS RWY 18R",
+    "type": "IAC",
+    "airport": "EHAM",
+    "runways": [
+      "18R"
+    ],
+    "source": {
+      "authority": "LVNL / AIP Netherlands",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SPY": {
+      "ident": "SPY",
+      "coordinate_ref": "waypoint:global:EHAM:SPY:c7fa7122d97a"
+    },
+    "EH001": {
+      "ident": "EH001",
+      "coordinate_ref": "waypoint:global:EHAM:EH001:7e578f4ff526"
+    },
+    "RW18R": {
+      "ident": "RW18R",
+      "coordinate_ref": "waypoint:global:EHAM:RW18R:297bca4e6ba3"
+    }
+  },
+  "legs": [
+    {
+      "id": "spy-rw18r-leg-1",
+      "from": "SPY",
+      "to": "EH001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 8,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "spy-rw18r-leg-2",
+      "from": "EH001",
+      "to": "RW18R",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 6.6,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "spy-rw18r",
+      "name": "Aproximação ILS 18R Polderbaan",
+      "kind": "approach",
+      "sequence": [
+        "SPY",
+        "EH001",
+        "RW18R"
+      ],
+      "leg_ids": [
+        "spy-rw18r-leg-1",
+        "spy-rw18r-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "airport": "SBPV",
+  "coordinateSource": "data/waypoints.json",
+  "types": {
+    "SID": [
+      {
+        "id": "AIXM-bc5a355b-7429-435c-847e-477ac6cf0c15",
+        "name": "rnav-anbup-1a-rwy-01",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/rnav-anbup-1a-rwy-01.json",
+        "runways": [
+          "01"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-79a7b7cd-6689-40af-bf25-42d30be24109",
+        "name": "rnav-dikal-2b-rwy-19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/rnav-dikal-2b-rwy-19.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-5805a37f-4ee9-4e1b-b8bf-3be137b97287",
+        "name": "rnav-ilsov-2b-rwy-19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/rnav-ilsov-2b-rwy-19.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-bd7b1254-2d6d-4136-9ee0-1bf51847679e",
+        "name": "rnav-iltar-1b-rwy-19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/rnav-iltar-1b-rwy-19.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-357f9b82-6f05-482a-9828-42b4e5305c7a",
+        "name": "rnav-mupeg-1c-rwy-19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/rnav-mupeg-1c-rwy-19.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBPV-SID-PV00A",
+        "name": "ANAME 1C - ISURA 1C - MUPEG 1B - NELIT 1C RWY 01",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/ANAME 1C - ISURA 1C - MUPEG 1B - NELIT 1C RWY 01.json",
+        "runways": [
+          "01"
+        ],
+        "modes": [],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBPV-SID-PV01A",
+        "name": "DIKAL 3B - GUIMA 3B - ILSOV 3B - ITAGU 3B RWY 19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/DIKAL 3B - GUIMA 3B - ILSOV 3B - ITAGU 3B RWY 19.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBPV-SID-omni-rwy-01-19",
+        "name": "OMNI RWY 01-19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/OMNI RWY 01-19.json",
+        "runways": [
+          "01",
+          "19"
+        ],
+        "modes": [
+          "OMNI"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBPV-SID-PV00D",
+        "name": "RNAV ANAME 1A - GUIMA 2A - ISURA 2A - ITAGU 2A RWY 01",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/RNAV ANAME 1A - GUIMA 2A - ISURA 2A - ITAGU 2A RWY 01.json",
+        "runways": [
+          "01"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBPV-SID-PV00T",
+        "name": "RNAV ANAME 1B - GUIMA 2B - ISURA 3B - ITAGU 2B RWY 19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/RNAV ANAME 1B - GUIMA 2B - ISURA 3B - ITAGU 2B RWY 19.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBPV-SID-PV00U",
+        "name": "RNAV ANBUP 1A RWY 01",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/RNAV ANBUP 1A RWY 01.json",
+        "runways": [
+          "01"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBPV-SID-PV00E",
+        "name": "RNAV DIKAL 2B - ILSOV 2B - ILTAR 1B - MUPEG 1C RWY 19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/RNAV DIKAL 2B - ILSOV 2B - ILTAR 1B - MUPEG 1C RWY 19.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBPV-SID-PV00R",
+        "name": "RNAV MUPEG 2A - NELIT 2A - OGLAM 2A - OSATU 2A RWY 01",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/RNAV MUPEG 2A - NELIT 2A - OGLAM 2A - OSATU 2A RWY 01.json",
+        "runways": [
+          "01"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 16,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBPV-SID-PV00S",
+        "name": "RNAV NELIT 2B - OGLAM 2B - OSATU 2B RWY 19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/SID/RNAV NELIT 2B - OGLAM 2B - OSATU 2B RWY 19.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      }
+    ],
+    "STAR": [],
+    "IAC": [
+      {
+        "id": "AISWEB-SBPV-IAC-PV01D",
+        "name": "ILS U RWY 19 USO EXCLUSIVO ACFT MIL",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/IAC/ILS U RWY 19 USO EXCLUSIVO ACFT MIL.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBPV-IAC-PV00H",
+        "name": "ILS V RWY 19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/IAC/ILS V RWY 19.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBPV-IAC-PV00G",
+        "name": "ILS W OR LOC W RWY 19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/IAC/ILS W OR LOC W RWY 19.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "ILS",
+          "LOC"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBPV-IAC-par-y-rwy-19-uso-exclusivo-acft-mil",
+        "name": "PAR Y RWY 19 USO EXCLUSIVO ACFT MIL",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/IAC/PAR Y RWY 19 USO EXCLUSIVO ACFT MIL.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "PAR"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBPV-IAC-par-z-rwy-01-uso-exclusivo-acft-mil",
+        "name": "PAR Z RWY 01 USO EXCLUSIVO ACFT MIL",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/IAC/PAR Z RWY 01 USO EXCLUSIVO ACFT MIL.json",
+        "runways": [
+          "01"
+        ],
+        "modes": [
+          "PAR"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBPV-IAC-PV01E",
+        "name": "RNP Y RWY 01 USO EXCLUSIVO ACFT MIL",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/IAC/RNP Y RWY 01 USO EXCLUSIVO ACFT MIL.json",
+        "runways": [
+          "01"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBPV-IAC-PV01F",
+        "name": "RNP Y RWY 19 USO EXCLUSIVO ACFT MIL",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/IAC/RNP Y RWY 19 USO EXCLUSIVO ACFT MIL.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBPV-IAC-PV00N",
+        "name": "RNP Z RWY 01",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/IAC/RNP Z RWY 01.json",
+        "runways": [
+          "01"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBPV-IAC-PV00O",
+        "name": "RNP Z RWY 19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/IAC/RNP Z RWY 19.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBPV-IAC-PV00L",
+        "name": "VOR RWY 19",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/IAC/VOR RWY 19.json",
+        "runways": [
+          "19"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBPV-IAC-PV00M",
+        "name": "VOR Z RWY 01",
+        "file": "data/tmas/porto-velho/airports/SBPV/procedures/IAC/VOR Z RWY 01.json",
+        "runways": [
+          "01"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      }
+    ]
+  }
+}

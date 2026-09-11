@@ -1,0 +1,57 @@
+{
+  "id": "dulunopy-pwa-app",
+  "name": "DULUNOPY — Visualizador de Tráfego Aéreo",
+  "short_name": "DULUNOPY",
+  "description": "Visualizador e Planejamento de Tráfego Aéreo, Radar Meteorológico e Procedimentos AIP Brasil",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay", "minimal-ui"],
+  "background_color": "#0b141d",
+  "theme_color": "#0b141d",
+  "orientation": "any",
+  "categories": ["utilities", "navigation", "weather"],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Radar Meteorológico",
+      "short_name": "Radar Chuva",
+      "description": "Radar ao vivo de precipitação e tempestades",
+      "url": "./index.html?quick=weather",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Radar de Voos ADS-B",
+      "short_name": "Tráfego ADS-B",
+      "description": "Aeronaves reais em voo no Brasil",
+      "url": "./index.html?quick=adsb",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Consulta METAR",
+      "short_name": "METAR",
+      "description": "Boletim meteorológico oficial de aeródromos",
+      "url": "./index.html?quick=metar",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

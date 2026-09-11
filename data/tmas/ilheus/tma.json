@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "ILHEUS",
+  "name": "TMA Ilhéus",
+  "airports": [
+    "SBIL",
+    "SBTC"
+  ],
+  "airportsIndex": "data/tmas/ilheus/airports/index.json",
+  "boundarySource": "data/tmas/brazil-tmas-aixm.json",
+  "sectorIds": [
+    "ILHEUS"
+  ],
+  "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1"
+}

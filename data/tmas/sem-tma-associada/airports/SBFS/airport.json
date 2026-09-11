@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "icao": "SBFS",
+  "name": "Base Aerea de Santos / Guaruja",
+  "city": "Santos / Guaruja",
+  "latitude": -23.929722,
+  "longitude": -46.297778,
+  "elevation_ft": 8,
+  "runways": [],
+  "source": "AISWEB/DECEA — AIXM completo",
+  "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
+  "effective_date": null,
+  "tma": "UNASSIGNED",
+  "aliases": [],
+  "proceduresIndex": "data/tmas/sem-tma-associada/airports/SBFS/procedures/index.json"
+}

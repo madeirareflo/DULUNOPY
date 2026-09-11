@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KORD-VEGIE 2 (RNAV)",
+    "name": "VEGIE 2 (RNAV)",
+    "type": "STAR",
+    "airport": "KORD",
+    "runways": [
+      "09C",
+      "10C",
+      "27C",
+      "28C"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "FWA": {
+      "ident": "FWA",
+      "coordinate_ref": "waypoint:global:KORD:FWA:bc3e59e62da8"
+    },
+    "VEGIE": {
+      "ident": "VEGIE",
+      "coordinate_ref": "waypoint:global:KORD:VEGIE:a6bd7e7544d5"
+    },
+    "EARND": {
+      "ident": "EARND",
+      "coordinate_ref": "waypoint:global:KORD:EARND:7dc0aab3a865"
+    }
+  },
+  "legs": [
+    {
+      "id": "fwa-earnd-leg-1",
+      "from": "FWA",
+      "to": "VEGIE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 80.9,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "fwa-earnd-leg-2",
+      "from": "VEGIE",
+      "to": "EARND",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 34.3,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "fwa-earnd",
+      "name": "Entrada FWA",
+      "kind": "arrival",
+      "sequence": [
+        "FWA",
+        "VEGIE",
+        "EARND"
+      ],
+      "leg_ids": [
+        "fwa-earnd-leg-1",
+        "fwa-earnd-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KMIA-HURCN 4 (RNAV)",
+    "name": "HURCN 4 (RNAV)",
+    "type": "SID",
+    "airport": "KMIA",
+    "runways": [
+      "08R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "MIA": {
+      "ident": "MIA",
+      "coordinate_ref": "waypoint:global:KMIA:MIA:9dc8125984bf"
+    },
+    "HURCN": {
+      "ident": "HURCN",
+      "coordinate_ref": "waypoint:global:KMIA:HURCN:c9c2f8ecdf9f"
+    },
+    "BNGOS": {
+      "ident": "BNGOS",
+      "coordinate_ref": "waypoint:global:KMIA:BNGOS:722e432b20cd"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw08r-bngos-leg-1",
+      "from": "MIA",
+      "to": "HURCN",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 18.6,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw08r-bngos-leg-2",
+      "from": "HURCN",
+      "to": "BNGOS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 16.8,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw08r-bngos",
+      "name": "RW08R - BNGOS",
+      "kind": "departure",
+      "sequence": [
+        "MIA",
+        "HURCN",
+        "BNGOS"
+      ],
+      "leg_ids": [
+        "rw08r-bngos-leg-1",
+        "rw08r-bngos-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

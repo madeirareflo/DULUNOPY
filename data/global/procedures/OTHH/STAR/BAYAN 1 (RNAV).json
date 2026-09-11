@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "OTHH-BAYAN 1 (RNAV)",
+    "name": "BAYAN 1 (RNAV)",
+    "type": "STAR",
+    "airport": "OTHH",
+    "runways": [
+      "34L",
+      "34R"
+    ],
+    "source": {
+      "authority": "QCAA / AIP Qatar",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "BAYAN": {
+      "ident": "BAYAN",
+      "coordinate_ref": "waypoint:global:OTHH:BAYAN:065e25446955"
+    },
+    "GINTO": {
+      "ident": "GINTO",
+      "coordinate_ref": "waypoint:global:OTHH:GINTO:3f176b95ee62"
+    },
+    "MESID": {
+      "ident": "MESID",
+      "coordinate_ref": "waypoint:global:OTHH:MESID:908a7f42d81e"
+    }
+  },
+  "legs": [
+    {
+      "id": "bayan-mesid-leg-1",
+      "from": "BAYAN",
+      "to": "GINTO",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 16.2,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "bayan-mesid-leg-2",
+      "from": "GINTO",
+      "to": "MESID",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 10.5,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "bayan-mesid",
+      "name": "Entrada BAYAN",
+      "kind": "arrival",
+      "sequence": [
+        "BAYAN",
+        "GINTO",
+        "MESID"
+      ],
+      "leg_ids": [
+        "bayan-mesid-leg-1",
+        "bayan-mesid-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

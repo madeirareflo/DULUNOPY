@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "EHAM-ARNEM 3A (RNAV)",
+    "name": "ARNEM 3A (RNAV)",
+    "type": "SID",
+    "airport": "EHAM",
+    "runways": [
+      "18L",
+      "24"
+    ],
+    "source": {
+      "authority": "LVNL / AIP Netherlands",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SPL": {
+      "ident": "SPL",
+      "coordinate_ref": "waypoint:global:EHAM:SPL:6314082655d7"
+    },
+    "PAM": {
+      "ident": "PAM",
+      "coordinate_ref": "waypoint:global:EHAM:PAM:01fe58527ae9"
+    },
+    "ARNEM": {
+      "ident": "ARNEM",
+      "coordinate_ref": "waypoint:global:EHAM:ARNEM:abf9423f5ab4"
+    }
+  },
+  "legs": [
+    {
+      "id": "spl-arnem-leg-1",
+      "from": "SPL",
+      "to": "PAM",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 11.7,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "spl-arnem-leg-2",
+      "from": "PAM",
+      "to": "ARNEM",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 33,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "spl-arnem",
+      "name": "Saída ARNEM 3A",
+      "kind": "departure",
+      "sequence": [
+        "SPL",
+        "PAM",
+        "ARNEM"
+      ],
+      "leg_ids": [
+        "spl-arnem-leg-1",
+        "spl-arnem-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

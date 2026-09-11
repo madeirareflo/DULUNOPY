@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SUMU-ILS RWY 24",
+    "name": "ILS RWY 24",
+    "type": "IAC",
+    "airport": "SUMU",
+    "runways": [
+      "24"
+    ],
+    "source": {
+      "authority": "DINACIA / AIP Uruguay",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ROSED": {
+      "ident": "ROSED",
+      "coordinate_ref": "waypoint:global:SUMU:ROSED:6bbd9202912b"
+    },
+    "MU001": {
+      "ident": "MU001",
+      "coordinate_ref": "waypoint:global:SUMU:MU001:50d4e83e6dc6"
+    },
+    "RW24": {
+      "ident": "RW24",
+      "coordinate_ref": "waypoint:global:SUMU:RW24:9ea16eb5ed55"
+    }
+  },
+  "legs": [
+    {
+      "id": "rosed-rw24-leg-1",
+      "from": "ROSED",
+      "to": "MU001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 3.6,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rosed-rw24-leg-2",
+      "from": "MU001",
+      "to": "RW24",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.6,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rosed-rw24",
+      "name": "Aproximação ILS 24",
+      "kind": "approach",
+      "sequence": [
+        "ROSED",
+        "MU001",
+        "RW24"
+      ],
+      "leg_ids": [
+        "rosed-rw24-leg-1",
+        "rosed-rw24-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

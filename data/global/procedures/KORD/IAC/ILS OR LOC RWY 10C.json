@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KORD-ILS OR LOC RWY 10C",
+    "name": "ILS OR LOC RWY 10C",
+    "type": "IAC",
+    "airport": "KORD",
+    "runways": [
+      "10C"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "EARND": {
+      "ident": "EARND",
+      "coordinate_ref": "waypoint:global:KORD:EARND:7dc0aab3a865"
+    },
+    "KUPKE": {
+      "ident": "KUPKE",
+      "coordinate_ref": "waypoint:global:KORD:KUPKE:c522d2483a5c"
+    },
+    "RW10C": {
+      "ident": "RW10C",
+      "coordinate_ref": "waypoint:global:KORD:RW10C:e4bef902a9df"
+    }
+  },
+  "legs": [
+    {
+      "id": "earnd-rw10c-leg-1",
+      "from": "EARND",
+      "to": "KUPKE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 12.7,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "earnd-rw10c-leg-2",
+      "from": "KUPKE",
+      "to": "RW10C",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 9,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "earnd-rw10c",
+      "name": "Aproximação ILS 10C",
+      "kind": "approach",
+      "sequence": [
+        "EARND",
+        "KUPKE",
+        "RW10C"
+      ],
+      "leg_ids": [
+        "earnd-rw10c-leg-1",
+        "earnd-rw10c-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

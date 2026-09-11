@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LSZH-GIPOL 1A (RNAV)",
+    "name": "GIPOL 1A (RNAV)",
+    "type": "STAR",
+    "airport": "LSZH",
+    "runways": [
+      "14",
+      "16"
+    ],
+    "source": {
+      "authority": "Skyguide / AIP Switzerland",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "GIPOL": {
+      "ident": "GIPOL",
+      "coordinate_ref": "waypoint:global:LSZH:GIPOL:e98ec7c04530"
+    },
+    "ZUE": {
+      "ident": "ZUE",
+      "coordinate_ref": "waypoint:global:LSZH:ZUE:038422e6702b"
+    },
+    "AMIKI": {
+      "ident": "AMIKI",
+      "coordinate_ref": "waypoint:global:LSZH:AMIKI:29a3e974500a"
+    }
+  },
+  "legs": [
+    {
+      "id": "gipol-amiki-leg-1",
+      "from": "GIPOL",
+      "to": "ZUE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 24.6,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "gipol-amiki-leg-2",
+      "from": "ZUE",
+      "to": "AMIKI",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 7.7,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "gipol-amiki",
+      "name": "Entrada GIPOL",
+      "kind": "arrival",
+      "sequence": [
+        "GIPOL",
+        "ZUE",
+        "AMIKI"
+      ],
+      "leg_ids": [
+        "gipol-amiki-leg-1",
+        "gipol-amiki-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

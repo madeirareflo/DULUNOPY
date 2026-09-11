@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "RJTT-ARLON 1 (RNAV)",
+    "name": "ARLON 1 (RNAV)",
+    "type": "STAR",
+    "airport": "RJTT",
+    "runways": [
+      "34L",
+      "34R"
+    ],
+    "source": {
+      "authority": "JCAB / AIP Japan",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ARLON": {
+      "ident": "ARLON",
+      "coordinate_ref": "waypoint:global:RJTT:ARLON:e8a7172a4908"
+    },
+    "CREAM": {
+      "ident": "CREAM",
+      "coordinate_ref": "waypoint:global:RJTT:CREAM:0f5efc13a642"
+    },
+    "KAIHO": {
+      "ident": "KAIHO",
+      "coordinate_ref": "waypoint:global:RJTT:KAIHO:9c5ccdda724a"
+    }
+  },
+  "legs": [
+    {
+      "id": "arlon-kaiho-leg-1",
+      "from": "ARLON",
+      "to": "CREAM",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 15.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "arlon-kaiho-leg-2",
+      "from": "CREAM",
+      "to": "KAIHO",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 11.6,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "arlon-kaiho",
+      "name": "Entrada ARLON",
+      "kind": "arrival",
+      "sequence": [
+        "ARLON",
+        "CREAM",
+        "KAIHO"
+      ],
+      "leg_ids": [
+        "arlon-kaiho-leg-1",
+        "arlon-kaiho-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

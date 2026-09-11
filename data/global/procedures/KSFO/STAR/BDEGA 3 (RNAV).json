@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KSFO-BDEGA 3 (RNAV)",
+    "name": "BDEGA 3 (RNAV)",
+    "type": "STAR",
+    "airport": "KSFO",
+    "runways": [
+      "28L",
+      "28R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ENI": {
+      "ident": "ENI",
+      "coordinate_ref": "waypoint:global:KSFO:ENI:64631193bf07"
+    },
+    "BDEGA": {
+      "ident": "BDEGA",
+      "coordinate_ref": "waypoint:global:KSFO:BDEGA:09f75903dcc2"
+    },
+    "BRIXX": {
+      "ident": "BRIXX",
+      "coordinate_ref": "waypoint:global:KSFO:BRIXX:0175db71ac1e"
+    }
+  },
+  "legs": [
+    {
+      "id": "eni-brixx-leg-1",
+      "from": "ENI",
+      "to": "BDEGA",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 44.9,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "eni-brixx-leg-2",
+      "from": "BDEGA",
+      "to": "BRIXX",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 35.5,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "eni-brixx",
+      "name": "Entrada BDEGA",
+      "kind": "arrival",
+      "sequence": [
+        "ENI",
+        "BDEGA",
+        "BRIXX"
+      ],
+      "leg_ids": [
+        "eni-brixx-leg-1",
+        "eni-brixx-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

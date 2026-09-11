@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "EGLL-MAYFIELD 1G (MAY 1G)",
+    "name": "MAYFIELD 1G (MAY 1G)",
+    "type": "SID",
+    "airport": "EGLL",
+    "runways": [
+      "27L"
+    ],
+    "source": {
+      "authority": "NATS / UK AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "D090I": {
+      "ident": "D090I",
+      "coordinate_ref": "waypoint:global:EGLL:D090I:890cb2b12b46"
+    },
+    "CPT": {
+      "ident": "CPT",
+      "coordinate_ref": "waypoint:global:EGLL:CPT:6e24d6b72020"
+    },
+    "MAY": {
+      "ident": "MAY",
+      "coordinate_ref": "waypoint:global:EGLL:MAY:d3694740db3d"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw27l-may-leg-1",
+      "from": "D090I",
+      "to": "CPT",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 5.1,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw27l-may-leg-2",
+      "from": "CPT",
+      "to": "MAY",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 44.2,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw27l-may",
+      "name": "RW27L - MAY",
+      "kind": "departure",
+      "sequence": [
+        "D090I",
+        "CPT",
+        "MAY"
+      ],
+      "leg_ids": [
+        "rw27l-may-leg-1",
+        "rw27l-may-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

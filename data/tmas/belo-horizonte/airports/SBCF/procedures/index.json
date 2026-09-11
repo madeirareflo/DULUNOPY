@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 1,
+  "airport": "SBCF",
+  "coordinateSource": "data/waypoints.json",
+  "types": {
+    "SID": [
+      {
+        "id": "AIXM-fd34f5c3-d4f5-4cc0-a972-be20ed12acc6",
+        "name": "rnav-isnuv-2a-rwy-16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/rnav-isnuv-2a-rwy-16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-1e31bc41-d1a9-4ac8-8124-5bfdd5d9718e",
+        "name": "rnav-torux-1a-rwy-34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/rnav-torux-1a-rwy-34.json",
+        "runways": [
+          "16",
+          "34"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-112e3bfe-7040-4cf2-9a0f-254aa866c099",
+        "name": "sid-rnav-torux-1b-rwy-34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/sid-rnav-torux-1b-rwy-34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBCF-SID-omni-rwy-16-34",
+        "name": "OMNI RWY 16-34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/OMNI RWY 16-34.json",
+        "runways": [
+          "16",
+          "34"
+        ],
+        "modes": [
+          "OMNI"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-SID-CF01W",
+        "name": "RNAV ARPUM 1B RWY 34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/RNAV ARPUM 1B RWY 34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-SID-CF01U",
+        "name": "RNAV DOBTA 1A RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/RNAV DOBTA 1A RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-SID-CF01Y",
+        "name": "RNAV GEDAD 1B RWY 34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/RNAV GEDAD 1B RWY 34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-SID-CF01V",
+        "name": "RNAV IRAXO 2B RWY 34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/RNAV IRAXO 2B RWY 34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-SID-CF01R",
+        "name": "RNAV ISNUV 2A RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/RNAV ISNUV 2A RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-SID-CF01S",
+        "name": "RNAV KUBEX 3A RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/RNAV KUBEX 3A RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-SID-CF03I",
+        "name": "RNAV VASIX 1A RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/RNAV VASIX 1A RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-SID-CF01X",
+        "name": "SID RNAV TORUX 1B RWY 34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/SID RNAV TORUX 1B RWY 34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-SID-CF01T",
+        "name": "SID RNAV TORUX 2A RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/SID/SID RNAV TORUX 2A RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      }
+    ],
+    "STAR": [
+      {
+        "id": "AIXM-d3a35706-80e3-4297-8336-05b1ef6bd484",
+        "name": "rnav-gilni-1a-rwy-34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/STAR/rnav-gilni-1a-rwy-34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-5545f7df-bfc3-4c8d-a5ff-df01adf5b9fb",
+        "name": "rnav-kugut-1a",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/STAR/rnav-kugut-1a.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBCF-STAR-CF01K",
+        "name": "RNAV ALONG 1A RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/STAR/RNAV ALONG 1A RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-STAR-CF01O",
+        "name": "RNAV ALONG 1B RWY 34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/STAR/RNAV ALONG 1B RWY 34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-STAR-CF01J",
+        "name": "RNAV ENSIG 1A RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/STAR/RNAV ENSIG 1A RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-STAR-CF01Q",
+        "name": "RNAV ENSIG 1B RWY 34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/STAR/RNAV ENSIG 1B RWY 34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-STAR-CF01N",
+        "name": "RNAV KIMUS 1B RWY 34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/STAR/RNAV KIMUS 1B RWY 34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-STAR-CF01L",
+        "name": "RNAV KUGUT 1A RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/STAR/RNAV KUGUT 1A RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-STAR-CF01M",
+        "name": "RNAV SINIX 1A RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/STAR/RNAV SINIX 1A RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-STAR-CF01P",
+        "name": "RNAV SINIX 1B RWY 34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/STAR/RNAV SINIX 1B RWY 34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      }
+    ],
+    "IAC": [
+      {
+        "id": "AIXM-3375299a-bb8b-47c7-93ca-85d4ba5c6779",
+        "name": "iac-ils-k-rwy-16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/iac-ils-k-rwy-16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBCF-IAC-CF00Y",
+        "name": "ILS K RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/ILS K RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-IAC-CF02C",
+        "name": "ILS W OR LOC W RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/ILS W OR LOC W RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "ILS",
+          "LOC"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 2,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBCF-IAC-CF03C",
+        "name": "ILS X RWY 34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/ILS X RWY 34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-IAC-CF03O",
+        "name": "ILS Y RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/ILS Y RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBCF-IAC-CF03B",
+        "name": "ILS Z OR LOC Z RWY 34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/ILS Z OR LOC Z RWY 34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "ILS",
+          "LOC"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-IAC-nav-apv-rwy-16-uso-exclusivo-acft-mil-f-39",
+        "name": "NAV APV RWY 16 USO EXCLUSIVO ACFT MIL F-39",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/NAV APV RWY 16 USO EXCLUSIVO ACFT MIL F-39.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "NAV"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-IAC-nav-apv-rwy-34-uso-exclusivo-acft-mil-f-39",
+        "name": "NAV APV RWY 34 USO EXCLUSIVO ACFT MIL F-39",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/NAV APV RWY 34 USO EXCLUSIVO ACFT MIL F-39.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "NAV"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-IAC-CF01F",
+        "name": "RNP RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/RNP RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBCF-IAC-CF03N",
+        "name": "RNP Y RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/RNP Y RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBCF-IAC-CF03D",
+        "name": "RNP Z RWY 34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/RNP Z RWY 34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBCF-IAC-CF01D",
+        "name": "VOR RWY 16",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/VOR RWY 16.json",
+        "runways": [
+          "16"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBCF-IAC-CF01E",
+        "name": "VOR Y RWY 34",
+        "file": "data/tmas/belo-horizonte/airports/SBCF/procedures/IAC/VOR Y RWY 34.json",
+        "runways": [
+          "34"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      }
+    ]
+  }
+}

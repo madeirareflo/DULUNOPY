@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/build-global-route-index.mjs",
+  "releaseId": "2026-09-03-04-01-09Z",
+  "capturedAt": "2026-09-03T04:01:09.284Z",
+  "source": {
+    "name": "OurAirports",
+    "kind": "community-reference",
+    "license": "Public Domain / Unlicense",
+    "homepage": "https://ourairports.com/data/",
+    "airportsUrl": "https://davidmegginson.github.io/ourairports-data/airports.csv",
+    "navaidsUrl": "https://davidmegginson.github.io/ourairports-data/navaids.csv",
+    "warning": "Camada de referência aberta para estudo. Confirme informações operacionais na publicação oficial vigente."
+  },
+  "exclusions": {
+    "countries": [
+      "BR"
+    ],
+    "reason": "O Brasil possui camadas aeronáuticas próprias e oficiais no projeto."
+  },
+  "purpose": "Resolver aeródromos mundiais por identificador para o planejador de trajeto de estudo, sem carregar toda a camada cartográfica.",
+  "resolution": {
+    "mode": "exact-identifier-only",
+    "acceptedInput": "Identificador ICAO ou identificador publicado na referência aberta",
+    "warning": "A resolução mundial é uma referência aberta. Não representa uma rota, procedimento, carta, TMA ou autorização operacional."
+  },
+  "counts": {
+    "aerodromes": 64821,
+    "buckets": 36
+  },
+  "buckets": [
+    {
+      "id": "0",
+      "file": "data/global/references/route-index/0.json",
+      "count": 1070
+    },
+    {
+      "id": "1",
+      "file": "data/global/references/route-index/1.json",
+      "count": 1032
+    },
+    {
+      "id": "2",
+      "file": "data/global/references/route-index/2.json",
+      "count": 1098
+    },
+    {
+      "id": "3",
+      "file": "data/global/references/route-index/3.json",
+      "count": 986
+    },
+    {
+      "id": "4",
+      "file": "data/global/references/route-index/4.json",
+      "count": 917
+    },
+    {
+      "id": "5",
+      "file": "data/global/references/route-index/5.json",
+      "count": 891
+    },
+    {
+      "id": "6",
+      "file": "data/global/references/route-index/6.json",
+      "count": 852
+    },
+    {
+      "id": "7",
+      "file": "data/global/references/route-index/7.json",
+      "count": 806
+    },
+    {
+      "id": "8",
+      "file": "data/global/references/route-index/8.json",
+      "count": 790
+    },
+    {
+      "id": "9",
+      "file": "data/global/references/route-index/9.json",
+      "count": 807
+    },
+    {
+      "id": "A",
+      "file": "data/global/references/route-index/A.json",
+      "count": 2874
+    },
+    {
+      "id": "B",
+      "file": "data/global/references/route-index/B.json",
+      "count": 530
+    },
+    {
+      "id": "C",
+      "file": "data/global/references/route-index/C.json",
+      "count": 4024
+    },
+    {
+      "id": "D",
+      "file": "data/global/references/route-index/D.json",
+      "count": 1289
+    },
+    {
+      "id": "E",
+      "file": "data/global/references/route-index/E.json",
+      "count": 2298
+    },
+    {
+      "id": "F",
+      "file": "data/global/references/route-index/F.json",
+      "count": 2851
+    },
+    {
+      "id": "G",
+      "file": "data/global/references/route-index/G.json",
+      "count": 1499
+    },
+    {
+      "id": "H",
+      "file": "data/global/references/route-index/H.json",
+      "count": 728
+    },
+    {
+      "id": "I",
+      "file": "data/global/references/route-index/I.json",
+      "count": 2468
+    },
+    {
+      "id": "J",
+      "file": "data/global/references/route-index/J.json",
+      "count": 3264
+    },
+    {
+      "id": "K",
+      "file": "data/global/references/route-index/K.json",
+      "count": 5367
+    },
+    {
+      "id": "L",
+      "file": "data/global/references/route-index/L.json",
+      "count": 2006
+    },
+    {
+      "id": "M",
+      "file": "data/global/references/route-index/M.json",
+      "count": 3615
+    },
+    {
+      "id": "N",
+      "file": "data/global/references/route-index/N.json",
+      "count": 1714
+    },
+    {
+      "id": "O",
+      "file": "data/global/references/route-index/O.json",
+      "count": 929
+    },
+    {
+      "id": "P",
+      "file": "data/global/references/route-index/P.json",
+      "count": 1818
+    },
+    {
+      "id": "Q",
+      "file": "data/global/references/route-index/Q.json",
+      "count": 20
+    },
+    {
+      "id": "R",
+      "file": "data/global/references/route-index/R.json",
+      "count": 1821
+    },
+    {
+      "id": "S",
+      "file": "data/global/references/route-index/S.json",
+      "count": 3258
+    },
+    {
+      "id": "T",
+      "file": "data/global/references/route-index/T.json",
+      "count": 1174
+    },
+    {
+      "id": "U",
+      "file": "data/global/references/route-index/U.json",
+      "count": 6884
+    },
+    {
+      "id": "V",
+      "file": "data/global/references/route-index/V.json",
+      "count": 1247
+    },
+    {
+      "id": "W",
+      "file": "data/global/references/route-index/W.json",
+      "count": 923
+    },
+    {
+      "id": "X",
+      "file": "data/global/references/route-index/X.json",
+      "count": 197
+    },
+    {
+      "id": "Y",
+      "file": "data/global/references/route-index/Y.json",
+      "count": 1988
+    },
+    {
+      "id": "Z",
+      "file": "data/global/references/route-index/Z.json",
+      "count": 786
+    }
+  ]
+}

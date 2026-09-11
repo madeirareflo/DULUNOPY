@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LEMD-PINAS 1A (RNAV)",
+    "name": "PINAS 1A (RNAV)",
+    "type": "SID",
+    "airport": "LEMD",
+    "runways": [
+      "36L",
+      "36R"
+    ],
+    "source": {
+      "authority": "ENAIRE / AIP España",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "MAD": {
+      "ident": "MAD",
+      "coordinate_ref": "waypoint:global:LEMD:MAD:1c3ab6ac16f9"
+    },
+    "NVS": {
+      "ident": "NVS",
+      "coordinate_ref": "waypoint:global:LEMD:NVS:1a72e8a16d69"
+    },
+    "PINAS": {
+      "ident": "PINAS",
+      "coordinate_ref": "waypoint:global:LEMD:PINAS:b3e8d908f936"
+    }
+  },
+  "legs": [
+    {
+      "id": "mad-pinas-leg-1",
+      "from": "MAD",
+      "to": "NVS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 7.9,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "mad-pinas-leg-2",
+      "from": "NVS",
+      "to": "PINAS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 22.1,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "mad-pinas",
+      "name": "Saída PINAS",
+      "kind": "departure",
+      "sequence": [
+        "MAD",
+        "NVS",
+        "PINAS"
+      ],
+      "leg_ids": [
+        "mad-pinas-leg-1",
+        "mad-pinas-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "WSSS-ILS RWY 20R",
+    "name": "ILS RWY 20R",
+    "type": "IAC",
+    "airport": "WSSS",
+    "runways": [
+      "20R"
+    ],
+    "source": {
+      "authority": "CAAS / AIP Singapore",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "PASPU": {
+      "ident": "PASPU",
+      "coordinate_ref": "waypoint:global:WSSS:PASPU:61db2340f1b5"
+    },
+    "SS001": {
+      "ident": "SS001",
+      "coordinate_ref": "waypoint:global:WSSS:SS001:8e23dcd16240"
+    },
+    "RW20R": {
+      "ident": "RW20R",
+      "coordinate_ref": "waypoint:global:WSSS:RW20R:cca124090fc1"
+    }
+  },
+  "legs": [
+    {
+      "id": "paspu-rw20r-leg-1",
+      "from": "PASPU",
+      "to": "SS001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 4.2,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "paspu-rw20r-leg-2",
+      "from": "SS001",
+      "to": "RW20R",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 3.7,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "paspu-rw20r",
+      "name": "Aproximação ILS 20R",
+      "kind": "approach",
+      "sequence": [
+        "PASPU",
+        "SS001",
+        "RW20R"
+      ],
+      "leg_ids": [
+        "paspu-rw20r-leg-1",
+        "paspu-rw20r-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

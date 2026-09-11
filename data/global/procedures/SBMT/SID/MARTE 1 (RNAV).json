@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SBMT-MARTE 1 (RNAV)",
+    "name": "MARTE 1 (RNAV)",
+    "type": "SID",
+    "airport": "SBMT",
+    "runways": [
+      "12"
+    ],
+    "source": {
+      "authority": "DECEA / AISWEB",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SBMT": {
+      "ident": "SBMT",
+      "coordinate_ref": "waypoint:global:SBMT:SBMT:e5e42995115b"
+    },
+    "MT001": {
+      "ident": "MT001",
+      "coordinate_ref": "waypoint:global:SBMT:MT001:019d79664593"
+    },
+    "EDROX": {
+      "ident": "EDROX",
+      "coordinate_ref": "waypoint:global:SBMT:EDROX:d3bab6905843"
+    }
+  },
+  "legs": [
+    {
+      "id": "sbmt-edrox-leg-1",
+      "from": "SBMT",
+      "to": "MT001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 4,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "sbmt-edrox-leg-2",
+      "from": "MT001",
+      "to": "EDROX",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 6.1,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "sbmt-edrox",
+      "name": "Saída MARTE 1 RWY 12",
+      "kind": "departure",
+      "sequence": [
+        "SBMT",
+        "MT001",
+        "EDROX"
+      ],
+      "leg_ids": [
+        "sbmt-edrox-leg-1",
+        "sbmt-edrox-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

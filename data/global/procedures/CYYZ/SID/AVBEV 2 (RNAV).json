@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "CYYZ-AVBEV 2 (RNAV)",
+    "name": "AVBEV 2 (RNAV)",
+    "type": "SID",
+    "airport": "CYYZ",
+    "runways": [
+      "05",
+      "06L",
+      "23",
+      "24R"
+    ],
+    "source": {
+      "authority": "NAV CANADA / AIP Canada",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "YYZ": {
+      "ident": "YYZ",
+      "coordinate_ref": "waypoint:global:CYYZ:YYZ:f8f04ac38b92"
+    },
+    "AVBEV": {
+      "ident": "AVBEV",
+      "coordinate_ref": "waypoint:global:CYYZ:AVBEV:eeacdff34ebe"
+    },
+    "SEDOG": {
+      "ident": "SEDOG",
+      "coordinate_ref": "waypoint:global:CYYZ:SEDOG:dd886e6641b8"
+    }
+  },
+  "legs": [
+    {
+      "id": "yyz-sedog-leg-1",
+      "from": "YYZ",
+      "to": "AVBEV",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 20.2,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "yyz-sedog-leg-2",
+      "from": "AVBEV",
+      "to": "SEDOG",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 19.8,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "yyz-sedog",
+      "name": "Saída SEDOG",
+      "kind": "departure",
+      "sequence": [
+        "YYZ",
+        "AVBEV",
+        "SEDOG"
+      ],
+      "leg_ids": [
+        "yyz-sedog-leg-1",
+        "yyz-sedog-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

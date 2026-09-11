@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KSFO-GAP 7 (RNAV)",
+    "name": "GAP 7 (RNAV)",
+    "type": "SID",
+    "airport": "KSFO",
+    "runways": [
+      "28L",
+      "28R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SFO": {
+      "ident": "SFO",
+      "coordinate_ref": "waypoint:global:KSFO:SFO:a6ee91404843"
+    },
+    "SANBR": {
+      "ident": "SANBR",
+      "coordinate_ref": "waypoint:global:KSFO:SANBR:2db20004778d"
+    },
+    "WESLA": {
+      "ident": "WESLA",
+      "coordinate_ref": "waypoint:global:KSFO:WESLA:51711859c9a4"
+    }
+  },
+  "legs": [
+    {
+      "id": "sfo-wesla-leg-1",
+      "from": "SFO",
+      "to": "SANBR",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.2,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "sfo-wesla-leg-2",
+      "from": "SANBR",
+      "to": "WESLA",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 11.2,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "sfo-wesla",
+      "name": "Saída GAP WESLA",
+      "kind": "departure",
+      "sequence": [
+        "SFO",
+        "SANBR",
+        "WESLA"
+      ],
+      "leg_ids": [
+        "sfo-wesla-leg-1",
+        "sfo-wesla-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

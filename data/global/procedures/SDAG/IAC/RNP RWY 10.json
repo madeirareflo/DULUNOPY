@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SDAG-RNP RWY 10",
+    "name": "RNP RWY 10",
+    "type": "IAC",
+    "airport": "SDAG",
+    "runways": [
+      "10"
+    ],
+    "source": {
+      "authority": "DECEA / AISWEB",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "AG003": {
+      "ident": "AG003",
+      "coordinate_ref": "waypoint:global:SDAG:AG003:fa2a0586ac04"
+    },
+    "AG010": {
+      "ident": "AG010",
+      "coordinate_ref": "waypoint:global:SDAG:AG010:f2a5eb83a8f8"
+    },
+    "RW10": {
+      "ident": "RW10",
+      "coordinate_ref": "waypoint:global:SDAG:RW10:c169c713236e"
+    }
+  },
+  "legs": [
+    {
+      "id": "ag003-rw10-leg-1",
+      "from": "AG003",
+      "to": "AG010",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 1.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "ag003-rw10-leg-2",
+      "from": "AG010",
+      "to": "RW10",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 0.9,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "ag003-rw10",
+      "name": "Aproximação RNP RWY 10",
+      "kind": "approach",
+      "sequence": [
+        "AG003",
+        "AG010",
+        "RW10"
+      ],
+      "leg_ids": [
+        "ag003-rw10-leg-1",
+        "ag003-rw10-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

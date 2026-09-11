@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "airport": "SBBV",
+  "coordinateSource": "data/waypoints.json",
+  "types": {
+    "SID": [
+      {
+        "id": "AIXM-5569e12a-7a6e-4cfd-b7d2-75e98ec3ebe0",
+        "name": "rnav-anlol-1a-rwy-08",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/SID/rnav-anlol-1a-rwy-08.json",
+        "runways": [
+          "08"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 7,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-1a11f46d-543a-4b42-a9d0-6b6ad64653eb",
+        "name": "rnav-samlu-1a-rwy-26",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/SID/rnav-samlu-1a-rwy-26.json",
+        "runways": [
+          "26"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 7,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBBV-SID-omni-rwy-08-26",
+        "name": "OMNI RWY 08-26",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/SID/OMNI RWY 08-26.json",
+        "runways": [
+          "08",
+          "26"
+        ],
+        "modes": [
+          "OMNI"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBBV-SID-BV00V",
+        "name": "RNAV ANLOL 1A RWY 08",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/SID/RNAV ANLOL 1A RWY 08.json",
+        "runways": [
+          "08"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBBV-SID-BV00W",
+        "name": "RNAV SAMLU 1A RWY 26",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/SID/RNAV SAMLU 1A RWY 26.json",
+        "runways": [
+          "26"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      }
+    ],
+    "STAR": [],
+    "IAC": [
+      {
+        "id": "AIXM-bd7a75ce-7903-4cde-b3fb-654327a5e76c",
+        "name": "ils-w-rwy-08",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/ils-w-rwy-08.json",
+        "runways": [
+          "08"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-a6296e5c-a8e1-4c13-9cb3-2b8978463133",
+        "name": "rnp-y-rwy-26",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/rnp-y-rwy-26.json",
+        "runways": [
+          "26"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-546186d1-714b-417f-afc7-f2799541de7e",
+        "name": "rnp-y-rwy-26-barovnav",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/rnp-y-rwy-26-barovnav.json",
+        "runways": [
+          "26"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-08eb79a9-54d0-4915-a19d-19df3fddd814",
+        "name": "rnp-z-rwy-08",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/rnp-z-rwy-08.json",
+        "runways": [
+          "08"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-c8315c8b-dcd5-4908-add5-27c5ad0a308c",
+        "name": "rnp-z-rwy-08-barovnav",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/rnp-z-rwy-08-barovnav.json",
+        "runways": [
+          "08"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-e1bc198a-6f23-492e-a36e-dea7535a18a6",
+        "name": "vor-w-rwy-26",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/vor-w-rwy-26.json",
+        "runways": [
+          "26"
+        ],
+        "modes": [],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBBV-IAC-BV00Y",
+        "name": "ILS T OR LOC T RWY 08",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/ILS T OR LOC T RWY 08.json",
+        "runways": [
+          "08"
+        ],
+        "modes": [
+          "ILS",
+          "LOC"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBBV-IAC-BV00I",
+        "name": "ILS U OR LOC U RWY 08",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/ILS U OR LOC U RWY 08.json",
+        "runways": [
+          "08"
+        ],
+        "modes": [
+          "ILS",
+          "LOC"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBBV-IAC-BV00G",
+        "name": "ILS W RWY 08",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/ILS W RWY 08.json",
+        "runways": [
+          "08"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBBV-IAC-nav-apv-rwy-08-uso-excl-acft-mil-f-39",
+        "name": "NAV APV RWY 08 USO EXCL ACFT MIL F-39",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/NAV APV RWY 08 USO EXCL ACFT MIL F-39.json",
+        "runways": [
+          "08"
+        ],
+        "modes": [
+          "NAV"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBBV-IAC-nav-apv-rwy-26-uso-excl-acft-mil-f-39",
+        "name": "NAV APV RWY 26 USO EXCL ACFT MIL F-39",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/NAV APV RWY 26 USO EXCL ACFT MIL F-39.json",
+        "runways": [
+          "26"
+        ],
+        "modes": [
+          "NAV"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBBV-IAC-BV00O",
+        "name": "RNP Y RWY 26",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/RNP Y RWY 26.json",
+        "runways": [
+          "26"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBBV-IAC-BV00N",
+        "name": "RNP Z RWY 08",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/RNP Z RWY 08.json",
+        "runways": [
+          "08"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBBV-IAC-BV00M",
+        "name": "VOR W RWY 26",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/VOR W RWY 26.json",
+        "runways": [
+          "26"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBBV-IAC-BV00L",
+        "name": "VOR X RWY 08",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/VOR X RWY 08.json",
+        "runways": [
+          "08"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBBV-IAC-BV00U",
+        "name": "VOR Y RWY 26",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/VOR Y RWY 26.json",
+        "runways": [
+          "26"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBBV-IAC-BV00T",
+        "name": "VOR Z RWY 08",
+        "file": "data/tmas/boa-vista/airports/SBBV/procedures/IAC/VOR Z RWY 08.json",
+        "runways": [
+          "08"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      }
+    ]
+  }
+}

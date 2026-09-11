@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SDAG-BAIA 1 (RNAV)",
+    "name": "BAIA 1 (RNAV)",
+    "type": "STAR",
+    "airport": "SDAG",
+    "runways": [
+      "10"
+    ],
+    "source": {
+      "authority": "DECEA / AISWEB",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "PCL": {
+      "ident": "PCL",
+      "coordinate_ref": "waypoint:global:SDAG:PCL:8d530dbb1c97"
+    },
+    "AG002": {
+      "ident": "AG002",
+      "coordinate_ref": "waypoint:global:SDAG:AG002:8cda126b06ce"
+    },
+    "AG003": {
+      "ident": "AG003",
+      "coordinate_ref": "waypoint:global:SDAG:AG003:fa2a0586ac04"
+    }
+  },
+  "legs": [
+    {
+      "id": "pcl-ag003-leg-1",
+      "from": "PCL",
+      "to": "AG002",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 8.3,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "pcl-ag003-leg-2",
+      "from": "AG002",
+      "to": "AG003",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 4.6,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "pcl-ag003",
+      "name": "Chegada BAIA 1",
+      "kind": "arrival",
+      "sequence": [
+        "PCL",
+        "AG002",
+        "AG003"
+      ],
+      "leg_ids": [
+        "pcl-ag003-leg-1",
+        "pcl-ag003-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

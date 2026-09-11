@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "WSSS-MERSING 1 (RNAV)",
+    "name": "MERSING 1 (RNAV)",
+    "type": "SID",
+    "airport": "WSSS",
+    "runways": [
+      "02L",
+      "02C",
+      "20R"
+    ],
+    "source": {
+      "authority": "CAAS / AIP Singapore",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SIN": {
+      "ident": "SIN",
+      "coordinate_ref": "waypoint:global:WSSS:SIN:1134e7dd7a2b"
+    },
+    "TOMAN": {
+      "ident": "TOMAN",
+      "coordinate_ref": "waypoint:global:WSSS:TOMAN:b94c3557d847"
+    },
+    "MERSING": {
+      "ident": "MERSING",
+      "coordinate_ref": "waypoint:global:WSSS:MERSING:e69910eb0af4"
+    }
+  },
+  "legs": [
+    {
+      "id": "sin-mersing-leg-1",
+      "from": "SIN",
+      "to": "TOMAN",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 21.2,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "sin-mersing-leg-2",
+      "from": "TOMAN",
+      "to": "MERSING",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 32.5,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "sin-mersing",
+      "name": "Saída MERSING",
+      "kind": "departure",
+      "sequence": [
+        "SIN",
+        "TOMAN",
+        "MERSING"
+      ],
+      "leg_ids": [
+        "sin-mersing-leg-1",
+        "sin-mersing-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

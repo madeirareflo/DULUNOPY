@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KJFK-KENNEDY 2 (RNAV)",
+    "name": "KENNEDY 2 (RNAV)",
+    "type": "SID",
+    "airport": "KJFK",
+    "runways": [
+      "13L",
+      "13R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "JFK": {
+      "ident": "JFK",
+      "coordinate_ref": "waypoint:global:KJFK:JFK:d5eb6e5d6b78"
+    },
+    "SHIPP": {
+      "ident": "SHIPP",
+      "coordinate_ref": "waypoint:global:KJFK:SHIPP:c95ab86cf77d"
+    },
+    "WAVEY": {
+      "ident": "WAVEY",
+      "coordinate_ref": "waypoint:global:KJFK:WAVEY:d1af0715e65f"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw13l-wavey-leg-1",
+      "from": "JFK",
+      "to": "SHIPP",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 30.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw13l-wavey-leg-2",
+      "from": "SHIPP",
+      "to": "WAVEY",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 33.5,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw13l-wavey",
+      "name": "RW13L - WAVEY",
+      "kind": "departure",
+      "sequence": [
+        "JFK",
+        "SHIPP",
+        "WAVEY"
+      ],
+      "leg_ids": [
+        "rw13l-wavey-leg-1",
+        "rw13l-wavey-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KJFK-ILS OR LOC RWY 13L",
+    "name": "ILS OR LOC RWY 13L",
+    "type": "IAC",
+    "airport": "KJFK",
+    "runways": [
+      "13L"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ASALT": {
+      "ident": "ASALT",
+      "coordinate_ref": "waypoint:global:KJFK:ASALT:330069978697"
+    },
+    "DUMBO": {
+      "ident": "DUMBO",
+      "coordinate_ref": "waypoint:global:KJFK:DUMBO:dcfd64a75db6"
+    },
+    "RW13L": {
+      "ident": "RW13L",
+      "coordinate_ref": "waypoint:global:KJFK:RW13L:058c2fa4b101"
+    }
+  },
+  "legs": [
+    {
+      "id": "asalt-rw13l-leg-1",
+      "from": "ASALT",
+      "to": "DUMBO",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.6,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "asalt-rw13l-leg-2",
+      "from": "DUMBO",
+      "to": "RW13L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 4.7,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "asalt-rw13l",
+      "name": "Entrada ASALT",
+      "kind": "approach",
+      "sequence": [
+        "ASALT",
+        "DUMBO",
+        "RW13L"
+      ],
+      "leg_ids": [
+        "asalt-rw13l-leg-1",
+        "asalt-rw13l-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

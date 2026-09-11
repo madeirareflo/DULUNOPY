@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KMIA-ILS OR LOC RWY 08R",
+    "name": "ILS OR LOC RWY 08R",
+    "type": "IAC",
+    "airport": "KMIA",
+    "runways": [
+      "08R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "LLAKE": {
+      "ident": "LLAKE",
+      "coordinate_ref": "waypoint:global:KMIA:LLAKE:7cd9ac222186"
+    },
+    "SHAYN": {
+      "ident": "SHAYN",
+      "coordinate_ref": "waypoint:global:KMIA:SHAYN:92fe4d01c89c"
+    },
+    "RW08R": {
+      "ident": "RW08R",
+      "coordinate_ref": "waypoint:global:KMIA:RW08R:9cc1a07bc3d8"
+    }
+  },
+  "legs": [
+    {
+      "id": "llake-rw08r-leg-1",
+      "from": "LLAKE",
+      "to": "SHAYN",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 16,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "llake-rw08r-leg-2",
+      "from": "SHAYN",
+      "to": "RW08R",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 7.9,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "llake-rw08r",
+      "name": "Entrada LLAKE",
+      "kind": "approach",
+      "sequence": [
+        "LLAKE",
+        "SHAYN",
+        "RW08R"
+      ],
+      "leg_ids": [
+        "llake-rw08r-leg-1",
+        "llake-rw08r-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

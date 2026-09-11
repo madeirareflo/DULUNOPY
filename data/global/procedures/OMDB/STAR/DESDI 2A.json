@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "OMDB-DESDI 2A",
+    "name": "DESDI 2A",
+    "type": "STAR",
+    "airport": "OMDB",
+    "runways": [
+      "12L"
+    ],
+    "source": {
+      "authority": "GCAA UAE",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "DESDI": {
+      "ident": "DESDI",
+      "coordinate_ref": "waypoint:global:OMDB:DESDI:7244d98aa779"
+    },
+    "MIKNA": {
+      "ident": "MIKNA",
+      "coordinate_ref": "waypoint:global:OMDB:MIKNA:367d6c977939"
+    },
+    "DB501": {
+      "ident": "DB501",
+      "coordinate_ref": "waypoint:global:OMDB:DB501:aead526c27bd"
+    }
+  },
+  "legs": [
+    {
+      "id": "desdi-db501-leg-1",
+      "from": "DESDI",
+      "to": "MIKNA",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 24.2,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "desdi-db501-leg-2",
+      "from": "MIKNA",
+      "to": "DB501",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 13.9,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "desdi-db501",
+      "name": "Entrada DESDI - DB501",
+      "kind": "arrival",
+      "sequence": [
+        "DESDI",
+        "MIKNA",
+        "DB501"
+      ],
+      "leg_ids": [
+        "desdi-db501-leg-1",
+        "desdi-db501-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

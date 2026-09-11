@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LPPT-INBOM 1A (RNAV)",
+    "name": "INBOM 1A (RNAV)",
+    "type": "STAR",
+    "airport": "LPPT",
+    "runways": [
+      "02"
+    ],
+    "source": {
+      "authority": "NAV Portugal / AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "INBOM": {
+      "ident": "INBOM",
+      "coordinate_ref": "waypoint:global:LPPT:INBOM:bfd5832bac05"
+    },
+    "XINRO": {
+      "ident": "XINRO",
+      "coordinate_ref": "waypoint:global:LPPT:XINRO:3ccbd9d9c2fe"
+    },
+    "ERIDU": {
+      "ident": "ERIDU",
+      "coordinate_ref": "waypoint:global:LPPT:ERIDU:697165b4f5f6"
+    }
+  },
+  "legs": [
+    {
+      "id": "inbom-eridu-leg-1",
+      "from": "INBOM",
+      "to": "XINRO",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 15.2,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "inbom-eridu-leg-2",
+      "from": "XINRO",
+      "to": "ERIDU",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 14.4,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "inbom-eridu",
+      "name": "Entrada INBOM - ERIDU",
+      "kind": "arrival",
+      "sequence": [
+        "INBOM",
+        "XINRO",
+        "ERIDU"
+      ],
+      "leg_ids": [
+        "inbom-eridu-leg-1",
+        "inbom-eridu-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

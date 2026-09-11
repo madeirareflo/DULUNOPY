@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "EDDF-ILS RWY 25R",
+    "name": "ILS RWY 25R",
+    "type": "IAC",
+    "airport": "EDDF",
+    "runways": [
+      "25R"
+    ],
+    "source": {
+      "authority": "DFS Germany",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "DF401": {
+      "ident": "DF401",
+      "coordinate_ref": "waypoint:global:EDDF:DF401:d007a8fac170"
+    },
+    "FF25R": {
+      "ident": "FF25R",
+      "coordinate_ref": "waypoint:global:EDDF:FF25R:3ed182400a7c"
+    },
+    "RW25R": {
+      "ident": "RW25R",
+      "coordinate_ref": "waypoint:global:EDDF:RW25R:a85694e01906"
+    }
+  },
+  "legs": [
+    {
+      "id": "df401-rw25r-leg-1",
+      "from": "DF401",
+      "to": "FF25R",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 5.9,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "df401-rw25r-leg-2",
+      "from": "FF25R",
+      "to": "RW25R",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 6.2,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "df401-rw25r",
+      "name": "Entrada DF401",
+      "kind": "approach",
+      "sequence": [
+        "DF401",
+        "FF25R",
+        "RW25R"
+      ],
+      "leg_ids": [
+        "df401-rw25r-leg-1",
+        "df401-rw25r-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

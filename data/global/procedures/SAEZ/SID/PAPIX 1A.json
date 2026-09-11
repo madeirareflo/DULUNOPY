@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SAEZ-PAPIX 1A",
+    "name": "PAPIX 1A",
+    "type": "SID",
+    "airport": "SAEZ",
+    "runways": [
+      "11"
+    ],
+    "source": {
+      "authority": "EANA / AIP Argentina",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "EZ111": {
+      "ident": "EZ111",
+      "coordinate_ref": "waypoint:global:SAEZ:EZ111:348e92dfc3e7"
+    },
+    "PAPIX": {
+      "ident": "PAPIX",
+      "coordinate_ref": "waypoint:global:SAEZ:PAPIX:8417c6db96b5"
+    },
+    "KUKEN": {
+      "ident": "KUKEN",
+      "coordinate_ref": "waypoint:global:SAEZ:KUKEN:643e85c6183d"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw11-kuken-leg-1",
+      "from": "EZ111",
+      "to": "PAPIX",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 18.9,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw11-kuken-leg-2",
+      "from": "PAPIX",
+      "to": "KUKEN",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 23.3,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw11-kuken",
+      "name": "RW11 - KUKEN",
+      "kind": "departure",
+      "sequence": [
+        "EZ111",
+        "PAPIX",
+        "KUKEN"
+      ],
+      "leg_ids": [
+        "rw11-kuken-leg-1",
+        "rw11-kuken-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

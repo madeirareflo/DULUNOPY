@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KORD-CORDN 1 (RNAV)",
+    "name": "CORDN 1 (RNAV)",
+    "type": "SID",
+    "airport": "KORD",
+    "runways": [
+      "10L",
+      "10C",
+      "10R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ORD": {
+      "ident": "ORD",
+      "coordinate_ref": "waypoint:global:KORD:ORD:fbc65c6b42a5"
+    },
+    "OBK": {
+      "ident": "OBK",
+      "coordinate_ref": "waypoint:global:KORD:OBK:b0c9d2d6c749"
+    },
+    "CORDN": {
+      "ident": "CORDN",
+      "coordinate_ref": "waypoint:global:KORD:CORDN:a44aa08df136"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw10l-cordn-leg-1",
+      "from": "ORD",
+      "to": "OBK",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 15,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw10l-cordn-leg-2",
+      "from": "OBK",
+      "to": "CORDN",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 16.3,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw10l-cordn",
+      "name": "RW10L - CORDN",
+      "kind": "departure",
+      "sequence": [
+        "ORD",
+        "OBK",
+        "CORDN"
+      ],
+      "leg_ids": [
+        "rw10l-cordn-leg-1",
+        "rw10l-cordn-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

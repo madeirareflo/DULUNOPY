@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "VHHH-OCEAN 2A (RNAV)",
+    "name": "OCEAN 2A (RNAV)",
+    "type": "SID",
+    "airport": "VHHH",
+    "runways": [
+      "07R",
+      "07C"
+    ],
+    "source": {
+      "authority": "CAD Hong Kong / AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "HKG": {
+      "ident": "HKG",
+      "coordinate_ref": "waypoint:global:VHHH:HKG:e02c7b8816ea"
+    },
+    "RASSE": {
+      "ident": "RASSE",
+      "coordinate_ref": "waypoint:global:VHHH:RASSE:c9a73b551d7b"
+    },
+    "OCEAN": {
+      "ident": "OCEAN",
+      "coordinate_ref": "waypoint:global:VHHH:OCEAN:76dd8899ef3d"
+    }
+  },
+  "legs": [
+    {
+      "id": "hkg-ocean-leg-1",
+      "from": "HKG",
+      "to": "RASSE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 15,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "hkg-ocean-leg-2",
+      "from": "RASSE",
+      "to": "OCEAN",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 25.7,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "hkg-ocean",
+      "name": "Saída OCEAN Sul",
+      "kind": "departure",
+      "sequence": [
+        "HKG",
+        "RASSE",
+        "OCEAN"
+      ],
+      "leg_ids": [
+        "hkg-ocean-leg-1",
+        "hkg-ocean-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

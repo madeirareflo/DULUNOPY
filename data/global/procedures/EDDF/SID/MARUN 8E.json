@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "EDDF-MARUN 8E",
+    "name": "MARUN 8E",
+    "type": "SID",
+    "airport": "EDDF",
+    "runways": [
+      "25C"
+    ],
+    "source": {
+      "authority": "DFS Germany",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "DF251": {
+      "ident": "DF251",
+      "coordinate_ref": "waypoint:global:EDDF:DF251:a4b3872a9da6"
+    },
+    "MARUN": {
+      "ident": "MARUN",
+      "coordinate_ref": "waypoint:global:EDDF:MARUN:e34114b672cf"
+    },
+    "RIDSU": {
+      "ident": "RIDSU",
+      "coordinate_ref": "waypoint:global:EDDF:RIDSU:24bfc2136a76"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw25c-ridsu-leg-1",
+      "from": "DF251",
+      "to": "MARUN",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 13.9,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw25c-ridsu-leg-2",
+      "from": "MARUN",
+      "to": "RIDSU",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 16.6,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw25c-ridsu",
+      "name": "RW25C - RIDSU",
+      "kind": "departure",
+      "sequence": [
+        "DF251",
+        "MARUN",
+        "RIDSU"
+      ],
+      "leg_ids": [
+        "rw25c-ridsu-leg-1",
+        "rw25c-ridsu-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

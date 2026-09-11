@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "NATAL",
+  "name": "TMA Natal",
+  "airports": [
+    "SBNT",
+    "SBSG"
+  ],
+  "airportsIndex": "data/tmas/natal/airports/index.json",
+  "boundarySource": "data/tmas/brazil-tmas-aixm.json",
+  "sectorIds": [
+    "NATAL SECT 01",
+    "NATAL SECT 02"
+  ],
+  "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1"
+}

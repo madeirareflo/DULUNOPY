@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "VHHH-ABBEY 1A (RNAV)",
+    "name": "ABBEY 1A (RNAV)",
+    "type": "STAR",
+    "airport": "VHHH",
+    "runways": [
+      "07L",
+      "07C"
+    ],
+    "source": {
+      "authority": "CAD Hong Kong / AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ABBEY": {
+      "ident": "ABBEY",
+      "coordinate_ref": "waypoint:global:VHHH:ABBEY:a7e477f953d2"
+    },
+    "BETTY": {
+      "ident": "BETTY",
+      "coordinate_ref": "waypoint:global:VHHH:BETTY:19738f6fd82b"
+    },
+    "LOTUS": {
+      "ident": "LOTUS",
+      "coordinate_ref": "waypoint:global:VHHH:LOTUS:8eca2b880c9d"
+    }
+  },
+  "legs": [
+    {
+      "id": "abbey-lotus-leg-1",
+      "from": "ABBEY",
+      "to": "BETTY",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 13.9,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "abbey-lotus-leg-2",
+      "from": "BETTY",
+      "to": "LOTUS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 8.2,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "abbey-lotus",
+      "name": "Entrada ABBEY",
+      "kind": "arrival",
+      "sequence": [
+        "ABBEY",
+        "BETTY",
+        "LOTUS"
+      ],
+      "leg_ids": [
+        "abbey-lotus-leg-1",
+        "abbey-lotus-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "VHHH-ILS RWY 07L",
+    "name": "ILS RWY 07L",
+    "type": "IAC",
+    "airport": "VHHH",
+    "runways": [
+      "07L"
+    ],
+    "source": {
+      "authority": "CAD Hong Kong / AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "LOTUS": {
+      "ident": "LOTUS",
+      "coordinate_ref": "waypoint:global:VHHH:LOTUS:8eca2b880c9d"
+    },
+    "HH07L": {
+      "ident": "HH07L",
+      "coordinate_ref": "waypoint:global:VHHH:HH07L:e2ada112812a"
+    },
+    "RW07L": {
+      "ident": "RW07L",
+      "coordinate_ref": "waypoint:global:VHHH:RW07L:418a6b8ed338"
+    }
+  },
+  "legs": [
+    {
+      "id": "lotus-rw07l-leg-1",
+      "from": "LOTUS",
+      "to": "HH07L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 3.7,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "lotus-rw07l-leg-2",
+      "from": "HH07L",
+      "to": "RW07L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.9,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "lotus-rw07l",
+      "name": "Aproximação ILS 07L",
+      "kind": "approach",
+      "sequence": [
+        "LOTUS",
+        "HH07L",
+        "RW07L"
+      ],
+      "leg_ids": [
+        "lotus-rw07l-leg-1",
+        "lotus-rw07l-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

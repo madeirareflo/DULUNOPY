@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KDFW-DALLAS 2 (RNAV)",
+    "name": "DALLAS 2 (RNAV)",
+    "type": "SID",
+    "airport": "KDFW",
+    "runways": [
+      "17R",
+      "17C",
+      "35L",
+      "35C"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "DFW": {
+      "ident": "DFW",
+      "coordinate_ref": "waypoint:global:KDFW:DFW:ebe8290911f8"
+    },
+    "TEXAS": {
+      "ident": "TEXAS",
+      "coordinate_ref": "waypoint:global:KDFW:TEXAS:e08f4a176fe2"
+    },
+    "ADMIR": {
+      "ident": "ADMIR",
+      "coordinate_ref": "waypoint:global:KDFW:ADMIR:2e586a31d7c1"
+    }
+  },
+  "legs": [
+    {
+      "id": "dfw-admir-leg-1",
+      "from": "DFW",
+      "to": "TEXAS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 20.9,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "dfw-admir-leg-2",
+      "from": "TEXAS",
+      "to": "ADMIR",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 23.5,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "dfw-admir",
+      "name": "Saída ADMIR",
+      "kind": "departure",
+      "sequence": [
+        "DFW",
+        "TEXAS",
+        "ADMIR"
+      ],
+      "leg_ids": [
+        "dfw-admir-leg-1",
+        "dfw-admir-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

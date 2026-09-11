@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KSFO-ILS OR LOC RWY 28R",
+    "name": "ILS OR LOC RWY 28R",
+    "type": "IAC",
+    "airport": "KSFO",
+    "runways": [
+      "28R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "BRIXX": {
+      "ident": "BRIXX",
+      "coordinate_ref": "waypoint:global:KSFO:BRIXX:0175db71ac1e"
+    },
+    "AXMUL": {
+      "ident": "AXMUL",
+      "coordinate_ref": "waypoint:global:KSFO:AXMUL:fa5a384d8baf"
+    },
+    "RW28R": {
+      "ident": "RW28R",
+      "coordinate_ref": "waypoint:global:KSFO:RW28R:16b2ec581f3f"
+    }
+  },
+  "legs": [
+    {
+      "id": "brixx-rw28r-leg-1",
+      "from": "BRIXX",
+      "to": "AXMUL",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 23,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "brixx-rw28r-leg-2",
+      "from": "AXMUL",
+      "to": "RW28R",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 6.8,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "brixx-rw28r",
+      "name": "Aproximação ILS 28R",
+      "kind": "approach",
+      "sequence": [
+        "BRIXX",
+        "AXMUL",
+        "RW28R"
+      ],
+      "leg_ids": [
+        "brixx-rw28r-leg-1",
+        "brixx-rw28r-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

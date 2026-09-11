@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SBMT-POLAR 1 (RNAV)",
+    "name": "POLAR 1 (RNAV)",
+    "type": "STAR",
+    "airport": "SBMT",
+    "runways": [
+      "12"
+    ],
+    "source": {
+      "authority": "DECEA / AISWEB",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "POLAR": {
+      "ident": "POLAR",
+      "coordinate_ref": "waypoint:global:SBMT:POLAR:61e27ed46a4c"
+    },
+    "MT002": {
+      "ident": "MT002",
+      "coordinate_ref": "waypoint:global:SBMT:MT002:da13e684e264"
+    },
+    "MT003": {
+      "ident": "MT003",
+      "coordinate_ref": "waypoint:global:SBMT:MT003:cbfb8a655e34"
+    }
+  },
+  "legs": [
+    {
+      "id": "polar-mt003-leg-1",
+      "from": "POLAR",
+      "to": "MT002",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 8.6,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "polar-mt003-leg-2",
+      "from": "MT002",
+      "to": "MT003",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 5.3,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "polar-mt003",
+      "name": "Chegada POLAR 1 RWY 12",
+      "kind": "arrival",
+      "sequence": [
+        "POLAR",
+        "MT002",
+        "MT003"
+      ],
+      "leg_ids": [
+        "polar-mt003-leg-1",
+        "polar-mt003-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

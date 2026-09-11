@@ -1,0 +1,4919 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/import-ourairports-global.mjs",
+  "releaseId": "2026-09-03-04-01-09Z",
+  "capturedAt": "2026-09-03T04:01:09.284Z",
+  "source": {
+    "name": "OurAirports",
+    "kind": "community-reference",
+    "license": "Public Domain / Unlicense",
+    "homepage": "https://ourairports.com/data/",
+    "airportsUrl": "https://davidmegginson.github.io/ourairports-data/airports.csv",
+    "navaidsUrl": "https://davidmegginson.github.io/ourairports-data/navaids.csv",
+    "warning": "Camada de referência aberta para estudo. Confirme informações operacionais na publicação oficial vigente."
+  },
+  "exclusions": {
+    "countries": [
+      "BR"
+    ],
+    "reason": "O Brasil possui camadas aeronáuticas próprias e oficiais no projeto."
+  },
+  "loading": {
+    "cellSizeDegrees": 10,
+    "minimumZoom": 5,
+    "labelMinimumZoom": 8
+  },
+  "counts": {
+    "aerodromes": 64821,
+    "navaids": 10685,
+    "cells": 349
+  },
+  "cells": [
+    {
+      "id": "N00E000",
+      "file": "data/global/references/cells/N00E000.json",
+      "bounds": [
+        0,
+        0,
+        10,
+        10
+      ],
+      "counts": {
+        "aerodromes": 79,
+        "navaids": 55
+      }
+    },
+    {
+      "id": "N00E010",
+      "file": "data/global/references/cells/N00E010.json",
+      "bounds": [
+        0,
+        10,
+        10,
+        20
+      ],
+      "counts": {
+        "aerodromes": 96,
+        "navaids": 40
+      }
+    },
+    {
+      "id": "N00E020",
+      "file": "data/global/references/cells/N00E020.json",
+      "bounds": [
+        0,
+        20,
+        10,
+        30
+      ],
+      "counts": {
+        "aerodromes": 108,
+        "navaids": 13
+      }
+    },
+    {
+      "id": "N00E030",
+      "file": "data/global/references/cells/N00E030.json",
+      "bounds": [
+        0,
+        30,
+        10,
+        40
+      ],
+      "counts": {
+        "aerodromes": 279,
+        "navaids": 27
+      }
+    },
+    {
+      "id": "N00E040",
+      "file": "data/global/references/cells/N00E040.json",
+      "bounds": [
+        0,
+        40,
+        10,
+        50
+      ],
+      "counts": {
+        "aerodromes": 50,
+        "navaids": 5
+      }
+    },
+    {
+      "id": "N00E050",
+      "file": "data/global/references/cells/N00E050.json",
+      "bounds": [
+        0,
+        50,
+        10,
+        60
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N00E070",
+      "file": "data/global/references/cells/N00E070.json",
+      "bounds": [
+        0,
+        70,
+        10,
+        80
+      ],
+      "counts": {
+        "aerodromes": 69,
+        "navaids": 14
+      }
+    },
+    {
+      "id": "N00E080",
+      "file": "data/global/references/cells/N00E080.json",
+      "bounds": [
+        0,
+        80,
+        10,
+        90
+      ],
+      "counts": {
+        "aerodromes": 27,
+        "navaids": 7
+      }
+    },
+    {
+      "id": "N00E090",
+      "file": "data/global/references/cells/N00E090.json",
+      "bounds": [
+        0,
+        90,
+        10,
+        100
+      ],
+      "counts": {
+        "aerodromes": 49,
+        "navaids": 31
+      }
+    },
+    {
+      "id": "N00E100",
+      "file": "data/global/references/cells/N00E100.json",
+      "bounds": [
+        0,
+        100,
+        10,
+        110
+      ],
+      "counts": {
+        "aerodromes": 103,
+        "navaids": 69
+      }
+    },
+    {
+      "id": "N00E110",
+      "file": "data/global/references/cells/N00E110.json",
+      "bounds": [
+        0,
+        110,
+        10,
+        120
+      ],
+      "counts": {
+        "aerodromes": 175,
+        "navaids": 41
+      }
+    },
+    {
+      "id": "N00E120",
+      "file": "data/global/references/cells/N00E120.json",
+      "bounds": [
+        0,
+        120,
+        10,
+        130
+      ],
+      "counts": {
+        "aerodromes": 139,
+        "navaids": 29
+      }
+    },
+    {
+      "id": "N00E130",
+      "file": "data/global/references/cells/N00E130.json",
+      "bounds": [
+        0,
+        130,
+        10,
+        140
+      ],
+      "counts": {
+        "aerodromes": 4,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N00E140",
+      "file": "data/global/references/cells/N00E140.json",
+      "bounds": [
+        0,
+        140,
+        10,
+        150
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N00E150",
+      "file": "data/global/references/cells/N00E150.json",
+      "bounds": [
+        0,
+        150,
+        10,
+        160
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N00E160",
+      "file": "data/global/references/cells/N00E160.json",
+      "bounds": [
+        0,
+        160,
+        10,
+        170
+      ],
+      "counts": {
+        "aerodromes": 17,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "N00E170",
+      "file": "data/global/references/cells/N00E170.json",
+      "bounds": [
+        0,
+        170,
+        10,
+        180
+      ],
+      "counts": {
+        "aerodromes": 19,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "N00W010",
+      "file": "data/global/references/cells/N00W010.json",
+      "bounds": [
+        0,
+        -10,
+        10,
+        0
+      ],
+      "counts": {
+        "aerodromes": 62,
+        "navaids": 38
+      }
+    },
+    {
+      "id": "N00W020",
+      "file": "data/global/references/cells/N00W020.json",
+      "bounds": [
+        0,
+        -20,
+        10,
+        -10
+      ],
+      "counts": {
+        "aerodromes": 19,
+        "navaids": 11
+      }
+    },
+    {
+      "id": "N00W060",
+      "file": "data/global/references/cells/N00W060.json",
+      "bounds": [
+        0,
+        -60,
+        10,
+        -50
+      ],
+      "counts": {
+        "aerodromes": 128,
+        "navaids": 12
+      }
+    },
+    {
+      "id": "N00W070",
+      "file": "data/global/references/cells/N00W070.json",
+      "bounds": [
+        0,
+        -70,
+        10,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 572,
+        "navaids": 45
+      }
+    },
+    {
+      "id": "N00W080",
+      "file": "data/global/references/cells/N00W080.json",
+      "bounds": [
+        0,
+        -80,
+        10,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 754,
+        "navaids": 105
+      }
+    },
+    {
+      "id": "N00W090",
+      "file": "data/global/references/cells/N00W090.json",
+      "bounds": [
+        0,
+        -90,
+        10,
+        -80
+      ],
+      "counts": {
+        "aerodromes": 102,
+        "navaids": 10
+      }
+    },
+    {
+      "id": "N00W160",
+      "file": "data/global/references/cells/N00W160.json",
+      "bounds": [
+        0,
+        -160,
+        10,
+        -150
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N00W170",
+      "file": "data/global/references/cells/N00W170.json",
+      "bounds": [
+        0,
+        -170,
+        10,
+        -160
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N10E000",
+      "file": "data/global/references/cells/N10E000.json",
+      "bounds": [
+        10,
+        0,
+        20,
+        10
+      ],
+      "counts": {
+        "aerodromes": 56,
+        "navaids": 22
+      }
+    },
+    {
+      "id": "N10E010",
+      "file": "data/global/references/cells/N10E010.json",
+      "bounds": [
+        10,
+        10,
+        20,
+        20
+      ],
+      "counts": {
+        "aerodromes": 31,
+        "navaids": 9
+      }
+    },
+    {
+      "id": "N10E020",
+      "file": "data/global/references/cells/N10E020.json",
+      "bounds": [
+        10,
+        20,
+        20,
+        30
+      ],
+      "counts": {
+        "aerodromes": 26,
+        "navaids": 7
+      }
+    },
+    {
+      "id": "N10E030",
+      "file": "data/global/references/cells/N10E030.json",
+      "bounds": [
+        10,
+        30,
+        20,
+        40
+      ],
+      "counts": {
+        "aerodromes": 64,
+        "navaids": 23
+      }
+    },
+    {
+      "id": "N10E040",
+      "file": "data/global/references/cells/N10E040.json",
+      "bounds": [
+        10,
+        40,
+        20,
+        50
+      ],
+      "counts": {
+        "aerodromes": 81,
+        "navaids": 24
+      }
+    },
+    {
+      "id": "N10E050",
+      "file": "data/global/references/cells/N10E050.json",
+      "bounds": [
+        10,
+        50,
+        20,
+        60
+      ],
+      "counts": {
+        "aerodromes": 25,
+        "navaids": 8
+      }
+    },
+    {
+      "id": "N10E070",
+      "file": "data/global/references/cells/N10E070.json",
+      "bounds": [
+        10,
+        70,
+        20,
+        80
+      ],
+      "counts": {
+        "aerodromes": 136,
+        "navaids": 37
+      }
+    },
+    {
+      "id": "N10E080",
+      "file": "data/global/references/cells/N10E080.json",
+      "bounds": [
+        10,
+        80,
+        20,
+        90
+      ],
+      "counts": {
+        "aerodromes": 39,
+        "navaids": 8
+      }
+    },
+    {
+      "id": "N10E090",
+      "file": "data/global/references/cells/N10E090.json",
+      "bounds": [
+        10,
+        90,
+        20,
+        100
+      ],
+      "counts": {
+        "aerodromes": 67,
+        "navaids": 42
+      }
+    },
+    {
+      "id": "N10E100",
+      "file": "data/global/references/cells/N10E100.json",
+      "bounds": [
+        10,
+        100,
+        20,
+        110
+      ],
+      "counts": {
+        "aerodromes": 145,
+        "navaids": 101
+      }
+    },
+    {
+      "id": "N10E110",
+      "file": "data/global/references/cells/N10E110.json",
+      "bounds": [
+        10,
+        110,
+        20,
+        120
+      ],
+      "counts": {
+        "aerodromes": 42,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N10E120",
+      "file": "data/global/references/cells/N10E120.json",
+      "bounds": [
+        10,
+        120,
+        20,
+        130
+      ],
+      "counts": {
+        "aerodromes": 515,
+        "navaids": 38
+      }
+    },
+    {
+      "id": "N10E130",
+      "file": "data/global/references/cells/N10E130.json",
+      "bounds": [
+        10,
+        130,
+        20,
+        140
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N10E140",
+      "file": "data/global/references/cells/N10E140.json",
+      "bounds": [
+        10,
+        140,
+        20,
+        150
+      ],
+      "counts": {
+        "aerodromes": 11,
+        "navaids": 5
+      }
+    },
+    {
+      "id": "N10E160",
+      "file": "data/global/references/cells/N10E160.json",
+      "bounds": [
+        10,
+        160,
+        20,
+        170
+      ],
+      "counts": {
+        "aerodromes": 7,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N10E170",
+      "file": "data/global/references/cells/N10E170.json",
+      "bounds": [
+        10,
+        170,
+        20,
+        180
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N10W010",
+      "file": "data/global/references/cells/N10W010.json",
+      "bounds": [
+        10,
+        -10,
+        20,
+        0
+      ],
+      "counts": {
+        "aerodromes": 71,
+        "navaids": 21
+      }
+    },
+    {
+      "id": "N10W020",
+      "file": "data/global/references/cells/N10W020.json",
+      "bounds": [
+        10,
+        -20,
+        20,
+        -10
+      ],
+      "counts": {
+        "aerodromes": 55,
+        "navaids": 33
+      }
+    },
+    {
+      "id": "N10W030",
+      "file": "data/global/references/cells/N10W030.json",
+      "bounds": [
+        10,
+        -30,
+        20,
+        -20
+      ],
+      "counts": {
+        "aerodromes": 8,
+        "navaids": 7
+      }
+    },
+    {
+      "id": "N10W060",
+      "file": "data/global/references/cells/N10W060.json",
+      "bounds": [
+        10,
+        -60,
+        20,
+        -50
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N10W070",
+      "file": "data/global/references/cells/N10W070.json",
+      "bounds": [
+        10,
+        -70,
+        20,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 346,
+        "navaids": 77
+      }
+    },
+    {
+      "id": "N10W080",
+      "file": "data/global/references/cells/N10W080.json",
+      "bounds": [
+        10,
+        -80,
+        20,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 154,
+        "navaids": 46
+      }
+    },
+    {
+      "id": "N10W090",
+      "file": "data/global/references/cells/N10W090.json",
+      "bounds": [
+        10,
+        -90,
+        20,
+        -80
+      ],
+      "counts": {
+        "aerodromes": 341,
+        "navaids": 35
+      }
+    },
+    {
+      "id": "N10W100",
+      "file": "data/global/references/cells/N10W100.json",
+      "bounds": [
+        10,
+        -100,
+        20,
+        -90
+      ],
+      "counts": {
+        "aerodromes": 517,
+        "navaids": 48
+      }
+    },
+    {
+      "id": "N10W110",
+      "file": "data/global/references/cells/N10W110.json",
+      "bounds": [
+        10,
+        -110,
+        20,
+        -100
+      ],
+      "counts": {
+        "aerodromes": 73,
+        "navaids": 5
+      }
+    },
+    {
+      "id": "N10W120",
+      "file": "data/global/references/cells/N10W120.json",
+      "bounds": [
+        10,
+        -120,
+        20,
+        -110
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N10W160",
+      "file": "data/global/references/cells/N10W160.json",
+      "bounds": [
+        10,
+        -160,
+        20,
+        -150
+      ],
+      "counts": {
+        "aerodromes": 15,
+        "navaids": 5
+      }
+    },
+    {
+      "id": "N20E000",
+      "file": "data/global/references/cells/N20E000.json",
+      "bounds": [
+        20,
+        0,
+        30,
+        10
+      ],
+      "counts": {
+        "aerodromes": 40,
+        "navaids": 17
+      }
+    },
+    {
+      "id": "N20E010",
+      "file": "data/global/references/cells/N20E010.json",
+      "bounds": [
+        20,
+        10,
+        30,
+        20
+      ],
+      "counts": {
+        "aerodromes": 39,
+        "navaids": 18
+      }
+    },
+    {
+      "id": "N20E020",
+      "file": "data/global/references/cells/N20E020.json",
+      "bounds": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "counts": {
+        "aerodromes": 21,
+        "navaids": 13
+      }
+    },
+    {
+      "id": "N20E030",
+      "file": "data/global/references/cells/N20E030.json",
+      "bounds": [
+        20,
+        30,
+        30,
+        40
+      ],
+      "counts": {
+        "aerodromes": 123,
+        "navaids": 28
+      }
+    },
+    {
+      "id": "N20E040",
+      "file": "data/global/references/cells/N20E040.json",
+      "bounds": [
+        20,
+        40,
+        30,
+        50
+      ],
+      "counts": {
+        "aerodromes": 145,
+        "navaids": 38
+      }
+    },
+    {
+      "id": "N20E050",
+      "file": "data/global/references/cells/N20E050.json",
+      "bounds": [
+        20,
+        50,
+        30,
+        60
+      ],
+      "counts": {
+        "aerodromes": 484,
+        "navaids": 72
+      }
+    },
+    {
+      "id": "N20E060",
+      "file": "data/global/references/cells/N20E060.json",
+      "bounds": [
+        20,
+        60,
+        30,
+        70
+      ],
+      "counts": {
+        "aerodromes": 103,
+        "navaids": 32
+      }
+    },
+    {
+      "id": "N20E070",
+      "file": "data/global/references/cells/N20E070.json",
+      "bounds": [
+        20,
+        70,
+        30,
+        80
+      ],
+      "counts": {
+        "aerodromes": 130,
+        "navaids": 55
+      }
+    },
+    {
+      "id": "N20E080",
+      "file": "data/global/references/cells/N20E080.json",
+      "bounds": [
+        20,
+        80,
+        30,
+        90
+      ],
+      "counts": {
+        "aerodromes": 205,
+        "navaids": 61
+      }
+    },
+    {
+      "id": "N20E090",
+      "file": "data/global/references/cells/N20E090.json",
+      "bounds": [
+        20,
+        90,
+        30,
+        100
+      ],
+      "counts": {
+        "aerodromes": 189,
+        "navaids": 61
+      }
+    },
+    {
+      "id": "N20E100",
+      "file": "data/global/references/cells/N20E100.json",
+      "bounds": [
+        20,
+        100,
+        30,
+        110
+      ],
+      "counts": {
+        "aerodromes": 89,
+        "navaids": 46
+      }
+    },
+    {
+      "id": "N20E110",
+      "file": "data/global/references/cells/N20E110.json",
+      "bounds": [
+        20,
+        110,
+        30,
+        120
+      ],
+      "counts": {
+        "aerodromes": 277,
+        "navaids": 77
+      }
+    },
+    {
+      "id": "N20E120",
+      "file": "data/global/references/cells/N20E120.json",
+      "bounds": [
+        20,
+        120,
+        30,
+        130
+      ],
+      "counts": {
+        "aerodromes": 172,
+        "navaids": 74
+      }
+    },
+    {
+      "id": "N20E130",
+      "file": "data/global/references/cells/N20E130.json",
+      "bounds": [
+        20,
+        130,
+        30,
+        140
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N20E140",
+      "file": "data/global/references/cells/N20E140.json",
+      "bounds": [
+        20,
+        140,
+        30,
+        150
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "N20E150",
+      "file": "data/global/references/cells/N20E150.json",
+      "bounds": [
+        20,
+        150,
+        30,
+        160
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N20W010",
+      "file": "data/global/references/cells/N20W010.json",
+      "bounds": [
+        20,
+        -10,
+        30,
+        0
+      ],
+      "counts": {
+        "aerodromes": 15,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "N20W020",
+      "file": "data/global/references/cells/N20W020.json",
+      "bounds": [
+        20,
+        -20,
+        30,
+        -10
+      ],
+      "counts": {
+        "aerodromes": 59,
+        "navaids": 30
+      }
+    },
+    {
+      "id": "N20W080",
+      "file": "data/global/references/cells/N20W080.json",
+      "bounds": [
+        20,
+        -80,
+        30,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 146,
+        "navaids": 44
+      }
+    },
+    {
+      "id": "N20W090",
+      "file": "data/global/references/cells/N20W090.json",
+      "bounds": [
+        20,
+        -90,
+        30,
+        -80
+      ],
+      "counts": {
+        "aerodromes": 971,
+        "navaids": 85
+      }
+    },
+    {
+      "id": "N20W100",
+      "file": "data/global/references/cells/N20W100.json",
+      "bounds": [
+        20,
+        -100,
+        30,
+        -90
+      ],
+      "counts": {
+        "aerodromes": 1135,
+        "navaids": 81
+      }
+    },
+    {
+      "id": "N20W110",
+      "file": "data/global/references/cells/N20W110.json",
+      "bounds": [
+        20,
+        -110,
+        30,
+        -100
+      ],
+      "counts": {
+        "aerodromes": 1077,
+        "navaids": 30
+      }
+    },
+    {
+      "id": "N20W120",
+      "file": "data/global/references/cells/N20W120.json",
+      "bounds": [
+        20,
+        -120,
+        30,
+        -110
+      ],
+      "counts": {
+        "aerodromes": 126,
+        "navaids": 7
+      }
+    },
+    {
+      "id": "N20W160",
+      "file": "data/global/references/cells/N20W160.json",
+      "bounds": [
+        20,
+        -160,
+        30,
+        -150
+      ],
+      "counts": {
+        "aerodromes": 64,
+        "navaids": 14
+      }
+    },
+    {
+      "id": "N20W170",
+      "file": "data/global/references/cells/N20W170.json",
+      "bounds": [
+        20,
+        -170,
+        30,
+        -160
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N20W180",
+      "file": "data/global/references/cells/N20W180.json",
+      "bounds": [
+        20,
+        -180,
+        30,
+        -170
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N30E000",
+      "file": "data/global/references/cells/N30E000.json",
+      "bounds": [
+        30,
+        0,
+        40,
+        10
+      ],
+      "counts": {
+        "aerodromes": 113,
+        "navaids": 73
+      }
+    },
+    {
+      "id": "N30E010",
+      "file": "data/global/references/cells/N30E010.json",
+      "bounds": [
+        30,
+        10,
+        40,
+        20
+      ],
+      "counts": {
+        "aerodromes": 114,
+        "navaids": 57
+      }
+    },
+    {
+      "id": "N30E020",
+      "file": "data/global/references/cells/N30E020.json",
+      "bounds": [
+        30,
+        20,
+        40,
+        30
+      ],
+      "counts": {
+        "aerodromes": 174,
+        "navaids": 130
+      }
+    },
+    {
+      "id": "N30E030",
+      "file": "data/global/references/cells/N30E030.json",
+      "bounds": [
+        30,
+        30,
+        40,
+        40
+      ],
+      "counts": {
+        "aerodromes": 431,
+        "navaids": 112
+      }
+    },
+    {
+      "id": "N30E040",
+      "file": "data/global/references/cells/N30E040.json",
+      "bounds": [
+        30,
+        40,
+        40,
+        50
+      ],
+      "counts": {
+        "aerodromes": 245,
+        "navaids": 83
+      }
+    },
+    {
+      "id": "N30E050",
+      "file": "data/global/references/cells/N30E050.json",
+      "bounds": [
+        30,
+        50,
+        40,
+        60
+      ],
+      "counts": {
+        "aerodromes": 175,
+        "navaids": 52
+      }
+    },
+    {
+      "id": "N30E060",
+      "file": "data/global/references/cells/N30E060.json",
+      "bounds": [
+        30,
+        60,
+        40,
+        70
+      ],
+      "counts": {
+        "aerodromes": 134,
+        "navaids": 42
+      }
+    },
+    {
+      "id": "N30E070",
+      "file": "data/global/references/cells/N30E070.json",
+      "bounds": [
+        30,
+        70,
+        40,
+        80
+      ],
+      "counts": {
+        "aerodromes": 184,
+        "navaids": 40
+      }
+    },
+    {
+      "id": "N30E080",
+      "file": "data/global/references/cells/N30E080.json",
+      "bounds": [
+        30,
+        80,
+        40,
+        90
+      ],
+      "counts": {
+        "aerodromes": 10,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N30E090",
+      "file": "data/global/references/cells/N30E090.json",
+      "bounds": [
+        30,
+        90,
+        40,
+        100
+      ],
+      "counts": {
+        "aerodromes": 13,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "N30E100",
+      "file": "data/global/references/cells/N30E100.json",
+      "bounds": [
+        30,
+        100,
+        40,
+        110
+      ],
+      "counts": {
+        "aerodromes": 72,
+        "navaids": 28
+      }
+    },
+    {
+      "id": "N30E110",
+      "file": "data/global/references/cells/N30E110.json",
+      "bounds": [
+        30,
+        110,
+        40,
+        120
+      ],
+      "counts": {
+        "aerodromes": 134,
+        "navaids": 49
+      }
+    },
+    {
+      "id": "N30E120",
+      "file": "data/global/references/cells/N30E120.json",
+      "bounds": [
+        30,
+        120,
+        40,
+        130
+      ],
+      "counts": {
+        "aerodromes": 1518,
+        "navaids": 94
+      }
+    },
+    {
+      "id": "N30E130",
+      "file": "data/global/references/cells/N30E130.json",
+      "bounds": [
+        30,
+        130,
+        40,
+        140
+      ],
+      "counts": {
+        "aerodromes": 2845,
+        "navaids": 123
+      }
+    },
+    {
+      "id": "N30E140",
+      "file": "data/global/references/cells/N30E140.json",
+      "bounds": [
+        30,
+        140,
+        40,
+        150
+      ],
+      "counts": {
+        "aerodromes": 191,
+        "navaids": 23
+      }
+    },
+    {
+      "id": "N30W010",
+      "file": "data/global/references/cells/N30W010.json",
+      "bounds": [
+        30,
+        -10,
+        40,
+        0
+      ],
+      "counts": {
+        "aerodromes": 390,
+        "navaids": 123
+      }
+    },
+    {
+      "id": "N30W020",
+      "file": "data/global/references/cells/N30W020.json",
+      "bounds": [
+        30,
+        -20,
+        40,
+        -10
+      ],
+      "counts": {
+        "aerodromes": 4,
+        "navaids": 5
+      }
+    },
+    {
+      "id": "N30W030",
+      "file": "data/global/references/cells/N30W030.json",
+      "bounds": [
+        30,
+        -30,
+        40,
+        -20
+      ],
+      "counts": {
+        "aerodromes": 8,
+        "navaids": 14
+      }
+    },
+    {
+      "id": "N30W040",
+      "file": "data/global/references/cells/N30W040.json",
+      "bounds": [
+        30,
+        -40,
+        40,
+        -30
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N30W070",
+      "file": "data/global/references/cells/N30W070.json",
+      "bounds": [
+        30,
+        -70,
+        40,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N30W080",
+      "file": "data/global/references/cells/N30W080.json",
+      "bounds": [
+        30,
+        -80,
+        40,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 1431,
+        "navaids": 179
+      }
+    },
+    {
+      "id": "N30W090",
+      "file": "data/global/references/cells/N30W090.json",
+      "bounds": [
+        30,
+        -90,
+        40,
+        -80
+      ],
+      "counts": {
+        "aerodromes": 3433,
+        "navaids": 521
+      }
+    },
+    {
+      "id": "N30W100",
+      "file": "data/global/references/cells/N30W100.json",
+      "bounds": [
+        30,
+        -100,
+        40,
+        -90
+      ],
+      "counts": {
+        "aerodromes": 4086,
+        "navaids": 419
+      }
+    },
+    {
+      "id": "N30W110",
+      "file": "data/global/references/cells/N30W110.json",
+      "bounds": [
+        30,
+        -110,
+        40,
+        -100
+      ],
+      "counts": {
+        "aerodromes": 1345,
+        "navaids": 141
+      }
+    },
+    {
+      "id": "N30W120",
+      "file": "data/global/references/cells/N30W120.json",
+      "bounds": [
+        30,
+        -120,
+        40,
+        -110
+      ],
+      "counts": {
+        "aerodromes": 2182,
+        "navaids": 130
+      }
+    },
+    {
+      "id": "N30W130",
+      "file": "data/global/references/cells/N30W130.json",
+      "bounds": [
+        30,
+        -130,
+        40,
+        -120
+      ],
+      "counts": {
+        "aerodromes": 479,
+        "navaids": 52
+      }
+    },
+    {
+      "id": "N40E000",
+      "file": "data/global/references/cells/N40E000.json",
+      "bounds": [
+        40,
+        0,
+        50,
+        10
+      ],
+      "counts": {
+        "aerodromes": 2132,
+        "navaids": 260
+      }
+    },
+    {
+      "id": "N40E010",
+      "file": "data/global/references/cells/N40E010.json",
+      "bounds": [
+        40,
+        10,
+        50,
+        20
+      ],
+      "counts": {
+        "aerodromes": 1573,
+        "navaids": 315
+      }
+    },
+    {
+      "id": "N40E020",
+      "file": "data/global/references/cells/N40E020.json",
+      "bounds": [
+        40,
+        20,
+        50,
+        30
+      ],
+      "counts": {
+        "aerodromes": 658,
+        "navaids": 186
+      }
+    },
+    {
+      "id": "N40E030",
+      "file": "data/global/references/cells/N40E030.json",
+      "bounds": [
+        40,
+        30,
+        50,
+        40
+      ],
+      "counts": {
+        "aerodromes": 198,
+        "navaids": 109
+      }
+    },
+    {
+      "id": "N40E040",
+      "file": "data/global/references/cells/N40E040.json",
+      "bounds": [
+        40,
+        40,
+        50,
+        50
+      ],
+      "counts": {
+        "aerodromes": 144,
+        "navaids": 70
+      }
+    },
+    {
+      "id": "N40E050",
+      "file": "data/global/references/cells/N40E050.json",
+      "bounds": [
+        40,
+        50,
+        50,
+        60
+      ],
+      "counts": {
+        "aerodromes": 45,
+        "navaids": 25
+      }
+    },
+    {
+      "id": "N40E060",
+      "file": "data/global/references/cells/N40E060.json",
+      "bounds": [
+        40,
+        60,
+        50,
+        70
+      ],
+      "counts": {
+        "aerodromes": 44,
+        "navaids": 41
+      }
+    },
+    {
+      "id": "N40E070",
+      "file": "data/global/references/cells/N40E070.json",
+      "bounds": [
+        40,
+        70,
+        50,
+        80
+      ],
+      "counts": {
+        "aerodromes": 104,
+        "navaids": 45
+      }
+    },
+    {
+      "id": "N40E080",
+      "file": "data/global/references/cells/N40E080.json",
+      "bounds": [
+        40,
+        80,
+        50,
+        90
+      ],
+      "counts": {
+        "aerodromes": 73,
+        "navaids": 8
+      }
+    },
+    {
+      "id": "N40E090",
+      "file": "data/global/references/cells/N40E090.json",
+      "bounds": [
+        40,
+        90,
+        50,
+        100
+      ],
+      "counts": {
+        "aerodromes": 17,
+        "navaids": 11
+      }
+    },
+    {
+      "id": "N40E100",
+      "file": "data/global/references/cells/N40E100.json",
+      "bounds": [
+        40,
+        100,
+        50,
+        110
+      ],
+      "counts": {
+        "aerodromes": 33,
+        "navaids": 12
+      }
+    },
+    {
+      "id": "N40E110",
+      "file": "data/global/references/cells/N40E110.json",
+      "bounds": [
+        40,
+        110,
+        50,
+        120
+      ],
+      "counts": {
+        "aerodromes": 48,
+        "navaids": 29
+      }
+    },
+    {
+      "id": "N40E120",
+      "file": "data/global/references/cells/N40E120.json",
+      "bounds": [
+        40,
+        120,
+        50,
+        130
+      ],
+      "counts": {
+        "aerodromes": 95,
+        "navaids": 22
+      }
+    },
+    {
+      "id": "N40E130",
+      "file": "data/global/references/cells/N40E130.json",
+      "bounds": [
+        40,
+        130,
+        50,
+        140
+      ],
+      "counts": {
+        "aerodromes": 123,
+        "navaids": 18
+      }
+    },
+    {
+      "id": "N40E140",
+      "file": "data/global/references/cells/N40E140.json",
+      "bounds": [
+        40,
+        140,
+        50,
+        150
+      ],
+      "counts": {
+        "aerodromes": 211,
+        "navaids": 34
+      }
+    },
+    {
+      "id": "N40E150",
+      "file": "data/global/references/cells/N40E150.json",
+      "bounds": [
+        40,
+        150,
+        50,
+        160
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N40W010",
+      "file": "data/global/references/cells/N40W010.json",
+      "bounds": [
+        40,
+        -10,
+        50,
+        0
+      ],
+      "counts": {
+        "aerodromes": 532,
+        "navaids": 123
+      }
+    },
+    {
+      "id": "N40W060",
+      "file": "data/global/references/cells/N40W060.json",
+      "bounds": [
+        40,
+        -60,
+        50,
+        -50
+      ],
+      "counts": {
+        "aerodromes": 32,
+        "navaids": 17
+      }
+    },
+    {
+      "id": "N40W070",
+      "file": "data/global/references/cells/N40W070.json",
+      "bounds": [
+        40,
+        -70,
+        50,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 314,
+        "navaids": 79
+      }
+    },
+    {
+      "id": "N40W080",
+      "file": "data/global/references/cells/N40W080.json",
+      "bounds": [
+        40,
+        -80,
+        50,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 2916,
+        "navaids": 305
+      }
+    },
+    {
+      "id": "N40W090",
+      "file": "data/global/references/cells/N40W090.json",
+      "bounds": [
+        40,
+        -90,
+        50,
+        -80
+      ],
+      "counts": {
+        "aerodromes": 2587,
+        "navaids": 293
+      }
+    },
+    {
+      "id": "N40W100",
+      "file": "data/global/references/cells/N40W100.json",
+      "bounds": [
+        40,
+        -100,
+        50,
+        -90
+      ],
+      "counts": {
+        "aerodromes": 1765,
+        "navaids": 316
+      }
+    },
+    {
+      "id": "N40W110",
+      "file": "data/global/references/cells/N40W110.json",
+      "bounds": [
+        40,
+        -110,
+        50,
+        -100
+      ],
+      "counts": {
+        "aerodromes": 778,
+        "navaids": 112
+      }
+    },
+    {
+      "id": "N40W120",
+      "file": "data/global/references/cells/N40W120.json",
+      "bounds": [
+        40,
+        -120,
+        50,
+        -110
+      ],
+      "counts": {
+        "aerodromes": 1247,
+        "navaids": 121
+      }
+    },
+    {
+      "id": "N40W130",
+      "file": "data/global/references/cells/N40W130.json",
+      "bounds": [
+        40,
+        -130,
+        50,
+        -120
+      ],
+      "counts": {
+        "aerodromes": 1061,
+        "navaids": 96
+      }
+    },
+    {
+      "id": "N50E000",
+      "file": "data/global/references/cells/N50E000.json",
+      "bounds": [
+        50,
+        0,
+        60,
+        10
+      ],
+      "counts": {
+        "aerodromes": 1278,
+        "navaids": 205
+      }
+    },
+    {
+      "id": "N50E010",
+      "file": "data/global/references/cells/N50E010.json",
+      "bounds": [
+        50,
+        10,
+        60,
+        20
+      ],
+      "counts": {
+        "aerodromes": 982,
+        "navaids": 175
+      }
+    },
+    {
+      "id": "N50E020",
+      "file": "data/global/references/cells/N50E020.json",
+      "bounds": [
+        50,
+        20,
+        60,
+        30
+      ],
+      "counts": {
+        "aerodromes": 372,
+        "navaids": 76
+      }
+    },
+    {
+      "id": "N50E030",
+      "file": "data/global/references/cells/N50E030.json",
+      "bounds": [
+        50,
+        30,
+        60,
+        40
+      ],
+      "counts": {
+        "aerodromes": 253,
+        "navaids": 108
+      }
+    },
+    {
+      "id": "N50E040",
+      "file": "data/global/references/cells/N50E040.json",
+      "bounds": [
+        50,
+        40,
+        60,
+        50
+      ],
+      "counts": {
+        "aerodromes": 78,
+        "navaids": 50
+      }
+    },
+    {
+      "id": "N50E050",
+      "file": "data/global/references/cells/N50E050.json",
+      "bounds": [
+        50,
+        50,
+        60,
+        60
+      ],
+      "counts": {
+        "aerodromes": 52,
+        "navaids": 42
+      }
+    },
+    {
+      "id": "N50E060",
+      "file": "data/global/references/cells/N50E060.json",
+      "bounds": [
+        50,
+        60,
+        60,
+        70
+      ],
+      "counts": {
+        "aerodromes": 45,
+        "navaids": 27
+      }
+    },
+    {
+      "id": "N50E070",
+      "file": "data/global/references/cells/N50E070.json",
+      "bounds": [
+        50,
+        70,
+        60,
+        80
+      ],
+      "counts": {
+        "aerodromes": 55,
+        "navaids": 14
+      }
+    },
+    {
+      "id": "N50E080",
+      "file": "data/global/references/cells/N50E080.json",
+      "bounds": [
+        50,
+        80,
+        60,
+        90
+      ],
+      "counts": {
+        "aerodromes": 63,
+        "navaids": 28
+      }
+    },
+    {
+      "id": "N50E090",
+      "file": "data/global/references/cells/N50E090.json",
+      "bounds": [
+        50,
+        90,
+        60,
+        100
+      ],
+      "counts": {
+        "aerodromes": 39,
+        "navaids": 22
+      }
+    },
+    {
+      "id": "N50E100",
+      "file": "data/global/references/cells/N50E100.json",
+      "bounds": [
+        50,
+        100,
+        60,
+        110
+      ],
+      "counts": {
+        "aerodromes": 40,
+        "navaids": 18
+      }
+    },
+    {
+      "id": "N50E110",
+      "file": "data/global/references/cells/N50E110.json",
+      "bounds": [
+        50,
+        110,
+        60,
+        120
+      ],
+      "counts": {
+        "aerodromes": 48,
+        "navaids": 6
+      }
+    },
+    {
+      "id": "N50E120",
+      "file": "data/global/references/cells/N50E120.json",
+      "bounds": [
+        50,
+        120,
+        60,
+        130
+      ],
+      "counts": {
+        "aerodromes": 58,
+        "navaids": 11
+      }
+    },
+    {
+      "id": "N50E130",
+      "file": "data/global/references/cells/N50E130.json",
+      "bounds": [
+        50,
+        130,
+        60,
+        140
+      ],
+      "counts": {
+        "aerodromes": 27,
+        "navaids": 6
+      }
+    },
+    {
+      "id": "N50E140",
+      "file": "data/global/references/cells/N50E140.json",
+      "bounds": [
+        50,
+        140,
+        60,
+        150
+      ],
+      "counts": {
+        "aerodromes": 24,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N50E150",
+      "file": "data/global/references/cells/N50E150.json",
+      "bounds": [
+        50,
+        150,
+        60,
+        160
+      ],
+      "counts": {
+        "aerodromes": 34,
+        "navaids": 8
+      }
+    },
+    {
+      "id": "N50E160",
+      "file": "data/global/references/cells/N50E160.json",
+      "bounds": [
+        50,
+        160,
+        60,
+        170
+      ],
+      "counts": {
+        "aerodromes": 8,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "N50E170",
+      "file": "data/global/references/cells/N50E170.json",
+      "bounds": [
+        50,
+        170,
+        60,
+        180
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "N50W010",
+      "file": "data/global/references/cells/N50W010.json",
+      "bounds": [
+        50,
+        -10,
+        60,
+        0
+      ],
+      "counts": {
+        "aerodromes": 1116,
+        "navaids": 178
+      }
+    },
+    {
+      "id": "N50W020",
+      "file": "data/global/references/cells/N50W020.json",
+      "bounds": [
+        50,
+        -20,
+        60,
+        -10
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N50W060",
+      "file": "data/global/references/cells/N50W060.json",
+      "bounds": [
+        50,
+        -60,
+        60,
+        -50
+      ],
+      "counts": {
+        "aerodromes": 23,
+        "navaids": 15
+      }
+    },
+    {
+      "id": "N50W070",
+      "file": "data/global/references/cells/N50W070.json",
+      "bounds": [
+        50,
+        -70,
+        60,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 37,
+        "navaids": 21
+      }
+    },
+    {
+      "id": "N50W080",
+      "file": "data/global/references/cells/N50W080.json",
+      "bounds": [
+        50,
+        -80,
+        60,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 26,
+        "navaids": 12
+      }
+    },
+    {
+      "id": "N50W090",
+      "file": "data/global/references/cells/N50W090.json",
+      "bounds": [
+        50,
+        -90,
+        60,
+        -80
+      ],
+      "counts": {
+        "aerodromes": 26,
+        "navaids": 11
+      }
+    },
+    {
+      "id": "N50W100",
+      "file": "data/global/references/cells/N50W100.json",
+      "bounds": [
+        50,
+        -100,
+        60,
+        -90
+      ],
+      "counts": {
+        "aerodromes": 122,
+        "navaids": 44
+      }
+    },
+    {
+      "id": "N50W110",
+      "file": "data/global/references/cells/N50W110.json",
+      "bounds": [
+        50,
+        -110,
+        60,
+        -100
+      ],
+      "counts": {
+        "aerodromes": 185,
+        "navaids": 56
+      }
+    },
+    {
+      "id": "N50W120",
+      "file": "data/global/references/cells/N50W120.json",
+      "bounds": [
+        50,
+        -120,
+        60,
+        -110
+      ],
+      "counts": {
+        "aerodromes": 355,
+        "navaids": 83
+      }
+    },
+    {
+      "id": "N50W130",
+      "file": "data/global/references/cells/N50W130.json",
+      "bounds": [
+        50,
+        -130,
+        60,
+        -120
+      ],
+      "counts": {
+        "aerodromes": 184,
+        "navaids": 31
+      }
+    },
+    {
+      "id": "N50W140",
+      "file": "data/global/references/cells/N50W140.json",
+      "bounds": [
+        50,
+        -140,
+        60,
+        -130
+      ],
+      "counts": {
+        "aerodromes": 130,
+        "navaids": 25
+      }
+    },
+    {
+      "id": "N50W150",
+      "file": "data/global/references/cells/N50W150.json",
+      "bounds": [
+        50,
+        -150,
+        60,
+        -140
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N50W160",
+      "file": "data/global/references/cells/N50W160.json",
+      "bounds": [
+        50,
+        -160,
+        60,
+        -150
+      ],
+      "counts": {
+        "aerodromes": 112,
+        "navaids": 10
+      }
+    },
+    {
+      "id": "N50W170",
+      "file": "data/global/references/cells/N50W170.json",
+      "bounds": [
+        50,
+        -170,
+        60,
+        -160
+      ],
+      "counts": {
+        "aerodromes": 32,
+        "navaids": 8
+      }
+    },
+    {
+      "id": "N50W180",
+      "file": "data/global/references/cells/N50W180.json",
+      "bounds": [
+        50,
+        -180,
+        60,
+        -170
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 5
+      }
+    },
+    {
+      "id": "N60E000",
+      "file": "data/global/references/cells/N60E000.json",
+      "bounds": [
+        60,
+        0,
+        70,
+        10
+      ],
+      "counts": {
+        "aerodromes": 81,
+        "navaids": 35
+      }
+    },
+    {
+      "id": "N60E010",
+      "file": "data/global/references/cells/N60E010.json",
+      "bounds": [
+        60,
+        10,
+        70,
+        20
+      ],
+      "counts": {
+        "aerodromes": 162,
+        "navaids": 72
+      }
+    },
+    {
+      "id": "N60E020",
+      "file": "data/global/references/cells/N60E020.json",
+      "bounds": [
+        60,
+        20,
+        70,
+        30
+      ],
+      "counts": {
+        "aerodromes": 153,
+        "navaids": 71
+      }
+    },
+    {
+      "id": "N60E030",
+      "file": "data/global/references/cells/N60E030.json",
+      "bounds": [
+        60,
+        30,
+        70,
+        40
+      ],
+      "counts": {
+        "aerodromes": 58,
+        "navaids": 11
+      }
+    },
+    {
+      "id": "N60E040",
+      "file": "data/global/references/cells/N60E040.json",
+      "bounds": [
+        60,
+        40,
+        70,
+        50
+      ],
+      "counts": {
+        "aerodromes": 32,
+        "navaids": 8
+      }
+    },
+    {
+      "id": "N60E050",
+      "file": "data/global/references/cells/N60E050.json",
+      "bounds": [
+        60,
+        50,
+        70,
+        60
+      ],
+      "counts": {
+        "aerodromes": 62,
+        "navaids": 9
+      }
+    },
+    {
+      "id": "N60E060",
+      "file": "data/global/references/cells/N60E060.json",
+      "bounds": [
+        60,
+        60,
+        70,
+        70
+      ],
+      "counts": {
+        "aerodromes": 31,
+        "navaids": 9
+      }
+    },
+    {
+      "id": "N60E070",
+      "file": "data/global/references/cells/N60E070.json",
+      "bounds": [
+        60,
+        70,
+        70,
+        80
+      ],
+      "counts": {
+        "aerodromes": 41,
+        "navaids": 14
+      }
+    },
+    {
+      "id": "N60E080",
+      "file": "data/global/references/cells/N60E080.json",
+      "bounds": [
+        60,
+        80,
+        70,
+        90
+      ],
+      "counts": {
+        "aerodromes": 29,
+        "navaids": 7
+      }
+    },
+    {
+      "id": "N60E090",
+      "file": "data/global/references/cells/N60E090.json",
+      "bounds": [
+        60,
+        90,
+        70,
+        100
+      ],
+      "counts": {
+        "aerodromes": 7,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N60E100",
+      "file": "data/global/references/cells/N60E100.json",
+      "bounds": [
+        60,
+        100,
+        70,
+        110
+      ],
+      "counts": {
+        "aerodromes": 12,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N60E110",
+      "file": "data/global/references/cells/N60E110.json",
+      "bounds": [
+        60,
+        110,
+        70,
+        120
+      ],
+      "counts": {
+        "aerodromes": 10,
+        "navaids": 6
+      }
+    },
+    {
+      "id": "N60E120",
+      "file": "data/global/references/cells/N60E120.json",
+      "bounds": [
+        60,
+        120,
+        70,
+        130
+      ],
+      "counts": {
+        "aerodromes": 24,
+        "navaids": 7
+      }
+    },
+    {
+      "id": "N60E130",
+      "file": "data/global/references/cells/N60E130.json",
+      "bounds": [
+        60,
+        130,
+        70,
+        140
+      ],
+      "counts": {
+        "aerodromes": 15,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N60E140",
+      "file": "data/global/references/cells/N60E140.json",
+      "bounds": [
+        60,
+        140,
+        70,
+        150
+      ],
+      "counts": {
+        "aerodromes": 18,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N60E150",
+      "file": "data/global/references/cells/N60E150.json",
+      "bounds": [
+        60,
+        150,
+        70,
+        160
+      ],
+      "counts": {
+        "aerodromes": 16,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N60E160",
+      "file": "data/global/references/cells/N60E160.json",
+      "bounds": [
+        60,
+        160,
+        70,
+        170
+      ],
+      "counts": {
+        "aerodromes": 24,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "N60E170",
+      "file": "data/global/references/cells/N60E170.json",
+      "bounds": [
+        60,
+        170,
+        70,
+        180
+      ],
+      "counts": {
+        "aerodromes": 13,
+        "navaids": 6
+      }
+    },
+    {
+      "id": "N60W010",
+      "file": "data/global/references/cells/N60W010.json",
+      "bounds": [
+        60,
+        -10,
+        70,
+        0
+      ],
+      "counts": {
+        "aerodromes": 21,
+        "navaids": 6
+      }
+    },
+    {
+      "id": "N60W020",
+      "file": "data/global/references/cells/N60W020.json",
+      "bounds": [
+        60,
+        -20,
+        70,
+        -10
+      ],
+      "counts": {
+        "aerodromes": 41,
+        "navaids": 22
+      }
+    },
+    {
+      "id": "N60W030",
+      "file": "data/global/references/cells/N60W030.json",
+      "bounds": [
+        60,
+        -30,
+        70,
+        -20
+      ],
+      "counts": {
+        "aerodromes": 37,
+        "navaids": 22
+      }
+    },
+    {
+      "id": "N60W040",
+      "file": "data/global/references/cells/N60W040.json",
+      "bounds": [
+        60,
+        -40,
+        70,
+        -30
+      ],
+      "counts": {
+        "aerodromes": 8,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N60W050",
+      "file": "data/global/references/cells/N60W050.json",
+      "bounds": [
+        60,
+        -50,
+        70,
+        -40
+      ],
+      "counts": {
+        "aerodromes": 19,
+        "navaids": 8
+      }
+    },
+    {
+      "id": "N60W060",
+      "file": "data/global/references/cells/N60W060.json",
+      "bounds": [
+        60,
+        -60,
+        70,
+        -50
+      ],
+      "counts": {
+        "aerodromes": 19,
+        "navaids": 19
+      }
+    },
+    {
+      "id": "N60W070",
+      "file": "data/global/references/cells/N60W070.json",
+      "bounds": [
+        60,
+        -70,
+        70,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 8,
+        "navaids": 6
+      }
+    },
+    {
+      "id": "N60W080",
+      "file": "data/global/references/cells/N60W080.json",
+      "bounds": [
+        60,
+        -80,
+        70,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 7,
+        "navaids": 8
+      }
+    },
+    {
+      "id": "N60W090",
+      "file": "data/global/references/cells/N60W090.json",
+      "bounds": [
+        60,
+        -90,
+        70,
+        -80
+      ],
+      "counts": {
+        "aerodromes": 5,
+        "navaids": 5
+      }
+    },
+    {
+      "id": "N60W100",
+      "file": "data/global/references/cells/N60W100.json",
+      "bounds": [
+        60,
+        -100,
+        70,
+        -90
+      ],
+      "counts": {
+        "aerodromes": 11,
+        "navaids": 9
+      }
+    },
+    {
+      "id": "N60W110",
+      "file": "data/global/references/cells/N60W110.json",
+      "bounds": [
+        60,
+        -110,
+        70,
+        -100
+      ],
+      "counts": {
+        "aerodromes": 15,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "N60W120",
+      "file": "data/global/references/cells/N60W120.json",
+      "bounds": [
+        60,
+        -120,
+        70,
+        -110
+      ],
+      "counts": {
+        "aerodromes": 37,
+        "navaids": 12
+      }
+    },
+    {
+      "id": "N60W130",
+      "file": "data/global/references/cells/N60W130.json",
+      "bounds": [
+        60,
+        -130,
+        70,
+        -120
+      ],
+      "counts": {
+        "aerodromes": 32,
+        "navaids": 12
+      }
+    },
+    {
+      "id": "N60W140",
+      "file": "data/global/references/cells/N60W140.json",
+      "bounds": [
+        60,
+        -140,
+        70,
+        -130
+      ],
+      "counts": {
+        "aerodromes": 47,
+        "navaids": 14
+      }
+    },
+    {
+      "id": "N60W150",
+      "file": "data/global/references/cells/N60W150.json",
+      "bounds": [
+        60,
+        -150,
+        70,
+        -140
+      ],
+      "counts": {
+        "aerodromes": 345,
+        "navaids": 26
+      }
+    },
+    {
+      "id": "N60W160",
+      "file": "data/global/references/cells/N60W160.json",
+      "bounds": [
+        60,
+        -160,
+        70,
+        -150
+      ],
+      "counts": {
+        "aerodromes": 220,
+        "navaids": 26
+      }
+    },
+    {
+      "id": "N60W170",
+      "file": "data/global/references/cells/N60W170.json",
+      "bounds": [
+        60,
+        -170,
+        70,
+        -160
+      ],
+      "counts": {
+        "aerodromes": 88,
+        "navaids": 28
+      }
+    },
+    {
+      "id": "N60W180",
+      "file": "data/global/references/cells/N60W180.json",
+      "bounds": [
+        60,
+        -180,
+        70,
+        -170
+      ],
+      "counts": {
+        "aerodromes": 15,
+        "navaids": 6
+      }
+    },
+    {
+      "id": "N70E010",
+      "file": "data/global/references/cells/N70E010.json",
+      "bounds": [
+        70,
+        10,
+        80,
+        20
+      ],
+      "counts": {
+        "aerodromes": 6,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N70E020",
+      "file": "data/global/references/cells/N70E020.json",
+      "bounds": [
+        70,
+        20,
+        80,
+        30
+      ],
+      "counts": {
+        "aerodromes": 13,
+        "navaids": 13
+      }
+    },
+    {
+      "id": "N70E030",
+      "file": "data/global/references/cells/N70E030.json",
+      "bounds": [
+        70,
+        30,
+        80,
+        40
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N70E050",
+      "file": "data/global/references/cells/N70E050.json",
+      "bounds": [
+        70,
+        50,
+        80,
+        60
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N70E060",
+      "file": "data/global/references/cells/N70E060.json",
+      "bounds": [
+        70,
+        60,
+        80,
+        70
+      ],
+      "counts": {
+        "aerodromes": 12,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N70E070",
+      "file": "data/global/references/cells/N70E070.json",
+      "bounds": [
+        70,
+        70,
+        80,
+        80
+      ],
+      "counts": {
+        "aerodromes": 12,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N70E080",
+      "file": "data/global/references/cells/N70E080.json",
+      "bounds": [
+        70,
+        80,
+        80,
+        90
+      ],
+      "counts": {
+        "aerodromes": 17,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N70E090",
+      "file": "data/global/references/cells/N70E090.json",
+      "bounds": [
+        70,
+        90,
+        80,
+        100
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N70E100",
+      "file": "data/global/references/cells/N70E100.json",
+      "bounds": [
+        70,
+        100,
+        80,
+        110
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N70E110",
+      "file": "data/global/references/cells/N70E110.json",
+      "bounds": [
+        70,
+        110,
+        80,
+        120
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N70E120",
+      "file": "data/global/references/cells/N70E120.json",
+      "bounds": [
+        70,
+        120,
+        80,
+        130
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N70E130",
+      "file": "data/global/references/cells/N70E130.json",
+      "bounds": [
+        70,
+        130,
+        80,
+        140
+      ],
+      "counts": {
+        "aerodromes": 8,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N70E140",
+      "file": "data/global/references/cells/N70E140.json",
+      "bounds": [
+        70,
+        140,
+        80,
+        150
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N70E150",
+      "file": "data/global/references/cells/N70E150.json",
+      "bounds": [
+        70,
+        150,
+        80,
+        160
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N70W010",
+      "file": "data/global/references/cells/N70W010.json",
+      "bounds": [
+        70,
+        -10,
+        80,
+        0
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N70W020",
+      "file": "data/global/references/cells/N70W020.json",
+      "bounds": [
+        70,
+        -20,
+        80,
+        -10
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N70W030",
+      "file": "data/global/references/cells/N70W030.json",
+      "bounds": [
+        70,
+        -30,
+        80,
+        -20
+      ],
+      "counts": {
+        "aerodromes": 5,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N70W040",
+      "file": "data/global/references/cells/N70W040.json",
+      "bounds": [
+        70,
+        -40,
+        80,
+        -30
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N70W050",
+      "file": "data/global/references/cells/N70W050.json",
+      "bounds": [
+        70,
+        -50,
+        80,
+        -40
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N70W060",
+      "file": "data/global/references/cells/N70W060.json",
+      "bounds": [
+        70,
+        -60,
+        80,
+        -50
+      ],
+      "counts": {
+        "aerodromes": 17,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "N70W070",
+      "file": "data/global/references/cells/N70W070.json",
+      "bounds": [
+        70,
+        -70,
+        80,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 4,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "N70W080",
+      "file": "data/global/references/cells/N70W080.json",
+      "bounds": [
+        70,
+        -80,
+        80,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N70W090",
+      "file": "data/global/references/cells/N70W090.json",
+      "bounds": [
+        70,
+        -90,
+        80,
+        -80
+      ],
+      "counts": {
+        "aerodromes": 4,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N70W100",
+      "file": "data/global/references/cells/N70W100.json",
+      "bounds": [
+        70,
+        -100,
+        80,
+        -90
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "N70W120",
+      "file": "data/global/references/cells/N70W120.json",
+      "bounds": [
+        70,
+        -120,
+        80,
+        -110
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N70W130",
+      "file": "data/global/references/cells/N70W130.json",
+      "bounds": [
+        70,
+        -130,
+        80,
+        -120
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N70W150",
+      "file": "data/global/references/cells/N70W150.json",
+      "bounds": [
+        70,
+        -150,
+        80,
+        -140
+      ],
+      "counts": {
+        "aerodromes": 16,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "N70W160",
+      "file": "data/global/references/cells/N70W160.json",
+      "bounds": [
+        70,
+        -160,
+        80,
+        -150
+      ],
+      "counts": {
+        "aerodromes": 14,
+        "navaids": 5
+      }
+    },
+    {
+      "id": "N70W170",
+      "file": "data/global/references/cells/N70W170.json",
+      "bounds": [
+        70,
+        -170,
+        80,
+        -160
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "N70W180",
+      "file": "data/global/references/cells/N70W180.json",
+      "bounds": [
+        70,
+        -180,
+        80,
+        -170
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N80E040",
+      "file": "data/global/references/cells/N80E040.json",
+      "bounds": [
+        80,
+        40,
+        90,
+        50
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N80E060",
+      "file": "data/global/references/cells/N80E060.json",
+      "bounds": [
+        80,
+        60,
+        90,
+        70
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N80W020",
+      "file": "data/global/references/cells/N80W020.json",
+      "bounds": [
+        80,
+        -20,
+        90,
+        -10
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "N80W070",
+      "file": "data/global/references/cells/N80W070.json",
+      "bounds": [
+        80,
+        -70,
+        90,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "N80W080",
+      "file": "data/global/references/cells/N80W080.json",
+      "bounds": [
+        80,
+        -80,
+        90,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S10E000",
+      "file": "data/global/references/cells/S10E000.json",
+      "bounds": [
+        -10,
+        0,
+        0,
+        10
+      ],
+      "counts": {
+        "aerodromes": 9,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "S10E010",
+      "file": "data/global/references/cells/S10E010.json",
+      "bounds": [
+        -10,
+        10,
+        0,
+        20
+      ],
+      "counts": {
+        "aerodromes": 183,
+        "navaids": 40
+      }
+    },
+    {
+      "id": "S10E020",
+      "file": "data/global/references/cells/S10E020.json",
+      "bounds": [
+        -10,
+        20,
+        0,
+        30
+      ],
+      "counts": {
+        "aerodromes": 138,
+        "navaids": 35
+      }
+    },
+    {
+      "id": "S10E030",
+      "file": "data/global/references/cells/S10E030.json",
+      "bounds": [
+        -10,
+        30,
+        0,
+        40
+      ],
+      "counts": {
+        "aerodromes": 389,
+        "navaids": 53
+      }
+    },
+    {
+      "id": "S10E040",
+      "file": "data/global/references/cells/S10E040.json",
+      "bounds": [
+        -10,
+        40,
+        0,
+        50
+      ],
+      "counts": {
+        "aerodromes": 16,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "S10E050",
+      "file": "data/global/references/cells/S10E050.json",
+      "bounds": [
+        -10,
+        50,
+        0,
+        60
+      ],
+      "counts": {
+        "aerodromes": 21,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "S10E070",
+      "file": "data/global/references/cells/S10E070.json",
+      "bounds": [
+        -10,
+        70,
+        0,
+        80
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "S10E090",
+      "file": "data/global/references/cells/S10E090.json",
+      "bounds": [
+        -10,
+        90,
+        0,
+        100
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "S10E100",
+      "file": "data/global/references/cells/S10E100.json",
+      "bounds": [
+        -10,
+        100,
+        0,
+        110
+      ],
+      "counts": {
+        "aerodromes": 59,
+        "navaids": 46
+      }
+    },
+    {
+      "id": "S10E110",
+      "file": "data/global/references/cells/S10E110.json",
+      "bounds": [
+        -10,
+        110,
+        0,
+        120
+      ],
+      "counts": {
+        "aerodromes": 127,
+        "navaids": 54
+      }
+    },
+    {
+      "id": "S10E120",
+      "file": "data/global/references/cells/S10E120.json",
+      "bounds": [
+        -10,
+        120,
+        0,
+        130
+      ],
+      "counts": {
+        "aerodromes": 64,
+        "navaids": 32
+      }
+    },
+    {
+      "id": "S10E130",
+      "file": "data/global/references/cells/S10E130.json",
+      "bounds": [
+        -10,
+        130,
+        0,
+        140
+      ],
+      "counts": {
+        "aerodromes": 249,
+        "navaids": 21
+      }
+    },
+    {
+      "id": "S10E140",
+      "file": "data/global/references/cells/S10E140.json",
+      "bounds": [
+        -10,
+        140,
+        0,
+        150
+      ],
+      "counts": {
+        "aerodromes": 589,
+        "navaids": 33
+      }
+    },
+    {
+      "id": "S10E150",
+      "file": "data/global/references/cells/S10E150.json",
+      "bounds": [
+        -10,
+        150,
+        0,
+        160
+      ],
+      "counts": {
+        "aerodromes": 72,
+        "navaids": 7
+      }
+    },
+    {
+      "id": "S10E160",
+      "file": "data/global/references/cells/S10E160.json",
+      "bounds": [
+        -10,
+        160,
+        0,
+        170
+      ],
+      "counts": {
+        "aerodromes": 12,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "S10E170",
+      "file": "data/global/references/cells/S10E170.json",
+      "bounds": [
+        -10,
+        170,
+        0,
+        180
+      ],
+      "counts": {
+        "aerodromes": 9,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "S10W020",
+      "file": "data/global/references/cells/S10W020.json",
+      "bounds": [
+        -10,
+        -20,
+        0,
+        -10
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "S10W070",
+      "file": "data/global/references/cells/S10W070.json",
+      "bounds": [
+        -10,
+        -70,
+        0,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 4,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "S10W080",
+      "file": "data/global/references/cells/S10W080.json",
+      "bounds": [
+        -10,
+        -80,
+        0,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 381,
+        "navaids": 51
+      }
+    },
+    {
+      "id": "S10W090",
+      "file": "data/global/references/cells/S10W090.json",
+      "bounds": [
+        -10,
+        -90,
+        0,
+        -80
+      ],
+      "counts": {
+        "aerodromes": 59,
+        "navaids": 15
+      }
+    },
+    {
+      "id": "S10W100",
+      "file": "data/global/references/cells/S10W100.json",
+      "bounds": [
+        -10,
+        -100,
+        0,
+        -90
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "S10W140",
+      "file": "data/global/references/cells/S10W140.json",
+      "bounds": [
+        -10,
+        -140,
+        0,
+        -130
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "S10W150",
+      "file": "data/global/references/cells/S10W150.json",
+      "bounds": [
+        -10,
+        -150,
+        0,
+        -140
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "S10W160",
+      "file": "data/global/references/cells/S10W160.json",
+      "bounds": [
+        -10,
+        -160,
+        0,
+        -150
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "S10W180",
+      "file": "data/global/references/cells/S10W180.json",
+      "bounds": [
+        -10,
+        -180,
+        0,
+        -170
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "S20E010",
+      "file": "data/global/references/cells/S20E010.json",
+      "bounds": [
+        -20,
+        10,
+        -10,
+        20
+      ],
+      "counts": {
+        "aerodromes": 100,
+        "navaids": 24
+      }
+    },
+    {
+      "id": "S20E020",
+      "file": "data/global/references/cells/S20E020.json",
+      "bounds": [
+        -20,
+        20,
+        -10,
+        30
+      ],
+      "counts": {
+        "aerodromes": 283,
+        "navaids": 42
+      }
+    },
+    {
+      "id": "S20E030",
+      "file": "data/global/references/cells/S20E030.json",
+      "bounds": [
+        -20,
+        30,
+        -10,
+        40
+      ],
+      "counts": {
+        "aerodromes": 155,
+        "navaids": 36
+      }
+    },
+    {
+      "id": "S20E040",
+      "file": "data/global/references/cells/S20E040.json",
+      "bounds": [
+        -20,
+        40,
+        -10,
+        50
+      ],
+      "counts": {
+        "aerodromes": 79,
+        "navaids": 31
+      }
+    },
+    {
+      "id": "S20E050",
+      "file": "data/global/references/cells/S20E050.json",
+      "bounds": [
+        -20,
+        50,
+        -10,
+        60
+      ],
+      "counts": {
+        "aerodromes": 7,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "S20E060",
+      "file": "data/global/references/cells/S20E060.json",
+      "bounds": [
+        -20,
+        60,
+        -10,
+        70
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "S20E090",
+      "file": "data/global/references/cells/S20E090.json",
+      "bounds": [
+        -20,
+        90,
+        -10,
+        100
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "S20E100",
+      "file": "data/global/references/cells/S20E100.json",
+      "bounds": [
+        -20,
+        100,
+        -10,
+        110
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "S20E110",
+      "file": "data/global/references/cells/S20E110.json",
+      "bounds": [
+        -20,
+        110,
+        -10,
+        120
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S20E120",
+      "file": "data/global/references/cells/S20E120.json",
+      "bounds": [
+        -20,
+        120,
+        -10,
+        130
+      ],
+      "counts": {
+        "aerodromes": 109,
+        "navaids": 16
+      }
+    },
+    {
+      "id": "S20E130",
+      "file": "data/global/references/cells/S20E130.json",
+      "bounds": [
+        -20,
+        130,
+        -10,
+        140
+      ],
+      "counts": {
+        "aerodromes": 214,
+        "navaids": 24
+      }
+    },
+    {
+      "id": "S20E140",
+      "file": "data/global/references/cells/S20E140.json",
+      "bounds": [
+        -20,
+        140,
+        -10,
+        150
+      ],
+      "counts": {
+        "aerodromes": 187,
+        "navaids": 16
+      }
+    },
+    {
+      "id": "S20E150",
+      "file": "data/global/references/cells/S20E150.json",
+      "bounds": [
+        -20,
+        150,
+        -10,
+        160
+      ],
+      "counts": {
+        "aerodromes": 9,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "S20E160",
+      "file": "data/global/references/cells/S20E160.json",
+      "bounds": [
+        -20,
+        160,
+        -10,
+        170
+      ],
+      "counts": {
+        "aerodromes": 36,
+        "navaids": 6
+      }
+    },
+    {
+      "id": "S20E170",
+      "file": "data/global/references/cells/S20E170.json",
+      "bounds": [
+        -20,
+        170,
+        -10,
+        180
+      ],
+      "counts": {
+        "aerodromes": 26,
+        "navaids": 10
+      }
+    },
+    {
+      "id": "S20W010",
+      "file": "data/global/references/cells/S20W010.json",
+      "bounds": [
+        -20,
+        -10,
+        -10,
+        0
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S20W060",
+      "file": "data/global/references/cells/S20W060.json",
+      "bounds": [
+        -20,
+        -60,
+        -10,
+        -50
+      ],
+      "counts": {
+        "aerodromes": 8,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "S20W070",
+      "file": "data/global/references/cells/S20W070.json",
+      "bounds": [
+        -20,
+        -70,
+        -10,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 177,
+        "navaids": 36
+      }
+    },
+    {
+      "id": "S20W080",
+      "file": "data/global/references/cells/S20W080.json",
+      "bounds": [
+        -20,
+        -80,
+        -10,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 82,
+        "navaids": 21
+      }
+    },
+    {
+      "id": "S20W140",
+      "file": "data/global/references/cells/S20W140.json",
+      "bounds": [
+        -20,
+        -140,
+        -10,
+        -130
+      ],
+      "counts": {
+        "aerodromes": 6,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "S20W150",
+      "file": "data/global/references/cells/S20W150.json",
+      "bounds": [
+        -20,
+        -150,
+        -10,
+        -140
+      ],
+      "counts": {
+        "aerodromes": 30,
+        "navaids": 15
+      }
+    },
+    {
+      "id": "S20W160",
+      "file": "data/global/references/cells/S20W160.json",
+      "bounds": [
+        -20,
+        -160,
+        -10,
+        -150
+      ],
+      "counts": {
+        "aerodromes": 9,
+        "navaids": 6
+      }
+    },
+    {
+      "id": "S20W170",
+      "file": "data/global/references/cells/S20W170.json",
+      "bounds": [
+        -20,
+        -170,
+        -10,
+        -160
+      ],
+      "counts": {
+        "aerodromes": 5,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "S20W180",
+      "file": "data/global/references/cells/S20W180.json",
+      "bounds": [
+        -20,
+        -180,
+        -10,
+        -170
+      ],
+      "counts": {
+        "aerodromes": 18,
+        "navaids": 12
+      }
+    },
+    {
+      "id": "S30E010",
+      "file": "data/global/references/cells/S30E010.json",
+      "bounds": [
+        -30,
+        10,
+        -20,
+        20
+      ],
+      "counts": {
+        "aerodromes": 259,
+        "navaids": 12
+      }
+    },
+    {
+      "id": "S30E020",
+      "file": "data/global/references/cells/S30E020.json",
+      "bounds": [
+        -30,
+        20,
+        -20,
+        30
+      ],
+      "counts": {
+        "aerodromes": 404,
+        "navaids": 88
+      }
+    },
+    {
+      "id": "S30E030",
+      "file": "data/global/references/cells/S30E030.json",
+      "bounds": [
+        -30,
+        30,
+        -20,
+        40
+      ],
+      "counts": {
+        "aerodromes": 193,
+        "navaids": 52
+      }
+    },
+    {
+      "id": "S30E040",
+      "file": "data/global/references/cells/S30E040.json",
+      "bounds": [
+        -30,
+        40,
+        -20,
+        50
+      ],
+      "counts": {
+        "aerodromes": 34,
+        "navaids": 7
+      }
+    },
+    {
+      "id": "S30E050",
+      "file": "data/global/references/cells/S30E050.json",
+      "bounds": [
+        -30,
+        50,
+        -20,
+        60
+      ],
+      "counts": {
+        "aerodromes": 16,
+        "navaids": 8
+      }
+    },
+    {
+      "id": "S30E110",
+      "file": "data/global/references/cells/S30E110.json",
+      "bounds": [
+        -30,
+        110,
+        -20,
+        120
+      ],
+      "counts": {
+        "aerodromes": 183,
+        "navaids": 19
+      }
+    },
+    {
+      "id": "S30E120",
+      "file": "data/global/references/cells/S30E120.json",
+      "bounds": [
+        -30,
+        120,
+        -20,
+        130
+      ],
+      "counts": {
+        "aerodromes": 96,
+        "navaids": 9
+      }
+    },
+    {
+      "id": "S30E130",
+      "file": "data/global/references/cells/S30E130.json",
+      "bounds": [
+        -30,
+        130,
+        -20,
+        140
+      ],
+      "counts": {
+        "aerodromes": 203,
+        "navaids": 14
+      }
+    },
+    {
+      "id": "S30E140",
+      "file": "data/global/references/cells/S30E140.json",
+      "bounds": [
+        -30,
+        140,
+        -20,
+        150
+      ],
+      "counts": {
+        "aerodromes": 310,
+        "navaids": 36
+      }
+    },
+    {
+      "id": "S30E150",
+      "file": "data/global/references/cells/S30E150.json",
+      "bounds": [
+        -30,
+        150,
+        -20,
+        160
+      ],
+      "counts": {
+        "aerodromes": 260,
+        "navaids": 33
+      }
+    },
+    {
+      "id": "S30E160",
+      "file": "data/global/references/cells/S30E160.json",
+      "bounds": [
+        -30,
+        160,
+        -20,
+        170
+      ],
+      "counts": {
+        "aerodromes": 24,
+        "navaids": 17
+      }
+    },
+    {
+      "id": "S30W060",
+      "file": "data/global/references/cells/S30W060.json",
+      "bounds": [
+        -30,
+        -60,
+        -20,
+        -50
+      ],
+      "counts": {
+        "aerodromes": 177,
+        "navaids": 28
+      }
+    },
+    {
+      "id": "S30W070",
+      "file": "data/global/references/cells/S30W070.json",
+      "bounds": [
+        -30,
+        -70,
+        -20,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 153,
+        "navaids": 36
+      }
+    },
+    {
+      "id": "S30W080",
+      "file": "data/global/references/cells/S30W080.json",
+      "bounds": [
+        -30,
+        -80,
+        -20,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 25,
+        "navaids": 11
+      }
+    },
+    {
+      "id": "S30W090",
+      "file": "data/global/references/cells/S30W090.json",
+      "bounds": [
+        -30,
+        -90,
+        -20,
+        -80
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S30W110",
+      "file": "data/global/references/cells/S30W110.json",
+      "bounds": [
+        -30,
+        -110,
+        -20,
+        -100
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "S30W140",
+      "file": "data/global/references/cells/S30W140.json",
+      "bounds": [
+        -30,
+        -140,
+        -20,
+        -130
+      ],
+      "counts": {
+        "aerodromes": 4,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "S30W150",
+      "file": "data/global/references/cells/S30W150.json",
+      "bounds": [
+        -30,
+        -150,
+        -20,
+        -140
+      ],
+      "counts": {
+        "aerodromes": 3,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "S30W160",
+      "file": "data/global/references/cells/S30W160.json",
+      "bounds": [
+        -30,
+        -160,
+        -20,
+        -150
+      ],
+      "counts": {
+        "aerodromes": 5,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "S30W180",
+      "file": "data/global/references/cells/S30W180.json",
+      "bounds": [
+        -30,
+        -180,
+        -20,
+        -170
+      ],
+      "counts": {
+        "aerodromes": 4,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "S40E010",
+      "file": "data/global/references/cells/S40E010.json",
+      "bounds": [
+        -40,
+        10,
+        -30,
+        20
+      ],
+      "counts": {
+        "aerodromes": 48,
+        "navaids": 13
+      }
+    },
+    {
+      "id": "S40E020",
+      "file": "data/global/references/cells/S40E020.json",
+      "bounds": [
+        -40,
+        20,
+        -30,
+        30
+      ],
+      "counts": {
+        "aerodromes": 140,
+        "navaids": 19
+      }
+    },
+    {
+      "id": "S40E030",
+      "file": "data/global/references/cells/S40E030.json",
+      "bounds": [
+        -40,
+        30,
+        -30,
+        40
+      ],
+      "counts": {
+        "aerodromes": 5,
+        "navaids": 2
+      }
+    },
+    {
+      "id": "S40E070",
+      "file": "data/global/references/cells/S40E070.json",
+      "bounds": [
+        -40,
+        70,
+        -30,
+        80
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S40E110",
+      "file": "data/global/references/cells/S40E110.json",
+      "bounds": [
+        -40,
+        110,
+        -30,
+        120
+      ],
+      "counts": {
+        "aerodromes": 113,
+        "navaids": 20
+      }
+    },
+    {
+      "id": "S40E120",
+      "file": "data/global/references/cells/S40E120.json",
+      "bounds": [
+        -40,
+        120,
+        -30,
+        130
+      ],
+      "counts": {
+        "aerodromes": 39,
+        "navaids": 7
+      }
+    },
+    {
+      "id": "S40E130",
+      "file": "data/global/references/cells/S40E130.json",
+      "bounds": [
+        -40,
+        130,
+        -30,
+        140
+      ],
+      "counts": {
+        "aerodromes": 160,
+        "navaids": 24
+      }
+    },
+    {
+      "id": "S40E140",
+      "file": "data/global/references/cells/S40E140.json",
+      "bounds": [
+        -40,
+        140,
+        -30,
+        150
+      ],
+      "counts": {
+        "aerodromes": 551,
+        "navaids": 106
+      }
+    },
+    {
+      "id": "S40E150",
+      "file": "data/global/references/cells/S40E150.json",
+      "bounds": [
+        -40,
+        150,
+        -30,
+        160
+      ],
+      "counts": {
+        "aerodromes": 190,
+        "navaids": 39
+      }
+    },
+    {
+      "id": "S40E170",
+      "file": "data/global/references/cells/S40E170.json",
+      "bounds": [
+        -40,
+        170,
+        -30,
+        180
+      ],
+      "counts": {
+        "aerodromes": 158,
+        "navaids": 27
+      }
+    },
+    {
+      "id": "S40W060",
+      "file": "data/global/references/cells/S40W060.json",
+      "bounds": [
+        -40,
+        -60,
+        -30,
+        -50
+      ],
+      "counts": {
+        "aerodromes": 270,
+        "navaids": 55
+      }
+    },
+    {
+      "id": "S40W070",
+      "file": "data/global/references/cells/S40W070.json",
+      "bounds": [
+        -40,
+        -70,
+        -30,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 385,
+        "navaids": 50
+      }
+    },
+    {
+      "id": "S40W080",
+      "file": "data/global/references/cells/S40W080.json",
+      "bounds": [
+        -40,
+        -80,
+        -30,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 349,
+        "navaids": 28
+      }
+    },
+    {
+      "id": "S50E030",
+      "file": "data/global/references/cells/S50E030.json",
+      "bounds": [
+        -50,
+        30,
+        -40,
+        40
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S50E050",
+      "file": "data/global/references/cells/S50E050.json",
+      "bounds": [
+        -50,
+        50,
+        -40,
+        60
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S50E070",
+      "file": "data/global/references/cells/S50E070.json",
+      "bounds": [
+        -50,
+        70,
+        -40,
+        80
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S50E140",
+      "file": "data/global/references/cells/S50E140.json",
+      "bounds": [
+        -50,
+        140,
+        -40,
+        150
+      ],
+      "counts": {
+        "aerodromes": 65,
+        "navaids": 14
+      }
+    },
+    {
+      "id": "S50E160",
+      "file": "data/global/references/cells/S50E160.json",
+      "bounds": [
+        -50,
+        160,
+        -40,
+        170
+      ],
+      "counts": {
+        "aerodromes": 46,
+        "navaids": 6
+      }
+    },
+    {
+      "id": "S50E170",
+      "file": "data/global/references/cells/S50E170.json",
+      "bounds": [
+        -50,
+        170,
+        -40,
+        180
+      ],
+      "counts": {
+        "aerodromes": 98,
+        "navaids": 31
+      }
+    },
+    {
+      "id": "S50W010",
+      "file": "data/global/references/cells/S50W010.json",
+      "bounds": [
+        -50,
+        -10,
+        -40,
+        0
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S50W070",
+      "file": "data/global/references/cells/S50W070.json",
+      "bounds": [
+        -50,
+        -70,
+        -40,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 79,
+        "navaids": 11
+      }
+    },
+    {
+      "id": "S50W080",
+      "file": "data/global/references/cells/S50W080.json",
+      "bounds": [
+        -50,
+        -80,
+        -40,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 158,
+        "navaids": 23
+      }
+    },
+    {
+      "id": "S50W180",
+      "file": "data/global/references/cells/S50W180.json",
+      "bounds": [
+        -50,
+        -180,
+        -40,
+        -170
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "S60E070",
+      "file": "data/global/references/cells/S60E070.json",
+      "bounds": [
+        -60,
+        70,
+        -50,
+        80
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S60E150",
+      "file": "data/global/references/cells/S60E150.json",
+      "bounds": [
+        -60,
+        150,
+        -50,
+        160
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S60W040",
+      "file": "data/global/references/cells/S60W040.json",
+      "bounds": [
+        -60,
+        -40,
+        -50,
+        -30
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S60W060",
+      "file": "data/global/references/cells/S60W060.json",
+      "bounds": [
+        -60,
+        -60,
+        -50,
+        -50
+      ],
+      "counts": {
+        "aerodromes": 17,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "S60W070",
+      "file": "data/global/references/cells/S60W070.json",
+      "bounds": [
+        -60,
+        -70,
+        -50,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 81,
+        "navaids": 11
+      }
+    },
+    {
+      "id": "S60W080",
+      "file": "data/global/references/cells/S60W080.json",
+      "bounds": [
+        -60,
+        -80,
+        -50,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 23,
+        "navaids": 8
+      }
+    },
+    {
+      "id": "S70E030",
+      "file": "data/global/references/cells/S70E030.json",
+      "bounds": [
+        -70,
+        30,
+        -60,
+        40
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S70E110",
+      "file": "data/global/references/cells/S70E110.json",
+      "bounds": [
+        -70,
+        110,
+        -60,
+        120
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S70W050",
+      "file": "data/global/references/cells/S70W050.json",
+      "bounds": [
+        -70,
+        -50,
+        -60,
+        -40
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "S70W060",
+      "file": "data/global/references/cells/S70W060.json",
+      "bounds": [
+        -70,
+        -60,
+        -60,
+        -50
+      ],
+      "counts": {
+        "aerodromes": 9,
+        "navaids": 4
+      }
+    },
+    {
+      "id": "S70W070",
+      "file": "data/global/references/cells/S70W070.json",
+      "bounds": [
+        -70,
+        -70,
+        -60,
+        -60
+      ],
+      "counts": {
+        "aerodromes": 6,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S80E000",
+      "file": "data/global/references/cells/S80E000.json",
+      "bounds": [
+        -80,
+        0,
+        -70,
+        10
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S80E010",
+      "file": "data/global/references/cells/S80E010.json",
+      "bounds": [
+        -80,
+        10,
+        -70,
+        20
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S80E100",
+      "file": "data/global/references/cells/S80E100.json",
+      "bounds": [
+        -80,
+        100,
+        -70,
+        110
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S80E120",
+      "file": "data/global/references/cells/S80E120.json",
+      "bounds": [
+        -80,
+        120,
+        -70,
+        130
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S80E160",
+      "file": "data/global/references/cells/S80E160.json",
+      "bounds": [
+        -80,
+        160,
+        -70,
+        170
+      ],
+      "counts": {
+        "aerodromes": 5,
+        "navaids": 3
+      }
+    },
+    {
+      "id": "S80W030",
+      "file": "data/global/references/cells/S80W030.json",
+      "bounds": [
+        -80,
+        -30,
+        -70,
+        -20
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S80W040",
+      "file": "data/global/references/cells/S80W040.json",
+      "bounds": [
+        -80,
+        -40,
+        -70,
+        -30
+      ],
+      "counts": {
+        "aerodromes": 2,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S80W080",
+      "file": "data/global/references/cells/S80W080.json",
+      "bounds": [
+        -80,
+        -80,
+        -70,
+        -70
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S80W090",
+      "file": "data/global/references/cells/S80W090.json",
+      "bounds": [
+        -80,
+        -90,
+        -70,
+        -80
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S90E120",
+      "file": "data/global/references/cells/S90E120.json",
+      "bounds": [
+        -90,
+        120,
+        -80,
+        130
+      ],
+      "counts": {
+        "aerodromes": 0,
+        "navaids": 1
+      }
+    },
+    {
+      "id": "S90E130",
+      "file": "data/global/references/cells/S90E130.json",
+      "bounds": [
+        -90,
+        130,
+        -80,
+        140
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S90W010",
+      "file": "data/global/references/cells/S90W010.json",
+      "bounds": [
+        -90,
+        -10,
+        -80,
+        0
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    },
+    {
+      "id": "S90W090",
+      "file": "data/global/references/cells/S90W090.json",
+      "bounds": [
+        -90,
+        -90,
+        -80,
+        -80
+      ],
+      "counts": {
+        "aerodromes": 1,
+        "navaids": 0
+      }
+    }
+  ]
+}

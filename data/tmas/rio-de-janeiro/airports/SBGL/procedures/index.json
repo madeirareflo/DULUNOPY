@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 1,
+  "airport": "SBGL",
+  "coordinateSource": "data/waypoints.json",
+  "types": {
+    "SID": [
+      {
+        "id": "AIXM-889cee2b-e874-4699-9eeb-aced1f50612e",
+        "name": "rnav-evrad-1a-rwy-15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/SID/rnav-evrad-1a-rwy-15.json",
+        "runways": [
+          "15"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-a4e5df60-155f-47bc-a59f-c60fa8c4e800",
+        "name": "rnav-evrad-1a-rwy10",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/SID/rnav-evrad-1a-rwy10.json",
+        "runways": [
+          "10"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-545ab012-0141-4de0-a77b-7864298af02f",
+        "name": "rnav-oriri-1a-rwy-28-33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/SID/rnav-oriri-1a-rwy-28-33.json",
+        "runways": [
+          "28",
+          "33"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-SID-omni-rwy-10-15-28-33",
+        "name": "OMNI RWY 10-15-28-33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/SID/OMNI RWY 10-15-28-33.json",
+        "runways": [
+          "10",
+          "15",
+          "28",
+          "33"
+        ],
+        "modes": [
+          "OMNI"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBGL-SID-GL01N",
+        "name": "RNAV ALMOS 2A, 2B RWY 28-33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/SID/RNAV ALMOS 2A, 2B RWY 28-33.json",
+        "runways": [
+          "28",
+          "33"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 20,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-SID-GL02F",
+        "name": "RNAV EVRAD 2A RWY 10-15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/SID/RNAV EVRAD 2A RWY 10-15.json",
+        "runways": [
+          "10",
+          "15"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBGL-SID-GL04T",
+        "name": "RNAV ORIRI 1A RWY 28-33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/SID/RNAV ORIRI 1A RWY 28-33.json",
+        "runways": [
+          "28",
+          "33"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-SID-GL04S",
+        "name": "RNAV TIVRO 1A,1B RWY 10-15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/SID/RNAV TIVRO 1A,1B RWY 10-15.json",
+        "runways": [
+          "10",
+          "15"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-SID-GL02H",
+        "name": "RNAV UGROK 1A RWY 10-15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/SID/RNAV UGROK 1A RWY 10-15.json",
+        "runways": [
+          "10",
+          "15"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-SID-GL01J",
+        "name": "RNAV UTMIP 1A RWY 10-15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/SID/RNAV UTMIP 1A RWY 10-15.json",
+        "runways": [
+          "10",
+          "15"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 32,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      }
+    ],
+    "STAR": [
+      {
+        "id": "AIXM-4c5448a5-2e6b-488c-a226-443071cc8e6c",
+        "name": "rnav-divro-1a-rwy-28-33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/rnav-divro-1a-rwy-28-33.json",
+        "runways": [
+          "28",
+          "33"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-ea620122-e598-4cf6-8dfe-d3fdffaef70d",
+        "name": "rnav-divro-1b-rwy-33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/rnav-divro-1b-rwy-33.json",
+        "runways": [
+          "33"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-e6b4aed0-52f3-4b60-81fa-9eb4b2c71141",
+        "name": "rnav-mebga-1a-rwy-10",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/rnav-mebga-1a-rwy-10.json",
+        "runways": [
+          "10"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-95f4464a-8016-4460-9cd1-688c1c069510",
+        "name": "rnav-mebga-1a-rwy-15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/rnav-mebga-1a-rwy-15.json",
+        "runways": [
+          "15"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-12a517e6-9358-4bb3-91ba-8bbb55f4b3f1",
+        "name": "rnav-utbom-2a-rwy-10",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/rnav-utbom-2a-rwy-10.json",
+        "runways": [
+          "10"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AIXM-da5b1920-93af-4444-9aa0-521eba479cd1",
+        "name": "rnav-utbom-2a-rwy-15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/rnav-utbom-2a-rwy-15.json",
+        "runways": [
+          "15"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-STAR-GL01V",
+        "name": "RNAV DIVRO 1A RWY 28-33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/RNAV DIVRO 1A RWY 28-33.json",
+        "runways": [
+          "28",
+          "33"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 5,
+        "missedApproachCount": 0,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-STAR-GL03W",
+        "name": "RNAV DIVRO 1B RWY 33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/RNAV DIVRO 1B RWY 33.json",
+        "runways": [
+          "33"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-STAR-GL03X",
+        "name": "RNAV IVTAL 2A RWY 33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/RNAV IVTAL 2A RWY 33.json",
+        "runways": [
+          "33"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 3,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-STAR-GL02B",
+        "name": "RNAV MEBGA 1A - UTBOM 2A RWY 10-15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/RNAV MEBGA 1A - UTBOM 2A RWY 10-15.json",
+        "runways": [
+          "10",
+          "15"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-STAR-GL04W",
+        "name": "RNAV PABEB 1A RWY 10",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/RNAV PABEB 1A RWY 10.json",
+        "runways": [
+          "10"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-STAR-GL04V",
+        "name": "RNAV PABEB 1B RWY 15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/RNAV PABEB 1B RWY 15.json",
+        "runways": [
+          "15"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-STAR-GL04U",
+        "name": "RNAV PABEB 1D RWY 28-33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/RNAV PABEB 1D RWY 28-33.json",
+        "runways": [
+          "28",
+          "33"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-STAR-GL03Z",
+        "name": "RNAV PABEB 3C RWY 33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/RNAV PABEB 3C RWY 33.json",
+        "runways": [
+          "33"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 4,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-STAR-GL01X",
+        "name": "RNAV VAKUB 2A RWY 28-33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/STAR/RNAV VAKUB 2A RWY 28-33.json",
+        "runways": [
+          "28",
+          "33"
+        ],
+        "modes": [
+          "RNAV"
+        ],
+        "transitionCount": 6,
+        "missedApproachCount": 0,
+        "warningCount": 0
+      }
+    ],
+    "IAC": [
+      {
+        "id": "AISWEB-SBGL-IAC-GL04P",
+        "name": "ILS R OR LOC R RWY 15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/ILS R OR LOC R RWY 15.json",
+        "runways": [
+          "15"
+        ],
+        "modes": [
+          "ILS",
+          "LOC"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL01E",
+        "name": "ILS T OR LOC T RWY 10",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/ILS T OR LOC T RWY 10.json",
+        "runways": [
+          "10"
+        ],
+        "modes": [
+          "ILS",
+          "LOC"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL02K",
+        "name": "ILS U (CONVERGING) RWY 28",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/ILS U (CONVERGING) RWY 28.json",
+        "runways": [
+          "28"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL01H",
+        "name": "ILS U CAT II RWY 10",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/ILS U CAT II RWY 10.json",
+        "runways": [
+          "10"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL01D",
+        "name": "ILS V OR LOC V RWY 28",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/ILS V OR LOC V RWY 28.json",
+        "runways": [
+          "28"
+        ],
+        "modes": [
+          "ILS",
+          "LOC"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL00Z",
+        "name": "ILS W RWY 28",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/ILS W RWY 28.json",
+        "runways": [
+          "28"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL01A",
+        "name": "ILS X OR LOC X RWY 10",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/ILS X OR LOC X RWY 10.json",
+        "runways": [
+          "10"
+        ],
+        "modes": [
+          "ILS",
+          "LOC"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL04O",
+        "name": "ILS Z RWY 15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/ILS Z RWY 15.json",
+        "runways": [
+          "15"
+        ],
+        "modes": [
+          "ILS"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-nav-apv-rwy-10-uso-exclusivo-acft-mil-f-39",
+        "name": "NAV APV RWY 10 USO EXCLUSIVO ACFT MIL F-39",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/NAV APV RWY 10 USO EXCLUSIVO ACFT MIL F-39.json",
+        "runways": [
+          "10"
+        ],
+        "modes": [
+          "NAV"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-nav-apv-rwy-15-uso-exclusivo-acft-mil-f-39",
+        "name": "NAV APV RWY 15 USO EXCLUSIVO ACFT MIL F-39",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/NAV APV RWY 15 USO EXCLUSIVO ACFT MIL F-39.json",
+        "runways": [
+          "15"
+        ],
+        "modes": [
+          "NAV"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-nav-apv-rwy-28-uso-exclusivo-acft-mil-f-39",
+        "name": "NAV APV RWY 28 USO EXCLUSIVO ACFT MIL F-39",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/NAV APV RWY 28 USO EXCLUSIVO ACFT MIL F-39.json",
+        "runways": [
+          "28"
+        ],
+        "modes": [
+          "NAV"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-nav-apv-rwy-33-uso-exclusivo-acft-mil-f-39",
+        "name": "NAV APV RWY 33 USO EXCLUSIVO ACFT MIL F-39",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/NAV APV RWY 33 USO EXCLUSIVO ACFT MIL F-39.json",
+        "runways": [
+          "33"
+        ],
+        "modes": [
+          "NAV"
+        ],
+        "transitionCount": 0,
+        "missedApproachCount": 0,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL04X",
+        "name": "RNP A RWY 33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/RNP A RWY 33.json",
+        "runways": [
+          "33"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL04A",
+        "name": "RNP W RWY 33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/RNP W RWY 33.json",
+        "runways": [
+          "33"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL00U",
+        "name": "RNP Y RWY 10",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/RNP Y RWY 10.json",
+        "runways": [
+          "10"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL00R",
+        "name": "RNP Y RWY 28",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/RNP Y RWY 28.json",
+        "runways": [
+          "28"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL04R",
+        "name": "RNP Z (CONVERGING) RWY 28",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/RNP Z (CONVERGING) RWY 28.json",
+        "runways": [
+          "28"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 0
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL00T",
+        "name": "RNP Z RWY 15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/RNP Z RWY 15.json",
+        "runways": [
+          "15"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL05F",
+        "name": "RNP Z RWY 33 (AR)",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/RNP Z RWY 33 (AR).json",
+        "runways": [
+          "33"
+        ],
+        "modes": [
+          "RNP"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 4
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL00X",
+        "name": "VOR RWY 33",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/VOR RWY 33.json",
+        "runways": [
+          "33"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL00V",
+        "name": "VOR Y RWY 15",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/VOR Y RWY 15.json",
+        "runways": [
+          "15"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 1,
+        "missedApproachCount": 1,
+        "warningCount": 2
+      },
+      {
+        "id": "AISWEB-SBGL-IAC-GL00W",
+        "name": "VOR Z RWY 28",
+        "file": "data/tmas/rio-de-janeiro/airports/SBGL/procedures/IAC/VOR Z RWY 28.json",
+        "runways": [
+          "28"
+        ],
+        "modes": [
+          "VOR"
+        ],
+        "transitionCount": 2,
+        "missedApproachCount": 1,
+        "warningCount": 1
+      }
+    ]
+  }
+}

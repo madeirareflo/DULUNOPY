@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SUMU-DELTA 1 (RNAV)",
+    "name": "DELTA 1 (RNAV)",
+    "type": "STAR",
+    "airport": "SUMU",
+    "runways": [
+      "24",
+      "19"
+    ],
+    "source": {
+      "authority": "DINACIA / AIP Uruguay",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "DELTA": {
+      "ident": "DELTA",
+      "coordinate_ref": "waypoint:global:SUMU:DELTA:a764b19ae2da"
+    },
+    "CANEL": {
+      "ident": "CANEL",
+      "coordinate_ref": "waypoint:global:SUMU:CANEL:913a2ca89fda"
+    },
+    "ROSED": {
+      "ident": "ROSED",
+      "coordinate_ref": "waypoint:global:SUMU:ROSED:6bbd9202912b"
+    }
+  },
+  "legs": [
+    {
+      "id": "delta-rosed-leg-1",
+      "from": "DELTA",
+      "to": "CANEL",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 13.4,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "delta-rosed-leg-2",
+      "from": "CANEL",
+      "to": "ROSED",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 7.8,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "delta-rosed",
+      "name": "Entrada DELTA",
+      "kind": "arrival",
+      "sequence": [
+        "DELTA",
+        "CANEL",
+        "ROSED"
+      ],
+      "leg_ids": [
+        "delta-rosed-leg-1",
+        "delta-rosed-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

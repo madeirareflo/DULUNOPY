@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SDAM-VNA 1 (RNAV)",
+    "name": "VNA 1 (RNAV)",
+    "type": "STAR",
+    "airport": "SDAM",
+    "runways": [
+      "12"
+    ],
+    "source": {
+      "authority": "DECEA / AISWEB",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "VNA": {
+      "ident": "VNA",
+      "coordinate_ref": "waypoint:global:SDAM:VNA:adcc7e90cf16"
+    },
+    "AM002": {
+      "ident": "AM002",
+      "coordinate_ref": "waypoint:global:SDAM:AM002:803b3ee5e8ed"
+    },
+    "AM003": {
+      "ident": "AM003",
+      "coordinate_ref": "waypoint:global:SDAM:AM003:5676a6b88c8b"
+    }
+  },
+  "legs": [
+    {
+      "id": "vna-am003-leg-1",
+      "from": "VNA",
+      "to": "AM002",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 8.2,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "vna-am003-leg-2",
+      "from": "AM002",
+      "to": "AM003",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 5.7,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "vna-am003",
+      "name": "Chegada VNA 1",
+      "kind": "arrival",
+      "sequence": [
+        "VNA",
+        "AM002",
+        "AM003"
+      ],
+      "leg_ids": [
+        "vna-am003-leg-1",
+        "vna-am003-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

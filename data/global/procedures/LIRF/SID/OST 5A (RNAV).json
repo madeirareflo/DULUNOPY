@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LIRF-OST 5A (RNAV)",
+    "name": "OST 5A (RNAV)",
+    "type": "SID",
+    "airport": "LIRF",
+    "runways": [
+      "25",
+      "16R"
+    ],
+    "source": {
+      "authority": "ENAV / AIP Italia",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "FCO": {
+      "ident": "FCO",
+      "coordinate_ref": "waypoint:global:LIRF:FCO:96c1c0c33427"
+    },
+    "OST": {
+      "ident": "OST",
+      "coordinate_ref": "waypoint:global:LIRF:OST:e0f7acac385d"
+    },
+    "KOPAT": {
+      "ident": "KOPAT",
+      "coordinate_ref": "waypoint:global:LIRF:KOPAT:71465d0887f0"
+    }
+  },
+  "legs": [
+    {
+      "id": "fco-kopat-leg-1",
+      "from": "FCO",
+      "to": "OST",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 3.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "fco-kopat-leg-2",
+      "from": "OST",
+      "to": "KOPAT",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 18,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "fco-kopat",
+      "name": "Saída OST KOPAT",
+      "kind": "departure",
+      "sequence": [
+        "FCO",
+        "OST",
+        "KOPAT"
+      ],
+      "leg_ids": [
+        "fco-kopat-leg-1",
+        "fco-kopat-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

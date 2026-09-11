@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SDAM-RNP RWY 12",
+    "name": "RNP RWY 12",
+    "type": "IAC",
+    "airport": "SDAM",
+    "runways": [
+      "12"
+    ],
+    "source": {
+      "authority": "DECEA / AISWEB",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "AM003": {
+      "ident": "AM003",
+      "coordinate_ref": "waypoint:global:SDAM:AM003:5676a6b88c8b"
+    },
+    "AM012": {
+      "ident": "AM012",
+      "coordinate_ref": "waypoint:global:SDAM:AM012:7cc37c80b6cb"
+    },
+    "RW12": {
+      "ident": "RW12",
+      "coordinate_ref": "waypoint:global:SDAM:RW12:323e5142b4fd"
+    }
+  },
+  "legs": [
+    {
+      "id": "am003-rw12-leg-1",
+      "from": "AM003",
+      "to": "AM012",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 1.7,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "am003-rw12-leg-2",
+      "from": "AM012",
+      "to": "RW12",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 1,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "am003-rw12",
+      "name": "Aproximação RNP RWY 12",
+      "kind": "approach",
+      "sequence": [
+        "AM003",
+        "AM012",
+        "RW12"
+      ],
+      "leg_ids": [
+        "am003-rw12-leg-1",
+        "am003-rw12-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

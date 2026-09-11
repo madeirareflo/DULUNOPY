@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SPJC-DORUS 1 (RNAV)",
+    "name": "DORUS 1 (RNAV)",
+    "type": "SID",
+    "airport": "SPJC",
+    "runways": [
+      "16",
+      "15"
+    ],
+    "source": {
+      "authority": "CORPAC / AIP Perú",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "LIM": {
+      "ident": "LIM",
+      "coordinate_ref": "waypoint:global:SPJC:LIM:d7c60f3732f7"
+    },
+    "DORUS": {
+      "ident": "DORUS",
+      "coordinate_ref": "waypoint:global:SPJC:DORUS:b0b0f1d57471"
+    },
+    "ISLOK": {
+      "ident": "ISLOK",
+      "coordinate_ref": "waypoint:global:SPJC:ISLOK:a122b6fef36b"
+    }
+  },
+  "legs": [
+    {
+      "id": "lim-islok-leg-1",
+      "from": "LIM",
+      "to": "DORUS",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 22.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "lim-islok-leg-2",
+      "from": "DORUS",
+      "to": "ISLOK",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 24.1,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "lim-islok",
+      "name": "Saída DORUS Oceânica",
+      "kind": "departure",
+      "sequence": [
+        "LIM",
+        "DORUS",
+        "ISLOK"
+      ],
+      "leg_ids": [
+        "lim-islok-leg-1",
+        "lim-islok-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "UBERABA",
+  "name": "TMA Uberaba",
+  "airports": [
+    "SBUR"
+  ],
+  "airportsIndex": "data/tmas/uberaba/airports/index.json",
+  "boundarySource": "data/tmas/brazil-tmas-aixm.json",
+  "sectorIds": [
+    "UBERABA"
+  ],
+  "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1"
+}

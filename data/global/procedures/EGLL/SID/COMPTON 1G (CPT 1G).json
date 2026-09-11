@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "EGLL-COMPTON 1G (CPT 1G)",
+    "name": "COMPTON 1G (CPT 1G)",
+    "type": "SID",
+    "airport": "EGLL",
+    "runways": [
+      "27R"
+    ],
+    "source": {
+      "authority": "NATS / UK AIP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "LON": {
+      "ident": "LON",
+      "coordinate_ref": "waypoint:global:EGLL:LON:a3e1c77ba3ca"
+    },
+    "BUR": {
+      "ident": "BUR",
+      "coordinate_ref": "waypoint:global:EGLL:BUR:21f46b93ef30"
+    },
+    "CPT": {
+      "ident": "CPT",
+      "coordinate_ref": "waypoint:global:EGLL:CPT:90e8bcc413e3"
+    }
+  },
+  "legs": [
+    {
+      "id": "rw27r-cpt-leg-1",
+      "from": "LON",
+      "to": "BUR",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 11.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "rw27r-cpt-leg-2",
+      "from": "BUR",
+      "to": "CPT",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 17.6,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "rw27r-cpt",
+      "name": "RW27R - CPT",
+      "kind": "departure",
+      "sequence": [
+        "LON",
+        "BUR",
+        "CPT"
+      ],
+      "leg_ids": [
+        "rw27r-cpt-leg-1",
+        "rw27r-cpt-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

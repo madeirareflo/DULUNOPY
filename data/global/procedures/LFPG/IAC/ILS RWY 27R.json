@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LFPG-ILS RWY 27R",
+    "name": "ILS RWY 27R",
+    "type": "IAC",
+    "airport": "LFPG",
+    "runways": [
+      "27R"
+    ],
+    "source": {
+      "authority": "SIA France",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "VEBEK": {
+      "ident": "VEBEK",
+      "coordinate_ref": "waypoint:global:LFPG:VEBEK:4c3921fe7b43"
+    },
+    "CDG27": {
+      "ident": "CDG27",
+      "coordinate_ref": "waypoint:global:LFPG:CDG27:4bf6d0e8886f"
+    },
+    "RW27R": {
+      "ident": "RW27R",
+      "coordinate_ref": "waypoint:global:LFPG:RW27R:ee3df0ffa06b"
+    }
+  },
+  "legs": [
+    {
+      "id": "vebek-rw27r-leg-1",
+      "from": "VEBEK",
+      "to": "CDG27",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 7.7,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "vebek-rw27r-leg-2",
+      "from": "CDG27",
+      "to": "RW27R",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 4.4,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "vebek-rw27r",
+      "name": "Entrada VEBEK",
+      "kind": "approach",
+      "sequence": [
+        "VEBEK",
+        "CDG27",
+        "RW27R"
+      ],
+      "leg_ids": [
+        "vebek-rw27r-leg-1",
+        "vebek-rw27r-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

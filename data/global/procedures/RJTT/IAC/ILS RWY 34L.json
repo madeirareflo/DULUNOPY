@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "RJTT-ILS RWY 34L",
+    "name": "ILS RWY 34L",
+    "type": "IAC",
+    "airport": "RJTT",
+    "runways": [
+      "34L"
+    ],
+    "source": {
+      "authority": "JCAB / AIP Japan",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "KAIHO": {
+      "ident": "KAIHO",
+      "coordinate_ref": "waypoint:global:RJTT:KAIHO:9c5ccdda724a"
+    },
+    "TT001": {
+      "ident": "TT001",
+      "coordinate_ref": "waypoint:global:RJTT:TT001:520ebd6f2b72"
+    },
+    "RW34L": {
+      "ident": "RW34L",
+      "coordinate_ref": "waypoint:global:RJTT:RW34L:0b7eb417ed2e"
+    }
+  },
+  "legs": [
+    {
+      "id": "kaiho-rw34l-leg-1",
+      "from": "KAIHO",
+      "to": "TT001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 3.1,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "kaiho-rw34l-leg-2",
+      "from": "TT001",
+      "to": "RW34L",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.7,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "kaiho-rw34l",
+      "name": "Aproximação ILS 34L",
+      "kind": "approach",
+      "sequence": [
+        "KAIHO",
+        "TT001",
+        "RW34L"
+      ],
+      "leg_ids": [
+        "kaiho-rw34l-leg-1",
+        "kaiho-rw34l-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

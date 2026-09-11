@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SBMT-RNP RWY 12",
+    "name": "RNP RWY 12",
+    "type": "IAC",
+    "airport": "SBMT",
+    "runways": [
+      "12"
+    ],
+    "source": {
+      "authority": "DECEA / AISWEB",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "MT003": {
+      "ident": "MT003",
+      "coordinate_ref": "waypoint:global:SBMT:MT003:cbfb8a655e34"
+    },
+    "MT012": {
+      "ident": "MT012",
+      "coordinate_ref": "waypoint:global:SBMT:MT012:1e849f5f6523"
+    },
+    "RW12": {
+      "ident": "RW12",
+      "coordinate_ref": "waypoint:global:SBMT:RW12:52baa20b4d5b"
+    }
+  },
+  "legs": [
+    {
+      "id": "mt003-rw12-leg-1",
+      "from": "MT003",
+      "to": "MT012",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 1.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "mt003-rw12-leg-2",
+      "from": "MT012",
+      "to": "RW12",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 1,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "mt003-rw12",
+      "name": "Aproximação RNP RWY 12",
+      "kind": "approach",
+      "sequence": [
+        "MT003",
+        "MT012",
+        "RW12"
+      ],
+      "leg_ids": [
+        "mt003-rw12-leg-1",
+        "mt003-rw12-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

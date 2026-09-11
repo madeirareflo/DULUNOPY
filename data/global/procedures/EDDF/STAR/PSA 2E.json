@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "EDDF-PSA 2E",
+    "name": "PSA 2E",
+    "type": "STAR",
+    "airport": "EDDF",
+    "runways": [
+      "25R"
+    ],
+    "source": {
+      "authority": "DFS Germany",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "PSA": {
+      "ident": "PSA",
+      "coordinate_ref": "waypoint:global:EDDF:PSA:efff6624b443"
+    },
+    "CHA": {
+      "ident": "CHA",
+      "coordinate_ref": "waypoint:global:EDDF:CHA:efcfbd3b15ca"
+    },
+    "DF401": {
+      "ident": "DF401",
+      "coordinate_ref": "waypoint:global:EDDF:DF401:d007a8fac170"
+    }
+  },
+  "legs": [
+    {
+      "id": "psa-df401-leg-1",
+      "from": "PSA",
+      "to": "CHA",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 12.1,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "psa-df401-leg-2",
+      "from": "CHA",
+      "to": "DF401",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 8.5,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "psa-df401",
+      "name": "Entrada PSA - DF401",
+      "kind": "arrival",
+      "sequence": [
+        "PSA",
+        "CHA",
+        "DF401"
+      ],
+      "leg_ids": [
+        "psa-df401-leg-1",
+        "psa-df401-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

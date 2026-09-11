@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "KDFW-SLRTL 3 (RNAV)",
+    "name": "SLRTL 3 (RNAV)",
+    "type": "STAR",
+    "airport": "KDFW",
+    "runways": [
+      "17R",
+      "17C",
+      "18R"
+    ],
+    "source": {
+      "authority": "FAA / d-TPP",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "SPS": {
+      "ident": "SPS",
+      "coordinate_ref": "waypoint:global:KDFW:SPS:ee02004727ef"
+    },
+    "SLRTL": {
+      "ident": "SLRTL",
+      "coordinate_ref": "waypoint:global:KDFW:SLRTL:0644a536bebc"
+    },
+    "BOWIE": {
+      "ident": "BOWIE",
+      "coordinate_ref": "waypoint:global:KDFW:BOWIE:6012d820d5f5"
+    }
+  },
+  "legs": [
+    {
+      "id": "sps-bowie-leg-1",
+      "from": "SPS",
+      "to": "SLRTL",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 56.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "sps-bowie-leg-2",
+      "from": "SLRTL",
+      "to": "BOWIE",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 23.5,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "sps-bowie",
+      "name": "Entrada SPS",
+      "kind": "arrival",
+      "sequence": [
+        "SPS",
+        "SLRTL",
+        "BOWIE"
+      ],
+      "leg_ids": [
+        "sps-bowie-leg-1",
+        "sps-bowie-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

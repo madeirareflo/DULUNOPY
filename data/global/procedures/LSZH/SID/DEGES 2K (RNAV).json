@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LSZH-DEGES 2K (RNAV)",
+    "name": "DEGES 2K (RNAV)",
+    "type": "SID",
+    "airport": "LSZH",
+    "runways": [
+      "16",
+      "28"
+    ],
+    "source": {
+      "authority": "Skyguide / AIP Switzerland",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ZHR": {
+      "ident": "ZHR",
+      "coordinate_ref": "waypoint:global:LSZH:ZHR:9178e368d39c"
+    },
+    "KLO": {
+      "ident": "KLO",
+      "coordinate_ref": "waypoint:global:LSZH:KLO:24f35d53d73d"
+    },
+    "DEGES": {
+      "ident": "DEGES",
+      "coordinate_ref": "waypoint:global:LSZH:DEGES:347f8f5ab732"
+    }
+  },
+  "legs": [
+    {
+      "id": "zhr-deges-leg-1",
+      "from": "ZHR",
+      "to": "KLO",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 0.5,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "zhr-deges-leg-2",
+      "from": "KLO",
+      "to": "DEGES",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 23.6,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "zhr-deges",
+      "name": "Saída DEGES 2K",
+      "kind": "departure",
+      "sequence": [
+        "ZHR",
+        "KLO",
+        "DEGES"
+      ],
+      "leg_ids": [
+        "zhr-deges-leg-1",
+        "zhr-deges-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

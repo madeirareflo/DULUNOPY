@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "LIRF-ELBA 1A (RNAV)",
+    "name": "ELBA 1A (RNAV)",
+    "type": "STAR",
+    "airport": "LIRF",
+    "runways": [
+      "16L",
+      "16R"
+    ],
+    "source": {
+      "authority": "ENAV / AIP Italia",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "ELB": {
+      "ident": "ELB",
+      "coordinate_ref": "waypoint:global:LIRF:ELB:46cc573e4bec"
+    },
+    "TAQ": {
+      "ident": "TAQ",
+      "coordinate_ref": "waypoint:global:LIRF:TAQ:c752b0ab26af"
+    },
+    "XAKNO": {
+      "ident": "XAKNO",
+      "coordinate_ref": "waypoint:global:LIRF:XAKNO:e61c9db494c8"
+    }
+  },
+  "legs": [
+    {
+      "id": "elb-xakno-leg-1",
+      "from": "ELB",
+      "to": "TAQ",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 107.2,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "elb-xakno-leg-2",
+      "from": "TAQ",
+      "to": "XAKNO",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 15.2,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "elb-xakno",
+      "name": "Entrada ELBA",
+      "kind": "arrival",
+      "sequence": [
+        "ELB",
+        "TAQ",
+        "XAKNO"
+      ],
+      "leg_ids": [
+        "elb-xakno-leg-1",
+        "elb-xakno-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

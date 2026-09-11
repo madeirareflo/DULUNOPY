@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SKBO-SOACHA 1 (RNAV)",
+    "name": "SOACHA 1 (RNAV)",
+    "type": "SID",
+    "airport": "SKBO",
+    "runways": [
+      "13L",
+      "13R"
+    ],
+    "source": {
+      "authority": "Aerocivil / AIP Colombia",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "BOG": {
+      "ident": "BOG",
+      "coordinate_ref": "waypoint:global:SKBO:BOG:dc3a2cb88ae6"
+    },
+    "SOA": {
+      "ident": "SOA",
+      "coordinate_ref": "waypoint:global:SKBO:SOA:cb15498e155b"
+    },
+    "GIR": {
+      "ident": "GIR",
+      "coordinate_ref": "waypoint:global:SKBO:GIR:f66ef6a02b0b"
+    }
+  },
+  "legs": [
+    {
+      "id": "bog-gir-leg-1",
+      "from": "BOG",
+      "to": "SOA",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 10.1,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "bog-gir-leg-2",
+      "from": "SOA",
+      "to": "GIR",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 38.3,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "bog-gir",
+      "name": "Saída SOACHA GIR",
+      "kind": "departure",
+      "sequence": [
+        "BOG",
+        "SOA",
+        "GIR"
+      ],
+      "leg_ids": [
+        "bog-gir-leg-1",
+        "bog-gir-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

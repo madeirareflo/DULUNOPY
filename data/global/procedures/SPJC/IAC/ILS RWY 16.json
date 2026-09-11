@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "procedure": {
+    "id": "SPJC-ILS RWY 16",
+    "name": "ILS RWY 16",
+    "type": "IAC",
+    "airport": "SPJC",
+    "runways": [
+      "16"
+    ],
+    "source": {
+      "authority": "CORPAC / AIP Perú",
+      "effective_date": "2026-08-06",
+      "page": 1
+    },
+    "coordinate_validation": "unverified-legacy"
+  },
+  "points": {
+    "PUCUS": {
+      "ident": "PUCUS",
+      "coordinate_ref": "waypoint:global:SPJC:PUCUS:a608605d1881"
+    },
+    "JC001": {
+      "ident": "JC001",
+      "coordinate_ref": "waypoint:global:SPJC:JC001:39bcebc0dacf"
+    },
+    "RW16": {
+      "ident": "RW16",
+      "coordinate_ref": "waypoint:global:SPJC:RW16:f825286ab98e"
+    }
+  },
+  "legs": [
+    {
+      "id": "pucus-rw16-leg-1",
+      "from": "PUCUS",
+      "to": "JC001",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 1.8,
+      "speed_limit_kt": 250,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "id": "pucus-rw16-leg-2",
+      "from": "JC001",
+      "to": "RW16",
+      "via": [],
+      "path_terminator": "TF",
+      "distance_nm": 2.3,
+      "speed_limit_kt": null,
+      "altitude": {
+        "at": null,
+        "min": null,
+        "max": null
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "pucus-rw16",
+      "name": "Aproximação ILS 16",
+      "kind": "approach",
+      "sequence": [
+        "PUCUS",
+        "JC001",
+        "RW16"
+      ],
+      "leg_ids": [
+        "pucus-rw16-leg-1",
+        "pucus-rw16-leg-2"
+      ]
+    }
+  ],
+  "missed_approach": [],
+  "warnings": [
+    "Coordenadas herdadas da base internacional anterior; ainda não confrontadas com a carta oficial. Exibição para estudo."
+  ]
+}

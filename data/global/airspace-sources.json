@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "title": "Catálogo de fontes internacionais de TMA e cartas",
+  "lastReviewed": "2026-09-03",
+  "purpose": "Registrar fontes oficiais, acesso e condição de reutilização antes de integrar limites de TMA, procedimentos ou cartas ao runtime público.",
+  "operationalNotice": "Este catálogo aponta a publicação de origem. Uma fonte listada não torna seus limites, cartas ou procedimentos automaticamente disponíveis no mapa e não substitui AIP, NOTAM, AIRAC ou despacho operacional vigente.",
+  "coverage": {
+    "integratedCountries": [
+      "BR"
+    ],
+    "sourceCatalogScopes": [
+      "Brasil",
+      "Estados Unidos",
+      "Europa/ECAC",
+      "Mundial por Estado AIS"
+    ]
+  },
+  "sources": [
+    {
+      "id": "br-decea-aisweb",
+      "scope": {
+        "kind": "country",
+        "countries": [
+          "BR"
+        ],
+        "label": "Brasil"
+      },
+      "authority": "DECEA / AISWEB",
+      "status": "integrated",
+      "integration": "legacy-brazil-v1",
+      "portal": "https://aisweb.decea.mil.br/",
+      "rights": "review-required",
+      "products": [
+        {
+          "id": "br-aip-aisweb",
+          "name": "AISWEB / AIP Brasil",
+          "coverage": [
+            "TMA e demais espaços aéreos",
+            "aeródromos",
+            "SID, STAR e IAC",
+            "cartas e tabelas de codificação"
+          ],
+          "access": "portal público",
+          "url": "https://aisweb.decea.mil.br/",
+          "runtime": "Os dados já normalizados do Brasil permanecem na release nacional; documentos brutos não são republicados pelo site."
+        }
+      ],
+      "notes": [
+        "A integração brasileira mantém a compatibilidade com os arquivos nacionais existentes.",
+        "Cada atualização continua exigindo vigência, proveniência e revisão de licença."
+      ]
+    },
+    {
+      "id": "us-faa-aeronautical-data",
+      "scope": {
+        "kind": "country",
+        "countries": [
+          "US"
+        ],
+        "label": "Estados Unidos"
+      },
+      "authority": "FAA Aeronautical Information Services",
+      "status": "source-ready",
+      "integration": "faa-nasr-cifp-v1 (planejada)",
+      "portal": "https://www.faa.gov/data/aero_data",
+      "rights": "review-required-per-product-release",
+      "products": [
+        {
+          "id": "us-nasr",
+          "name": "NASR — National Airspace System Resources",
+          "coverage": [
+            "aeródromos",
+            "auxílios",
+            "espaço aéreo e referências de rota",
+            "dados em ciclos de 28 dias"
+          ],
+          "access": "download oficial",
+          "url": "https://www.faa.gov/air_traffic/flight_info/aeronav/aero_data/NASR_Subscription/",
+          "runtime": "Importar em release versionada; não assumir que um arquivo de referência é uma autorização para publicação operacional."
+        },
+        {
+          "id": "us-dtpp",
+          "name": "d-TPP — Digital Terminal Procedures Publication",
+          "coverage": [
+            "cartas IAP",
+            "procedimentos de partida",
+            "STAR",
+            "diagramas de aeródromo"
+          ],
+          "access": "consulta e download oficial",
+          "url": "https://www.faa.gov/air_traffic/flight_info/aeronav/productcatalog/DigitalProducts/dtpp/",
+          "runtime": "Para o site público, preferir link oficial à carta; só publicar derivado normalizado após revisão da release e dos direitos."
+        },
+        {
+          "id": "us-cifp",
+          "name": "CIFP — Coded Instrument Flight Procedures",
+          "coverage": [
+            "procedimentos IFR codificados",
+            "navegação terminal e em rota"
+          ],
+          "access": "produto digital oficial",
+          "url": "https://www.faa.gov/air_traffic/flight_info/aeronav/productcatalog/digitalproducts/",
+          "runtime": "Requer interpretador ARINC 424 e validação antes de converter para o schema de procedimentos do projeto."
+        }
+      ],
+      "notes": [
+        "A fonte está catalogada, mas nenhum limite TMA ou carta dos EUA é desenhado até existir uma release normalizada e validada.",
+        "A rota individual pode usar somente a referência aberta de aeródromos como ponto de estudo; ela não usa CIFP ou TPP automaticamente."
+      ]
+    },
+    {
+      "id": "eu-eurocontrol-ead",
+      "scope": {
+        "kind": "regional",
+        "countries": [],
+        "label": "Europa / ECAC e Estados participantes"
+      },
+      "authority": "EUROCONTROL — European AIS Database (EAD)",
+      "status": "consultation-source",
+      "integration": "country-adapter-required",
+      "portal": "https://www.eurocontrol.int/service/european-ais-database",
+      "rights": "provider-rights-and-access-review-required",
+      "products": [
+        {
+          "id": "ead-basic",
+          "name": "EAD Basic",
+          "coverage": [
+            "consulta de informação aeronáutica selecionada",
+            "AIP e publicações disponíveis pelo serviço"
+          ],
+          "access": "consulta pública com registo",
+          "url": "https://www.ead.eurocontrol.int/cms-eadbasic/opencms/en/ead-solutions/",
+          "runtime": "Acesso público é consultivo; não usar diretamente para operação nem republicar sem autorização do provedor do dado."
+        },
+        {
+          "id": "ead-aip-library",
+          "name": "EAD — dados estáticos e biblioteca AIP",
+          "coverage": [
+            "AIP",
+            "cartas",
+            "procedimentos",
+            "espaço aéreo, rotas, auxílios e waypoints"
+          ],
+          "access": "conforme perfil e acordo EAD",
+          "url": "https://www.eurocontrol.int/service/european-ais-database",
+          "runtime": "Criar uma release por país e registrar a licença do provedor antes de ativar qualquer geometria ou procedimento."
+        }
+      ],
+      "notes": [
+        "A EAD reúne dados de vários provedores, que mantêm direitos sobre o que inserem.",
+        "O projeto não infere uma cobertura europeia completa apenas pela existência do portal."
+      ]
+    },
+    {
+      "id": "icao-state-ais-aip",
+      "scope": {
+        "kind": "global",
+        "countries": [],
+        "label": "Mundial — publicação do Estado AIS responsável"
+      },
+      "authority": "Autoridade AIS/AIM de cada Estado, sob o arcabouço ICAO",
+      "status": "country-source-required",
+      "integration": "country-adapter-required",
+      "portal": "https://www.icao.int/airnavigation/aeronautical-information-management",
+      "rights": "state-specific-license-and-access-review-required",
+      "products": [
+        {
+          "id": "state-aip",
+          "name": "AIP, emendas, suplementos e ciclo AIRAC do Estado",
+          "coverage": [
+            "TMA/FIR/CTR e restrições",
+            "cartas",
+            "SID, STAR e IAC",
+            "aeródromos, rotas e auxílios"
+          ],
+          "access": "varia por Estado e provedor AIS",
+          "url": "https://www.icao.int/airnavigation/aeronautical-information-management",
+          "runtime": "Registrar país, fonte, vigência, licença e adaptador antes de disponibilizar um novo conjunto no mapa."
+        }
+      ],
+      "notes": [
+        "A AIP do Estado é a publicação primária para informação aeronáutica; não existe uma única licença pública uniforme para todas as cartas do mundo.",
+        "Dados de referência abertos nunca substituem essa etapa de validação."
+      ]
+    }
+  ]
+}
