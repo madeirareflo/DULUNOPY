@@ -1,14 +1,14 @@
 /* DULUNOPY Service Worker (PWA) — Versão 7 Otimizada com Auto-Update */
-const CACHE_NAME = 'dulunopy-vmtxx28n1';
+const CACHE_NAME = 'dulunopy-vmtymph9k';
 
 const PRECACHE_ASSETS = [
-  './assets/ui-shell.min.js?v=vmtxx28n1',
-  './assets/charts-workspace.min.js?v=vmtxx28n1',
-  './assets/weather-workspace.min.js?v=vmtxx28n1',
-  './assets/info-workspace.min.js?v=vmtxx28n1',
-  './assets/study-tools.min.js?v=vmtxx28n1',
-  './assets/route-insights.min.js?v=vmtxx28n1',
-  './assets/scenarios.min.js?v=vmtxx28n1',
+  './assets/ui-shell.min.js?v=vmtymph9k',
+  './assets/charts-workspace.min.js?v=vmtymph9k',
+  './assets/weather-workspace.min.js?v=vmtymph9k',
+  './assets/info-workspace.min.js?v=vmtymph9k',
+  './assets/study-tools.min.js?v=vmtymph9k',
+  './assets/route-insights.min.js?v=vmtymph9k',
+  './assets/scenarios.min.js?v=vmtymph9k',
   './',
   './index.html',
   './manifest.webmanifest',
@@ -16,10 +16,10 @@ const PRECACHE_ASSETS = [
   './assets/icon-512.png',
   './assets/icon-192.png',
   './assets/apple-touch-icon.png',
-  './assets/app.min.css?v=vmtxx28n1',
-  './assets/integrity.min.js?v=vmtxx28n1',
-  './assets/app.min.js?v=vmtxx28n1',
-  './assets/haven-features.min.js?v=vmtxx28n1'
+  './assets/app.min.css?v=vmtymph9k',
+  './assets/integrity.min.js?v=vmtymph9k',
+  './assets/app.min.js?v=vmtymph9k',
+  './assets/haven-features.min.js?v=vmtymph9k'
 ];
 
 // Instalação do Service Worker com pré-carregamento tolerante a falhas

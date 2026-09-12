@@ -53,7 +53,7 @@
             "path": "data/waypoints.json",
             "role": "global-coordinate-store",
             "publicRuntime": true,
-            "sha256": "adf6eb0cf19db22d33ea62314f45e9fff684a7b67a05c0e1d427b0f53c0e5beb"
+            "sha256": "90654d015e2b7a46c047b4fe84d4db9a844cf31f4ae118dd8d61f083146ad142"
           },
           {
             "kind": "tma-catalog",
