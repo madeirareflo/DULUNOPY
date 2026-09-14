@@ -60,28 +60,28 @@
             "path": "data/tmas/catalog.json",
             "role": "on-demand-procedure-discovery",
             "publicRuntime": true,
-            "sha256": "5772f9240223d99b5f34c92a14419ab59c75229f08a10ff54c401644462aaf91"
+            "sha256": "b581d39e87880587d552884de13f2ac527d95bf331d2a585cd2e7a6f8d302695"
           },
           {
             "kind": "tma-boundaries",
             "path": "data/tmas/brazil-tmas-aixm.json",
             "role": "airspace-boundaries",
             "publicRuntime": true,
-            "sha256": "8cd02d96b8cac8f61cf1e19e7b5a77c566fc440a69242ddd20aa4a486c61b468"
+            "sha256": "ee057880f7c9494f232af6d265bee215867a1e9cc667796e699af204c6add605"
           },
           {
             "kind": "aerodromes",
             "path": "data/tmas/brazil-aerodromes-aixm.json",
             "role": "national-aerodrome-layer",
             "publicRuntime": true,
-            "sha256": "03e8ee3ef3ea8472f287a99098f8076004c65a97a9faf5575500efc8074785e8"
+            "sha256": "0afb460bc69071e3416688d0062fe65bae4e4798e59dc242a235eb5a4273ce8f"
           },
           {
             "kind": "procedures",
             "path": "data/tmas/procedures-index.json",
             "role": "procedure-audit-index",
             "publicRuntime": true,
-            "sha256": "4b0ea749e5f47db9d8e5960b57e084a7e430c3e73bc37a641abed6da32c38ce2"
+            "sha256": "a0866c0590366b61854361195399cac63a45b568b4044ebb285d63148d6044df"
           }
         ]
       }
