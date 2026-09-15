@@ -1,5 +1,5 @@
 /* DULUNOPY Service Worker (PWA) — Versão 7 Otimizada com Auto-Update */
-const CACHE_NAME = 'dulunopy-vmu2mcews';
+const CACHE_NAME = 'dulunopy-vmu35sppf';
 const CACHE_PREFIX = 'dulunopy-';
 const RUNTIME_CACHE = `${CACHE_NAME}-runtime`;
 const CDN_CACHE = `${CACHE_NAME}-cdn`;
@@ -8,13 +8,13 @@ const RUNTIME_LIMIT = 180;
 const CDN_LIMIT = 40;
 
 const PRECACHE_ASSETS = [
-  './assets/ui-shell.min.js?v=vmu2mcews',
-  './assets/charts-workspace.min.js?v=vmu2mcews',
-  './assets/weather-workspace.min.js?v=vmu2mcews',
-  './assets/info-workspace.min.js?v=vmu2mcews',
-  './assets/study-tools.min.js?v=vmu2mcews',
-  './assets/route-insights.min.js?v=vmu2mcews',
-  './assets/scenarios.min.js?v=vmu2mcews',
+  './assets/ui-shell.min.js?v=vmu35sppf',
+  './assets/charts-workspace.min.js?v=vmu35sppf',
+  './assets/weather-workspace.min.js?v=vmu35sppf',
+  './assets/info-workspace.min.js?v=vmu35sppf',
+  './assets/study-tools.min.js?v=vmu35sppf',
+  './assets/route-insights.min.js?v=vmu35sppf',
+  './assets/scenarios.min.js?v=vmu35sppf',
   './',
   './index.html',
   './manifest.webmanifest',
@@ -22,10 +22,10 @@ const PRECACHE_ASSETS = [
   './assets/icon-512.png',
   './assets/icon-192.png',
   './assets/apple-touch-icon.png',
-  './assets/app.min.css?v=vmu2mcews',
-  './assets/integrity.min.js?v=vmu2mcews',
-  './assets/app.min.js?v=vmu2mcews',
-  './assets/haven-features.min.js?v=vmu2mcews'
+  './assets/app.min.css?v=vmu35sppf',
+  './assets/integrity.min.js?v=vmu35sppf',
+  './assets/app.min.js?v=vmu35sppf',
+  './assets/haven-features.min.js?v=vmu35sppf'
 ];
 
 async function trimCache(cacheName, maxEntries) {
