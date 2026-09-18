@@ -1,5 +1,5 @@
 /* DULUNOPY Service Worker (PWA) — Versão 7 Otimizada com Auto-Update */
-const CACHE_NAME = 'dulunopy-vmu491yra';
+const CACHE_NAME = 'dulunopy-vmu6q8t9y';
 const CACHE_PREFIX = 'dulunopy-';
 const RUNTIME_CACHE = `${CACHE_NAME}-runtime`;
 const CDN_CACHE = `${CACHE_NAME}-cdn`;
@@ -8,14 +8,14 @@ const RUNTIME_LIMIT = 180;
 const CDN_LIMIT = 40;
 
 const PRECACHE_ASSETS = [
-  './assets/ui-shell.min.js?v=vmu491yra',
-  './assets/charts-workspace.min.js?v=vmu491yra',
-  './assets/weather-workspace.min.js?v=vmu491yra',
-  './assets/info-workspace.min.js?v=vmu491yra',
-  './assets/study-workspace.min.js?v=vmu491yra',
-  './assets/study-tools.min.js?v=vmu491yra',
-  './assets/route-insights.min.js?v=vmu491yra',
-  './assets/scenarios.min.js?v=vmu491yra',
+  './assets/ui-shell.min.js?v=vmu6q8t9y',
+  './assets/charts-workspace.min.js?v=vmu6q8t9y',
+  './assets/weather-workspace.min.js?v=vmu6q8t9y',
+  './assets/info-workspace.min.js?v=vmu6q8t9y',
+  './assets/study-workspace.min.js?v=vmu6q8t9y',
+  './assets/study-tools.min.js?v=vmu6q8t9y',
+  './assets/route-insights.min.js?v=vmu6q8t9y',
+  './assets/scenarios.min.js?v=vmu6q8t9y',
   './',
   './index.html',
   './manifest.webmanifest',
@@ -23,10 +23,10 @@ const PRECACHE_ASSETS = [
   './assets/icon-512.png',
   './assets/icon-192.png',
   './assets/apple-touch-icon.png',
-  './assets/app.min.css?v=vmu491yra',
-  './assets/integrity.min.js?v=vmu491yra',
-  './assets/app.min.js?v=vmu491yra',
-  './assets/haven-features.min.js?v=vmu491yra'
+  './assets/app.min.css?v=vmu6q8t9y',
+  './assets/integrity.min.js?v=vmu6q8t9y',
+  './assets/app.min.js?v=vmu6q8t9y',
+  './assets/haven-features.min.js?v=vmu6q8t9y'
 ];
 
 async function trimCache(cacheName, maxEntries) {
@@ -101,7 +101,27 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 3. Runtime público conhecido: Network-First, com cache limitado.
+  // 3. Build-info: sempre Network-Only para validação determinística de deploy
+  if (url.origin === location.origin && (url.pathname.endsWith('/build-info.json') || url.pathname === '/build-info.json')) {
+    event.respondWith(fetch(req, { cache: 'no-store' }).catch(() => new Response(JSON.stringify({ error: 'offline' }), { headers: { 'Content-Type': 'application/json' } })));
+    return;
+  }
+
+  // 4. Recursos versionados (?v=...): Cache-First com fallback de rede
+  if (url.origin === location.origin && url.searchParams.has('v') && /\.(?:css|js|woff2?)$/i.test(url.pathname)) {
+    event.respondWith(
+      caches.match(req).then(cached => {
+        if (cached) return cached;
+        return fetch(req).then(async res => {
+          if (res.ok) await cacheResponse(CACHE_NAME, req, res, RUNTIME_LIMIT);
+          return res;
+        });
+      })
+    );
+    return;
+  }
+
+  // 5. Runtime público conhecido: Network-First, com cache limitado.
   const isRuntimeAsset = req.mode === 'navigate' ||
                          /\.(?:html|css|js|json|webmanifest|png|jpg|jpeg|webp|svg|ico|woff2?)$/i.test(url.pathname) ||
                          url.pathname.endsWith('/');
@@ -123,5 +143,11 @@ self.addEventListener('fetch', event => {
           return new Response('Offline', { status: 503, statusText: 'Offline' });
         })
     );
+  }
+});
+
+self.addEventListener('message', event => {
+  if (event.data && event.data.action === 'skipWaiting') {
+    self.skipWaiting();
   }
 });
