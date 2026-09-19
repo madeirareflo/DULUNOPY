@@ -1,8 +1,8 @@
 {
-  "release": "vmu7hbeej",
-  "commit": "636e15e4e7151f33ed9a26a2d0ed72e578db6698",
-  "shortCommit": "636e15e",
-  "builtAt": "2026-09-18T21:37:14.192Z",
+  "release": "vmu7pj548",
+  "commit": "405737f52db385b38c46c61569bc59d5bdb30896",
+  "shortCommit": "405737f",
+  "builtAt": "2026-09-19T01:27:13.631Z",
   "airac": "BR-AIRAC-2026-08-06",
   "airacEffective": "2026-08-06",
   "environment": "production"
