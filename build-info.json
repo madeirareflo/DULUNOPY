@@ -1,8 +1,8 @@
 {
-  "release": "vmu981sxn",
-  "commit": "fc47323248215bfe25ed3b99cb8cb137263c4a11",
-  "shortCommit": "fc47323",
-  "builtAt": "2026-09-20T02:53:22.532Z",
+  "release": "vmuugop54",
+  "commit": "b67ccd9f20f3674676162af8210c71fda472cd69",
+  "shortCommit": "b67ccd9",
+  "builtAt": "2026-10-04T23:38:11.662Z",
   "airac": "BR-AIRAC-2026-08-06",
   "airacEffective": "2026-08-06",
   "environment": "production"
