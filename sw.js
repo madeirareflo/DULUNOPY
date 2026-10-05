@@ -1,5 +1,5 @@
 /* DULUNOPY Service Worker (PWA) — Versão 7 Otimizada com Auto-Update */
-const CACHE_NAME = 'dulunopy-vmuuidkqa';
+const CACHE_NAME = 'dulunopy-vmuul55ln';
 const CACHE_PREFIX = 'dulunopy-';
 const RUNTIME_CACHE = `${CACHE_NAME}-runtime`;
 const CDN_CACHE = `${CACHE_NAME}-cdn`;
@@ -15,14 +15,14 @@ const PRECACHE_ASSETS = [
   './assets/icon-512.png',
   './assets/icon-192.png',
   './assets/apple-touch-icon.png',
-  './assets/app.min.css?v=vmuuidkqa',
-  './assets/integrity.min.js?v=vmuuidkqa',
-  './assets/app.min.js?v=vmuuidkqa',
-  './assets/haven-features.min.js?v=vmuuidkqa',
-  './assets/study-tools.min.js?v=vmuuidkqa',
-  './assets/route-insights.min.js?v=vmuuidkqa',
-  './assets/scenarios.min.js?v=vmuuidkqa',
-  './assets/ui-shell.min.js?v=vmuuidkqa'
+  './assets/app.min.css?v=vmuul55ln',
+  './assets/integrity.min.js?v=vmuul55ln',
+  './assets/app.min.js?v=vmuul55ln',
+  './assets/haven-features.min.js?v=vmuul55ln',
+  './assets/study-tools.min.js?v=vmuul55ln',
+  './assets/route-insights.min.js?v=vmuul55ln',
+  './assets/scenarios.min.js?v=vmuul55ln',
+  './assets/ui-shell.min.js?v=vmuul55ln'
 ];
 
 async function trimCache(cacheName, maxEntries) {
