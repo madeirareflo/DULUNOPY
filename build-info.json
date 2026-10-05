@@ -1,9 +1,9 @@
 {
-  "release": "vmuugop54",
-  "commit": "b67ccd9f20f3674676162af8210c71fda472cd69",
-  "shortCommit": "b67ccd9",
-  "builtAt": "2026-10-04T23:38:11.662Z",
-  "airac": "BR-AIRAC-2026-08-06",
-  "airacEffective": "2026-08-06",
+  "release": "vmuuhqk73",
+  "commit": "59c40210572296fb1bb4fe8cbad7c6cf681dcf8f",
+  "shortCommit": "59c4021",
+  "builtAt": "2026-10-05T00:07:38.182Z",
+  "airac": "BR-AIRAC-2026-10-01",
+  "airacEffective": "2026-10-01",
   "environment": "production"
 }

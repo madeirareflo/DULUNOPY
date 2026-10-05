@@ -17,7 +17,7 @@
       "status": "active",
       "runtime": {
         "adapter": "legacy-brazil-v1",
-        "releaseManifest": "data/countries/BR/releases/2026-08-06/manifest.json",
+        "releaseManifest": "data/countries/BR/releases/2026-10-01/manifest.json",
         "compatibilityMode": "national-tma-catalog"
       },
       "sources": [
@@ -25,16 +25,16 @@
           "id": "br-aisweb",
           "authority": "DECEA / AISWEB",
           "portal": "https://aisweb.decea.mil.br/",
-          "dataModel": "AIP/eAIP e tabelas de codificação",
+          "dataModel": "AIP/eAIP + AIXM 5.1",
           "updateCycle": "AIRAC",
           "licenseStatus": "review-required",
           "ingestion": "approved-import-only"
         }
       ],
       "activeRelease": {
-        "id": "BR-AIRAC-2026-08-06",
-        "effectiveFrom": "2026-08-06",
-        "manifest": "data/countries/BR/releases/2026-08-06/manifest.json",
+        "id": "BR-AIRAC-2026-10-01",
+        "effectiveFrom": "2026-10-01",
+        "manifest": "data/countries/BR/releases/2026-10-01/manifest.json",
         "coordinateNamespace": "BR",
         "coordinatePolicy": {
           "canonicalKey": "BR:<IDENT>",
@@ -42,10 +42,11 @@
           "procedureCoordinates": "forbidden"
         },
         "sourceSnapshot": {
-          "storage": "data/raw/BR/2026-08-06/",
+          "authority": "DECEA / ICA / AISWEB",
+          "aixmAmendment": "2610A1",
+          "effectiveDate": "2026-10-01",
           "includedInRepository": false,
-          "status": "not-bundled",
-          "reason": "As fontes brutas não são necessárias para o runtime e exigem revisão de licença antes de redistribuição."
+          "status": "validated-derived-artifacts-only"
         },
         "datasets": [
           {
@@ -67,14 +68,14 @@
             "path": "data/tmas/brazil-tmas-aixm.json",
             "role": "airspace-boundaries",
             "publicRuntime": true,
-            "sha256": "ee057880f7c9494f232af6d265bee215867a1e9cc667796e699af204c6add605"
+            "sha256": "3a54d7310d5a033243e44c69c1b97a9cfea298345613f5cb28cdfae44626500b"
           },
           {
             "kind": "aerodromes",
             "path": "data/tmas/brazil-aerodromes-aixm.json",
             "role": "national-aerodrome-layer",
             "publicRuntime": true,
-            "sha256": "0afb460bc69071e3416688d0062fe65bae4e4798e59dc242a235eb5a4273ce8f"
+            "sha256": "75f982d84081d59a7c7bf146c46a54b41092b9c76bb5c0431b1908e445525e5c"
           },
           {
             "kind": "procedures",
@@ -82,6 +83,13 @@
             "role": "procedure-audit-index",
             "publicRuntime": true,
             "sha256": "a0866c0590366b61854361195399cac63a45b568b4044ebb285d63148d6044df"
+          },
+          {
+            "kind": "airways",
+            "path": "data/global/airways.json",
+            "role": "validated-ats-network",
+            "publicRuntime": true,
+            "sha256": "da3383d67a34966c004583e88c3027b1c2bcae39e8c5cd4049d8f98b1575db9f"
           }
         ]
       }

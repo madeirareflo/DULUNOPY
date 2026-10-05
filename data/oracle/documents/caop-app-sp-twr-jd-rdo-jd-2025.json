@@ -1,0 +1,102 @@
+{
+  "id": "caop-app-sp-twr-jd-rdo-jd-2025",
+  "title": "CARTA DE ACORDO OPERACIONAL ENTRE APP-SP, TWR-JD E RDO-JD",
+  "shortTitle": "CAOp APP-SP / TWR-JD / RDO-JD (2025)",
+  "documentType": "CAOP",
+  "authority": "MINISTÉRIO DA DEFESA / COMANDO DA AERONÁUTICA / CRCEA-SE",
+  "sourceFile": "056_CAOp_APP-SP_TWR-JD_RDO-JD_2025.pdf",
+  "sourceClass": "OFFICIAL_PRIMARY",
+  "visibility": "PUBLIC_SOURCE",
+  "effectiveDate": "2025-08-07",
+  "publicationBulletin": "Boletim Interno Ostensivo Nº 148, de 13 de ago de 2025, do GAP-SP",
+  "revocation": "Revoga CAOp de 13/05/2024 publicada no Bol. Int. GAP-SP nº 97 de 23/05/2024",
+  "scope": [
+    "APP-SP",
+    "TWR-JD",
+    "RDO-JD",
+    "SBJD",
+    "TMA-SP"
+  ],
+  "airports": [
+    "SBJD",
+    "SBKP",
+    "SBSP",
+    "SBGR",
+    "SBSJ"
+  ],
+  "airspace": [
+    "CTR-JD",
+    "TMA-SP",
+    "FIR-BS",
+    "FIR-CW"
+  ],
+  "organizations": [
+    "DECEA",
+    "CRCEA-SE",
+    "GAP-SP",
+    "APP-SP",
+    "TWR-JD",
+    "RDO-JD",
+    "EPTA-JD",
+    "ACC-BS",
+    "ACC-CW"
+  ],
+  "signatories": [
+    "Daniel Pereira da Silva (Chefe da TWR-JD / Representante da EPTA-JD)",
+    "1º Ten Esp Aer CTA Marcos Nazareno do Vale Cavalcante (Chefe do APP-SP)"
+  ],
+  "pageCount": 20,
+  "chunkCount": 7,
+  "sourceHash": "5b04dc68f4cb486c019cfab3a53bdc16273688eed7c33d8363d5919169c9d141",
+  "sections": [
+    {
+      "section": "1.1-1.3",
+      "heading": "Finalidade, Âmbito, Definições e Abreviaturas",
+      "pageStart": 7,
+      "pageEnd": 7,
+      "text": "1 DISPOSIÇÕES PRELIMINARES\n1.1 FINALIDADE: Esta Carta de Acordo Operacional (CAOp) tem por finalidade estabelecer responsabilidades, critérios e procedimentos operacionais específicos para a prestação dos Serviços de Tráfego Aéreo, assim como estabelecer procedimentos de coordenação relativos aos tráfegos que evoluam nos espaços aéreos de responsabilidade de ambos Órgãos ATS, partes deste acordo.\n1.2 ÂMBITO: Esta CAOp aplica-se ao Controle de Aproximação São Paulo (APP-SP), à Torre de Controle Jundiaí (TWR-JD) e à Rádio Jundiaí (RDO-JD).\n1.3 DEFINIÇÕES E ABREVIATURAS\n1.3.1 DEFINIÇÕES: NPICO: Número de aeronaves sob controle simultâneo que um determinado setor de controle tem condições de manter por, no máximo, 19 (dezenove) minutos em um período de 01 (uma) hora, contínuo ou não. (Definição ICA 100-22/2024).\n1.3.2 ABREVIATURAS: ATS (Serviço de Tráfego Aéreo), ACC-BS (Centro de Controle de Área Brasília), ACC-CW (Centro de Controle de Área Curitiba), APP-SP (Controle de Aproximação de São Paulo), CRCEA-SE (Centro Regional de Controle do Espaço Aéreo Sudeste), GAP-SP (Grupamento de Apoio de São Paulo), IAP (Procedimento de Aproximação por Instrumentos), IFR (Regra de Voo por Instrumentos), NPICO (capacidade de controle simultâneo de setor ATC), REA (Rota Especial de Aeronaves em Voo Visual), SAGITARIO (Sistema Avançado de Gerenciamento de Informação de Tráfego Aéreo e Relatórios de Interesse Operacional), TATIC (Total Air Traffic Information Control), TVD (Trajetória Visual Definida), TWR-JD (Torre de Controle do Aeroporto de Jundiaí), VFR (Regra de Voo Visual)."
+    },
+    {
+      "section": "2.1",
+      "heading": "Atribuições e Competências do APP-SP em Relação a Jundiaí",
+      "pageStart": 8,
+      "pageEnd": 8,
+      "text": "2 PROCEDIMENTOS OPERACIONAIS ACORDADOS\n2.1 COMPETE AO APP-SP\n2.1.1 Autorizar as aeronaves sob VFR que estejam sob seu controle, destinadas a SBJD, a manterem as REA ECHO e/ou KILO, orientá-las a voar na proa do Portão ESTADIO e transferi-las a TWR-JD/RDO-JD na Posição TRAVES JARINU. NOTA 1: Durante o período fora do horário de operação da TWR-JD/RDO-JD, o APP-SP deverá transferir as aeronaves para a FCA (118,75 MHz) para ingresso na CTR-JD.\n2.1.2 No caso de voos com plano Y, transferir as aeronaves à TWR-JD/RDO-JD com a modificação de regras para VFR concretizada.\n2.1.3 Efetuar a coordenação com a TWR-JD/RDO-JD com a maior brevidade possível dos tráfegos sob seu controle, com exceção dos tráfegos de instrução e voos locais que tenham como origem e destino SBJD. NOTA 1: Caso haja aeronave mais veloz atrás da aeronave de menor performance e for notado que não será possível efetuar a ultrapassagem antes da entrada na CTR-JD, deverá ocorrer a coordenação dos tráfegos antes dos pontos de transferências previstos. NOTA 2: Entradas pelo Portão JACARE de aeronaves sob as regras VFR serão efetuadas em contato direto com a TWR-JD/RDO-JD. Não é necessário que o APP-SP realize a coordenação com a TWR-JD/RDO-JD das aeronaves ingressando via portão JACARE.\n2.1.4 Autorizar as aeronaves que partem de SBJD sob IFR conforme a rota. Caso o ponto de saída da TMA-SP não esteja contemplado na SID, o APP-SP deverá informar em qual ponto a aeronave abandonará a SID e prosseguirá para o ponto de saída.\n2.1.5 Delegar o uso dos códigos transponder A2251 a A2257 para uso exclusivo dos tráfegos em VOO LOCAL DE INSTRUÇÃO com DEP e ARR em SBJD. NOTA: Utilizar esses códigos somente se não houver código transponder na FPVE do TATIC.\n2.1.6 O APP-SP adotará como padrão o IAP RNP A (TVD) RWY 18, devido ao procedimento não interferir com nenhuma SID ou IAC de SBKP. NOTA: Caso as condições meteorológicas não permitam a utilização do RNP A RWY 18 ou o piloto solicite o RNP Z RWY 18, este poderá ser autorizado observando possíveis conflitos com os procedimentos de SBKP.\n2.1.7 Autorizar as aeronaves sob IFR a executar o IAP, informando a TWR-JD/RDO-JD o estimado de passagem no IAF e transferir as comunicações: a) No IF do RNP A RWY 18; ou b) No IAF do RNP Z RWY 18. NOTA: Corrigir o estimado se passar de 3 minutos."
+    },
+    {
+      "section": "2.2-2.3",
+      "heading": "Competências da TWR-JD/RDO-JD e Decolagens IFR",
+      "pageStart": 9,
+      "pageEnd": 9,
+      "text": "2.2 COMPETE À TWR-JD/RDO-JD\n2.2.1 Coordenar os Planos de Voo Z ou I das aeronaves com destino a aeródromos da FIR-BS e FIR-CW com os respectivos ACC-BS e ACC-CW, repassando para as aeronaves e APP-SP as modificações informadas por esses órgãos ATC. NOTA 1: Os tráfegos com Planos de Voo Z cuja autorização já tenha sido realizada com o ACC, e já tenham um código transponder atribuído, estão dispensadas das coordenações telefônicas com o APP-SP. NOTA 2: Os planos I sempre deverão ser coordenados via telefone com o APP-SP para autorização de saída. Adicionalmente, os tráfegos com plano I sempre deverão ser coordenados quando estiverem na Posição 02.\n2.2.2 Para que a FPVE criada no TATIC seja transmitida para o SAGITARIO, a TWR-JD/RDO-JD deverá inserir no TATIC os dados do plano de voo VFR do tráfego que chamará o APP-SP para obtenção de um código transponder e demais dados do voo julgados necessários para a efetiva coordenação de tráfego. NOTA: Para que a comunicação com o SAGITARIO seja efetivada, o ATCO/OEA de SBJD, quando no manuseio do TATIC, deverá: a) Inserir a sigla DCT no campo ROTA; b) Preencher um dos fixos de saída: PJAPI para o setor WHISKEY e JARIN para o setor ECHO; c) Preencher o Nível de Voo, a RWY e a Velocidade; e d) Preencher, no campo Observações Operacionais, os dados do voo a serem visualizados pelo ATCO do APP-SP (Ex.: REA, altitude/nível de voo, rota etc.), dentro da limitação de 25 (vinte e cinco) caracteres deste campo.\n2.2.3 O ATCO/OEA da TWR-JD/RDO-JD, de posse da autorização de tráfego do ACC correspondente ou dos dados do plano de voo Z/I, deverá preencher no TATIC os seguintes dados: nível de voo e; no campo Observação Operacional, corredor de saída, ponto de mudança de regra de voo, fixo de saída da TMA, trecho inicial da rota de voo e restrições impostas pelo ACC.\n2.2.4 Coordenar via telefone tráfegos asa fixa com intenção de pouso IFR nos aeródromos SBSP/SBGR/SBKP ou treinamento IFR em SBSJ e SBKP.\n2.2.5 Transferir as comunicações e o controle das aeronaves sob as regras VFR para o APP-SP, conforme a rota, no Portão TREVO ou Portão LAGOA; ou na Posição TRAVÉS SUL ITUPEVA, caso seja aeronave com Plano de Voo Z.\n2.3 PROCEDIMENTOS PARA DECOLAGEM IFR: 2.3.1 Compete a TWR-JD/RDO-JD prover a informação de tráfego para os voos IFR e VFR evoluindo dentro da CTR-JD e transferir ao APP-SP o tráfego IFR após cruzar 4500ft. NOTA: A TWR-JD/RDO-JD deverá se planejar para que nenhum tráfego VFR evoluindo na CTR-JD venha interferir com os perfis das SID IFR."
+    },
+    {
+      "section": "2.3.T1-2.4",
+      "heading": "Checklist para Operação IFR SBJD x SBKP e Reserva de Pista",
+      "pageStart": 10,
+      "pageEnd": 11,
+      "text": "Tabela 1 – Checklist para operação IFR:\n- Decolagens IFR SBJD Pista 36 x SBKP na cabeceira 33: Sujeitas ao tráfego de SBKP. Aplicar restrições conforme necessário.\n- Decolagens IFR SBJD Pista 36 x SBKP na cabeceira 15: Sujeitas aos tráfegos na SID UGIKI 1A. Aplicar restrições conforme necessário.\n- Decolagens IFR SBJD Pista 18 x SBKP na cabeceira 15: Decolagens estão desconflitadas dos procedimentos IFR de SBKP.\n- Decolagens IFR SBJD Pista 18 x SBKP na cabeceira 33: T-03 deve informar ao setor T-11 sobre saída IFR com rebloqueio, para aplicar separação vertical caso haja vetoração na final.\n- Tráfego no IAP para SBJD: Não autorizar decolagem.\n- Tráfego IFR a pelo menos 2 minutos do IAF (JD011 ou JD041): Autorizar qualquer decolagem, inclusive com rebloqueio (somente se atender esse critério).\n- Tráfego não ultrapassou o IAF: Apenas autorizar decolagem com transição NUXEL (garantir que não tenha passado o IAF).\n- Tráfego na posição 2 e pronto para decolagem: Considerar como \"autorizado para decolagem\" (Posição 2 = pronto para decolagem imediata).\n- Aproximações IFR SBJD x SBKP na cabeceira 15: Sem restrições. Pode utilizar o IAP RNP A RWY 18 ou RNP Z RWY 18.\n- Aproximações IFR SBJD x SBKP na cabeceira 33: IAP RNP Z RWY 18 está sujeito às aproximações de SBKP. Aplicar restrições conforme necessário.\n2.4 RESERVA DE PISTA:\n2.4.1 Após ser determinado que uma aeronave esteja em emergência e está prosseguindo para SBJD, o APP-SP coordenará com a TWR-JD/RDO-JD a reserva de pista.\n2.4.2 Será reservada a pista com a antecedência mínima de 15 minutos para o pouso da aeronave em emergência.\n2.4.3 O prazo não poderá ser menor que o estipulado em 2.4.2, exceto em casos de emergência declarada a menos de 15 minutos para o pouso. Neste caso, a reserva será feita a partir do momento em que houver a confirmação da emergência.\n2.4.4 Tão logo seja possível, a TWR-JD/RDO-JD informará ao APP-SP os horários de previsão de liberação de pista, que são de responsabilidade da administração aeroportuária."
+    },
+    {
+      "section": "2.5-2.6",
+      "heading": "Degradação Meteorológica (VFR Especial), Telefonia e Frequências",
+      "pageStart": 11,
+      "pageEnd": 12,
+      "text": "2.5 DEGRADAÇÃO DAS CONDIÇÕES METEOROLÓGICAS: 2.5.1 Uma vez que a altitude mínima do circuito de tráfego de SBJD é diferente de acordo com a categoria das aeronaves, torna-se possível a realização do voo VFR ESPECIAL apenas pelas aeronaves categorias A e B. Da mesma forma, haverá momentos em que SBJD estará VMC apenas para as categorias A e B. NOTA: A classificação das aeronaves em relação as categorias é responsabilidade do piloto. Os órgãos ATC apenas informarão às aeronaves da possibilidade do voo VFR ESPECIAL para as categorias A e B, e caberá ao piloto definir em qual categoria a sua aeronave se encontra. 2.5.2 A TWR-JD/RDO-JD deverá informar o APP-SP quando houver degradação das condições meteorológicas, e que seja evidente dentro de instantes a operação abaixo dos mínimos VFR para que o APP-SP possa planejar e remanejar os tráfegos com destino a SBJD. 2.5.3 A TWR-JD/RDO-JD deverá informar o APP-SP quando houver degradação das condições meteorológicas que impossibilite a utilização do procedimento RNP A RWY 18 (visibilidade mínima de 4000m) para que o APP-SP altere o procedimento para RNP Z RWY 18. 2.5.4 A coordenação inicial para a autorização de saída do voo VFR ESPECIAL deverá ser efetuada entre a TWR-JD/RDO-JD e os Supervisores do APP-SP, que definirão os procedimentos a serem seguidos para cada situação apresentada. 2.5.5 Caso SBJD esteja em condições favoráveis para o voo VFR ESPECIAL, o APP-SP deverá transferir a comunicação e o controle das aeronaves de asa fixa no TRAVES JARINU, atentando para a existência de apenas uma aeronave de asa fixa entre TRAVÉS JARINU e ESTÁDIO. 2.5.6 Só será autorizada uma decolagem para o setor E, sob VFR ESPECIAL, caso uma aeronave que chegue para pouso em SBJD ainda não tenha passado pelas posições D. PEDRO, ATIBAIA e MORATO. 2.5.7 Para fins de separação de tráfego dos voos VFR ESPECIAIS pelo APP-SP, a TWR-JD deverá, antes do acionamento da aeronave, solicitar autorização do voo, junto ao APP-SP, reiterando a coordenação de saída do tráfego quando no ponto de espera (Posição 02). 2.5.8 Uma vez que as condições forem inferiores às VMC, o treinamento de tráfego de asa fixa no Circuito de Tráfego será cancelado, independentemente de haver aproximação ou saída de tráfegos em VFR ESPECIAL. Poderá ser mantido o treinamento de helicópteros, atentando para o não comprometimento da segurança operacional. 2.5.9 Havendo alteração de REA por parte do APP-SP como condição de saída do voo VFR Especial, o ATCO/OEA de SBJD deverá atentar para que essa autorização seja bem compreendida pelo piloto solicitante desse voo.\n2.6 MEIOS DE COMUNICAÇÃO: 2.6.1 TELEFONIA (Tabela 2 - Telefonia): APP-SP Chefia ADM (11) 2112-3425; Plano V TF1, TF2 021 218 ou (11) 2112-3449; Plano Z/I TF1, TF2 021 216 ou (11) 2112-3515; Funcional (11) 97574-0753 / (11) 2112-3421; TWR JD Chefia ADM (11) 99129-0263; Operacional TF1, TF2 021 234 ou (11) 4585-9736; Celular Operacional (11) 94175-4723. 2.6.2 FREQUÊNCIAS (Tabela 3 – Frequências): TWR-JD 118.750 MHz (VFR CTR-JD); GND 121.650 MHz; APP-SP 129.500 MHz (VFR TMA-SP 2); APP-SP IFR DEP PLN I 135.750 MHz (Oeste) e 132.100 MHz (Leste); FCA NORTE 135.675 MHz; FCA SUL 126.650 MHz. NOTA: Conforme AIC de circulação VFR na TMA-SP, helicópteros utilizam FCA NORTE quando fora do perímetro interno ao Rodoanel (Rodovia SP-021)."
+    },
+    {
+      "section": "3.1-3.5",
+      "heading": "Contingência Operacional (Saturação T-14, SAGITARIO, TATIC, Telefonia)",
+      "pageStart": 13,
+      "pageEnd": 14,
+      "text": "3 PROCEDIMENTOS DE CONTINGÊNCIA OPERACIONAL\n3.1 SATURAÇÃO DO SETOR T-14 DO APP-SP: Mediante solicitação do APP-SP, em caso de grande demanda de tráfego em evolução no setor VFR da TMA-SP e a fim de evitar a extrapolação do NPico do Setor, poderão ser impostas medidas restritivas nas decolagens de SBJD sejam de planos VFR ou Z.\n3.2 SAGITARIO: 3.2.1 Caso a rota inserida no campo Rotas ou Observações Operacionais do SAGITARIO não seja suficiente para a devida coordenação de tráfego, o APP-SP entrará em contato telefônico com a TWR-JD/RDO-JD solicitando a alteração ou inserção de dados do plano julgados necessários. 3.2.2 A TWR-JD/RDO-JD coordenará, via contato telefônico, com o APP-SP os planos de voo Z para as situações em que os dados inseridos na FPVE não sejam o bastante para a efetiva coordenação de tráfego entre os dois órgãos ATC (TWR-JD e APP-SP) e/ou o órgão ATS (RDO-JD), ou ante a inoperância do TATIC e/ou SAGITARIO.\n3.3 TATIC: 3.3.1 Como não é possível a edição do campo ROTA no TATIC e existe a limitação de 25 (vinte e cinco) caracteres no campo Observações Operacionais, o ATCO/OEA da TWR-JD/RDO-JD terá a opção de recriar manualmente os Planos VFR no TATIC ou solicitar, via telefone, para que o ATCO do APP-SP ative esse mesmo plano na fila de mensagens. 3.3.2 A TWR-JD/RDO-JD coordenará, via contato telefônico, com o APP-SP os planos de voo ZULU para as situações em que os dados inseridos na FPVE não sejam o bastante para efetivar a coordenação de tráfego entre os dois órgãos ATC (TWR-JD e APP-SP) e/ou o órgão ATS (RDO-JD), ou ante a inoperância do TATIC e/ou SAGITARIO.\n3.4 DEGRADAÇÃO DE TELEFONIA:\n3.4.1 AERONAVES QUE SAEM: 3.4.1.1 Em caso de impossibilidade de contato telefônico entre a TWR-JD/RDO-JD e o APP-SP para autorização do Plano de Voo de aeronave partindo de SBJD, a decolagem do referido tráfego não poderá ser autorizada até restabelecimento das comunicações. NOTA: Não se aplicam a essa restrição as aeronaves de Voo Local de Instrução com DEP e ARR em SBJD, assim como as aeronaves com voo inteiramente VFR que saem pelo portão JAPI. 3.4.1.2 Em caso de aeronave que parte de SBJD sob as regras IFR, e que não haja possibilidade de contato telefônico para que TWR-JD/RDO-JD informe ao APP-SP que determinado tráfego se encontra no Ponto de Espera (conforme previsto em 2.2.1, nota 2), a aeronave em questão não deve ser autorizada a decolar, mesmo que seu Plano de Voo tenha sido previamente autorizado.\n3.5 AERONAVES QUE CHEGAM: 3.5.1 Em caso de impossibilidade de contato telefônico entre APP-SP e TWR-JD/RDO-JD para coordenação de aeronave com destino a SBJD até que a aeronave alcance as posições descritas abaixo, tal aeronave deve ser orientada a realizar auto coordenação, ou seja, entrar em contato rádio com a TWR-JD/RDO-JD informando sobre seu tráfego, retornando à frequência do APP-SP para confirmar ou não a realização. De acordo com o setor de aproximação, adotar as seguintes medidas: a) Caso aproximação VFR pelo setor ECHO da CTR-JD, e não haja possibilidade de contato telefônico até a Posição TRAVÉS JARINU, a primeira aeronave deve ser instruída a realizar a auto coordenação, voando no rumo de ESTÁDIO, para eventual espera em caso de negativo contato. As demais aeronaves não devem ser autorizadas, devendo realizar espera em contato com o APP-SP até normalização das comunicações telefônicas; b) As aproximações IFR não deverão ser autorizadas até normalização das comunicações telefônicas."
+    },
+    {
+      "section": "4-7",
+      "heading": "Disposições Finais, Assinaturas e Boletim do GAP-SP nº 148/2025",
+      "pageStart": 15,
+      "pageEnd": 20,
+      "text": "4 PROCEDIMENTOS PARA REVISÃO, SUSPENSÃO OU CANCELAMENTO DA CARTA DE ACORDO OPERACIONAL: 4.1 REVISÃO (4.1.1 em vigor enquanto atender à operação; 4.1.2 modificação mediante proposição); 4.2 SUSPENSÃO (comunicação prévia por fato superveniente); 4.3 CANCELAMENTO CONSENSUAL (proposta formal comunicada ao CRCEA-SE); 4.4 UNILATERAL (não poderá ser cancelada unilateralmente por qualquer parte signatária).\n5 PROCEDIMENTOS PARA DIVULGAÇÃO: Caberá aos Chefes e/ou Representantes do APP-SP e da TWR-JD/RDO-JD instruírem seus ATCO e OEA sobre os novos procedimentos.\n6 DISPOSIÇÕES FINAIS: 6.1 REVOGAÇÃO DE CAOP ANTERIOR: Conforme fez público o Boletim Interno do GAP-SP nº 148, de 13/08/2025, esta Carta de Acordo Operacional entra em vigor na data de 07/08/2025, revogando, na mesma data, a Carta de Acordo Operacional entre TWR-JD, RDO-JD e APP-SP, publicada em Boletim Interno do GAP-SP nº 97, de 23 de maio de 2024.\n7 ASSINATURAS: DANIEL PEREIRA DA SILVA (Chefe da TWR-JD / Representante da EPTA-JD, assinado digitalmente em 07/08/2025 11:56:33 via Autentique, CPF 071.233.398-35); MARCOS NAZARENO DO VALE CAVALCANTE 1º Ten Esp Aer CTA (Chefe do APP-SP, assinado digitalmente em 11/08/2025 09:12:53 via gov.br).\nEXTRATO DO BOLETIM INTERNO OSTENSIVO Nº 148, de 13 de ago de 2025, do(a) GAP SP (Página 158 / 160): Item 3 - ACORDO OPERACIONAL - APROVAÇÃO - (7604): Carta de Acordo Operacional entre APP-SP, TWR-JD E RDO-JD 2025, tem por finalidade estabelecer responsabilidades, critérios e procedimentos operacionais específicos para a prestação dos Serviços de Tráfego Aéreo, assim como estabelecer procedimentos de coordenação relativos aos tráfegos que evoluam nos espaços aéreos de responsabilidade de ambos Órgãos ATS, partes deste acordo. Esta CAOp aplica-se ao Controle de Aproximação São Paulo (APP-SP), à Torre de Controle Jundiaí (TWR-JD) e à Rádio Jundiaí (RDO-JD). Fixar a data de 07 de agosto de 2025, para sua entrada em vigor. Revoga-se na mesma data a Carta de Acordo Operacional entre a TWR-JD, RDO-JD e APP-SP, datada de 13 de maio de 2024 e publicada no Boletim Interno Ostensivo do GAP-SP nº 97, de 23/05/2024. Assinam essa CAOp: DANIEL PEREIRA DA SILVA - Representante da EPTA-JD; MARCOS NAZARENO DO VALE CAVALCANTE 1º Ten Esp Aer CTA - Representante do APP-SP."
+    }
+  ]
+}

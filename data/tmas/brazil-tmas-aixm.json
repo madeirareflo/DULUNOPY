@@ -3,8 +3,8 @@
   "metadata": {
     "scope": "Brazil",
     "authority": "AISWEB/DECEA",
-    "amendment": "2608A1",
-    "effectiveDate": "2026-08-06",
+    "amendment": "2610A1",
+    "effectiveDate": "2026-10-01",
     "sourceFile": "BL__decoded.xml",
     "notice": "Geometrias TMA extraídas do pacote AIXM oficial. Não substitui consulta às publicações vigentes e NOTAM."
   },
@@ -22,9 +22,9 @@
         "lower_limit": "FL100",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -111,9 +111,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -225,7 +225,7 @@
             ],
             [
               -46.995074280783086,
-              -22.065717486094073
+              -22.06571748609407
             ],
             [
               -47.00193550185433,
@@ -377,7 +377,7 @@
             ],
             [
               -47.69259238521692,
-              -22.065717486094073
+              -22.06571748609407
             ],
             [
               -47.69775164757195,
@@ -500,9 +500,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -561,9 +561,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -646,9 +646,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -711,9 +711,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-11-27T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -772,9 +772,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -861,9 +861,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -914,9 +914,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe D",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -1040,7 +1040,7 @@
             ],
             [
               -69.59606097341133,
-              -4.459824163043406
+              -4.459824163043405
             ],
             [
               -69.61517192772705,
@@ -1324,12 +1324,12 @@
         "designator": "SBXN_01",
         "type": "TMA",
         "upper_limit": "FL195",
-        "lower_limit": "FL065",
+        "lower_limit": "6500 FT MSL",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -1401,12 +1401,12 @@
         "designator": "SBXN_02",
         "type": "TMA",
         "upper_limit": "FL195",
-        "lower_limit": "FL065",
+        "lower_limit": "6500 FT MSL",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -1498,12 +1498,12 @@
         "designator": "SBXN_03",
         "type": "TMA",
         "upper_limit": "FL195",
-        "lower_limit": "FL065",
+        "lower_limit": "6500 FT MSL",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -1543,12 +1543,12 @@
         "designator": "SBXN_04",
         "type": "TMA",
         "upper_limit": "FL195",
-        "lower_limit": "FL065",
+        "lower_limit": "6500 FT MSL",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -1595,9 +1595,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/D",
         "effective_date": "2023-12-28T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -1933,12 +1933,12 @@
         "designator": "SBWU",
         "type": "TMA",
         "upper_limit": "FL195",
-        "lower_limit": "FL045",
+        "lower_limit": "4500 FT MSL",
         "airspace_class": "Classe A/D",
-        "effective_date": "2024-04-18T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -2017,9 +2017,9 @@
         "lower_limit": "4100 FT MSL",
         "airspace_class": "Classe C",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -2086,9 +2086,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -2155,9 +2155,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -2220,9 +2220,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -2277,9 +2277,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -2350,9 +2350,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -2399,9 +2399,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -2452,9 +2452,9 @@
         "lower_limit": "2700 FT MSL",
         "airspace_class": "Classe C",
         "effective_date": "2025-11-27T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -2845,9 +2845,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -2906,9 +2906,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -2967,9 +2967,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -3025,7 +3025,7 @@
             ],
             [
               -48.385806838881386,
-              -0.7292462534251557
+              -0.7292462534251556
             ],
             [
               -48.34064698663746,
@@ -3049,7 +3049,7 @@
             ],
             [
               -48.12928872084352,
-              -0.8246838635647735
+              -0.8246838635647734
             ],
             [
               -48.091312341213566,
@@ -3273,7 +3273,7 @@
             ],
             [
               -49.3463178297067,
-              -2.068311932063968
+              -2.0683119320639674
             ],
             [
               -49.39015616166912,
@@ -3404,9 +3404,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe D",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -3466,7 +3466,7 @@
             ],
             [
               -60.16105710417369,
-              3.262140600576616
+              3.2621406005766156
             ],
             [
               -60.133699992308784,
@@ -3550,7 +3550,7 @@
             ],
             [
               -60.22370584514354,
-              2.372778429218753
+              2.3727784292187533
             ],
             [
               -60.25830250340098,
@@ -3722,7 +3722,7 @@
             ],
             [
               -61.2127238398263,
-              3.262140600576616
+              3.2621406005766156
             ],
             [
               -61.18280206544819,
@@ -3746,7 +3746,7 @@
             ],
             [
               -61.00021935390063,
-              3.440291161945566
+              3.4402911619455656
             ],
             [
               -60.958355081849675,
@@ -3793,9 +3793,9 @@
         "lower_limit": "FL065",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -3874,9 +3874,9 @@
         "lower_limit": "FL065",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -3935,9 +3935,9 @@
         "lower_limit": "FL065",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -4004,9 +4004,9 @@
         "lower_limit": "FL065",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -4085,9 +4085,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -4130,9 +4130,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -4175,9 +4175,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -4220,9 +4220,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -4265,9 +4265,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe C",
         "effective_date": "2025-12-25T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -4283,7 +4283,7 @@
             ],
             [
               -53.97186638114132,
-              -20.35013289548783
+              -20.350132895487828
             ],
             [
               -53.96470072054672,
@@ -4355,7 +4355,7 @@
             ],
             [
               -54.32477058005742,
-              -21.050932300635186
+              -21.05093230063519
             ],
             [
               -54.36854017298894,
@@ -4499,7 +4499,7 @@
             ],
             [
               -54.93268159637486,
-              -20.419376151577364
+              -20.41937615157736
             ],
             [
               -54.928398548352305,
@@ -4682,9 +4682,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe C",
         "effective_date": "2025-12-25T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -4868,7 +4868,7 @@
             ],
             [
               -54.25186419475951,
-              -19.93136819525667
+              -19.931368195256667
             ],
             [
               -54.21333256774268,
@@ -5099,9 +5099,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -5488,9 +5488,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-10-02T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -5553,9 +5553,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-10-02T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -5606,9 +5606,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-10-02T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -5659,9 +5659,9 @@
         "lower_limit": "4500 FT MSL",
         "airspace_class": "Classe C",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -5716,9 +5716,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -5781,9 +5781,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -5850,9 +5850,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -5907,9 +5907,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -6048,9 +6048,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -6118,7 +6118,7 @@
             ],
             [
               -48.873011753580094,
-              -25.72213314285767
+              -25.722133142857665
             ],
             [
               -48.88823271086345,
@@ -6217,9 +6217,9 @@
         "lower_limit": "1500 FT MSL",
         "airspace_class": "Classe D",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -6243,7 +6243,7 @@
             ],
             [
               -49.0031673593964,
-              -27.596481159315072
+              -27.59648115931507
             ],
             [
               -48.99655664338698,
@@ -6390,9 +6390,9 @@
         "lower_limit": "1500 FT MSL",
         "airspace_class": "Classe C",
         "effective_date": "2026-06-11T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -6443,9 +6443,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -6520,9 +6520,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -6566,7 +6566,7 @@
             ],
             [
               -49.03329638918215,
-              -27.463840438706484
+              -27.46384043870648
             ],
             [
               -49.01614935835973,
@@ -6582,7 +6582,7 @@
             ],
             [
               -48.951747311295115,
-              -27.353305266504055
+              -27.35330526650405
             ],
             [
               -48.92629885868952,
@@ -6626,7 +6626,7 @@
             ],
             [
               -47.99741825650674,
-              -27.714816108246275
+              -27.71481610824627
             ],
             [
               -48.002133441870505,
@@ -6709,9 +6709,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -6766,9 +6766,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -6851,9 +6851,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -6865,7 +6865,7 @@
             ],
             [
               -48.71373184362652,
-              -27.137080318280628
+              -27.137080318280624
             ],
             [
               -48.73520136068792,
@@ -6961,7 +6961,7 @@
             ],
             [
               -48.97394108712793,
-              -26.792029339263163
+              -26.79202933926316
             ],
             [
               -48.974066667,
@@ -7088,9 +7088,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -7165,9 +7165,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -7584,9 +7584,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -7637,9 +7637,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/D",
         "effective_date": "2023-05-18T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -7951,7 +7951,7 @@
             ],
             [
               -39.58417085497108,
-              -15.217387624428937
+              -15.217387624428934
             ],
             [
               -39.611896498867736,
@@ -8162,9 +8162,9 @@
         "lower_limit": "4500 FT MSL",
         "airspace_class": "Classe D",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -8240,7 +8240,7 @@
             ],
             [
               -52.574460215860555,
-              -23.737750217230925
+              -23.73775021723092
             ],
             [
               -52.592604925699014,
@@ -8360,7 +8360,7 @@
             ],
             [
               -51.30444226824784,
-              -22.697076749755492
+              -22.697076749755496
             ],
             [
               -51.25673805688649,
@@ -8515,9 +8515,9 @@
         "lower_limit": "2500 FT MSL",
         "airspace_class": "Classe D",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -8661,7 +8661,7 @@
             ],
             [
               -50.66816452878454,
-              -0.3670833684293901
+              -0.36708336842939
             ],
             [
               -50.6984016580859,
@@ -8741,7 +8741,7 @@
             ],
             [
               -51.415761526368186,
-              -0.41936005280001737
+              -0.4193600528000175
             ],
             [
               -51.44782434191409,
@@ -8853,11 +8853,11 @@
             ],
             [
               -51.382034074530935,
-              0.5466035445202726
+              0.5466035445202727
             ],
             [
               -51.34679621688744,
-              0.5669484395256398
+              0.5669484395256397
             ],
             [
               -51.3102247751886,
@@ -8904,9 +8904,9 @@
         "lower_limit": "500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -8965,9 +8965,9 @@
         "lower_limit": "500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -9126,9 +9126,9 @@
         "lower_limit": "500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -9211,9 +9211,9 @@
         "lower_limit": "500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -9312,9 +9312,9 @@
         "lower_limit": "500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -9389,9 +9389,9 @@
         "lower_limit": "500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -9442,9 +9442,9 @@
         "lower_limit": "500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -9539,9 +9539,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10064,9 +10064,9 @@
         "lower_limit": "2000 FT MSL",
         "airspace_class": "Classe C",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10129,9 +10129,9 @@
         "lower_limit": "4000 FT MSL",
         "airspace_class": "Classe C",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10194,9 +10194,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10247,9 +10247,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10316,9 +10316,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10369,9 +10369,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10422,9 +10422,9 @@
         "lower_limit": "2500 FT MSL",
         "airspace_class": "Classe D",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10475,9 +10475,9 @@
         "lower_limit": "FL035",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10544,9 +10544,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10593,9 +10593,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe D",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10854,9 +10854,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2023-05-18T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10927,13 +10927,13 @@
         "sector_name": "PORTO ALEGRE SECT 01L",
         "designator": "SBWP_01L",
         "type": "TMA",
-        "upper_limit": "FL070",
+        "upper_limit": "7000 FT MSL",
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -10977,12 +10977,12 @@
         "designator": "SBWP_01U",
         "type": "TMA",
         "upper_limit": "FL195",
-        "lower_limit": "FL070",
+        "lower_limit": "7000 FT MSL",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -11025,13 +11025,13 @@
         "sector_name": "PORTO ALEGRE SECT 02L",
         "designator": "SBWP_02L",
         "type": "TMA",
-        "upper_limit": "FL070",
+        "upper_limit": "7000 FT MSL",
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -11075,12 +11075,12 @@
         "designator": "SBWP_02U",
         "type": "TMA",
         "upper_limit": "FL195",
-        "lower_limit": "FL070",
+        "lower_limit": "7000 FT MSL",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -11127,9 +11127,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -11200,9 +11200,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -11261,9 +11261,9 @@
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -11306,9 +11306,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -11351,9 +11351,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -11404,9 +11404,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -11449,9 +11449,9 @@
         "lower_limit": "FL145",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -11594,9 +11594,9 @@
         "lower_limit": "FL145",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -11816,12 +11816,12 @@
         "designator": "SBWV",
         "type": "TMA",
         "upper_limit": "FL145",
-        "lower_limit": "FL025",
+        "lower_limit": "2500 FT MSL",
         "airspace_class": "Classe D",
-        "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -12208,9 +12208,9 @@
         "lower_limit": "4500 FT MSL",
         "airspace_class": "Classe D",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -12365,9 +12365,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -12438,9 +12438,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -12499,9 +12499,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -12556,9 +12556,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -12637,9 +12637,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -12726,9 +12726,9 @@
         "lower_limit": "FL035",
         "airspace_class": "Classe D",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -13115,9 +13115,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe C",
         "effective_date": "2026-05-14T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -13192,9 +13192,9 @@
         "lower_limit": "1000 FT MSL",
         "airspace_class": "Classe C",
         "effective_date": "2026-05-14T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -13253,9 +13253,9 @@
         "lower_limit": "6500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2026-05-14T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -13318,9 +13318,9 @@
         "lower_limit": "6500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2026-05-14T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -13367,9 +13367,9 @@
         "lower_limit": "6500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2026-05-14T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -13420,9 +13420,9 @@
         "lower_limit": "6500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2026-05-14T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -13481,9 +13481,9 @@
         "lower_limit": "6500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2026-05-14T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -13526,9 +13526,9 @@
         "lower_limit": "FL120",
         "airspace_class": "Classe A/C",
         "effective_date": "2026-05-14T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -13587,9 +13587,9 @@
         "lower_limit": "6500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2026-05-14T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -13664,9 +13664,9 @@
         "lower_limit": "1000 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2026-05-14T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -13725,9 +13725,9 @@
         "lower_limit": "1000 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2026-05-14T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -13778,13 +13778,13 @@
         "sector_name": "SALVADOR SECT 01",
         "designator": "SBXS_01",
         "type": "TMA",
-        "upper_limit": "FL035",
+        "upper_limit": "3500 FT MSL",
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -14059,13 +14059,13 @@
         "sector_name": "SALVADOR SECT 02",
         "designator": "SBXS_02",
         "type": "TMA",
-        "upper_limit": "FL035",
+        "upper_limit": "3500 FT MSL",
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -14348,13 +14348,13 @@
         "sector_name": "SALVADOR SECT 03",
         "designator": "SBXS_03",
         "type": "TMA",
-        "upper_limit": "FL035",
+        "upper_limit": "3500 FT MSL",
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -14393,13 +14393,13 @@
         "sector_name": "SALVADOR SECT 04",
         "designator": "SBXS_04",
         "type": "TMA",
-        "upper_limit": "FL035",
+        "upper_limit": "3500 FT MSL",
         "lower_limit": "0 FT SFC",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -14439,12 +14439,12 @@
         "designator": "SBXS_05",
         "type": "TMA",
         "upper_limit": "FL195",
-        "lower_limit": "FL035",
+        "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -14496,12 +14496,12 @@
         "designator": "SBXS_06",
         "type": "TMA",
         "upper_limit": "FL195",
-        "lower_limit": "FL035",
+        "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/C",
-        "effective_date": "2025-06-12T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "effective_date": "2026-10-01T00:00:00",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -14552,9 +14552,9 @@
         "lower_limit": "4500 FT MSL",
         "airspace_class": "Classe C",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -14642,7 +14642,7 @@
             ],
             [
               -53.75227285167502,
-              -29.043534079283372
+              -29.043534079283365
             ],
             [
               -53.69951941545161,
@@ -14710,7 +14710,7 @@
             ],
             [
               -53.022281062255026,
-              -29.41971374589601
+              -29.419713745896004
             ],
             [
               -53.00081176155963,
@@ -14786,7 +14786,7 @@
             ],
             [
               -53.21512068328903,
-              -30.21706591315234
+              -30.217065913152346
             ],
             [
               -53.25695239060975,
@@ -14794,7 +14794,7 @@
             ],
             [
               -53.30100277112628,
-              -30.271803246718953
+              -30.271803246718957
             ],
             [
               -53.347058821780664,
@@ -14806,7 +14806,7 @@
             ],
             [
               -53.44428564053489,
-              -30.333325387245207
+              -30.33332538724521
             ],
             [
               -53.4949835321845,
@@ -14842,7 +14842,7 @@
             ],
             [
               -53.91722397217548,
-              -30.35100865002669
+              -30.351008650026696
             ],
             [
               -53.96820235962836,
@@ -14850,7 +14850,7 @@
             ],
             [
               -54.01793059632424,
-              -30.320252957813153
+              -30.32025295781316
             ],
             [
               -54.06616649649469,
@@ -14870,7 +14870,7 @@
             ],
             [
               -54.23963687336501,
-              -30.193719100363804
+              -30.1937191003638
             ],
             [
               -54.27708797499309,
@@ -14933,9 +14933,9 @@
         "lower_limit": "2500 FT MSL",
         "airspace_class": "Classe D",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -15322,9 +15322,9 @@
         "lower_limit": "2500 FT MSL",
         "airspace_class": "Classe D",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -15711,9 +15711,9 @@
         "lower_limit": "3600 FT MSL",
         "airspace_class": "Classe C",
         "effective_date": "2025-10-30T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -15876,9 +15876,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -15937,9 +15937,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16010,9 +16010,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16071,9 +16071,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16156,9 +16156,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16217,9 +16217,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16282,9 +16282,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16351,9 +16351,9 @@
         "lower_limit": "FL135",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16404,9 +16404,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16493,9 +16493,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16566,9 +16566,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16635,9 +16635,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16700,9 +16700,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16753,9 +16753,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16814,9 +16814,9 @@
         "lower_limit": "FL135",
         "airspace_class": "N/I",
         "effective_date": "2025-08-07T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -16887,9 +16887,9 @@
         "lower_limit": "3500 FT MSL",
         "airspace_class": "Classe A/D",
         "effective_date": "2023-05-18T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -17113,7 +17113,7 @@
             ],
             [
               -43.218598572474235,
-              -5.601320421371669
+              -5.60132042137167
             ],
             [
               -43.25539693164935,
@@ -17276,9 +17276,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "Classe A/D",
         "effective_date": "2023-05-18T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -17353,9 +17353,9 @@
         "lower_limit": "5500 FT MSL",
         "airspace_class": "Classe A/D",
         "effective_date": "2023-05-18T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",
@@ -17434,9 +17434,9 @@
         "lower_limit": "4500 FT MSL",
         "airspace_class": "Classe A/C",
         "effective_date": "2023-05-18T00:00:00",
-        "source": "AISWEB/DECEA — AIXM completo AMDT 2608A1",
+        "source": "AISWEB/DECEA — AIXM completo AMDT 2610A1",
         "source_url": "https://aisweb.decea.mil.br/?i=publicacoes&p=aixm",
-        "dataset": "brazil-aixm-2608a1"
+        "dataset": "brazil-aixm-2610a1"
       },
       "geometry": {
         "type": "Polygon",

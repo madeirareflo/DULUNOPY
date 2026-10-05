@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "bundleId": "dulunopy-oracle-corpus",
+  "generatedAt": "2026-09-30T04:11:25.722Z",
+  "lastUpdated": "2026-09-30T04:11:25.722Z",
+  "totalDocuments": 3,
+  "totalChunks": 25,
+  "totalPages": 74,
+  "totalSummaries": 8,
+  "documents": [
+    {
+      "id": "caop-app-sp-twr-sp-2024-bol71",
+      "title": "CARTA DE ACORDO OPERACIONAL ENTRE APP-SP E TWR-SP",
+      "shortTitle": "CAOp APP-SP / TWR-SP (2024)",
+      "documentType": "CAOP",
+      "authority": "MINISTÉRIO DA DEFESA / COMANDO DA AERONÁUTICA / DECEA / CRCEA-SE",
+      "effectiveDate": "2024-04-16",
+      "publicationBulletin": "Boletim Interno Ostensivo Nº 71, de 16 de abr de 2024, do GAP-SP",
+      "revocation": "Revoga CAOp de 21/12/2022 publicada no Bol. Int. GAP-SP nº 234 de 19/12/2022",
+      "scope": [
+        "APP-SP",
+        "TWR-SP",
+        "SBSP",
+        "TMA-SP"
+      ],
+      "airports": [
+        "SBSP"
+      ],
+      "airspace": [
+        "TMA-SP",
+        "CTR-SP"
+      ],
+      "organizations": [
+        "DECEA",
+        "CRCEA-SE",
+        "APP-SP",
+        "TWR-SP",
+        "GAP-SP",
+        "CGNA"
+      ],
+      "pageCount": 16,
+      "chunkCount": 8,
+      "sourceFile": "063_CAOp_APP-SP_e_TWR-SP_2024_BOL71.pdf",
+      "sourceHash": "cbb114e095720bc3ce978321cde3dfe540c80246fb0778d8291f0924773a9650",
+      "sha256": "cbb114e095720bc3ce978321cde3dfe540c80246fb0778d8291f0924773a9650",
+      "file": "documents/caop-app-sp-twr-sp-2024-bol71.json",
+      "chunksFile": "chunks/caop-app-sp-twr-sp-2024-bol71.json"
+    },
+    {
+      "id": "caop-app-sp-twr-jd-rdo-jd-2025",
+      "title": "CARTA DE ACORDO OPERACIONAL ENTRE APP-SP, TWR-JD E RDO-JD",
+      "shortTitle": "CAOp APP-SP / TWR-JD / RDO-JD (2025)",
+      "documentType": "CAOP",
+      "authority": "MINISTÉRIO DA DEFESA / COMANDO DA AERONÁUTICA / CRCEA-SE",
+      "effectiveDate": "2025-08-07",
+      "publicationBulletin": "Boletim Interno Ostensivo Nº 148, de 13 de ago de 2025, do GAP-SP",
+      "revocation": "Revoga CAOp de 13/05/2024 publicada no Bol. Int. GAP-SP nº 97 de 23/05/2024",
+      "scope": [
+        "APP-SP",
+        "TWR-JD",
+        "RDO-JD",
+        "SBJD",
+        "TMA-SP"
+      ],
+      "airports": [
+        "SBJD",
+        "SBKP",
+        "SBSP",
+        "SBGR",
+        "SBSJ"
+      ],
+      "airspace": [
+        "CTR-JD",
+        "TMA-SP",
+        "FIR-BS",
+        "FIR-CW"
+      ],
+      "organizations": [
+        "DECEA",
+        "CRCEA-SE",
+        "GAP-SP",
+        "APP-SP",
+        "TWR-JD",
+        "RDO-JD",
+        "EPTA-JD",
+        "ACC-BS",
+        "ACC-CW"
+      ],
+      "pageCount": 20,
+      "chunkCount": 7,
+      "sourceFile": "056_CAOp_APP-SP_TWR-JD_RDO-JD_2025.pdf",
+      "sourceHash": "5b04dc68f4cb486c019cfab3a53bdc16273688eed7c33d8363d5919169c9d141",
+      "sha256": "5b04dc68f4cb486c019cfab3a53bdc16273688eed7c33d8363d5919169c9d141",
+      "file": "documents/caop-app-sp-twr-jd-rdo-jd-2025.json",
+      "chunksFile": "chunks/caop-app-sp-twr-jd-rdo-jd-2025.json"
+    },
+    {
+      "id": "caop-twr-gr-gru-airport-app-sp-2025-01",
+      "title": "CARTA DE ACORDO OPERACIONAL ENTRE DNB EM SBGR, GRU AIRPORT E APP-SP - 2025/01",
+      "shortTitle": "CAOp DNB SBGR / GRU AIRPORT / APP-SP (2025/01)",
+      "documentType": "CAOP",
+      "authority": "MINISTÉRIO DA DEFESA / COMANDO DA AERONÁUTICA / CRCEA-SE / DEPENDÊNCIA DA NAV BRASIL EM GUARULHOS (DNB EM SBGR)",
+      "effectiveDate": "2025-10-29",
+      "publicationBulletin": "A ser publicado no Boletim Interno do GAP-SP",
+      "revocation": "Revoga CAOp de 05/05/2022 publicada no Bol. Int. GAP-SP nº 83 de 05/05/2022",
+      "scope": [
+        "DNB EM SBGR",
+        "GRU AIRPORT",
+        "APP-SP",
+        "TWR-GR",
+        "CCP",
+        "COA",
+        "CCO",
+        "COE",
+        "SBGR",
+        "TMA-SP"
+      ],
+      "airports": [
+        "SBGR"
+      ],
+      "airspace": [
+        "TMA-SP",
+        "CTR-GR"
+      ],
+      "organizations": [
+        "DECEA",
+        "CRCEA-SE",
+        "NAV BRASIL",
+        "GRU AIRPORT",
+        "ANAC",
+        "GAP-SP",
+        "APP-SP",
+        "TWR-GR",
+        "CGNA",
+        "CENIPA"
+      ],
+      "pageCount": 38,
+      "chunkCount": 10,
+      "sourceFile": "111_CAOp_TWR-GR_GRU_AIRPORT_APP-SP_2025-01.pdf",
+      "sourceHash": "16c453853caec88a0cfa36bb72858ecf7ce76eea2e51d083729470b252cca20d",
+      "sha256": "16c453853caec88a0cfa36bb72858ecf7ce76eea2e51d083729470b252cca20d",
+      "file": "documents/caop-twr-gr-gru-airport-app-sp-2025-01.json",
+      "chunksFile": "chunks/caop-twr-gr-gru-airport-app-sp-2025-01.json"
+    }
+  ]
+}

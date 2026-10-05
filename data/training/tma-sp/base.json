@@ -1,0 +1,877 @@
+{
+  "schemaVersion": 1,
+  "tmaId": "tma-sp",
+  "name": "TMA São Paulo",
+  "effectiveDate": "2026-08-06",
+  "sectors": [
+    {
+      "id": "SP-01",
+      "name": "TMA São Paulo SECT 01",
+      "upperLimit": "FL245",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.776389,
+          -46.569722
+        ],
+        [
+          -23.712222,
+          -45.428333
+        ],
+        [
+          -23.910556,
+          -45.373333
+        ],
+        [
+          -24.075556,
+          -46.071667
+        ],
+        [
+          -24.3075,
+          -46.167222
+        ],
+        [
+          -24.406944,
+          -46.691667
+        ],
+        [
+          -24.328889,
+          -46.796111
+        ],
+        [
+          -23.901944,
+          -46.691667
+        ]
+      ]
+    },
+    {
+      "id": "SP-02",
+      "name": "TMA São Paulo SECT 02",
+      "upperLimit": "FL245",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.776389,
+          -46.569722
+        ],
+        [
+          -23.6325,
+          -46.658611
+        ],
+        [
+          -23.623333,
+          -46.67
+        ],
+        [
+          -23.371389,
+          -47.044167
+        ],
+        [
+          -23.325833,
+          -47.111944
+        ],
+        [
+          -23.349722,
+          -47.121111
+        ],
+        [
+          -23.354444,
+          -47.231667
+        ],
+        [
+          -23.672222,
+          -47.666944
+        ],
+        [
+          -23.897778,
+          -47.369722
+        ],
+        [
+          -24.328889,
+          -46.796111
+        ],
+        [
+          -23.901944,
+          -46.691667
+        ]
+      ]
+    },
+    {
+      "id": "SP-02F",
+      "name": "TMA São Paulo SECT 02F",
+      "upperLimit": "FL245",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.333333,
+          -47.100556
+        ],
+        [
+          -23.325833,
+          -47.111944
+        ],
+        [
+          -23.349722,
+          -47.121111
+        ],
+        [
+          -23.354444,
+          -47.231667
+        ],
+        [
+          -23.672222,
+          -47.666944
+        ],
+        [
+          -23.897778,
+          -47.369722
+        ],
+        [
+          -23.564167,
+          -46.923889
+        ],
+        [
+          -23.496667,
+          -47.094167
+        ]
+      ]
+    },
+    {
+      "id": "SP-03",
+      "name": "TMA São Paulo SECT 03",
+      "upperLimit": "FL135",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.672222,
+          -47.666944
+        ],
+        [
+          -23.354444,
+          -47.231667
+        ],
+        [
+          -23.349722,
+          -47.121111
+        ],
+        [
+          -23.325833,
+          -47.111944
+        ],
+        [
+          -23.299722,
+          -47.101667
+        ],
+        [
+          -23.289167,
+          -47.0975
+        ],
+        [
+          -23.273889,
+          -47.121944
+        ],
+        [
+          -23.094167,
+          -47.151389
+        ],
+        [
+          -22.988611,
+          -47.163889
+        ],
+        [
+          -22.646667,
+          -47.440833
+        ],
+        [
+          -22.704722,
+          -47.585
+        ],
+        [
+          -22.860278,
+          -47.645833
+        ],
+        [
+          -23.268611,
+          -47.805833
+        ],
+        [
+          -23.65,
+          -47.696111
+        ]
+      ]
+    },
+    {
+      "id": "SP-03F",
+      "name": "TMA São Paulo SECT 03F",
+      "upperLimit": "FL135",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.299722,
+          -47.101667
+        ],
+        [
+          -23.325833,
+          -47.111944
+        ],
+        [
+          -23.349722,
+          -47.121111
+        ],
+        [
+          -23.354444,
+          -47.231667
+        ],
+        [
+          -23.672222,
+          -47.666944
+        ],
+        [
+          -23.65,
+          -47.696111
+        ],
+        [
+          -23.268611,
+          -47.805833
+        ],
+        [
+          -23.2425,
+          -47.695556
+        ]
+      ]
+    },
+    {
+      "id": "SP-04",
+      "name": "TMA São Paulo SECT 04",
+      "upperLimit": "FL245",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.289167,
+          -47.0975
+        ],
+        [
+          -23.273889,
+          -47.121944
+        ],
+        [
+          -23.094167,
+          -47.151389
+        ],
+        [
+          -22.860278,
+          -47.645833
+        ],
+        [
+          -22.704722,
+          -47.585
+        ],
+        [
+          -22.646667,
+          -47.440833
+        ],
+        [
+          -22.461389,
+          -46.985278
+        ],
+        [
+          -22.502778,
+          -46.619722
+        ],
+        [
+          -22.975833,
+          -47.058611
+        ]
+      ]
+    },
+    {
+      "id": "SP-05",
+      "name": "TMA São Paulo SECT 05",
+      "upperLimit": "FL135",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.289167,
+          -47.0975
+        ],
+        [
+          -23.273889,
+          -47.121944
+        ],
+        [
+          -23.094167,
+          -47.151389
+        ],
+        [
+          -22.988611,
+          -47.163889
+        ],
+        [
+          -22.646667,
+          -47.440833
+        ],
+        [
+          -22.461389,
+          -46.985278
+        ],
+        [
+          -22.502778,
+          -46.619722
+        ],
+        [
+          -22.557778,
+          -46.122778
+        ],
+        [
+          -22.820278,
+          -45.999167
+        ],
+        [
+          -23.212222,
+          -46.915833
+        ]
+      ]
+    },
+    {
+      "id": "SP-06",
+      "name": "TMA São Paulo SECT 06",
+      "upperLimit": "FL245",
+      "lowerLimit": "FL135",
+      "polygon": [
+        [
+          -22.502778,
+          -46.619722
+        ],
+        [
+          -22.557778,
+          -46.122778
+        ],
+        [
+          -22.820278,
+          -45.999167
+        ],
+        [
+          -23.212222,
+          -46.915833
+        ],
+        [
+          -23.289167,
+          -47.0975
+        ],
+        [
+          -22.975833,
+          -47.058611
+        ]
+      ]
+    },
+    {
+      "id": "SP-07",
+      "name": "TMA São Paulo SECT 07",
+      "upperLimit": "FL245",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.776389,
+          -46.569722
+        ],
+        [
+          -23.712222,
+          -45.428333
+        ],
+        [
+          -23.309167,
+          -45.539722
+        ],
+        [
+          -23.430833,
+          -45.746667
+        ],
+        [
+          -23.561389,
+          -46.376389
+        ],
+        [
+          -23.460278,
+          -46.404167
+        ],
+        [
+          -23.414722,
+          -46.475556
+        ],
+        [
+          -23.450833,
+          -46.603889
+        ],
+        [
+          -23.212222,
+          -46.915833
+        ],
+        [
+          -23.289167,
+          -47.0975
+        ],
+        [
+          -23.299722,
+          -47.101667
+        ],
+        [
+          -23.325833,
+          -47.111944
+        ],
+        [
+          -23.371389,
+          -47.044167
+        ],
+        [
+          -23.623333,
+          -46.67
+        ],
+        [
+          -23.6325,
+          -46.658611
+        ]
+      ]
+    },
+    {
+      "id": "SP-08",
+      "name": "TMA São Paulo SECT 08",
+      "upperLimit": "FL245",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.212222,
+          -46.916389
+        ],
+        [
+          -22.820278,
+          -45.999167
+        ],
+        [
+          -22.975,
+          -45.926111
+        ],
+        [
+          -23.052222,
+          -45.667222
+        ],
+        [
+          -23.038611,
+          -45.605556
+        ],
+        [
+          -23.309167,
+          -45.539722
+        ],
+        [
+          -23.430833,
+          -45.746667
+        ],
+        [
+          -23.561389,
+          -46.376389
+        ],
+        [
+          -23.460278,
+          -46.404167
+        ],
+        [
+          -23.414722,
+          -46.475556
+        ],
+        [
+          -23.450833,
+          -46.603889
+        ]
+      ]
+    },
+    {
+      "id": "SP-09",
+      "name": "TMA São Paulo SECT 09",
+      "upperLimit": "FL100",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.325833,
+          -47.111944
+        ],
+        [
+          -23.299722,
+          -47.101667
+        ],
+        [
+          -23.289167,
+          -47.0975
+        ],
+        [
+          -23.212222,
+          -46.915833
+        ],
+        [
+          -23.072222,
+          -46.038333
+        ],
+        [
+          -23.1175,
+          -46.090556
+        ],
+        [
+          -23.357222,
+          -45.922778
+        ],
+        [
+          -23.530833,
+          -46.667222
+        ],
+        [
+          -23.492222,
+          -46.695
+        ],
+        [
+          -23.371389,
+          -47.044167
+        ]
+      ]
+    },
+    {
+      "id": "SP-10",
+      "name": "TMA São Paulo SECT 10",
+      "upperLimit": "FL100",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.530833,
+          -46.667222
+        ],
+        [
+          -23.492222,
+          -46.695
+        ],
+        [
+          -23.371389,
+          -47.044167
+        ],
+        [
+          -23.289167,
+          -47.0975
+        ],
+        [
+          -23.299722,
+          -47.101667
+        ],
+        [
+          -23.496667,
+          -47.094167
+        ],
+        [
+          -23.564167,
+          -46.923889
+        ],
+        [
+          -23.989167,
+          -46.631389
+        ],
+        [
+          -23.896111,
+          -46.412778
+        ]
+      ]
+    },
+    {
+      "id": "SP-11",
+      "name": "TMA São Paulo SECT 11",
+      "upperLimit": "FL100",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.253611,
+          -47.045
+        ],
+        [
+          -23.086667,
+          -46.909722
+        ],
+        [
+          -22.916389,
+          -47.138333
+        ],
+        [
+          -22.821944,
+          -47.056111
+        ],
+        [
+          -22.680278,
+          -47.263889
+        ],
+        [
+          -22.948056,
+          -47.496944
+        ]
+      ]
+    },
+    {
+      "id": "SP-12",
+      "name": "TMA São Paulo SECT 12",
+      "upperLimit": "FL100",
+      "lowerLimit": "5500 FT AMSL",
+      "polygon": [
+        [
+          -23.038611,
+          -45.605556
+        ],
+        [
+          -23.052222,
+          -45.667222
+        ],
+        [
+          -22.975,
+          -45.926111
+        ],
+        [
+          -23.072222,
+          -46.038333
+        ],
+        [
+          -23.1175,
+          -46.090556
+        ],
+        [
+          -23.357222,
+          -45.922778
+        ],
+        [
+          -23.405,
+          -45.728056
+        ],
+        [
+          -23.248056,
+          -45.554722
+        ]
+      ]
+    },
+    {
+      "id": "SP-13",
+      "name": "TMA São Paulo SECT 13",
+      "upperLimit": "FL245",
+      "lowerLimit": "FL135",
+      "polygon": [
+        [
+          -23.672222,
+          -47.666944
+        ],
+        [
+          -23.65,
+          -47.696111
+        ],
+        [
+          -23.268611,
+          -47.805833
+        ],
+        [
+          -22.860278,
+          -47.645833
+        ],
+        [
+          -23.094167,
+          -47.151389
+        ],
+        [
+          -23.273889,
+          -47.121944
+        ],
+        [
+          -23.289167,
+          -47.0975
+        ],
+        [
+          -23.299722,
+          -47.101667
+        ],
+        [
+          -23.325833,
+          -47.111944
+        ],
+        [
+          -23.349722,
+          -47.121111
+        ],
+        [
+          -23.354444,
+          -47.231667
+        ]
+      ]
+    }
+  ],
+  "primaryAirports": [
+    {
+      "id": "SBSP",
+      "name": "Congonhas - Deputado Freitas Nobre",
+      "city": "São Paulo/SP",
+      "lat": -23.626111,
+      "lon": -46.656389,
+      "elevationFt": 2634
+    },
+    {
+      "id": "SBGR",
+      "name": "Guarulhos - Governador André Franco Montoro",
+      "city": "Guarulhos/SP",
+      "lat": -23.435556,
+      "lon": -46.473056,
+      "elevationFt": 2461
+    },
+    {
+      "id": "SBKP",
+      "name": "Viracopos",
+      "city": "Campinas/SP",
+      "lat": -23.006944,
+      "lon": -47.134444,
+      "elevationFt": 2170
+    }
+  ],
+  "runwayDefinitions": {
+    "SBSP": {
+      "name": "Congonhas",
+      "effectiveDate": "2026-08-06",
+      "AIRAC": "BR-AIRAC-2026-08-06",
+      "sourceDocument": "AIP BRASIL AD 2.12 SBSP",
+      "sourceReference": "DECEA / AISWEB AIP AD 2.12 - Pistas SBSP",
+      "derivationVersion": "1.2",
+      "referenceCoordinates": {
+        "lat": -23.626111,
+        "lon": -46.656389
+      },
+      "physicalLengthMeters": 1940,
+      "extendedCenterlineNm": 8,
+      "runways": {
+        "17": {
+          "headingDeg": 167,
+          "approachHeadingDeg": 347,
+          "displayBadge": "RWY 17",
+          "family": "17"
+        },
+        "35": {
+          "headingDeg": 347,
+          "approachHeadingDeg": 167,
+          "displayBadge": "RWY 35",
+          "family": "35"
+        }
+      }
+    },
+    "SBGR": {
+      "name": "Guarulhos",
+      "effectiveDate": "2026-08-06",
+      "AIRAC": "BR-AIRAC-2026-08-06",
+      "sourceDocument": "AIP BRASIL AD 2.12 SBGR",
+      "sourceReference": "DECEA / AISWEB AIP AD 2.12 - Pistas SBGR",
+      "derivationVersion": "1.2",
+      "referenceCoordinates": {
+        "lat": -23.435556,
+        "lon": -46.473056
+      },
+      "physicalLengthMeters": 3700,
+      "extendedCenterlineNm": 8,
+      "runways": {
+        "10": {
+          "headingDeg": 96,
+          "approachHeadingDeg": 276,
+          "displayBadge": "RWY 10",
+          "family": "10"
+        },
+        "28": {
+          "headingDeg": 276,
+          "approachHeadingDeg": 96,
+          "displayBadge": "RWY 28",
+          "family": "28"
+        }
+      }
+    },
+    "SBKP": {
+      "name": "Viracopos",
+      "effectiveDate": "2026-08-06",
+      "AIRAC": "BR-AIRAC-2026-08-06",
+      "sourceDocument": "AIP BRASIL AD 2.12 SBKP",
+      "sourceReference": "DECEA / AISWEB AIP AD 2.12 - Pistas SBKP",
+      "derivationVersion": "1.2",
+      "referenceCoordinates": {
+        "lat": -23.006944,
+        "lon": -47.134444
+      },
+      "physicalLengthMeters": 3240,
+      "extendedCenterlineNm": 8,
+      "runways": {
+        "15": {
+          "headingDeg": 148,
+          "approachHeadingDeg": 328,
+          "displayBadge": "RWY 15",
+          "family": "15"
+        },
+        "33": {
+          "headingDeg": 328,
+          "approachHeadingDeg": 148,
+          "displayBadge": "RWY 33",
+          "family": "33"
+        }
+      }
+    }
+  },
+  "runwayProvenance": {
+    "authority": "DECEA / AISWEB Brasil (AIP AD 2.12)",
+    "derivationVersion": "1.2",
+    "sources": [
+      {
+        "airport": "SBSP",
+        "doc": "AIP BRASIL AD 2.12 SBSP",
+        "sourceDocument": "AIP BRASIL AD 2.12 SBSP",
+        "sourceReference": "DECEA / AISWEB AIP AD 2.12 - Pistas SBSP",
+        "effectiveDate": "2026-08-06",
+        "AIRAC": "BR-AIRAC-2026-08-06",
+        "derivationVersion": "1.2",
+        "runwaysCovered": [
+          "17",
+          "35"
+        ],
+        "magneticHeadings": {
+          "17": 167,
+          "35": 347
+        },
+        "description": "Pistas 17R/35L e 17L/35R de Congonhas (rumos magnéticos 167° / 347°)"
+      },
+      {
+        "airport": "SBGR",
+        "doc": "AIP BRASIL AD 2.12 SBGR",
+        "sourceDocument": "AIP BRASIL AD 2.12 SBGR",
+        "sourceReference": "DECEA / AISWEB AIP AD 2.12 - Pistas SBGR",
+        "effectiveDate": "2026-08-06",
+        "AIRAC": "BR-AIRAC-2026-08-06",
+        "derivationVersion": "1.2",
+        "runwaysCovered": [
+          "10",
+          "28"
+        ],
+        "magneticHeadings": {
+          "10": 96,
+          "28": 276
+        },
+        "description": "Pistas 10L/28R e 10R/28L de Guarulhos (rumos magnéticos 096° / 276°)"
+      },
+      {
+        "airport": "SBKP",
+        "doc": "AIP BRASIL AD 2.12 SBKP",
+        "sourceDocument": "AIP BRASIL AD 2.12 SBKP",
+        "sourceReference": "DECEA / AISWEB AIP AD 2.12 - Pistas SBKP",
+        "effectiveDate": "2026-08-06",
+        "AIRAC": "BR-AIRAC-2026-08-06",
+        "derivationVersion": "1.2",
+        "runwaysCovered": [
+          "15",
+          "33"
+        ],
+        "magneticHeadings": {
+          "15": 148,
+          "33": 328
+        },
+        "description": "Pista 15/33 de Viracopos (rumos magnéticos 148° / 328°)"
+      }
+    ],
+    "compilationDate": "2026-09-25"
+  }
+}

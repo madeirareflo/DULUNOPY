@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-30T04:11:25.674Z",
+  "totalSummaries": 8,
+  "summaries": [
+    {
+      "id": "sum-doc-sbsp-2024",
+      "type": "DOCUMENT_SUMMARY",
+      "docId": "caop-app-sp-twr-sp-2024-bol71",
+      "title": "Resumo Geral da CAOp APP-SP / TWR-SP 2024 (SBSP)",
+      "summary": "A Carta de Acordo Operacional entre o APP-SP e a TWR-SP (publicada no Boletim Interno Ostensivo Nº 71/2024 do GAP-SP em 16/04/2024) regulamenta a prestação dos Serviços de Tráfego Aéreo para o Aeroporto de Congonhas (SBSP) e CTR-SP. Estabelece a separação longitudinal mínima de 5 NM no cruzamento da cabeceira (4 NM para pistas distintas, até 3 NM em baixa demanda conforme CIRCEA 100-61), transferência de comunicações no FAF/FAP/OM, inclusão da informação de procedimento na linha 4 da etiqueta de radar, coordenação escalonada de encerramento noturno das operações (22h, 22h30 e limite 22h45 para pousos com fila de espera), contingências para inoperância de SAGITARIO/TATIC/telefonia e os mínimos meteorológicos para pouso (RNP teto ≥ 600ft e vis ≥ 2500m; ILS abaixo desses valores). Trata ainda da prioridade e conflitos da aeronave presidencial em voo VFR em relação ao tráfego IFR no FAF.",
+      "mainTopics": [
+        "Separação Longitudinal",
+        "Horário de Encerramento",
+        "Linha 4 da Etiqueta",
+        "Mínimos RNP e ILS",
+        "Aeronave Presidencial",
+        "Contingência SAGITARIO"
+      ],
+      "organizations": [
+        "APP-SP",
+        "TWR-SP",
+        "CRCEA-SE",
+        "DECEA",
+        "CGNA"
+      ],
+      "airports": [
+        "SBSP"
+      ],
+      "proceduresMentioned": [
+        "IAP RNP",
+        "IAP ILS",
+        "SID OMNI",
+        "SID BAIAN",
+        "SID PUKRA",
+        "SID LESSA",
+        "SID UGTIX"
+      ],
+      "derivedFrom": [
+        "caop-app-sp-twr-sp-2024-bol71:p5:s2_1_1",
+        "caop-app-sp-twr-sp-2024-bol71:p6:s2_2_2_5",
+        "caop-app-sp-twr-sp-2024-bol71:p7:s2_6_2_7",
+        "caop-app-sp-twr-sp-2024-bol71:p8:s2_8_2_10",
+        "caop-app-sp-twr-sp-2024-bol71:p10:s3_1_3_2"
+      ]
+    },
+    {
+      "id": "sum-doc-sbjd-2025",
+      "type": "DOCUMENT_SUMMARY",
+      "docId": "caop-app-sp-twr-jd-rdo-jd-2025",
+      "title": "Resumo Geral da CAOp APP-SP / TWR-JD / RDO-JD 2025 (SBJD)",
+      "summary": "A CAOp entre APP-SP, TWR-JD e RDO-JD (vigência em 07/08/2025, Boletim 148/2025) padroniza a interface operacional da TMA São Paulo com o Aeroporto de Jundiaí (SBJD). Adota como padrão o procedimento IAP RNP A (TVD) RWY 18 por não interferir com procedimentos de Viracopos (SBKP). Fixa a reserva de pista para emergência com antecedência mínima de 15 minutos, delega os transponders A2251 a A2257 para instrução local, disciplina a transferência nos portões TREVO, LAGOA, ESTADIO e posição TRAVÉS JARINU, detalha checklist de decolagens IFR cruzadas com a cabeceira ativa de Campinas (RWY 15 e 33 de SBKP), limita voos VFR Especial exclusivamente a aeronaves categorias A e B em virtude da altitude do circuito, e define contingências de saturação do Setor T-14 para controle do NPico.",
+      "mainTopics": [
+        "Interface SBJD x SBKP",
+        "RNP A TVD RWY 18",
+        "Checklist IFR Pistas 18/36",
+        "VFR Especial Categorias A e B",
+        "Reserva de Pista 15 min",
+        "Saturação Setor T-14"
+      ],
+      "organizations": [
+        "APP-SP",
+        "TWR-JD",
+        "RDO-JD",
+        "EPTA-JD",
+        "CRCEA-SE",
+        "ACC-BS",
+        "ACC-CW"
+      ],
+      "airports": [
+        "SBJD",
+        "SBKP",
+        "SBSP",
+        "SBGR",
+        "SBSJ"
+      ],
+      "proceduresMentioned": [
+        "IAP RNP A RWY 18",
+        "IAP RNP Z RWY 18",
+        "SID UGIKI 1A"
+      ],
+      "derivedFrom": [
+        "caop-app-sp-twr-jd-rdo-jd-2025:p8:s2_1",
+        "caop-app-sp-twr-jd-rdo-jd-2025:p9:s2_2_2_3",
+        "caop-app-sp-twr-jd-rdo-jd-2025:p10:s2_3_T1_2_4",
+        "caop-app-sp-twr-jd-rdo-jd-2025:p11:s2_5_2_6",
+        "caop-app-sp-twr-jd-rdo-jd-2025:p13:s3_1_3_5"
+      ]
+    },
+    {
+      "id": "sum-doc-sbgr-2025",
+      "type": "DOCUMENT_SUMMARY",
+      "docId": "caop-twr-gr-gru-airport-app-sp-2025-01",
+      "title": "Resumo Geral da CAOp DNB SBGR / GRU Airport / APP-SP (2025/01)",
+      "summary": "Acordo operacional tripartite firmado em 29/10/2025 entre a Concessionária GRU Airport, a Dependência da NAV Brasil em SBGR (DNB em SBGR) e o APP-SP, em cumprimento ao RBAC 153.109(d). Abrange a totalidade das operações na área de manobras e pátios de Guarulhos: atribuições detalhadas de CCP, CCO, COE, Segurança e B1; operações de pushback de widebodies nos Pátios 1 a 6; regras de reboque sem APU; testes de motores na TWY A/B entre P e O; 3 inspeções diárias do sistema de pistas com barras de parada obrigatórias; prevenção de incursões em pista (ferramenta RISC/ICAO e distância de segurança de 120m do eixo); reserva de pista (7 min para 2 pistas, 10 min para monopista); operação em baixa visibilidade (LVO com RVR < 550m); restrições de táxi de aeronaves código F (A380 e B747-8) e envergadura >44m; regras do KC-30 militar; e operação de voo de drone programado em 9 áreas com pouso mandatório em até 90 segundos.",
+      "mainTopics": [
+        "Prevenção de Incursão em Pista",
+        "Operação de Drones (9 Áreas)",
+        "Reserva de Pista 7/10 min",
+        "Aeronaves Código F (A380/B747-8)",
+        "Baixa Visibilidade LVO",
+        "Movimentação KC-30 Militar",
+        "Código Condição de Pista RCC"
+      ],
+      "organizations": [
+        "GRU AIRPORT",
+        "NAV BRASIL",
+        "DNB EM SBGR",
+        "APP-SP",
+        "TWR-GR",
+        "CCP",
+        "CCO",
+        "COE",
+        "ANAC",
+        "CENIPA"
+      ],
+      "airports": [
+        "SBGR"
+      ],
+      "proceduresMentioned": [
+        "LVO / SOCMS",
+        "AISO 14/21",
+        "RCC / GRF",
+        "ILS CAT I/II/III",
+        "PR.ODA.030"
+      ],
+      "derivedFrom": [
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p4:s1_1_1_2",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p5:s2_1_2_3",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p12:s3_1_3_6",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p15:s3_7_3_9",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p17:s3_10",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p20:s3_11_3_14",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p22:s3_15_3_17",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p24:s3_18",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p31:s3_19_3_21"
+      ]
+    },
+    {
+      "id": "sum-theme-coordenacao-operacional",
+      "type": "THEMATIC_SUMMARY",
+      "theme": "Coordenação Operacional e Interfaces ATC",
+      "title": "Síntese Cruzada de Coordenação Operacional entre Órgãos ATS da TMA-SP",
+      "summary": "A coordenação operacional na TMA São Paulo estrutura-se por responsabilidades acordadas entre o Controle de Aproximação (APP-SP) e as Torres de Controle:\n1. Em SBSP (Congonhas): coordenação bilateral com a TWR-SP para separação de chegadas (mínimo 5 NM, 4 NM pistas distintas ou até 3 NM com CIRCEA 100-61), aproximações perdidas repassadas ao Setor T-10 Final-SP e encerramento operacional das 22h às 22h45.\n2. Em SBJD (Jundiaí): coordenação com TWR-JD/RDO-JD e ACCs para planos Z e I, integração TATIC-SAGITARIO, isolamento do RNP A RWY 18 em relação a SBKP e gestão de saturação do Setor T-14.\n3. Em SBGR (Guarulhos): governança tripartite interagindo com elos de solo do operador aeroportuário (CCP, CCO, COE, B1), reserva de pista (7 min em pista dupla e 10 min em monopista com aviso ao CGNA via APP-SP) e suspensão coordenada por intrusão de drone ou incursão em pista.",
+      "airports": [
+        "SBSP",
+        "SBJD",
+        "SBGR",
+        "SBKP"
+      ],
+      "derivedFrom": [
+        "caop-app-sp-twr-sp-2024-bol71:p5:s2_1_1",
+        "caop-app-sp-twr-sp-2024-bol71:p10:s3_1_3_2",
+        "caop-app-sp-twr-jd-rdo-jd-2025:p8:s2_1",
+        "caop-app-sp-twr-jd-rdo-jd-2025:p9:s2_2_2_3",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p12:s3_1_3_6",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p20:s3_11_3_14"
+      ]
+    },
+    {
+      "id": "sum-theme-baixa-visibilidade",
+      "type": "THEMATIC_SUMMARY",
+      "theme": "Baixa Visibilidade e Degradação Meteorológica",
+      "title": "Procedimentos de Baixa Visibilidade e Degradação Meteorológica na TMA-SP",
+      "summary": "O tratamento de meteorologia adversa nas publicações operacionais reflete a infraestrutura de cada aeródromo:\n- Em Congonhas (SBSP): o procedimento para pouso é dividido entre IAP RNP (teto ≥ 600 ft e visibilidade ≥ 2500m) e IAP ILS (teto < 600 ft ou visibilidade < 2500m).\n- Em Jundiaí (SBJD): o voo VFR Especial é restrito exclusivamente a aeronaves categorias A e B devido à altitude do circuito. Para o IAP RNP A RWY 18 exige-se visibilidade mínima de 4000m, abaixo da qual a operação é alterada para o RNP Z RWY 18 (sujeito aos procedimentos de SBKP). Treinamento de asa fixa é cancelado quando as condições forem inferiores a VMC.\n- Em Guarulhos (SBGR): a Operação com Baixa Visibilidade (LVO) segue o SOCMS. Quando o RVR for menor que 550 metros, a TWR-GR pode restringir a liberação a uma aeronave por pátio na linha central. Reboques sem luzes de navegação e testes de motores são proibidos sob baixa visibilidade.",
+      "airports": [
+        "SBSP",
+        "SBJD",
+        "SBGR"
+      ],
+      "derivedFrom": [
+        "caop-app-sp-twr-sp-2024-bol71:p10:s3_1_3_2",
+        "caop-app-sp-twr-jd-rdo-jd-2025:p11:s2_5_2_6",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p15:s3_7_3_9",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p20:s3_11_3_14"
+      ]
+    },
+    {
+      "id": "sum-theme-drones-rpa",
+      "type": "THEMATIC_SUMMARY",
+      "theme": "Operações de Drones e RPAs em Aeródromo",
+      "title": "Regulamentação de Drones e RPAs no Aeroporto de Guarulhos (SBGR)",
+      "summary": "A CAOp de Guarulhos (2025/01) define o protocolo operacional completo para Aeronaves Não Tripuladas (UA/RPA):\n1. Presença Inadvertida de Drone (3.17): suspensão imediata de operações pela TWR-GR, aviso ao CCO-GR, vistoria pelo Supervisor de Operações Aéreas e acionamento de autoridades pelo COE.\n2. Voo Programado (3.18, AISO 14/21): divide o sítio aeroportuário em 9 áreas (A a I). A aeronave deve estar em solo em no máximo 90 segundos após solicitação da Torre. As áreas F e G interferem nas pistas 10L/28R e 10R/28L, exigindo suspensão temporária de pousos/decolagens na pista afetada e transferência exclusiva para a pista paralela sob ILS, com limite de 40m AGL (Área F) ou 30m AGL (Área G) e afastamento lateral mínimo de 150m da pista ativa.",
+      "airports": [
+        "SBGR"
+      ],
+      "derivedFrom": [
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p22:s3_15_3_17",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p24:s3_18"
+      ]
+    },
+    {
+      "id": "sum-theme-reserva-pista",
+      "type": "THEMATIC_SUMMARY",
+      "theme": "Reserva de Pista e Emergências",
+      "title": "Prazos e Critérios de Reserva de Pista para Emergência na TMA-SP",
+      "summary": "Os critérios de reserva de pista divergem entre os aeródromos conforme número de pistas:\n- Em SBJD (Jundiaí, monopista): reserva de pista é solicitada pelo APP-SP com antecedência mínima de 15 minutos em relação ao pouso (Item 2.4.2 da CAOp SBJD).\n- Em SBGR (Guarulhos): na operação com 2 pistas paralelas, a reserva é solicitada com antecedência mínima de 7 minutos, mantendo a pista paralela operacional; em operação monopista, a antecedência mínima é de 10 minutos, suspendendo as operações do aeródromo (Itens 3.11.2 e 3.11.3 da CAOp SBGR). A TWR-GR informa o APP-SP, que por sua vez aciona o CGNA.",
+      "airports": [
+        "SBJD",
+        "SBGR"
+      ],
+      "derivedFrom": [
+        "caop-app-sp-twr-jd-rdo-jd-2025:p10:s2_3_T1_2_4",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p20:s3_11_3_14"
+      ]
+    },
+    {
+      "id": "sum-theme-aeronaves-especiais",
+      "type": "THEMATIC_SUMMARY",
+      "theme": "Operações Especiais: Aeronave Presidencial e KC-30",
+      "title": "Normas para Aeronave Presidencial (SBSP) e KC-30 Militar (SBGR)",
+      "summary": "Tratamento de tráfegos com exigências protocolares:\n1. Aeronave Presidencial em SBSP (CAOp 2024, Item 2.10): helicópteros presidenciais em VFR na CTR-SP sob trajetórias IFR de SBSP são reorientados mantendo condições visuais. Em caso de conflito com tráfego IFR para SBSP, prioriza-se a aeronave IFR que já tenha atingido o FAF; aeronaves antes do FAF arremetem (executam aproximação perdida).\n2. KC-30 no Pátio Militar em SBGR (CAOp 2025/01, Item 3.20): vedado táxi por meios próprios nas TWY S, T e U. Ao pousar, livra na TWY G, corta motores e é rebocado via TWY S até o Pátio Militar. Proibida presença de aeronaves nas posições 1, 1L, 9, 10, 11 e 12 do Pátio 12 pois a ponta da asa do KC-30 invade a linha de segurança. É vedada a operação do KC-30 com APU inoperante.",
+      "airports": [
+        "SBSP",
+        "SBGR"
+      ],
+      "derivedFrom": [
+        "caop-app-sp-twr-sp-2024-bol71:p8:s2_8_2_10",
+        "caop-twr-gr-gru-airport-app-sp-2025-01:p31:s3_19_3_21"
+      ]
+    }
+  ]
+}
